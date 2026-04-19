@@ -1,0 +1,500 @@
+{"id": "3f8c363b784c", "name": "abstain[top1_src_stub]", "action": "abstain", "atoms": ["top1_src_stub"]}
+{"id": "c8db10017659", "name": "filter[ent_missing_top3]", "action": "filter", "atoms": ["ent_missing_top3"]}
+{"id": "531b444f1dff", "name": "abstain[gen_conf_lt_0_5]", "action": "abstain", "atoms": ["gen_conf_lt_0_5"]}
+{"id": "52ad84d93ff3", "name": "abstain[src_low_trust]", "action": "abstain", "atoms": ["src_low_trust"]}
+{"id": "faffd57dc5dd", "name": "filter[src_mixed]", "action": "filter", "atoms": ["src_mixed"]}
+{"id": "62a45236db36", "name": "abstain[top1_score_gt_0_7]", "action": "abstain", "atoms": ["top1_score_gt_0_7"]}
+{"id": "21a781fda989", "name": "filter[q_len_gt_16]", "action": "filter", "atoms": ["q_len_gt_16"]}
+{"id": "b537c31348ba", "name": "rerank[gen_conf_lt_0_5]", "action": "rerank", "atoms": ["gen_conf_lt_0_5"]}
+{"id": "4ccc9be0dc91", "name": "rerank[top1_src_forum]", "action": "rerank", "atoms": ["top1_src_forum"]}
+{"id": "ee4f7526f813", "name": "filter[top1_len_lt_128]", "action": "filter", "atoms": ["top1_len_lt_128"]}
+{"id": "e9ffa98f11fa", "name": "filter[gen_conf_lt_0_5]", "action": "filter", "atoms": ["gen_conf_lt_0_5"]}
+{"id": "1522429b5b12", "name": "rerank[top1_score_gt_0_5]", "action": "rerank", "atoms": ["top1_score_gt_0_5"]}
+{"id": "2c7c30a4e270", "name": "abstain[mean_score_lt_0_3]", "action": "abstain", "atoms": ["mean_score_lt_0_3"]}
+{"id": "96e9273b16f8", "name": "abstain[q_ent_org]", "action": "abstain", "atoms": ["q_ent_org"]}
+{"id": "6f8196156dfd", "name": "abstain[gap_lt_0_10]", "action": "abstain", "atoms": ["gap_lt_0_10"]}
+{"id": "149f5c7fe607", "name": "rerank[top1_src_stub]", "action": "rerank", "atoms": ["top1_src_stub"]}
+{"id": "e41227643016", "name": "abstain[top1_len_lt_64]", "action": "abstain", "atoms": ["top1_len_lt_64"]}
+{"id": "0cc3a7cd7e79", "name": "filter[q_ent_person]", "action": "filter", "atoms": ["q_ent_person"]}
+{"id": "97d5572c56d4", "name": "rerank[top1_len_gt_256]", "action": "rerank", "atoms": ["top1_len_gt_256"]}
+{"id": "1e749c9bcd85", "name": "abstain[q_multihop]", "action": "abstain", "atoms": ["q_multihop"]}
+{"id": "71b084d7d60d", "name": "filter[n_above_0_5_lt_3]", "action": "filter", "atoms": ["n_above_0_5_lt_3"]}
+{"id": "b68d07e12e87", "name": "abstain[top1_src_forum]", "action": "abstain", "atoms": ["top1_src_forum"]}
+{"id": "5cf4b60ef11f", "name": "abstain[top1_len_gt_256]", "action": "abstain", "atoms": ["top1_len_gt_256"]}
+{"id": "166bf94bcebb", "name": "rerank[top2_score_gt_0_5]", "action": "rerank", "atoms": ["top2_score_gt_0_5"]}
+{"id": "a73bf3712d0d", "name": "rerank[src_mixed]", "action": "rerank", "atoms": ["src_mixed"]}
+{"id": "e2cc304d94dc", "name": "rerank[q_multihop]", "action": "rerank", "atoms": ["q_multihop"]}
+{"id": "f2fc3ee3fff1", "name": "rerank[n_above_0_5_lt_3]", "action": "rerank", "atoms": ["n_above_0_5_lt_3"]}
+{"id": "fbd5f3fcbff8", "name": "rerank[top2_score_gt_0_7]", "action": "rerank", "atoms": ["top2_score_gt_0_7"]}
+{"id": "384adf18b720", "name": "abstain[red_gt_0_7]", "action": "abstain", "atoms": ["red_gt_0_7"]}
+{"id": "ec1c9d077b63", "name": "abstain[red_gt_0_9]", "action": "abstain", "atoms": ["red_gt_0_9"]}
+{"id": "a2f3f04c2377", "name": "abstain[top1_src_blog]", "action": "abstain", "atoms": ["top1_src_blog"]}
+{"id": "b0800563e46f", "name": "rerank[n_above_0_7_lt_2]", "action": "rerank", "atoms": ["n_above_0_7_lt_2"]}
+{"id": "1813b744cf3b", "name": "rerank[top1_src_blog]", "action": "rerank", "atoms": ["top1_src_blog"]}
+{"id": "51378a11647f", "name": "rerank[q_len_gt_16]", "action": "rerank", "atoms": ["q_len_gt_16"]}
+{"id": "e9a70fca0942", "name": "filter[red_gt_0_9]", "action": "filter", "atoms": ["red_gt_0_9"]}
+{"id": "438b531b4deb", "name": "rerank[q_ent_time]", "action": "rerank", "atoms": ["q_ent_time"]}
+{"id": "e1f9f68aef30", "name": "abstain[q_len_gt_8]", "action": "abstain", "atoms": ["q_len_gt_8"]}
+{"id": "d657a62acf29", "name": "filter[q_ppl_gt_40]", "action": "filter", "atoms": ["q_ppl_gt_40"]}
+{"id": "8bfb9aad9006", "name": "rerank[mean_score_gt_0_5]", "action": "rerank", "atoms": ["mean_score_gt_0_5"]}
+{"id": "7de337759236", "name": "rerank[gap_lt_0_20]", "action": "rerank", "atoms": ["gap_lt_0_20"]}
+{"id": "b5902c149cdc", "name": "filter[top1_src_forum]", "action": "filter", "atoms": ["top1_src_forum"]}
+{"id": "bbb577b5e05e", "name": "filter[q_ent_time]", "action": "filter", "atoms": ["q_ent_time"]}
+{"id": "3df64419c8fe", "name": "filter[src_low_trust]", "action": "filter", "atoms": ["src_low_trust"]}
+{"id": "6bfe6148c9ce", "name": "abstain[q_ent_num]", "action": "abstain", "atoms": ["q_ent_num"]}
+{"id": "5b3ab8308450", "name": "filter[n_above_0_7_lt_2]", "action": "filter", "atoms": ["n_above_0_7_lt_2"]}
+{"id": "0a75ca462c40", "name": "abstain[top3_score_gt_0_5]", "action": "abstain", "atoms": ["top3_score_gt_0_5"]}
+{"id": "2f2e9eb07890", "name": "abstain[q_len_gt_16]", "action": "abstain", "atoms": ["q_len_gt_16"]}
+{"id": "fe3a410d9435", "name": "abstain[first_ent_pos_lt_1]", "action": "abstain", "atoms": ["first_ent_pos_lt_1"]}
+{"id": "c5cf46a7b05a", "name": "filter[mean_score_lt_0_3]", "action": "filter", "atoms": ["mean_score_lt_0_3"]}
+{"id": "94a13044776a", "name": "rerank[top1_score_lt_0_5]", "action": "rerank", "atoms": ["top1_score_lt_0_5"]}
+{"id": "3b4f97df1e6a", "name": "abstain[q_ppl_lt_10]", "action": "abstain", "atoms": ["q_ppl_lt_10"]}
+{"id": "9b38d3507a1e", "name": "abstain[top1_score_lt_0_5]", "action": "abstain", "atoms": ["top1_score_lt_0_5"]}
+{"id": "d0eb05e1e533", "name": "abstain[top2_score_gt_0_7]", "action": "abstain", "atoms": ["top2_score_gt_0_7"]}
+{"id": "f61ce434bb1b", "name": "rerank[first_ent_pos_lt_1]", "action": "rerank", "atoms": ["first_ent_pos_lt_1"]}
+{"id": "06679421043c", "name": "rerank[top1_score_lt_0_3]", "action": "rerank", "atoms": ["top1_score_lt_0_3"]}
+{"id": "f765e8490d8c", "name": "rerank[top1_len_lt_64]", "action": "rerank", "atoms": ["top1_len_lt_64"]}
+{"id": "f5458efeb6cd", "name": "filter[q_multihop]", "action": "filter", "atoms": ["q_multihop"]}
+{"id": "a48bd448523b", "name": "abstain[top2_score_gt_0_5]", "action": "abstain", "atoms": ["top2_score_gt_0_5"]}
+{"id": "d4795eda7b4f", "name": "rerank[red_gt_0_9]", "action": "rerank", "atoms": ["red_gt_0_9"]}
+{"id": "cd6a4e943a10", "name": "rerank[gen_len_gt_32]", "action": "rerank", "atoms": ["gen_len_gt_32"]}
+{"id": "34ac8f6bf2a3", "name": "filter[n_above_0_5_lt_2]", "action": "filter", "atoms": ["n_above_0_5_lt_2"]}
+{"id": "e2ae6b77d7fe", "name": "abstain[top1_score_lt_0_3]", "action": "abstain", "atoms": ["top1_score_lt_0_3"]}
+{"id": "55467cb610bb", "name": "rerank[q_ent_num]", "action": "rerank", "atoms": ["q_ent_num"]}
+{"id": "2699d73e5b41", "name": "rerank[q_ent_org]", "action": "rerank", "atoms": ["q_ent_org"]}
+{"id": "01c1f724574b", "name": "abstain[gap_lt_0_05]", "action": "abstain", "atoms": ["gap_lt_0_05"]}
+{"id": "311f5159490a", "name": "rerank[top3_score_gt_0_5]", "action": "rerank", "atoms": ["top3_score_gt_0_5"]}
+{"id": "f1508bd734a2", "name": "filter[first_ent_pos_lt_1]", "action": "filter", "atoms": ["first_ent_pos_lt_1"]}
+{"id": "dc176be97684", "name": "rerank[red_gt_0_7]", "action": "rerank", "atoms": ["red_gt_0_7"]}
+{"id": "7c47a18409c8", "name": "filter[top1_len_gt_256]", "action": "filter", "atoms": ["top1_len_gt_256"]}
+{"id": "1328413d175a", "name": "rerank[q_ppl_gt_40]", "action": "rerank", "atoms": ["q_ppl_gt_40"]}
+{"id": "49b15a2f3dc1", "name": "filter[top1_score_gt_0_9]", "action": "filter", "atoms": ["top1_score_gt_0_9"]}
+{"id": "523531dfebb7", "name": "rerank[top1_score_gt_0_7]", "action": "rerank", "atoms": ["top1_score_gt_0_7"]}
+{"id": "00a8798e92c1", "name": "filter[top1_score_gt_0_5]", "action": "filter", "atoms": ["top1_score_gt_0_5"]}
+{"id": "91989eb9e775", "name": "abstain[q_ent_person]", "action": "abstain", "atoms": ["q_ent_person"]}
+{"id": "c9ff20edd449", "name": "abstain[top1_src_wiki]", "action": "abstain", "atoms": ["top1_src_wiki"]}
+{"id": "90b4d54ee24d", "name": "rerank[top1_score_gt_0_9]", "action": "rerank", "atoms": ["top1_score_gt_0_9"]}
+{"id": "005c7a034e48", "name": "rerank[mean_score_lt_0_3]", "action": "rerank", "atoms": ["mean_score_lt_0_3"]}
+{"id": "276ec3aa936b", "name": "filter[gap_lt_0_10]", "action": "filter", "atoms": ["gap_lt_0_10"]}
+{"id": "4bd15567f635", "name": "filter[q_ppl_lt_10]", "action": "filter", "atoms": ["q_ppl_lt_10"]}
+{"id": "eb47f21a57d5", "name": "filter[q_len_gt_8]", "action": "filter", "atoms": ["q_len_gt_8"]}
+{"id": "08340c602f48", "name": "abstain[red_gt_0_5]", "action": "abstain", "atoms": ["red_gt_0_5"]}
+{"id": "bfc5f556f698", "name": "filter[top1_len_lt_64]", "action": "filter", "atoms": ["top1_len_lt_64"]}
+{"id": "f37fae97d00a", "name": "abstain[q_ent_place]", "action": "abstain", "atoms": ["q_ent_place"]}
+{"id": "012586d7071e", "name": "rerank[q_len_gt_8]", "action": "rerank", "atoms": ["q_len_gt_8"]}
+{"id": "a4d3e2e96968", "name": "rerank[q_ppl_lt_10]", "action": "rerank", "atoms": ["q_ppl_lt_10"]}
+{"id": "a468aba16945", "name": "rerank[q_ent_person]", "action": "rerank", "atoms": ["q_ent_person"]}
+{"id": "f972daa5374c", "name": "filter[top1_score_lt_0_3]", "action": "filter", "atoms": ["top1_score_lt_0_3"]}
+{"id": "88733667a2aa", "name": "abstain[first_ent_pos_gt_3]", "action": "abstain", "atoms": ["first_ent_pos_gt_3"]}
+{"id": "542f84a9f3db", "name": "abstain[top1_len_lt_128]", "action": "abstain", "atoms": ["top1_len_lt_128"]}
+{"id": "b87410c50a6c", "name": "abstain[ent_missing_top1]", "action": "abstain", "atoms": ["ent_missing_top1"]}
+{"id": "c8041f14e9ee", "name": "rerank[n_above_0_5_lt_2]", "action": "rerank", "atoms": ["n_above_0_5_lt_2"]}
+{"id": "04034880d4e0", "name": "abstain[top1_score_gt_0_5]", "action": "abstain", "atoms": ["top1_score_gt_0_5"]}
+{"id": "fb04a6a56d8b", "name": "filter[red_gt_0_7]", "action": "filter", "atoms": ["red_gt_0_7"]}
+{"id": "e62f2928dc24", "name": "filter[red_gt_0_5]", "action": "filter", "atoms": ["red_gt_0_5"]}
+{"id": "8887b23c21fd", "name": "rerank[top1_src_wiki]", "action": "rerank", "atoms": ["top1_src_wiki"]}
+{"id": "458b59a9aa80", "name": "rerank[top1_len_lt_128]", "action": "rerank", "atoms": ["top1_len_lt_128"]}
+{"id": "442a1aa9def4", "name": "filter[first_ent_pos_gt_3]", "action": "filter", "atoms": ["first_ent_pos_gt_3"]}
+{"id": "b3860a778ae1", "name": "abstain[q_ppl_gt_20]", "action": "abstain", "atoms": ["q_ppl_gt_20"]}
+{"id": "04b33b62c3e1", "name": "abstain[n_above_0_5_lt_2]", "action": "abstain", "atoms": ["n_above_0_5_lt_2"]}
+{"id": "b461d41ed887", "name": "filter[gap_lt_0_05]", "action": "filter", "atoms": ["gap_lt_0_05"]}
+{"id": "74ded28ecbd7", "name": "filter[top1_src_stub]", "action": "filter", "atoms": ["top1_src_stub"]}
+{"id": "7f3d9be10ff4", "name": "filter[top2_score_gt_0_5]", "action": "filter", "atoms": ["top2_score_gt_0_5"]}
+{"id": "031fc4fdb9f3", "name": "filter[q_ent_place]", "action": "filter", "atoms": ["q_ent_place"]}
+{"id": "d171f58637f1", "name": "filter[top3_score_gt_0_5]", "action": "filter", "atoms": ["top3_score_gt_0_5"]}
+{"id": "1168685b436a", "name": "abstain[src_mixed]", "action": "abstain", "atoms": ["src_mixed"]}
+{"id": "154f98d67c40", "name": "filter[top1_src_wiki]", "action": "filter", "atoms": ["top1_src_wiki"]}
+{"id": "9b71059cec26", "name": "filter[q_ent_num]", "action": "filter", "atoms": ["q_ent_num"]}
+{"id": "b99915cb99d4", "name": "rerank[ent_missing_top3]", "action": "rerank", "atoms": ["ent_missing_top3"]}
+{"id": "cc834f436cac", "name": "abstain[ent_missing_top3]", "action": "abstain", "atoms": ["ent_missing_top3"]}
+{"id": "8c07d5044d49", "name": "filter[top2_score_gt_0_7]", "action": "filter", "atoms": ["top2_score_gt_0_7"]}
+{"id": "a5df5aabc983", "name": "abstain[gap_lt_0_20]", "action": "abstain", "atoms": ["gap_lt_0_20"]}
+{"id": "bc65b25eb199", "name": "abstain[top1_score_gt_0_9]", "action": "abstain", "atoms": ["top1_score_gt_0_9"]}
+{"id": "0a88e04c8494", "name": "filter[q_ppl_gt_20]", "action": "filter", "atoms": ["q_ppl_gt_20"]}
+{"id": "54b707acfbee", "name": "rerank[red_gt_0_5]", "action": "rerank", "atoms": ["red_gt_0_5"]}
+{"id": "4d5293995bbc", "name": "filter[q_ent_org]", "action": "filter", "atoms": ["q_ent_org"]}
+{"id": "50de7eed38e8", "name": "filter[mean_score_gt_0_5]", "action": "filter", "atoms": ["mean_score_gt_0_5"]}
+{"id": "7b91a523a647", "name": "rerank[src_low_trust]", "action": "rerank", "atoms": ["src_low_trust"]}
+{"id": "70c4bcaf9fb2", "name": "filter[top1_score_lt_0_5]", "action": "filter", "atoms": ["top1_score_lt_0_5"]}
+{"id": "0058f3201908", "name": "abstain[q_ent_time]", "action": "abstain", "atoms": ["q_ent_time"]}
+{"id": "24a21ce2f7bf", "name": "rerank[gap_lt_0_10]", "action": "rerank", "atoms": ["gap_lt_0_10"]}
+{"id": "d0b5a20cec75", "name": "filter[top1_score_gt_0_7]", "action": "filter", "atoms": ["top1_score_gt_0_7"]}
+{"id": "8a03fd9a307d", "name": "abstain[gen_len_gt_32]", "action": "abstain", "atoms": ["gen_len_gt_32"]}
+{"id": "8b78916c9a9e", "name": "filter[gen_len_gt_32]", "action": "filter", "atoms": ["gen_len_gt_32"]}
+{"id": "a682b6e73e3d", "name": "abstain[n_above_0_7_lt_2]", "action": "abstain", "atoms": ["n_above_0_7_lt_2"]}
+{"id": "d7665c7985ac", "name": "filter[top1_src_blog]", "action": "filter", "atoms": ["top1_src_blog"]}
+{"id": "fcd8de8ddfb1", "name": "rerank[gap_lt_0_05]", "action": "rerank", "atoms": ["gap_lt_0_05"]}
+{"id": "0691f7665422", "name": "filter[ent_missing_top1]", "action": "filter", "atoms": ["ent_missing_top1"]}
+{"id": "2ec45cfdf87d", "name": "abstain[n_above_0_5_lt_3]", "action": "abstain", "atoms": ["n_above_0_5_lt_3"]}
+{"id": "5fae23b34b16", "name": "rerank[q_ppl_gt_20]", "action": "rerank", "atoms": ["q_ppl_gt_20"]}
+{"id": "f79ede706155", "name": "rerank[ent_missing_top1]", "action": "rerank", "atoms": ["ent_missing_top1"]}
+{"id": "98b8b1efc61f", "name": "rerank[first_ent_pos_gt_3]", "action": "rerank", "atoms": ["first_ent_pos_gt_3"]}
+{"id": "73123f4cf432", "name": "filter[gap_lt_0_20]", "action": "filter", "atoms": ["gap_lt_0_20"]}
+{"id": "3a1fa415cb1a", "name": "rerank[q_ent_place]", "action": "rerank", "atoms": ["q_ent_place"]}
+{"id": "ace1a43c8839", "name": "abstain[q_ppl_gt_40]", "action": "abstain", "atoms": ["q_ppl_gt_40"]}
+{"id": "7b4beb2103be", "name": "abstain[mean_score_gt_0_5]", "action": "abstain", "atoms": ["mean_score_gt_0_5"]}
+{"id": "067703537ff8", "name": "filter[gap_lt_0_10&top3_score_gt_0_5]", "action": "filter", "atoms": ["gap_lt_0_10", "top3_score_gt_0_5"]}
+{"id": "48ea74c226e0", "name": "filter[gen_conf_lt_0_5&mean_score_lt_0_3]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "mean_score_lt_0_3"]}
+{"id": "d21a493ed480", "name": "filter[gen_conf_lt_0_5&mean_score_gt_0_5]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "mean_score_gt_0_5"]}
+{"id": "26fbe6eaa0de", "name": "rerank[ent_missing_top3&top2_score_gt_0_5]", "action": "rerank", "atoms": ["ent_missing_top3", "top2_score_gt_0_5"]}
+{"id": "aea895bef007", "name": "filter[top1_score_gt_0_9&top3_score_gt_0_5]", "action": "filter", "atoms": ["top1_score_gt_0_9", "top3_score_gt_0_5"]}
+{"id": "e886b784a338", "name": "filter[top1_len_gt_256&top2_score_gt_0_7]", "action": "filter", "atoms": ["top1_len_gt_256", "top2_score_gt_0_7"]}
+{"id": "81b0940b058f", "name": "abstain[gen_conf_lt_0_5&top1_score_lt_0_5]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "top1_score_lt_0_5"]}
+{"id": "c7d470bf8dfc", "name": "filter[q_len_gt_8&top1_src_wiki]", "action": "filter", "atoms": ["q_len_gt_8", "top1_src_wiki"]}
+{"id": "f5cdfdc9b44a", "name": "rerank[gen_conf_lt_0_5&q_ent_time]", "action": "rerank", "atoms": ["gen_conf_lt_0_5", "q_ent_time"]}
+{"id": "b7230893dfce", "name": "filter[ent_missing_top1&top3_score_gt_0_5]", "action": "filter", "atoms": ["ent_missing_top1", "top3_score_gt_0_5"]}
+{"id": "c03c06d7c859", "name": "rerank[ent_missing_top1&q_ent_org]", "action": "rerank", "atoms": ["ent_missing_top1", "q_ent_org"]}
+{"id": "9380c13d3f81", "name": "abstain[top1_score_gt_0_5&top1_src_forum]", "action": "abstain", "atoms": ["top1_score_gt_0_5", "top1_src_forum"]}
+{"id": "51faf076f92b", "name": "abstain[q_ent_org&q_ent_time]", "action": "abstain", "atoms": ["q_ent_org", "q_ent_time"]}
+{"id": "28857e6ec92b", "name": "rerank[q_multihop&top1_len_lt_128]", "action": "rerank", "atoms": ["q_multihop", "top1_len_lt_128"]}
+{"id": "6f3605662f16", "name": "abstain[q_ent_num&top1_src_forum]", "action": "abstain", "atoms": ["q_ent_num", "top1_src_forum"]}
+{"id": "5d173d427bc7", "name": "abstain[q_len_gt_16&top1_src_wiki]", "action": "abstain", "atoms": ["q_len_gt_16", "top1_src_wiki"]}
+{"id": "b2e3db0b2730", "name": "abstain[top1_score_gt_0_9&top3_score_gt_0_5]", "action": "abstain", "atoms": ["top1_score_gt_0_9", "top3_score_gt_0_5"]}
+{"id": "c3707645d184", "name": "rerank[gap_lt_0_20&top3_score_gt_0_5]", "action": "rerank", "atoms": ["gap_lt_0_20", "top3_score_gt_0_5"]}
+{"id": "27397b154122", "name": "rerank[q_ent_num&q_ent_person]", "action": "rerank", "atoms": ["q_ent_num", "q_ent_person"]}
+{"id": "325b7f528cb0", "name": "abstain[q_ent_person&q_ent_place]", "action": "abstain", "atoms": ["q_ent_person", "q_ent_place"]}
+{"id": "25feaf520797", "name": "filter[gap_lt_0_05&q_ppl_lt_10]", "action": "filter", "atoms": ["gap_lt_0_05", "q_ppl_lt_10"]}
+{"id": "b568194c50a8", "name": "rerank[ent_missing_top3&top1_score_gt_0_7]", "action": "rerank", "atoms": ["ent_missing_top3", "top1_score_gt_0_7"]}
+{"id": "aa61d525aed5", "name": "abstain[n_above_0_5_lt_2&top1_src_stub]", "action": "abstain", "atoms": ["n_above_0_5_lt_2", "top1_src_stub"]}
+{"id": "fad2ae1d9495", "name": "filter[gap_lt_0_05&gen_len_gt_32]", "action": "filter", "atoms": ["gap_lt_0_05", "gen_len_gt_32"]}
+{"id": "830a18d60f89", "name": "filter[mean_score_gt_0_5&top3_score_gt_0_5]", "action": "filter", "atoms": ["mean_score_gt_0_5", "top3_score_gt_0_5"]}
+{"id": "c8b9efbcca9b", "name": "filter[gen_conf_lt_0_5&q_len_gt_16]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "q_len_gt_16"]}
+{"id": "506ed837bb57", "name": "abstain[n_above_0_5_lt_3&top1_score_gt_0_7]", "action": "abstain", "atoms": ["n_above_0_5_lt_3", "top1_score_gt_0_7"]}
+{"id": "20d08660e802", "name": "rerank[q_ent_person&top1_src_stub]", "action": "rerank", "atoms": ["q_ent_person", "top1_src_stub"]}
+{"id": "287859241bde", "name": "abstain[top1_len_lt_128&top2_score_gt_0_7]", "action": "abstain", "atoms": ["top1_len_lt_128", "top2_score_gt_0_7"]}
+{"id": "0b125810b621", "name": "filter[gen_len_gt_32&top1_score_lt_0_5]", "action": "filter", "atoms": ["gen_len_gt_32", "top1_score_lt_0_5"]}
+{"id": "52b88b70dbee", "name": "filter[n_above_0_7_lt_2&red_gt_0_9]", "action": "filter", "atoms": ["n_above_0_7_lt_2", "red_gt_0_9"]}
+{"id": "7d3d0d39b35e", "name": "abstain[gen_conf_lt_0_5&top1_len_lt_128]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "top1_len_lt_128"]}
+{"id": "98ef162ea389", "name": "rerank[gen_len_gt_32&q_ppl_gt_20]", "action": "rerank", "atoms": ["gen_len_gt_32", "q_ppl_gt_20"]}
+{"id": "f48a4d4be348", "name": "filter[top1_score_gt_0_7&top2_score_gt_0_7]", "action": "filter", "atoms": ["top1_score_gt_0_7", "top2_score_gt_0_7"]}
+{"id": "56be35b0991c", "name": "rerank[top1_score_gt_0_7&top1_score_gt_0_9]", "action": "rerank", "atoms": ["top1_score_gt_0_7", "top1_score_gt_0_9"]}
+{"id": "4e16dd53d3ab", "name": "abstain[q_ent_num&top1_src_stub]", "action": "abstain", "atoms": ["q_ent_num", "top1_src_stub"]}
+{"id": "8a24aee7584d", "name": "abstain[q_ent_org&top1_score_gt_0_5]", "action": "abstain", "atoms": ["q_ent_org", "top1_score_gt_0_5"]}
+{"id": "e376734133da", "name": "filter[ent_missing_top3&top3_score_gt_0_5]", "action": "filter", "atoms": ["ent_missing_top3", "top3_score_gt_0_5"]}
+{"id": "91c459f559b1", "name": "rerank[gap_lt_0_20&red_gt_0_9]", "action": "rerank", "atoms": ["gap_lt_0_20", "red_gt_0_9"]}
+{"id": "395000ba20a4", "name": "abstain[gap_lt_0_20&top3_score_gt_0_5]", "action": "abstain", "atoms": ["gap_lt_0_20", "top3_score_gt_0_5"]}
+{"id": "7112be61747c", "name": "filter[src_mixed&top1_len_lt_64]", "action": "filter", "atoms": ["src_mixed", "top1_len_lt_64"]}
+{"id": "7de6c3a32379", "name": "rerank[n_above_0_5_lt_3&top1_score_gt_0_5]", "action": "rerank", "atoms": ["n_above_0_5_lt_3", "top1_score_gt_0_5"]}
+{"id": "55440bd1c2d2", "name": "abstain[ent_missing_top1&n_above_0_5_lt_3]", "action": "abstain", "atoms": ["ent_missing_top1", "n_above_0_5_lt_3"]}
+{"id": "cda6f4e6f4f2", "name": "abstain[q_ent_place&src_low_trust]", "action": "abstain", "atoms": ["q_ent_place", "src_low_trust"]}
+{"id": "9c1c3206e427", "name": "filter[q_ppl_gt_20&top1_score_lt_0_3]", "action": "filter", "atoms": ["q_ppl_gt_20", "top1_score_lt_0_3"]}
+{"id": "eb74601d7044", "name": "rerank[ent_missing_top3&top3_score_gt_0_5]", "action": "rerank", "atoms": ["ent_missing_top3", "top3_score_gt_0_5"]}
+{"id": "04ae076e66f8", "name": "rerank[first_ent_pos_lt_1&q_ent_place]", "action": "rerank", "atoms": ["first_ent_pos_lt_1", "q_ent_place"]}
+{"id": "2316071b3780", "name": "filter[q_len_gt_16&red_gt_0_5]", "action": "filter", "atoms": ["q_len_gt_16", "red_gt_0_5"]}
+{"id": "84df4e4e14cc", "name": "rerank[n_above_0_5_lt_2&top1_src_stub]", "action": "rerank", "atoms": ["n_above_0_5_lt_2", "top1_src_stub"]}
+{"id": "5271c0d24da9", "name": "filter[q_ent_org&q_ppl_lt_10]", "action": "filter", "atoms": ["q_ent_org", "q_ppl_lt_10"]}
+{"id": "af9a6cf84399", "name": "filter[q_ent_person&q_ppl_gt_40]", "action": "filter", "atoms": ["q_ent_person", "q_ppl_gt_40"]}
+{"id": "79b9bd53297f", "name": "abstain[mean_score_gt_0_5&red_gt_0_5]", "action": "abstain", "atoms": ["mean_score_gt_0_5", "red_gt_0_5"]}
+{"id": "ef12d968a13e", "name": "rerank[top1_score_lt_0_5&top1_src_wiki]", "action": "rerank", "atoms": ["top1_score_lt_0_5", "top1_src_wiki"]}
+{"id": "9f0f75c90cc4", "name": "abstain[q_ent_org&q_ppl_lt_10]", "action": "abstain", "atoms": ["q_ent_org", "q_ppl_lt_10"]}
+{"id": "750d3c8e7929", "name": "filter[q_multihop&red_gt_0_7]", "action": "filter", "atoms": ["q_multihop", "red_gt_0_7"]}
+{"id": "fbdf70df6cb1", "name": "rerank[q_ent_org&top1_src_forum]", "action": "rerank", "atoms": ["q_ent_org", "top1_src_forum"]}
+{"id": "24111c908bd6", "name": "abstain[red_gt_0_5&top1_len_lt_128]", "action": "abstain", "atoms": ["red_gt_0_5", "top1_len_lt_128"]}
+{"id": "0ecc47e77910", "name": "filter[gen_conf_lt_0_5&top1_len_lt_128]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "top1_len_lt_128"]}
+{"id": "a2ee00cee788", "name": "filter[first_ent_pos_gt_3&gen_len_gt_32]", "action": "filter", "atoms": ["first_ent_pos_gt_3", "gen_len_gt_32"]}
+{"id": "27316f61d487", "name": "filter[q_ent_place&top1_src_blog]", "action": "filter", "atoms": ["q_ent_place", "top1_src_blog"]}
+{"id": "7aae6be47723", "name": "filter[q_ent_num&top2_score_gt_0_5]", "action": "filter", "atoms": ["q_ent_num", "top2_score_gt_0_5"]}
+{"id": "a1e771807443", "name": "abstain[src_low_trust&top1_len_lt_64]", "action": "abstain", "atoms": ["src_low_trust", "top1_len_lt_64"]}
+{"id": "833cc18457d9", "name": "filter[top1_src_forum&top2_score_gt_0_7]", "action": "filter", "atoms": ["top1_src_forum", "top2_score_gt_0_7"]}
+{"id": "3ac859117f2e", "name": "abstain[red_gt_0_9&top1_score_gt_0_5]", "action": "abstain", "atoms": ["red_gt_0_9", "top1_score_gt_0_5"]}
+{"id": "c8414327ef60", "name": "rerank[q_len_gt_16&top1_src_wiki]", "action": "rerank", "atoms": ["q_len_gt_16", "top1_src_wiki"]}
+{"id": "7fe02605e781", "name": "abstain[gen_conf_lt_0_5&mean_score_gt_0_5]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "mean_score_gt_0_5"]}
+{"id": "6d796cc73412", "name": "abstain[gen_len_gt_32&mean_score_gt_0_5]", "action": "abstain", "atoms": ["gen_len_gt_32", "mean_score_gt_0_5"]}
+{"id": "640c3f3c8181", "name": "filter[q_ppl_gt_40&top1_score_lt_0_5]", "action": "filter", "atoms": ["q_ppl_gt_40", "top1_score_lt_0_5"]}
+{"id": "70bfeaae57d7", "name": "rerank[q_ent_org&q_ent_place]", "action": "rerank", "atoms": ["q_ent_org", "q_ent_place"]}
+{"id": "808154295b42", "name": "rerank[q_ent_time&red_gt_0_5]", "action": "rerank", "atoms": ["q_ent_time", "red_gt_0_5"]}
+{"id": "84d3bf279830", "name": "rerank[gap_lt_0_20&q_ent_num]", "action": "rerank", "atoms": ["gap_lt_0_20", "q_ent_num"]}
+{"id": "6b96158c27dc", "name": "rerank[q_ppl_gt_20&src_low_trust]", "action": "rerank", "atoms": ["q_ppl_gt_20", "src_low_trust"]}
+{"id": "fa364ea96cce", "name": "abstain[q_ppl_gt_40&top3_score_gt_0_5]", "action": "abstain", "atoms": ["q_ppl_gt_40", "top3_score_gt_0_5"]}
+{"id": "12926104017d", "name": "filter[top1_score_gt_0_9&top2_score_gt_0_7]", "action": "filter", "atoms": ["top1_score_gt_0_9", "top2_score_gt_0_7"]}
+{"id": "a396b475b221", "name": "abstain[gap_lt_0_05&mean_score_gt_0_5]", "action": "abstain", "atoms": ["gap_lt_0_05", "mean_score_gt_0_5"]}
+{"id": "d79681f217f1", "name": "rerank[src_mixed&top1_score_gt_0_5]", "action": "rerank", "atoms": ["src_mixed", "top1_score_gt_0_5"]}
+{"id": "cae91302b79a", "name": "filter[first_ent_pos_lt_1&n_above_0_5_lt_3]", "action": "filter", "atoms": ["first_ent_pos_lt_1", "n_above_0_5_lt_3"]}
+{"id": "2bffde9074fd", "name": "filter[q_ppl_gt_20&top1_src_blog]", "action": "filter", "atoms": ["q_ppl_gt_20", "top1_src_blog"]}
+{"id": "fdd3b0d834bc", "name": "abstain[first_ent_pos_gt_3&red_gt_0_5]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "red_gt_0_5"]}
+{"id": "ff3045250fd9", "name": "rerank[ent_missing_top3&q_ppl_lt_10]", "action": "rerank", "atoms": ["ent_missing_top3", "q_ppl_lt_10"]}
+{"id": "eab6a15a2e9c", "name": "rerank[gen_conf_lt_0_5&top1_src_stub]", "action": "rerank", "atoms": ["gen_conf_lt_0_5", "top1_src_stub"]}
+{"id": "0b2e9c367f0d", "name": "abstain[red_gt_0_5&src_low_trust]", "action": "abstain", "atoms": ["red_gt_0_5", "src_low_trust"]}
+{"id": "c9dec45e60a4", "name": "rerank[first_ent_pos_gt_3&n_above_0_5_lt_2]", "action": "rerank", "atoms": ["first_ent_pos_gt_3", "n_above_0_5_lt_2"]}
+{"id": "c0b80664a4bf", "name": "filter[n_above_0_7_lt_2&top1_score_lt_0_3]", "action": "filter", "atoms": ["n_above_0_7_lt_2", "top1_score_lt_0_3"]}
+{"id": "78cb4e27e3b2", "name": "rerank[ent_missing_top3&top1_len_gt_256]", "action": "rerank", "atoms": ["ent_missing_top3", "top1_len_gt_256"]}
+{"id": "3685a3d1a1f9", "name": "rerank[gen_len_gt_32&q_len_gt_16]", "action": "rerank", "atoms": ["gen_len_gt_32", "q_len_gt_16"]}
+{"id": "875fff92ff73", "name": "rerank[gen_len_gt_32&n_above_0_5_lt_2]", "action": "rerank", "atoms": ["gen_len_gt_32", "n_above_0_5_lt_2"]}
+{"id": "491f250ca64e", "name": "abstain[gap_lt_0_10&top1_score_gt_0_7]", "action": "abstain", "atoms": ["gap_lt_0_10", "top1_score_gt_0_7"]}
+{"id": "0a1403010eb8", "name": "filter[top1_score_gt_0_5&top1_src_wiki]", "action": "filter", "atoms": ["top1_score_gt_0_5", "top1_src_wiki"]}
+{"id": "5f3d9acb5b59", "name": "filter[ent_missing_top1&mean_score_lt_0_3]", "action": "filter", "atoms": ["ent_missing_top1", "mean_score_lt_0_3"]}
+{"id": "112e564cc7ff", "name": "filter[ent_missing_top3&gen_len_gt_32]", "action": "filter", "atoms": ["ent_missing_top3", "gen_len_gt_32"]}
+{"id": "ce0179c9e525", "name": "filter[gap_lt_0_20&red_gt_0_5]", "action": "filter", "atoms": ["gap_lt_0_20", "red_gt_0_5"]}
+{"id": "4265628e63cc", "name": "filter[q_ent_place&q_len_gt_16]", "action": "filter", "atoms": ["q_ent_place", "q_len_gt_16"]}
+{"id": "fad0f7f2e14e", "name": "abstain[red_gt_0_5&top1_src_stub]", "action": "abstain", "atoms": ["red_gt_0_5", "top1_src_stub"]}
+{"id": "1fd36abc117a", "name": "filter[q_ent_person&q_ent_place]", "action": "filter", "atoms": ["q_ent_person", "q_ent_place"]}
+{"id": "63087fe27019", "name": "abstain[ent_missing_top3&top3_score_gt_0_5]", "action": "abstain", "atoms": ["ent_missing_top3", "top3_score_gt_0_5"]}
+{"id": "680b4ded4cbb", "name": "rerank[gap_lt_0_10&q_ent_place]", "action": "rerank", "atoms": ["gap_lt_0_10", "q_ent_place"]}
+{"id": "b68779dbcf41", "name": "abstain[ent_missing_top1&first_ent_pos_gt_3]", "action": "abstain", "atoms": ["ent_missing_top1", "first_ent_pos_gt_3"]}
+{"id": "7cad5967b017", "name": "abstain[gap_lt_0_10&top1_src_wiki]", "action": "abstain", "atoms": ["gap_lt_0_10", "top1_src_wiki"]}
+{"id": "11142078417f", "name": "abstain[gen_conf_lt_0_5&n_above_0_5_lt_2]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "n_above_0_5_lt_2"]}
+{"id": "df41bce934ba", "name": "abstain[q_ent_time&red_gt_0_5]", "action": "abstain", "atoms": ["q_ent_time", "red_gt_0_5"]}
+{"id": "b73db9f3a28e", "name": "abstain[n_above_0_5_lt_3&q_ent_org]", "action": "abstain", "atoms": ["n_above_0_5_lt_3", "q_ent_org"]}
+{"id": "727ce3fa80d7", "name": "abstain[top1_score_gt_0_7&top1_score_gt_0_9]", "action": "abstain", "atoms": ["top1_score_gt_0_7", "top1_score_gt_0_9"]}
+{"id": "35e2b000a0e5", "name": "rerank[top1_len_lt_128&top1_src_forum]", "action": "rerank", "atoms": ["top1_len_lt_128", "top1_src_forum"]}
+{"id": "34ffccb6fd33", "name": "rerank[q_multihop&top1_src_blog]", "action": "rerank", "atoms": ["q_multihop", "top1_src_blog"]}
+{"id": "26e878ddbedb", "name": "filter[q_len_gt_16&top1_src_wiki]", "action": "filter", "atoms": ["q_len_gt_16", "top1_src_wiki"]}
+{"id": "e2dae4b18fad", "name": "rerank[n_above_0_5_lt_3&top1_src_wiki]", "action": "rerank", "atoms": ["n_above_0_5_lt_3", "top1_src_wiki"]}
+{"id": "d461243dd1fb", "name": "rerank[ent_missing_top1&top1_score_gt_0_7]", "action": "rerank", "atoms": ["ent_missing_top1", "top1_score_gt_0_7"]}
+{"id": "55fcd22f110e", "name": "filter[ent_missing_top1&n_above_0_5_lt_2]", "action": "filter", "atoms": ["ent_missing_top1", "n_above_0_5_lt_2"]}
+{"id": "f8564565caa8", "name": "rerank[q_ent_person&top1_len_lt_128]", "action": "rerank", "atoms": ["q_ent_person", "top1_len_lt_128"]}
+{"id": "8e72e73100ef", "name": "rerank[src_mixed&top1_score_gt_0_9]", "action": "rerank", "atoms": ["src_mixed", "top1_score_gt_0_9"]}
+{"id": "1c243f5289ca", "name": "rerank[q_len_gt_16&src_low_trust]", "action": "rerank", "atoms": ["q_len_gt_16", "src_low_trust"]}
+{"id": "e53bda01d954", "name": "abstain[src_mixed&top1_score_lt_0_5]", "action": "abstain", "atoms": ["src_mixed", "top1_score_lt_0_5"]}
+{"id": "e4a01b930f47", "name": "rerank[gap_lt_0_05&q_ppl_lt_10]", "action": "rerank", "atoms": ["gap_lt_0_05", "q_ppl_lt_10"]}
+{"id": "10dfa2efcfc1", "name": "rerank[gen_len_gt_32&q_multihop]", "action": "rerank", "atoms": ["gen_len_gt_32", "q_multihop"]}
+{"id": "42f82545b651", "name": "filter[first_ent_pos_lt_1&red_gt_0_7]", "action": "filter", "atoms": ["first_ent_pos_lt_1", "red_gt_0_7"]}
+{"id": "cd7b657c896e", "name": "rerank[gen_conf_lt_0_5&q_multihop]", "action": "rerank", "atoms": ["gen_conf_lt_0_5", "q_multihop"]}
+{"id": "f82d46aaa819", "name": "rerank[first_ent_pos_lt_1&top1_score_gt_0_5]", "action": "rerank", "atoms": ["first_ent_pos_lt_1", "top1_score_gt_0_5"]}
+{"id": "0592402c4691", "name": "filter[gap_lt_0_10&q_ppl_gt_40]", "action": "filter", "atoms": ["gap_lt_0_10", "q_ppl_gt_40"]}
+{"id": "46a7d7a2797a", "name": "filter[q_multihop&top1_len_lt_128]", "action": "filter", "atoms": ["q_multihop", "top1_len_lt_128"]}
+{"id": "441349866202", "name": "rerank[q_ent_person&q_ent_place]", "action": "rerank", "atoms": ["q_ent_person", "q_ent_place"]}
+{"id": "3c4fd2f8e95d", "name": "rerank[n_above_0_7_lt_2&top1_len_lt_128]", "action": "rerank", "atoms": ["n_above_0_7_lt_2", "top1_len_lt_128"]}
+{"id": "2ae8bb8f4f40", "name": "abstain[ent_missing_top3&q_len_gt_8]", "action": "abstain", "atoms": ["ent_missing_top3", "q_len_gt_8"]}
+{"id": "d84e0025767a", "name": "abstain[q_ppl_lt_10&top1_src_wiki]", "action": "abstain", "atoms": ["q_ppl_lt_10", "top1_src_wiki"]}
+{"id": "bffe5868b12c", "name": "abstain[q_ppl_lt_10&src_mixed]", "action": "abstain", "atoms": ["q_ppl_lt_10", "src_mixed"]}
+{"id": "3f60e363c4fd", "name": "filter[q_ent_org&top1_score_gt_0_5]", "action": "filter", "atoms": ["q_ent_org", "top1_score_gt_0_5"]}
+{"id": "214e6d73e7a1", "name": "rerank[ent_missing_top3&top1_len_lt_64]", "action": "rerank", "atoms": ["ent_missing_top3", "top1_len_lt_64"]}
+{"id": "619466339a7e", "name": "abstain[gap_lt_0_20&q_ent_person]", "action": "abstain", "atoms": ["gap_lt_0_20", "q_ent_person"]}
+{"id": "cea32fff478a", "name": "abstain[q_ppl_gt_20&top2_score_gt_0_7]", "action": "abstain", "atoms": ["q_ppl_gt_20", "top2_score_gt_0_7"]}
+{"id": "9ca52c70a1a0", "name": "filter[q_ent_time&q_len_gt_16]", "action": "filter", "atoms": ["q_ent_time", "q_len_gt_16"]}
+{"id": "29dfccee4545", "name": "filter[q_ent_num&q_ent_person]", "action": "filter", "atoms": ["q_ent_num", "q_ent_person"]}
+{"id": "752ad41acd14", "name": "rerank[gen_len_gt_32&q_ppl_gt_40]", "action": "rerank", "atoms": ["gen_len_gt_32", "q_ppl_gt_40"]}
+{"id": "ed1f0bb92ddc", "name": "rerank[q_multihop&top2_score_gt_0_5]", "action": "rerank", "atoms": ["q_multihop", "top2_score_gt_0_5"]}
+{"id": "8f6a73e626e2", "name": "rerank[gap_lt_0_20&n_above_0_5_lt_2]", "action": "rerank", "atoms": ["gap_lt_0_20", "n_above_0_5_lt_2"]}
+{"id": "29ade6c7f071", "name": "abstain[n_above_0_5_lt_2&q_ppl_gt_40]", "action": "abstain", "atoms": ["n_above_0_5_lt_2", "q_ppl_gt_40"]}
+{"id": "23b38749f2fa", "name": "abstain[gen_conf_lt_0_5&q_ppl_gt_20]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "q_ppl_gt_20"]}
+{"id": "3b9b114f3eb4", "name": "rerank[gap_lt_0_10&gen_len_gt_32]", "action": "rerank", "atoms": ["gap_lt_0_10", "gen_len_gt_32"]}
+{"id": "b917f8209314", "name": "filter[top2_score_gt_0_5&top2_score_gt_0_7]", "action": "filter", "atoms": ["top2_score_gt_0_5", "top2_score_gt_0_7"]}
+{"id": "8ebda21c32a9", "name": "rerank[gap_lt_0_10&q_ent_num]", "action": "rerank", "atoms": ["gap_lt_0_10", "q_ent_num"]}
+{"id": "83005ad36761", "name": "filter[gap_lt_0_10&top1_len_lt_64]", "action": "filter", "atoms": ["gap_lt_0_10", "top1_len_lt_64"]}
+{"id": "a8f2a353f534", "name": "abstain[gap_lt_0_10&q_ent_num]", "action": "abstain", "atoms": ["gap_lt_0_10", "q_ent_num"]}
+{"id": "ba61d0105b57", "name": "filter[gen_conf_lt_0_5&q_ent_time]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "q_ent_time"]}
+{"id": "ade1143937e8", "name": "abstain[q_multihop&q_ppl_lt_10]", "action": "abstain", "atoms": ["q_multihop", "q_ppl_lt_10"]}
+{"id": "fcec9119ef53", "name": "filter[gen_len_gt_32&n_above_0_7_lt_2]", "action": "filter", "atoms": ["gen_len_gt_32", "n_above_0_7_lt_2"]}
+{"id": "20139b5e6ef5", "name": "rerank[gen_conf_lt_0_5&top1_len_lt_128]", "action": "rerank", "atoms": ["gen_conf_lt_0_5", "top1_len_lt_128"]}
+{"id": "e499a0673e4c", "name": "rerank[q_len_gt_8&top1_score_lt_0_5]", "action": "rerank", "atoms": ["q_len_gt_8", "top1_score_lt_0_5"]}
+{"id": "fe1e1bbf5055", "name": "rerank[q_ppl_gt_20&top1_src_blog]", "action": "rerank", "atoms": ["q_ppl_gt_20", "top1_src_blog"]}
+{"id": "e1305e5ac1ea", "name": "abstain[red_gt_0_5&top1_score_gt_0_7]", "action": "abstain", "atoms": ["red_gt_0_5", "top1_score_gt_0_7"]}
+{"id": "1eb56260b15d", "name": "rerank[gap_lt_0_10&top1_score_lt_0_3]", "action": "rerank", "atoms": ["gap_lt_0_10", "top1_score_lt_0_3"]}
+{"id": "1bc92a5062e1", "name": "rerank[gen_conf_lt_0_5&src_mixed]", "action": "rerank", "atoms": ["gen_conf_lt_0_5", "src_mixed"]}
+{"id": "dd3234d963c1", "name": "filter[n_above_0_5_lt_2&q_ppl_gt_20]", "action": "filter", "atoms": ["n_above_0_5_lt_2", "q_ppl_gt_20"]}
+{"id": "ab256e09558f", "name": "abstain[q_multihop&red_gt_0_7]", "action": "abstain", "atoms": ["q_multihop", "red_gt_0_7"]}
+{"id": "2f3590c8794b", "name": "filter[q_ent_place&top1_len_lt_128]", "action": "filter", "atoms": ["q_ent_place", "top1_len_lt_128"]}
+{"id": "77e131d4f309", "name": "filter[q_ent_place&top1_src_wiki]", "action": "filter", "atoms": ["q_ent_place", "top1_src_wiki"]}
+{"id": "8f7e27f9d42d", "name": "rerank[q_ent_place&top1_len_lt_64]", "action": "rerank", "atoms": ["q_ent_place", "top1_len_lt_64"]}
+{"id": "55bb8e479048", "name": "abstain[first_ent_pos_gt_3&n_above_0_7_lt_2]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "n_above_0_7_lt_2"]}
+{"id": "49e4547488ef", "name": "abstain[first_ent_pos_gt_3&q_multihop]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "q_multihop"]}
+{"id": "00bad109b31f", "name": "filter[gap_lt_0_05&n_above_0_7_lt_2]", "action": "filter", "atoms": ["gap_lt_0_05", "n_above_0_7_lt_2"]}
+{"id": "2d580f5e5a47", "name": "abstain[mean_score_lt_0_3&q_ent_time]", "action": "abstain", "atoms": ["mean_score_lt_0_3", "q_ent_time"]}
+{"id": "c8fd21073b98", "name": "rerank[top1_src_stub&top3_score_gt_0_5]", "action": "rerank", "atoms": ["top1_src_stub", "top3_score_gt_0_5"]}
+{"id": "e7a06a00121b", "name": "abstain[q_ent_time&top1_src_forum]", "action": "abstain", "atoms": ["q_ent_time", "top1_src_forum"]}
+{"id": "bd123b50627e", "name": "filter[q_ent_person&top1_len_lt_128]", "action": "filter", "atoms": ["q_ent_person", "top1_len_lt_128"]}
+{"id": "553e386c0b94", "name": "abstain[gap_lt_0_20&top1_len_gt_256]", "action": "abstain", "atoms": ["gap_lt_0_20", "top1_len_gt_256"]}
+{"id": "4e4356ae8355", "name": "rerank[n_above_0_5_lt_2&top1_len_lt_128]", "action": "rerank", "atoms": ["n_above_0_5_lt_2", "top1_len_lt_128"]}
+{"id": "b7447471e705", "name": "abstain[q_len_gt_8&red_gt_0_7]", "action": "abstain", "atoms": ["q_len_gt_8", "red_gt_0_7"]}
+{"id": "72e844f7c405", "name": "abstain[gap_lt_0_05&gen_len_gt_32]", "action": "abstain", "atoms": ["gap_lt_0_05", "gen_len_gt_32"]}
+{"id": "b47fdc94578a", "name": "abstain[first_ent_pos_lt_1&top1_score_gt_0_9&top1_src_wiki]", "action": "abstain", "atoms": ["first_ent_pos_lt_1", "top1_score_gt_0_9", "top1_src_wiki"]}
+{"id": "a3f922f3baad", "name": "rerank[mean_score_gt_0_5&q_ent_person&q_ppl_gt_40]", "action": "rerank", "atoms": ["mean_score_gt_0_5", "q_ent_person", "q_ppl_gt_40"]}
+{"id": "952bf5eab3d3", "name": "filter[n_above_0_5_lt_2&q_len_gt_8&red_gt_0_5]", "action": "filter", "atoms": ["n_above_0_5_lt_2", "q_len_gt_8", "red_gt_0_5"]}
+{"id": "cc2bb6aa825f", "name": "abstain[q_len_gt_8&q_ppl_gt_20&top1_len_lt_64]", "action": "abstain", "atoms": ["q_len_gt_8", "q_ppl_gt_20", "top1_len_lt_64"]}
+{"id": "2dbb96393c7f", "name": "rerank[mean_score_lt_0_3&q_len_gt_8&q_multihop]", "action": "rerank", "atoms": ["mean_score_lt_0_3", "q_len_gt_8", "q_multihop"]}
+{"id": "5dfadbdcc239", "name": "abstain[ent_missing_top3&q_ppl_gt_40&top1_src_blog]", "action": "abstain", "atoms": ["ent_missing_top3", "q_ppl_gt_40", "top1_src_blog"]}
+{"id": "87edf2c57cae", "name": "rerank[n_above_0_7_lt_2&red_gt_0_9&top1_len_lt_128]", "action": "rerank", "atoms": ["n_above_0_7_lt_2", "red_gt_0_9", "top1_len_lt_128"]}
+{"id": "f4edc5b6d0a4", "name": "filter[gen_conf_lt_0_5&q_multihop&red_gt_0_5]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "q_multihop", "red_gt_0_5"]}
+{"id": "e696c9479dbe", "name": "abstain[q_ent_num&q_ent_person&top1_score_gt_0_9]", "action": "abstain", "atoms": ["q_ent_num", "q_ent_person", "top1_score_gt_0_9"]}
+{"id": "15cc36e3e1a6", "name": "rerank[n_above_0_5_lt_2&q_ppl_gt_40&top1_len_lt_128]", "action": "rerank", "atoms": ["n_above_0_5_lt_2", "q_ppl_gt_40", "top1_len_lt_128"]}
+{"id": "ffb91f992edf", "name": "filter[n_above_0_7_lt_2&q_ent_num&top2_score_gt_0_5]", "action": "filter", "atoms": ["n_above_0_7_lt_2", "q_ent_num", "top2_score_gt_0_5"]}
+{"id": "08630426897f", "name": "filter[ent_missing_top3&n_above_0_5_lt_3&top1_src_blog]", "action": "filter", "atoms": ["ent_missing_top3", "n_above_0_5_lt_3", "top1_src_blog"]}
+{"id": "0eb1766b89b8", "name": "rerank[q_len_gt_8&q_ppl_gt_20&top1_len_lt_64]", "action": "rerank", "atoms": ["q_len_gt_8", "q_ppl_gt_20", "top1_len_lt_64"]}
+{"id": "4bf204114ed5", "name": "rerank[q_ent_num&red_gt_0_5&top3_score_gt_0_5]", "action": "rerank", "atoms": ["q_ent_num", "red_gt_0_5", "top3_score_gt_0_5"]}
+{"id": "ca48539b2c8c", "name": "rerank[gap_lt_0_10&q_ppl_gt_20&src_mixed]", "action": "rerank", "atoms": ["gap_lt_0_10", "q_ppl_gt_20", "src_mixed"]}
+{"id": "daea44bcd4a6", "name": "filter[gen_len_gt_32&top1_score_gt_0_5&top1_src_forum]", "action": "filter", "atoms": ["gen_len_gt_32", "top1_score_gt_0_5", "top1_src_forum"]}
+{"id": "635f686dff99", "name": "rerank[gap_lt_0_05&gen_conf_lt_0_5&top1_score_lt_0_5]", "action": "rerank", "atoms": ["gap_lt_0_05", "gen_conf_lt_0_5", "top1_score_lt_0_5"]}
+{"id": "4a521c28dbf2", "name": "abstain[q_ent_num&top1_len_lt_64&top1_src_stub]", "action": "abstain", "atoms": ["q_ent_num", "top1_len_lt_64", "top1_src_stub"]}
+{"id": "a8d5fdb9fbd2", "name": "abstain[mean_score_gt_0_5&red_gt_0_7&top1_len_lt_128]", "action": "abstain", "atoms": ["mean_score_gt_0_5", "red_gt_0_7", "top1_len_lt_128"]}
+{"id": "7577b9d66885", "name": "abstain[ent_missing_top1&q_ent_org&top1_score_gt_0_5]", "action": "abstain", "atoms": ["ent_missing_top1", "q_ent_org", "top1_score_gt_0_5"]}
+{"id": "70c8ce9984c7", "name": "abstain[gap_lt_0_05&gap_lt_0_20&top1_src_stub]", "action": "abstain", "atoms": ["gap_lt_0_05", "gap_lt_0_20", "top1_src_stub"]}
+{"id": "95d9b26e5341", "name": "filter[q_ent_place&q_multihop&top2_score_gt_0_7]", "action": "filter", "atoms": ["q_ent_place", "q_multihop", "top2_score_gt_0_7"]}
+{"id": "9923fa3ee5c6", "name": "abstain[q_ppl_gt_20&src_mixed&top1_score_gt_0_9]", "action": "abstain", "atoms": ["q_ppl_gt_20", "src_mixed", "top1_score_gt_0_9"]}
+{"id": "0f2a3c66814a", "name": "rerank[q_ent_person&q_len_gt_8&top1_len_lt_64]", "action": "rerank", "atoms": ["q_ent_person", "q_len_gt_8", "top1_len_lt_64"]}
+{"id": "705405259c08", "name": "rerank[first_ent_pos_gt_3&q_ent_person&q_ppl_gt_20]", "action": "rerank", "atoms": ["first_ent_pos_gt_3", "q_ent_person", "q_ppl_gt_20"]}
+{"id": "2dc0b460b0ff", "name": "abstain[gap_lt_0_10&gen_len_gt_32&top1_score_gt_0_5]", "action": "abstain", "atoms": ["gap_lt_0_10", "gen_len_gt_32", "top1_score_gt_0_5"]}
+{"id": "5732e94197f1", "name": "rerank[src_mixed&top1_len_lt_128&top1_score_gt_0_7]", "action": "rerank", "atoms": ["src_mixed", "top1_len_lt_128", "top1_score_gt_0_7"]}
+{"id": "2d0018b8f79e", "name": "filter[gap_lt_0_05&src_low_trust&top2_score_gt_0_5]", "action": "filter", "atoms": ["gap_lt_0_05", "src_low_trust", "top2_score_gt_0_5"]}
+{"id": "01f0ece3356d", "name": "abstain[gap_lt_0_05&top1_score_gt_0_5&top1_src_blog]", "action": "abstain", "atoms": ["gap_lt_0_05", "top1_score_gt_0_5", "top1_src_blog"]}
+{"id": "45844d285abd", "name": "rerank[mean_score_lt_0_3&q_len_gt_16&top1_score_lt_0_5]", "action": "rerank", "atoms": ["mean_score_lt_0_3", "q_len_gt_16", "top1_score_lt_0_5"]}
+{"id": "6c9cc99f2fb2", "name": "abstain[first_ent_pos_lt_1&top1_len_lt_64&top1_score_gt_0_9]", "action": "abstain", "atoms": ["first_ent_pos_lt_1", "top1_len_lt_64", "top1_score_gt_0_9"]}
+{"id": "7ef443b178f1", "name": "filter[mean_score_gt_0_5&q_ent_person&q_ppl_gt_40]", "action": "filter", "atoms": ["mean_score_gt_0_5", "q_ent_person", "q_ppl_gt_40"]}
+{"id": "f89229095333", "name": "filter[gap_lt_0_10&q_multihop&top1_score_gt_0_5]", "action": "filter", "atoms": ["gap_lt_0_10", "q_multihop", "top1_score_gt_0_5"]}
+{"id": "d484c88579f0", "name": "abstain[ent_missing_top1&gap_lt_0_20&n_above_0_7_lt_2]", "action": "abstain", "atoms": ["ent_missing_top1", "gap_lt_0_20", "n_above_0_7_lt_2"]}
+{"id": "212808ce3dc3", "name": "filter[ent_missing_top3&gap_lt_0_20&red_gt_0_7]", "action": "filter", "atoms": ["ent_missing_top3", "gap_lt_0_20", "red_gt_0_7"]}
+{"id": "203019b3f100", "name": "abstain[q_len_gt_8&q_ppl_lt_10&top1_src_wiki]", "action": "abstain", "atoms": ["q_len_gt_8", "q_ppl_lt_10", "top1_src_wiki"]}
+{"id": "636ed998f2eb", "name": "rerank[first_ent_pos_lt_1&red_gt_0_5&src_mixed]", "action": "rerank", "atoms": ["first_ent_pos_lt_1", "red_gt_0_5", "src_mixed"]}
+{"id": "b6a6def4e9d8", "name": "filter[n_above_0_7_lt_2&q_len_gt_8&q_ppl_gt_20]", "action": "filter", "atoms": ["n_above_0_7_lt_2", "q_len_gt_8", "q_ppl_gt_20"]}
+{"id": "9124e55a62b3", "name": "filter[mean_score_gt_0_5&n_above_0_7_lt_2&top2_score_gt_0_7]", "action": "filter", "atoms": ["mean_score_gt_0_5", "n_above_0_7_lt_2", "top2_score_gt_0_7"]}
+{"id": "ec53002031a6", "name": "rerank[red_gt_0_5&top1_len_lt_128&top1_src_wiki]", "action": "rerank", "atoms": ["red_gt_0_5", "top1_len_lt_128", "top1_src_wiki"]}
+{"id": "5e5ec15f530a", "name": "filter[ent_missing_top1&q_ent_place&top2_score_gt_0_5]", "action": "filter", "atoms": ["ent_missing_top1", "q_ent_place", "top2_score_gt_0_5"]}
+{"id": "87872e0bd838", "name": "rerank[q_ent_org&top1_score_gt_0_7&top1_src_forum]", "action": "rerank", "atoms": ["q_ent_org", "top1_score_gt_0_7", "top1_src_forum"]}
+{"id": "5f1f12314d30", "name": "filter[gap_lt_0_05&n_above_0_7_lt_2&q_ent_num]", "action": "filter", "atoms": ["gap_lt_0_05", "n_above_0_7_lt_2", "q_ent_num"]}
+{"id": "1a5c44c6d40e", "name": "rerank[ent_missing_top3&gen_conf_lt_0_5&red_gt_0_5]", "action": "rerank", "atoms": ["ent_missing_top3", "gen_conf_lt_0_5", "red_gt_0_5"]}
+{"id": "f022dbf91e00", "name": "filter[q_ppl_gt_20&top1_len_lt_128&top1_src_forum]", "action": "filter", "atoms": ["q_ppl_gt_20", "top1_len_lt_128", "top1_src_forum"]}
+{"id": "2617368b1bea", "name": "abstain[first_ent_pos_lt_1&mean_score_lt_0_3&q_ent_place]", "action": "abstain", "atoms": ["first_ent_pos_lt_1", "mean_score_lt_0_3", "q_ent_place"]}
+{"id": "af1c827206c8", "name": "filter[n_above_0_5_lt_2&n_above_0_5_lt_3&top1_score_gt_0_5]", "action": "filter", "atoms": ["n_above_0_5_lt_2", "n_above_0_5_lt_3", "top1_score_gt_0_5"]}
+{"id": "12c052e68d6f", "name": "filter[q_len_gt_8&q_ppl_gt_20&top1_len_lt_64]", "action": "filter", "atoms": ["q_len_gt_8", "q_ppl_gt_20", "top1_len_lt_64"]}
+{"id": "bfb293079927", "name": "abstain[first_ent_pos_lt_1&red_gt_0_5&top1_len_lt_128]", "action": "abstain", "atoms": ["first_ent_pos_lt_1", "red_gt_0_5", "top1_len_lt_128"]}
+{"id": "492eaf058cac", "name": "filter[gap_lt_0_20&q_multihop&top2_score_gt_0_5]", "action": "filter", "atoms": ["gap_lt_0_20", "q_multihop", "top2_score_gt_0_5"]}
+{"id": "54779cb7e26a", "name": "rerank[q_ent_org&q_ent_place&red_gt_0_5]", "action": "rerank", "atoms": ["q_ent_org", "q_ent_place", "red_gt_0_5"]}
+{"id": "f87d07df471a", "name": "rerank[q_ent_org&top1_score_gt_0_7&top1_src_wiki]", "action": "rerank", "atoms": ["q_ent_org", "top1_score_gt_0_7", "top1_src_wiki"]}
+{"id": "f8768a1e1530", "name": "abstain[q_ent_person&q_len_gt_8&q_ppl_gt_20]", "action": "abstain", "atoms": ["q_ent_person", "q_len_gt_8", "q_ppl_gt_20"]}
+{"id": "570a74439853", "name": "filter[top1_score_gt_0_9&top1_src_wiki&top2_score_gt_0_7]", "action": "filter", "atoms": ["top1_score_gt_0_9", "top1_src_wiki", "top2_score_gt_0_7"]}
+{"id": "8ee05bd640d2", "name": "abstain[gap_lt_0_05&q_ent_place&q_ppl_gt_20]", "action": "abstain", "atoms": ["gap_lt_0_05", "q_ent_place", "q_ppl_gt_20"]}
+{"id": "8ec7a7dd2ff7", "name": "filter[ent_missing_top3&mean_score_gt_0_5&n_above_0_5_lt_2]", "action": "filter", "atoms": ["ent_missing_top3", "mean_score_gt_0_5", "n_above_0_5_lt_2"]}
+{"id": "9ed443998b67", "name": "abstain[q_len_gt_8&q_ppl_gt_20&red_gt_0_9]", "action": "abstain", "atoms": ["q_len_gt_8", "q_ppl_gt_20", "red_gt_0_9"]}
+{"id": "81ba87af6f28", "name": "abstain[red_gt_0_7&top1_score_gt_0_5&top1_src_stub]", "action": "abstain", "atoms": ["red_gt_0_7", "top1_score_gt_0_5", "top1_src_stub"]}
+{"id": "fdd8bcbd48d8", "name": "abstain[gap_lt_0_10&q_ppl_gt_20&top3_score_gt_0_5]", "action": "abstain", "atoms": ["gap_lt_0_10", "q_ppl_gt_20", "top3_score_gt_0_5"]}
+{"id": "f15f30885089", "name": "rerank[top1_src_stub&top2_score_gt_0_5&top2_score_gt_0_7]", "action": "rerank", "atoms": ["top1_src_stub", "top2_score_gt_0_5", "top2_score_gt_0_7"]}
+{"id": "8c56c390e493", "name": "rerank[ent_missing_top1&q_ent_org&top1_score_gt_0_5]", "action": "rerank", "atoms": ["ent_missing_top1", "q_ent_org", "top1_score_gt_0_5"]}
+{"id": "a9f5e7432e57", "name": "filter[mean_score_lt_0_3&q_len_gt_16&top1_score_lt_0_5]", "action": "filter", "atoms": ["mean_score_lt_0_3", "q_len_gt_16", "top1_score_lt_0_5"]}
+{"id": "b48e49e10a07", "name": "rerank[mean_score_gt_0_5&q_len_gt_16&top1_score_gt_0_7]", "action": "rerank", "atoms": ["mean_score_gt_0_5", "q_len_gt_16", "top1_score_gt_0_7"]}
+{"id": "b6074f098112", "name": "abstain[first_ent_pos_gt_3&n_above_0_5_lt_3&q_ent_time]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "n_above_0_5_lt_3", "q_ent_time"]}
+{"id": "88a63744872c", "name": "filter[q_ent_time&q_len_gt_16&src_low_trust]", "action": "filter", "atoms": ["q_ent_time", "q_len_gt_16", "src_low_trust"]}
+{"id": "a494d937ce4b", "name": "abstain[mean_score_lt_0_3&q_len_gt_8&q_multihop]", "action": "abstain", "atoms": ["mean_score_lt_0_3", "q_len_gt_8", "q_multihop"]}
+{"id": "6500547ecd0c", "name": "filter[q_ent_person&src_mixed&top1_score_gt_0_5]", "action": "filter", "atoms": ["q_ent_person", "src_mixed", "top1_score_gt_0_5"]}
+{"id": "ac36e7e3049c", "name": "abstain[q_ent_place&q_ent_time&top1_src_blog]", "action": "abstain", "atoms": ["q_ent_place", "q_ent_time", "top1_src_blog"]}
+{"id": "87d4877feff7", "name": "rerank[red_gt_0_5&src_low_trust&top1_src_blog]", "action": "rerank", "atoms": ["red_gt_0_5", "src_low_trust", "top1_src_blog"]}
+{"id": "f7827a89d5fa", "name": "rerank[first_ent_pos_lt_1&mean_score_gt_0_5&top1_score_gt_0_7]", "action": "rerank", "atoms": ["first_ent_pos_lt_1", "mean_score_gt_0_5", "top1_score_gt_0_7"]}
+{"id": "512989fde87d", "name": "filter[gen_len_gt_32&mean_score_gt_0_5&top1_src_blog]", "action": "filter", "atoms": ["gen_len_gt_32", "mean_score_gt_0_5", "top1_src_blog"]}
+{"id": "5f15cb2dfde2", "name": "abstain[ent_missing_top1&gap_lt_0_05&n_above_0_7_lt_2]", "action": "abstain", "atoms": ["ent_missing_top1", "gap_lt_0_05", "n_above_0_7_lt_2"]}
+{"id": "d879e016428f", "name": "abstain[gap_lt_0_20&q_ent_place&top2_score_gt_0_7]", "action": "abstain", "atoms": ["gap_lt_0_20", "q_ent_place", "top2_score_gt_0_7"]}
+{"id": "d4adfef7df10", "name": "abstain[gap_lt_0_20&q_multihop&q_ppl_gt_20]", "action": "abstain", "atoms": ["gap_lt_0_20", "q_multihop", "q_ppl_gt_20"]}
+{"id": "374925f37904", "name": "filter[ent_missing_top1&q_ent_num&red_gt_0_7]", "action": "filter", "atoms": ["ent_missing_top1", "q_ent_num", "red_gt_0_7"]}
+{"id": "a01479b0c028", "name": "rerank[gap_lt_0_10&n_above_0_7_lt_2&top1_score_lt_0_3]", "action": "rerank", "atoms": ["gap_lt_0_10", "n_above_0_7_lt_2", "top1_score_lt_0_3"]}
+{"id": "6023ef40b25f", "name": "abstain[n_above_0_7_lt_2&q_ent_time&top1_score_gt_0_5]", "action": "abstain", "atoms": ["n_above_0_7_lt_2", "q_ent_time", "top1_score_gt_0_5"]}
+{"id": "982848de44af", "name": "abstain[ent_missing_top3&q_ent_org&top1_score_gt_0_7]", "action": "abstain", "atoms": ["ent_missing_top3", "q_ent_org", "top1_score_gt_0_7"]}
+{"id": "9d41c17faf8c", "name": "filter[ent_missing_top3&gen_conf_lt_0_5&top1_len_lt_64]", "action": "filter", "atoms": ["ent_missing_top3", "gen_conf_lt_0_5", "top1_len_lt_64"]}
+{"id": "1503d57a04cc", "name": "rerank[q_len_gt_16&top1_len_lt_64&top1_score_gt_0_5]", "action": "rerank", "atoms": ["q_len_gt_16", "top1_len_lt_64", "top1_score_gt_0_5"]}
+{"id": "a64b65266967", "name": "abstain[q_ent_time&q_len_gt_8&src_low_trust]", "action": "abstain", "atoms": ["q_ent_time", "q_len_gt_8", "src_low_trust"]}
+{"id": "d8c1b0a3d896", "name": "filter[gap_lt_0_20&q_ppl_lt_10&top2_score_gt_0_7]", "action": "filter", "atoms": ["gap_lt_0_20", "q_ppl_lt_10", "top2_score_gt_0_7"]}
+{"id": "7aa2a82d71c3", "name": "rerank[gap_lt_0_10&q_len_gt_16&q_multihop]", "action": "rerank", "atoms": ["gap_lt_0_10", "q_len_gt_16", "q_multihop"]}
+{"id": "dc4908a9ff94", "name": "filter[gen_conf_lt_0_5&n_above_0_5_lt_2&top1_score_lt_0_5]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "n_above_0_5_lt_2", "top1_score_lt_0_5"]}
+{"id": "37c7a770f450", "name": "rerank[gap_lt_0_10&q_ppl_gt_20&top3_score_gt_0_5]", "action": "rerank", "atoms": ["gap_lt_0_10", "q_ppl_gt_20", "top3_score_gt_0_5"]}
+{"id": "bdcaafb1ce44", "name": "filter[gap_lt_0_20&q_ent_org&top1_score_gt_0_7]", "action": "filter", "atoms": ["gap_lt_0_20", "q_ent_org", "top1_score_gt_0_7"]}
+{"id": "b42057f797b2", "name": "filter[ent_missing_top1&gap_lt_0_20&n_above_0_7_lt_2]", "action": "filter", "atoms": ["ent_missing_top1", "gap_lt_0_20", "n_above_0_7_lt_2"]}
+{"id": "52d58ef47352", "name": "abstain[ent_missing_top1&q_ent_place&top1_len_lt_128]", "action": "abstain", "atoms": ["ent_missing_top1", "q_ent_place", "top1_len_lt_128"]}
+{"id": "0ea847c0a752", "name": "filter[ent_missing_top3&gap_lt_0_05&top1_len_lt_128]", "action": "filter", "atoms": ["ent_missing_top3", "gap_lt_0_05", "top1_len_lt_128"]}
+{"id": "96d2eb4bf11f", "name": "abstain[ent_missing_top3&gap_lt_0_20&top1_score_gt_0_7]", "action": "abstain", "atoms": ["ent_missing_top3", "gap_lt_0_20", "top1_score_gt_0_7"]}
+{"id": "9304db88abc6", "name": "abstain[q_ent_person&q_len_gt_16&top2_score_gt_0_5]", "action": "abstain", "atoms": ["q_ent_person", "q_len_gt_16", "top2_score_gt_0_5"]}
+{"id": "60a634615dbc", "name": "rerank[mean_score_gt_0_5&n_above_0_7_lt_2&q_ent_person]", "action": "rerank", "atoms": ["mean_score_gt_0_5", "n_above_0_7_lt_2", "q_ent_person"]}
+{"id": "a74ae546a730", "name": "abstain[q_len_gt_16&red_gt_0_5&top1_len_lt_128]", "action": "abstain", "atoms": ["q_len_gt_16", "red_gt_0_5", "top1_len_lt_128"]}
+{"id": "70bac2c5ad99", "name": "filter[gap_lt_0_20&q_ent_num&q_len_gt_8]", "action": "filter", "atoms": ["gap_lt_0_20", "q_ent_num", "q_len_gt_8"]}
+{"id": "79ba0d890e7e", "name": "filter[n_above_0_5_lt_2&q_ent_place&src_low_trust]", "action": "filter", "atoms": ["n_above_0_5_lt_2", "q_ent_place", "src_low_trust"]}
+{"id": "aee9ae46c8ce", "name": "rerank[q_len_gt_16&red_gt_0_5&top1_len_lt_128]", "action": "rerank", "atoms": ["q_len_gt_16", "red_gt_0_5", "top1_len_lt_128"]}
+{"id": "599826771195", "name": "abstain[first_ent_pos_lt_1&q_multihop&top1_score_lt_0_5]", "action": "abstain", "atoms": ["first_ent_pos_lt_1", "q_multihop", "top1_score_lt_0_5"]}
+{"id": "50272a8254ed", "name": "filter[mean_score_gt_0_5&n_above_0_7_lt_2&q_ent_person]", "action": "filter", "atoms": ["mean_score_gt_0_5", "n_above_0_7_lt_2", "q_ent_person"]}
+{"id": "b4b20c80d448", "name": "abstain[ent_missing_top3&gap_lt_0_05&gen_conf_lt_0_5]", "action": "abstain", "atoms": ["ent_missing_top3", "gap_lt_0_05", "gen_conf_lt_0_5"]}
+{"id": "3c0458d2225c", "name": "abstain[q_ent_num&src_mixed&top1_score_lt_0_3]", "action": "abstain", "atoms": ["q_ent_num", "src_mixed", "top1_score_lt_0_3"]}
+{"id": "532d7c8e47a5", "name": "rerank[n_above_0_5_lt_2&n_above_0_5_lt_3&src_low_trust]", "action": "rerank", "atoms": ["n_above_0_5_lt_2", "n_above_0_5_lt_3", "src_low_trust"]}
+{"id": "f454c9cc76eb", "name": "rerank[gen_len_gt_32&mean_score_gt_0_5&top1_src_blog]", "action": "rerank", "atoms": ["gen_len_gt_32", "mean_score_gt_0_5", "top1_src_blog"]}
+{"id": "79f2a405480b", "name": "abstain[gen_conf_lt_0_5&q_ppl_gt_20&top1_len_lt_64]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "q_ppl_gt_20", "top1_len_lt_64"]}
+{"id": "983c4a5198ca", "name": "abstain[q_ent_time&q_ppl_gt_20&top1_src_stub]", "action": "abstain", "atoms": ["q_ent_time", "q_ppl_gt_20", "top1_src_stub"]}
+{"id": "f9d517128a3e", "name": "filter[gap_lt_0_10&q_len_gt_16&q_multihop]", "action": "filter", "atoms": ["gap_lt_0_10", "q_len_gt_16", "q_multihop"]}
+{"id": "08fad1c755a9", "name": "rerank[n_above_0_5_lt_3&top1_len_lt_128&top1_score_lt_0_3]", "action": "rerank", "atoms": ["n_above_0_5_lt_3", "top1_len_lt_128", "top1_score_lt_0_3"]}
+{"id": "f344711faba2", "name": "abstain[gap_lt_0_05&n_above_0_5_lt_2&n_above_0_5_lt_3]", "action": "abstain", "atoms": ["gap_lt_0_05", "n_above_0_5_lt_2", "n_above_0_5_lt_3"]}
+{"id": "57b8509a1182", "name": "filter[red_gt_0_7&top1_score_gt_0_5&top1_src_stub]", "action": "filter", "atoms": ["red_gt_0_7", "top1_score_gt_0_5", "top1_src_stub"]}
+{"id": "13ecedd532ab", "name": "rerank[n_above_0_5_lt_3&q_ent_org&top1_src_forum]", "action": "rerank", "atoms": ["n_above_0_5_lt_3", "q_ent_org", "top1_src_forum"]}
+{"id": "7377ee1dee6c", "name": "rerank[gap_lt_0_05&gen_len_gt_32&top2_score_gt_0_7]", "action": "rerank", "atoms": ["gap_lt_0_05", "gen_len_gt_32", "top2_score_gt_0_7"]}
+{"id": "1e485fab784a", "name": "rerank[q_ent_time&top1_src_blog&top2_score_gt_0_5]", "action": "rerank", "atoms": ["q_ent_time", "top1_src_blog", "top2_score_gt_0_5"]}
+{"id": "81251e208224", "name": "rerank[first_ent_pos_gt_3&src_low_trust&src_mixed]", "action": "rerank", "atoms": ["first_ent_pos_gt_3", "src_low_trust", "src_mixed"]}
+{"id": "44d7d25e3f99", "name": "filter[n_above_0_5_lt_2&q_ent_person&top1_score_gt_0_5]", "action": "filter", "atoms": ["n_above_0_5_lt_2", "q_ent_person", "top1_score_gt_0_5"]}
+{"id": "8bb16800a80c", "name": "rerank[n_above_0_7_lt_2&top1_score_gt_0_5&top1_src_blog]", "action": "rerank", "atoms": ["n_above_0_7_lt_2", "top1_score_gt_0_5", "top1_src_blog"]}
+{"id": "821238371231", "name": "filter[q_ent_num&top1_len_lt_128&top1_score_gt_0_5]", "action": "filter", "atoms": ["q_ent_num", "top1_len_lt_128", "top1_score_gt_0_5"]}
+{"id": "f47ae5499635", "name": "rerank[q_ent_place&q_multihop&top2_score_gt_0_7]", "action": "rerank", "atoms": ["q_ent_place", "q_multihop", "top2_score_gt_0_7"]}
+{"id": "a0ff118be3f0", "name": "filter[gap_lt_0_10&q_ppl_gt_20&top3_score_gt_0_5]", "action": "filter", "atoms": ["gap_lt_0_10", "q_ppl_gt_20", "top3_score_gt_0_5"]}
+{"id": "39e1be1f1119", "name": "rerank[gen_len_gt_32&n_above_0_7_lt_2&top1_src_wiki]", "action": "rerank", "atoms": ["gen_len_gt_32", "n_above_0_7_lt_2", "top1_src_wiki"]}
+{"id": "6478ba0b3cbd", "name": "rerank[first_ent_pos_gt_3&gap_lt_0_05&top1_len_lt_128]", "action": "rerank", "atoms": ["first_ent_pos_gt_3", "gap_lt_0_05", "top1_len_lt_128"]}
+{"id": "c26adaaef46d", "name": "abstain[gen_len_gt_32&q_ent_time&top1_score_gt_0_7]", "action": "abstain", "atoms": ["gen_len_gt_32", "q_ent_time", "top1_score_gt_0_7"]}
+{"id": "359bc91a12bf", "name": "rerank[ent_missing_top3&q_ent_time&top1_src_forum]", "action": "rerank", "atoms": ["ent_missing_top3", "q_ent_time", "top1_src_forum"]}
+{"id": "b199a5308bcb", "name": "abstain[gap_lt_0_20&src_low_trust&top1_score_gt_0_9]", "action": "abstain", "atoms": ["gap_lt_0_20", "src_low_trust", "top1_score_gt_0_9"]}
+{"id": "72fa7df47e34", "name": "rerank[q_ent_num&q_ent_person&top1_src_blog]", "action": "rerank", "atoms": ["q_ent_num", "q_ent_person", "top1_src_blog"]}
+{"id": "1eb6850c04d5", "name": "filter[ent_missing_top3&first_ent_pos_lt_1&top1_len_lt_128]", "action": "filter", "atoms": ["ent_missing_top3", "first_ent_pos_lt_1", "top1_len_lt_128"]}
+{"id": "4bdf09e50c04", "name": "filter[gen_len_gt_32&q_multihop&top1_src_stub]", "action": "filter", "atoms": ["gen_len_gt_32", "q_multihop", "top1_src_stub"]}
+{"id": "2929e59f3666", "name": "abstain[mean_score_gt_0_5&top1_len_lt_128&top3_score_gt_0_5]", "action": "abstain", "atoms": ["mean_score_gt_0_5", "top1_len_lt_128", "top3_score_gt_0_5"]}
+{"id": "97c62d3f2b5a", "name": "rerank[ent_missing_top3&first_ent_pos_lt_1&top1_len_lt_128]", "action": "rerank", "atoms": ["ent_missing_top3", "first_ent_pos_lt_1", "top1_len_lt_128"]}
+{"id": "1eb3a49ec3d9", "name": "abstain[n_above_0_7_lt_2&top2_score_gt_0_7&top3_score_gt_0_5]", "action": "abstain", "atoms": ["n_above_0_7_lt_2", "top2_score_gt_0_7", "top3_score_gt_0_5"]}
+{"id": "35862dd12a02", "name": "abstain[ent_missing_top3&gen_conf_lt_0_5&top1_len_lt_64]", "action": "abstain", "atoms": ["ent_missing_top3", "gen_conf_lt_0_5", "top1_len_lt_64"]}
+{"id": "536c5aacf485", "name": "rerank[first_ent_pos_gt_3&q_ent_num&top1_score_gt_0_5]", "action": "rerank", "atoms": ["first_ent_pos_gt_3", "q_ent_num", "top1_score_gt_0_5"]}
+{"id": "9857bd36613b", "name": "abstain[gap_lt_0_10&n_above_0_7_lt_2&top1_score_lt_0_3]", "action": "abstain", "atoms": ["gap_lt_0_10", "n_above_0_7_lt_2", "top1_score_lt_0_3"]}
+{"id": "6baed4f5242e", "name": "rerank[first_ent_pos_gt_3&q_ent_num&q_multihop]", "action": "rerank", "atoms": ["first_ent_pos_gt_3", "q_ent_num", "q_multihop"]}
+{"id": "e263fbac740e", "name": "filter[q_ent_org&q_multihop&top1_src_stub]", "action": "filter", "atoms": ["q_ent_org", "q_multihop", "top1_src_stub"]}
+{"id": "6583cf35edad", "name": "filter[gap_lt_0_05&gap_lt_0_20&top1_src_stub]", "action": "filter", "atoms": ["gap_lt_0_05", "gap_lt_0_20", "top1_src_stub"]}
+{"id": "9826fc99faa0", "name": "rerank[q_ppl_lt_10&top1_score_gt_0_5&top1_score_gt_0_7]", "action": "rerank", "atoms": ["q_ppl_lt_10", "top1_score_gt_0_5", "top1_score_gt_0_7"]}
+{"id": "f9482c6615e2", "name": "filter[first_ent_pos_lt_1&mean_score_gt_0_5&top1_score_gt_0_7]", "action": "filter", "atoms": ["first_ent_pos_lt_1", "mean_score_gt_0_5", "top1_score_gt_0_7"]}
+{"id": "23c3f603d1e0", "name": "filter[first_ent_pos_gt_3&q_ent_num&top1_score_gt_0_5]", "action": "filter", "atoms": ["first_ent_pos_gt_3", "q_ent_num", "top1_score_gt_0_5"]}
+{"id": "7c41204a4de2", "name": "rerank[first_ent_pos_lt_1&q_ent_person&src_low_trust]", "action": "rerank", "atoms": ["first_ent_pos_lt_1", "q_ent_person", "src_low_trust"]}
+{"id": "6530303a63c9", "name": "filter[gen_conf_lt_0_5&q_multihop&top1_score_lt_0_3]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "q_multihop", "top1_score_lt_0_3"]}
+{"id": "423152f3d0fb", "name": "abstain[first_ent_pos_gt_3&q_ent_num&top1_score_gt_0_5]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "q_ent_num", "top1_score_gt_0_5"]}
+{"id": "412820283478", "name": "filter[gap_lt_0_05&gen_conf_lt_0_5&n_above_0_5_lt_3]", "action": "filter", "atoms": ["gap_lt_0_05", "gen_conf_lt_0_5", "n_above_0_5_lt_3"]}
+{"id": "ef11016cf244", "name": "filter[red_gt_0_5&src_mixed&top1_src_wiki]", "action": "filter", "atoms": ["red_gt_0_5", "src_mixed", "top1_src_wiki"]}
+{"id": "15d5f43a514e", "name": "rerank[top1_score_gt_0_9&top2_score_gt_0_7&top3_score_gt_0_5]", "action": "rerank", "atoms": ["top1_score_gt_0_9", "top2_score_gt_0_7", "top3_score_gt_0_5"]}
+{"id": "c13a7c879eff", "name": "filter[gen_conf_lt_0_5&q_ppl_gt_20&top1_src_blog]", "action": "filter", "atoms": ["gen_conf_lt_0_5", "q_ppl_gt_20", "top1_src_blog"]}
+{"id": "f05eaadc83e7", "name": "filter[red_gt_0_5&top1_len_lt_128&top1_src_wiki]", "action": "filter", "atoms": ["red_gt_0_5", "top1_len_lt_128", "top1_src_wiki"]}
+{"id": "0dcdfb7b8ef3", "name": "filter[gap_lt_0_20&q_ent_place&top2_score_gt_0_7]", "action": "filter", "atoms": ["gap_lt_0_20", "q_ent_place", "top2_score_gt_0_7"]}
+{"id": "59dfa92d07e5", "name": "rerank[gen_len_gt_32&n_above_0_5_lt_2&q_ppl_gt_20]", "action": "rerank", "atoms": ["gen_len_gt_32", "n_above_0_5_lt_2", "q_ppl_gt_20"]}
+{"id": "5bf19073948a", "name": "filter[first_ent_pos_gt_3&q_ppl_gt_20&top2_score_gt_0_5]", "action": "filter", "atoms": ["first_ent_pos_gt_3", "q_ppl_gt_20", "top2_score_gt_0_5"]}
+{"id": "a150e182edf0", "name": "abstain[gen_conf_lt_0_5&q_len_gt_16&q_ppl_gt_20]", "action": "abstain", "atoms": ["gen_conf_lt_0_5", "q_len_gt_16", "q_ppl_gt_20"]}
+{"id": "829e0b85dcb3", "name": "rerank[top1_score_gt_0_7&top1_src_forum&top3_score_gt_0_5]", "action": "rerank", "atoms": ["top1_score_gt_0_7", "top1_src_forum", "top3_score_gt_0_5"]}
+{"id": "3b9d2c4d2796", "name": "filter[gap_lt_0_05&q_ent_place&q_ppl_gt_20]", "action": "filter", "atoms": ["gap_lt_0_05", "q_ent_place", "q_ppl_gt_20"]}
+{"id": "f831e54ceb55", "name": "rerank[gap_lt_0_20&q_ppl_lt_10&top2_score_gt_0_7]", "action": "rerank", "atoms": ["gap_lt_0_20", "q_ppl_lt_10", "top2_score_gt_0_7"]}
+{"id": "510d443e1691", "name": "rerank[n_above_0_7_lt_2&q_ent_num&top2_score_gt_0_5]", "action": "rerank", "atoms": ["n_above_0_7_lt_2", "q_ent_num", "top2_score_gt_0_5"]}
+{"id": "e5b1818dbccf", "name": "rerank[ent_missing_top3&q_ppl_lt_10&top1_len_lt_128]", "action": "rerank", "atoms": ["ent_missing_top3", "q_ppl_lt_10", "top1_len_lt_128"]}
+{"id": "6d3cc0e88edc", "name": "filter[ent_missing_top3&src_low_trust&top1_len_lt_128]", "action": "filter", "atoms": ["ent_missing_top3", "src_low_trust", "top1_len_lt_128"]}
+{"id": "4f9b9798086a", "name": "filter[mean_score_gt_0_5&q_multihop&top1_src_wiki]", "action": "filter", "atoms": ["mean_score_gt_0_5", "q_multihop", "top1_src_wiki"]}
+{"id": "fd74fd28d221", "name": "rerank[q_ent_num&red_gt_0_5&top1_src_wiki]", "action": "rerank", "atoms": ["q_ent_num", "red_gt_0_5", "top1_src_wiki"]}
+{"id": "031f2ba2e19a", "name": "filter[mean_score_gt_0_5&n_above_0_7_lt_2&top1_src_wiki]", "action": "filter", "atoms": ["mean_score_gt_0_5", "n_above_0_7_lt_2", "top1_src_wiki"]}
+{"id": "8408c53194c2", "name": "filter[q_ent_person&red_gt_0_7&src_low_trust]", "action": "filter", "atoms": ["q_ent_person", "red_gt_0_7", "src_low_trust"]}
+{"id": "32fcb4ad4f90", "name": "rerank[q_ppl_gt_20&top1_len_lt_128&top1_score_gt_0_9]", "action": "rerank", "atoms": ["q_ppl_gt_20", "top1_len_lt_128", "top1_score_gt_0_9"]}
+{"id": "5a7bd575c083", "name": "abstain[q_ent_person&q_len_gt_8&top1_len_lt_64]", "action": "abstain", "atoms": ["q_ent_person", "q_len_gt_8", "top1_len_lt_64"]}
+{"id": "203706849fc3", "name": "abstain[gap_lt_0_05&q_ppl_gt_40&top2_score_gt_0_5]", "action": "abstain", "atoms": ["gap_lt_0_05", "q_ppl_gt_40", "top2_score_gt_0_5"]}
+{"id": "38db44662e5d", "name": "rerank[first_ent_pos_lt_1&q_ent_num&top2_score_gt_0_5]", "action": "rerank", "atoms": ["first_ent_pos_lt_1", "q_ent_num", "top2_score_gt_0_5"]}
+{"id": "e417a0bd737d", "name": "abstain[gap_lt_0_10&q_len_gt_16&q_multihop]", "action": "abstain", "atoms": ["gap_lt_0_10", "q_len_gt_16", "q_multihop"]}
+{"id": "23902dd14204", "name": "filter[gap_lt_0_20&q_ppl_gt_20&top1_src_forum]", "action": "filter", "atoms": ["gap_lt_0_20", "q_ppl_gt_20", "top1_src_forum"]}
+{"id": "3a4e7464bdaa", "name": "rerank[gap_lt_0_10&q_ent_time&top2_score_gt_0_7]", "action": "rerank", "atoms": ["gap_lt_0_10", "q_ent_time", "top2_score_gt_0_7"]}
+{"id": "6662b3f8cd0f", "name": "abstain[ent_missing_top1&q_ent_place&top2_score_gt_0_5]", "action": "abstain", "atoms": ["ent_missing_top1", "q_ent_place", "top2_score_gt_0_5"]}
+{"id": "cb1c8577959e", "name": "abstain[gap_lt_0_05&src_low_trust]", "action": "abstain", "atoms": ["gap_lt_0_05", "src_low_trust"]}
+{"id": "46967a002c1a", "name": "rerank[q_ent_place&q_len_gt_16]", "action": "rerank", "atoms": ["q_ent_place", "q_len_gt_16"]}
+{"id": "1df6e7a531d1", "name": "abstain[n_above_0_5_lt_3&n_above_0_7_lt_2]", "action": "abstain", "atoms": ["n_above_0_5_lt_3", "n_above_0_7_lt_2"]}
+{"id": "769ebed19de5", "name": "filter[ent_missing_top3&src_mixed]", "action": "filter", "atoms": ["ent_missing_top3", "src_mixed"]}
+{"id": "687c462d98d4", "name": "abstain[q_len_gt_16&q_len_gt_8&top1_score_gt_0_5]", "action": "abstain", "atoms": ["q_len_gt_16", "q_len_gt_8", "top1_score_gt_0_5"]}
+{"id": "3dff85dc9d08", "name": "abstain[ent_missing_top3&src_low_trust&top1_len_lt_128]", "action": "abstain", "atoms": ["ent_missing_top3", "src_low_trust", "top1_len_lt_128"]}
+{"id": "4193bb58da89", "name": "rerank[q_ent_place&q_ent_time]", "action": "rerank", "atoms": ["q_ent_place", "q_ent_time"]}
+{"id": "fb831a1584b2", "name": "abstain[q_ent_num&top1_len_lt_64&top3_score_gt_0_5]", "action": "abstain", "atoms": ["q_ent_num", "top1_len_lt_64", "top3_score_gt_0_5"]}
+{"id": "d4cf92447957", "name": "abstain[first_ent_pos_lt_1&gen_conf_lt_0_5&mean_score_lt_0_3]", "action": "abstain", "atoms": ["first_ent_pos_lt_1", "gen_conf_lt_0_5", "mean_score_lt_0_3"]}
+{"id": "e78fe1fd7d1e", "name": "rerank[gap_lt_0_05&top1_len_lt_64]", "action": "rerank", "atoms": ["gap_lt_0_05", "top1_len_lt_64"]}
+{"id": "d0cac38a22b5", "name": "abstain[first_ent_pos_gt_3&src_mixed]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "src_mixed"]}
+{"id": "0fad215b2a99", "name": "abstain[q_ent_num&src_mixed]", "action": "abstain", "atoms": ["q_ent_num", "src_mixed"]}
+{"id": "910960d31f90", "name": "abstain[mean_score_gt_0_5&q_ent_person&q_ppl_gt_40]", "action": "abstain", "atoms": ["mean_score_gt_0_5", "q_ent_person", "q_ppl_gt_40"]}
+{"id": "0ffcc16f6768", "name": "abstain[ent_missing_top3&q_len_gt_16]", "action": "abstain", "atoms": ["ent_missing_top3", "q_len_gt_16"]}
+{"id": "e32fe4027bb3", "name": "filter[n_above_0_5_lt_3&top1_score_gt_0_5]", "action": "filter", "atoms": ["n_above_0_5_lt_3", "top1_score_gt_0_5"]}
+{"id": "db872e9f661b", "name": "filter[q_len_gt_16&src_low_trust&top2_score_gt_0_5]", "action": "filter", "atoms": ["q_len_gt_16", "src_low_trust", "top2_score_gt_0_5"]}
+{"id": "dcaff5c2b2a9", "name": "abstain[mean_score_lt_0_3&q_ent_person]", "action": "abstain", "atoms": ["mean_score_lt_0_3", "q_ent_person"]}
+{"id": "4985e922eaee", "name": "rerank[n_above_0_5_lt_3&q_ent_place]", "action": "rerank", "atoms": ["n_above_0_5_lt_3", "q_ent_place"]}
+{"id": "b7fddb63c294", "name": "rerank[n_above_0_7_lt_2&top2_score_gt_0_7&top3_score_gt_0_5]", "action": "rerank", "atoms": ["n_above_0_7_lt_2", "top2_score_gt_0_7", "top3_score_gt_0_5"]}
+{"id": "7c6f3ca9f348", "name": "filter[gap_lt_0_05&gen_conf_lt_0_5&top1_score_lt_0_5]", "action": "filter", "atoms": ["gap_lt_0_05", "gen_conf_lt_0_5", "top1_score_lt_0_5"]}
+{"id": "97f2fc2b2a8a", "name": "rerank[gap_lt_0_20&q_ent_org&top1_score_gt_0_7]", "action": "rerank", "atoms": ["gap_lt_0_20", "q_ent_org", "top1_score_gt_0_7"]}
+{"id": "0ea3f127e720", "name": "abstain[mean_score_lt_0_3&q_len_gt_8]", "action": "abstain", "atoms": ["mean_score_lt_0_3", "q_len_gt_8"]}
+{"id": "3ed7de97494e", "name": "abstain[q_ent_place&q_ppl_gt_20&top1_score_gt_0_7]", "action": "abstain", "atoms": ["q_ent_place", "q_ppl_gt_20", "top1_score_gt_0_7"]}
+{"id": "6d1d19815ae9", "name": "rerank[src_mixed&top1_score_lt_0_5]", "action": "rerank", "atoms": ["src_mixed", "top1_score_lt_0_5"]}
+{"id": "3020d1ca6754", "name": "abstain[first_ent_pos_gt_3&top3_score_gt_0_5]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "top3_score_gt_0_5"]}
+{"id": "988df3591cb3", "name": "filter[q_ent_num&top1_score_gt_0_5]", "action": "filter", "atoms": ["q_ent_num", "top1_score_gt_0_5"]}
+{"id": "0f61109e65e4", "name": "rerank[gen_conf_lt_0_5&q_multihop&top1_score_lt_0_3]", "action": "rerank", "atoms": ["gen_conf_lt_0_5", "q_multihop", "top1_score_lt_0_3"]}
+{"id": "1c5ed8e85799", "name": "abstain[n_above_0_7_lt_2&red_gt_0_9&top1_len_lt_128]", "action": "abstain", "atoms": ["n_above_0_7_lt_2", "red_gt_0_9", "top1_len_lt_128"]}
+{"id": "27072afc7b71", "name": "filter[q_ent_time&top1_src_blog]", "action": "filter", "atoms": ["q_ent_time", "top1_src_blog"]}
+{"id": "9e586d069c0e", "name": "abstain[first_ent_pos_gt_3&gap_lt_0_10&q_ent_org]", "action": "abstain", "atoms": ["first_ent_pos_gt_3", "gap_lt_0_10", "q_ent_org"]}
+{"id": "2a0581714913", "name": "rerank[gap_lt_0_10&top1_src_forum]", "action": "rerank", "atoms": ["gap_lt_0_10", "top1_src_forum"]}
+{"id": "b74e6cc055e8", "name": "rerank[q_ppl_lt_10&top1_src_forum]", "action": "rerank", "atoms": ["q_ppl_lt_10", "top1_src_forum"]}

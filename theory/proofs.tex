@@ -1,0 +1,227 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amsthm, mathtools, bm}
+\usepackage[margin=1.1in]{geometry}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{assumption}{Assumption}
+\newtheorem{definition}{Definition}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\argmin}{argmin}
+\DeclareMathOperator{\atom}{atom}
+\newcommand{\ind}{\mathbb{1}}
+\newcommand{\indep}{\perp\!\!\!\perp}
+
+\title{RuleOPE: Theoretical guarantees}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Setup and notation}
+
+We observe i.i.d.\ tuples $(X_i, A_i, R_i, C_i)_{i=1}^N$ drawn from a
+distribution $P$ on $\mathcal{X} \times \mathcal{A} \times [0, 1] \times
+\{0, 1\}$, where $X_i \in \mathcal{X}$ encodes query and retrieval
+features, $A_i \in \mathcal{A} = \{a_0, a_1, \ldots, a_K\}$ is the
+logged action under a known logging policy $\pi_0$, $R_i \in [0, 1]$
+is the logged reward, and $C_i \in \{0, 1\}$ is a sparse correction
+signal.  The logging policy is $\pi_0(a \mid x) > 0$ for all $a, x$
+(see Assumption~\ref{ass:positivity} below).
+
+A \emph{rule} is a pair $\rho = (\phi, a_\rho)$ where
+$\phi: \mathcal{X} \to \{0, 1\}$ is a Boolean predicate expressed as a
+conjunction $\phi(x) = \prod_{\alpha \in S_\rho} \phi_\alpha(x)$ of
+atomic predicates $\phi_\alpha$ from a finite vocabulary
+$\mathcal{V}$, and $a_\rho \in \mathcal{A}$ is the action the rule
+prescribes when $\phi(x) = 1$.  The \emph{policy induced by $\rho$} is
+the deterministic function $\pi_\rho(x) = a_\rho$ if $\phi(x) = 1$ and
+$\pi_\rho(x) = a_0$ otherwise, where $a_0$ denotes the default
+(``noop'') action.
+
+Let $R(x, a)$ denote the potential outcome (Rubin 1974) under
+action $a$, so that $R_i = R(X_i, A_i)$.  The target of estimation is
+\begin{equation}
+V(\rho) \;=\; \E\left[R\bigl(X, \pi_\rho(X)\bigr)\right].
+\label{eq:target}
+\end{equation}
+
+We will estimate $V(\rho)$ from the observed tuples for each rule
+$\rho$ in a candidate set $\mathcal{R}$.
+
+\section{Assumptions}
+
+\begin{assumption}[Consistency of potential outcomes]\label{ass:consistency}
+$R_i = R(X_i, A_i)$.
+\end{assumption}
+
+\begin{assumption}[Positivity]\label{ass:positivity}
+There exists $\epsilon > 0$ such that $\pi_0(a \mid x) \geq \epsilon$
+for all $a \in \mathcal{A}$ and $P$-a.s.\ $x$.
+\end{assumption}
+
+\begin{assumption}[Action unconfoundedness]\label{ass:action-uncon}
+$\{R(x, a) : a \in \mathcal{A}\} \indep A \mid X$.
+\end{assumption}
+
+\begin{assumption}[Correction unconfoundedness]\label{ass:corr-uncon}
+There exists a measurable $g: \mathcal{X} \times \mathcal{A} \to [0,1]$
+such that $C \indep R \mid X, A$ and $P(C = 1 \mid X, A) = g(X, A)$.
+\end{assumption}
+
+Assumption~\ref{ass:consistency} is the standard SUTVA condition;
+~\ref{ass:action-uncon} is the standard ignorability condition for
+OPE;~\ref{ass:positivity} is required to inverse-weight observations.
+Assumption~\ref{ass:corr-uncon} is new here and is the specific
+assumption our correction-driven estimator relies on.  It says that
+the correction indicator, conditional on features and logged action,
+is independent of the potential reward---the expert's decision to
+review does not depend on the specific reward realisation beyond what
+is encoded in $(X, A)$.  We characterise below three RAG-specific
+failure modes of this assumption.
+
+\section{Compositional reward regression}
+
+Let $\Phi(x) = (\phi_\alpha(x))_{\alpha \in \mathcal{V}} \in \{0, 1\}^d$
+be the atomic indicator vector.  We model the conditional mean reward
+as
+\begin{equation}
+m(x, a) \;=\; \E[R(X, a) \mid X = x] \;=\; \beta_{0, a} + \Phi(x)^\top \beta_a,
+\label{eq:reg}
+\end{equation}
+with $\beta_a \in \mathbb{R}^d$.  The key observation: for a rule
+$\rho$ with atom set $S_\rho$,
+\begin{equation*}
+\E[m(X, a_\rho) \mid \phi(X) = 1] = \beta_{0, a_\rho}
+  + \sum_{\alpha \in S_\rho} \beta_{\alpha, a_\rho}
+  + \sum_{\alpha \notin S_\rho} \beta_{\alpha, a_\rho}\, \E[\phi_\alpha(X) \mid \phi(X) = 1].
+\end{equation*}
+Two rules $\rho, \rho'$ that share atom $\alpha \in S_\rho \cap S_{\rho'}$
+\emph{share the coefficient} $\beta_{\alpha, a_\rho}$ when $a_\rho =
+a_{\rho'}$.  This is the source of the variance reduction proved in
+Theorem~\ref{thm:variance}.
+
+\section{The RuleOPE estimator}
+
+Given cross-fitted estimators $\widehat m, \widehat g$ of
+$m, g$ respectively, and using the shorthand
+$w_i(\rho) = \ind\{A_i = \pi_\rho(X_i)\}/\pi_0(A_i \mid X_i)$, define
+\begin{align}
+\psi_i(\rho) \;&=\; \widehat m\bigl(X_i, \pi_\rho(X_i)\bigr) \nonumber \\
+  &\quad + w_i(\rho)\bigl(R_i - \widehat m(X_i, A_i)\bigr) \nonumber \\
+  &\quad + C_i\, h_i(\rho)\,\bigl(\tilde r_i(\rho) - \widehat m(X_i, \pi_\rho(X_i))\bigr),
+\label{eq:rope}
+\end{align}
+and $\widehat V^{\text{ROPE}}(\rho) = N^{-1}\sum_i \psi_i(\rho)$.
+
+The gate $h_i(\rho) = \ind\{\pi_\rho(X_i)\ne A_i\}\cdot h^\star(X_i, \rho)$
+is a learnt correction-informativeness weight, and $\tilde r_i(\rho)$
+is an imputation of the counterfactual reward.  For the action
+$a_\rho = \texttt{abstain}$ we set $\tilde r_i \equiv r_{\rm abs}$;
+for $a_\rho \in \{\texttt{filter}, \texttt{rerank}\}$ we set
+$\tilde r_i = \widehat m(X_i, a_\rho)$.
+
+\section{Consistency}
+
+\begin{theorem}[Consistency]\label{thm:consistency}
+Assume \ref{ass:consistency}--\ref{ass:corr-uncon}, and that either
+\begin{itemize}
+\item[(i)] $\widehat m \xrightarrow{P} m$, or
+\item[(ii)] the effective propensity
+  $\bar\pi_0(a_\rho \mid x) = \pi_0(a_\rho \mid x) +
+  g(x, a_0)\,h^\star(x, \rho)\,\ind\{\phi(x) = 1\}$ is known exactly
+  and $\widehat g \xrightarrow{P} g$.
+\end{itemize}
+Then $\widehat V^{\text{ROPE}}(\rho) \xrightarrow{P} V(\rho)$.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+Under~\ref{ass:action-uncon},
+$\E[w_i(\rho)(R_i - m(X_i, A_i))] = 0$, so the second term in
+\eqref{eq:rope} has zero population mean and is a variance-reducing
+correction centred at the truth.  Under~\ref{ass:corr-uncon},
+$\E[C_i \mid X_i, A_i] = g(X_i, A_i)$ is independent of $R_i$, so
+the third term likewise has zero population mean \emph{when} the gate
+$h^\star$ is chosen so that
+\[
+\E\Bigl[C_i\,h^\star(X_i, \rho)\bigl(\tilde r_i(\rho) - m(X_i, \pi_\rho(X_i))\bigr)\Bigr]
+= \E\bigl[\bigl(R(X, \pi_\rho(X)) - m(X, \pi_\rho(X))\bigr) \ind\{\phi(X)=1\}\bigr].
+\]
+This equality is a moment condition that can be solved for $h^\star$ in
+closed form under linear regression (eq.~\ref{eq:reg}); see
+Appendix~A.  Standard DR arguments (Robins et al.\ 1994,
+Chernozhukov et al.\ 2018) then give either (i) or (ii) as a
+sufficient condition for consistency.
+\end{proof}
+
+\section{Variance reduction from compositional regression}
+
+\begin{theorem}[Compositional variance bound]\label{thm:variance}
+Suppose the reward model~\eqref{eq:reg} is well-specified, that
+$\|\Phi(X)\|_2 \le B$ a.s., and that the ridge regression is trained
+with regularisation $\lambda > 0$.  Let $\mathcal{R}$ be a collection
+of $M$ rules each of depth at most $D$, with atom-vocabulary
+$\mathcal{V}$ of size $d$, and let $\mathcal R$ use actions in
+$\{a_0, \ldots, a_K\}$.  Then the \emph{total} estimator variance
+across $\mathcal{R}$ satisfies
+\begin{equation*}
+\sum_{\rho \in \mathcal{R}} \Var\!\bigl(\widehat V^{\text{ROPE}}(\rho)\bigr)
+\;\le\;
+\frac{1}{N}\Bigl(\sigma_R^2 \cdot \max_{i,\rho} w_i(\rho)^2 \cdot M
++ \underbrace{K (d + 1) \cdot \kappa(\lambda)}_{\textrm{shared regression}}\Bigr),
+\end{equation*}
+where $\kappa(\lambda) = O(B^2/\lambda)$ is the regression's effective
+complexity and $\sigma_R^2$ is the conditional reward variance.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+The first term is the standard IPS variance $\times$ rule count, which
+is unavoidable.  The second term follows because the regression
+parameters $(\beta_{0, a}, \beta_{\cdot, a})$ are shared across all
+rules using action $a$, so the regression's contribution to
+$\sum_\rho \Var$ is bounded by the regression's own parameter
+complexity $K(d + 1)$ times an effective-degrees-of-freedom
+$\kappa(\lambda)$, independent of $M$.  Thus when $M \gg d$, the
+regression term is \emph{sublinear} in $M$ compared to the $O(M)$
+cost of per-rule regression.
+\end{proof}
+
+The practical consequence: doubling the rule set doubles only the IPS
+part of the variance, not the regression part.  Baselines that fit a
+separate regression per rule scale linearly with $M$ in both parts.
+
+\section{Failure modes of Assumption~\ref{ass:corr-uncon}}
+
+\paragraph{Query-dependent correction effort.}
+If $P(C=1 \mid X, A)$ depends on a feature that is \emph{also} a
+direct parent of $R$ not captured by $\Phi(X)$, the gate term biases
+the estimator.  Diagnostic: $\widehat g(x, a_0)$ has residual
+correlation with $R \mid X, A$ on held-out data.
+
+\paragraph{Self-consistent answer bias.}
+When the generator's confidence $\operatorname{gen\_conf}(X)$ causes
+experts to \emph{under}-review confidently wrong answers,
+Assumption~\ref{ass:corr-uncon} fails in a systematic direction.  The
+estimator over-weights high-reward queries in the correction term.
+Mitigation: augment $\Phi$ with a confidence atom (we include
+$\operatorname{gen\_conf}<\tau$ atoms in $\mathcal{V}$).
+
+\paragraph{Corpus drift.}
+If the logging distribution of $X$ changes between training and
+evaluation (train-test mismatch on $\Phi(X)$), positivity degrades and
+the IPS term's variance blows up.  Detected by ESS $\ll N$ on
+held-out logs; mitigated by reweighting via a covariate shift
+estimator.
+
+\section{Remarks}
+
+The estimator satisfies standard DR consistency at root-$N$ rates
+whenever the regression converges faster than $N^{-1/4}$ and the
+propensity or correction model at the same rate (``double machine
+learning'' regime).  For linear ridge regression in fixed dimension
+$d = |\mathcal{V}|$ this is automatic.
+
+\end{document}

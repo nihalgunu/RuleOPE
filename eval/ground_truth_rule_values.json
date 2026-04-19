@@ -1,0 +1,2004 @@
+{
+  "rules": {
+    "3f8c363b784c": {
+      "name": "abstain[top1_src_stub]",
+      "value": 0.6757174986820069
+    },
+    "c8db10017659": {
+      "name": "filter[ent_missing_top3]",
+      "value": 0.7352002384973502
+    },
+    "531b444f1dff": {
+      "name": "abstain[gen_conf_lt_0_5]",
+      "value": 0.6938512863497627
+    },
+    "52ad84d93ff3": {
+      "name": "abstain[src_low_trust]",
+      "value": 0.5834250434166547
+    },
+    "faffd57dc5dd": {
+      "name": "filter[src_mixed]",
+      "value": 0.7269690142983186
+    },
+    "62a45236db36": {
+      "name": "abstain[top1_score_gt_0_7]",
+      "value": 0.5591776296793777
+    },
+    "21a781fda989": {
+      "name": "filter[q_len_gt_16]",
+      "value": 0.695972552687625
+    },
+    "b537c31348ba": {
+      "name": "rerank[gen_conf_lt_0_5]",
+      "value": 0.6952978483462339
+    },
+    "4ccc9be0dc91": {
+      "name": "rerank[top1_src_forum]",
+      "value": 0.7125700287105731
+    },
+    "ee4f7526f813": {
+      "name": "filter[top1_len_lt_128]",
+      "value": 0.7256822409312061
+    },
+    "e9ffa98f11fa": {
+      "name": "filter[gen_conf_lt_0_5]",
+      "value": 0.6938105321685903
+    },
+    "1522429b5b12": {
+      "name": "rerank[top1_score_gt_0_5]",
+      "value": 0.7412691981607893
+    },
+    "2c7c30a4e270": {
+      "name": "abstain[mean_score_lt_0_3]",
+      "value": 0.6909278185611956
+    },
+    "96e9273b16f8": {
+      "name": "abstain[q_ent_org]",
+      "value": 0.6386744263570641
+    },
+    "6f8196156dfd": {
+      "name": "abstain[gap_lt_0_10]",
+      "value": 0.6156133287045565
+    },
+    "149f5c7fe607": {
+      "name": "rerank[top1_src_stub]",
+      "value": 0.7306529424199102
+    },
+    "e41227643016": {
+      "name": "abstain[top1_len_lt_64]",
+      "value": 0.6407316363630688
+    },
+    "0cc3a7cd7e79": {
+      "name": "filter[q_ent_person]",
+      "value": 0.7034917859427542
+    },
+    "97d5572c56d4": {
+      "name": "rerank[top1_len_gt_256]",
+      "value": 0.6907391742022989
+    },
+    "1e749c9bcd85": {
+      "name": "abstain[q_multihop]",
+      "value": 0.6755671971868742
+    },
+    "71b084d7d60d": {
+      "name": "filter[n_above_0_5_lt_3]",
+      "value": 0.7147266532116818
+    },
+    "b68d07e12e87": {
+      "name": "abstain[top1_src_forum]",
+      "value": 0.6719846354855048
+    },
+    "5cf4b60ef11f": {
+      "name": "abstain[top1_len_gt_256]",
+      "value": 0.6836799723015695
+    },
+    "166bf94bcebb": {
+      "name": "rerank[top2_score_gt_0_5]",
+      "value": 0.7318577821390052
+    },
+    "a73bf3712d0d": {
+      "name": "rerank[src_mixed]",
+      "value": 0.752261030951714
+    },
+    "e2cc304d94dc": {
+      "name": "rerank[q_multihop]",
+      "value": 0.7093311680318323
+    },
+    "f2fc3ee3fff1": {
+      "name": "rerank[n_above_0_5_lt_3]",
+      "value": 0.727761397704656
+    },
+    "fbd5f3fcbff8": {
+      "name": "rerank[top2_score_gt_0_7]",
+      "value": 0.7012235192457944
+    },
+    "384adf18b720": {
+      "name": "abstain[red_gt_0_7]",
+      "value": 0.6748503366440518
+    },
+    "ec1c9d077b63": {
+      "name": "abstain[red_gt_0_9]",
+      "value": 0.6892154178107396
+    },
+    "a2f3f04c2377": {
+      "name": "abstain[top1_src_blog]",
+      "value": 0.6020101735083881
+    },
+    "b0800563e46f": {
+      "name": "rerank[n_above_0_7_lt_2]",
+      "value": 0.742156238537443
+    },
+    "1813b744cf3b": {
+      "name": "rerank[top1_src_blog]",
+      "value": 0.6903162149984451
+    },
+    "51378a11647f": {
+      "name": "rerank[q_len_gt_16]",
+      "value": 0.7001369484259171
+    },
+    "e9a70fca0942": {
+      "name": "filter[red_gt_0_9]",
+      "value": 0.6917267153371324
+    },
+    "438b531b4deb": {
+      "name": "rerank[q_ent_time]",
+      "value": 0.6995107209167001
+    },
+    "e1f9f68aef30": {
+      "name": "abstain[q_len_gt_8]",
+      "value": 0.5169679469172761
+    },
+    "d657a62acf29": {
+      "name": "filter[q_ppl_gt_40]",
+      "value": 0.6913951785908651
+    },
+    "8bfb9aad9006": {
+      "name": "rerank[mean_score_gt_0_5]",
+      "value": 0.7309307129616607
+    },
+    "7de337759236": {
+      "name": "rerank[gap_lt_0_20]",
+      "value": 0.7441839528148195
+    },
+    "b5902c149cdc": {
+      "name": "filter[top1_src_forum]",
+      "value": 0.7199505384515675
+    },
+    "bbb577b5e05e": {
+      "name": "filter[q_ent_time]",
+      "value": 0.6963974818455719
+    },
+    "3df64419c8fe": {
+      "name": "filter[src_low_trust]",
+      "value": 0.7007907262757679
+    },
+    "6bfe6148c9ce": {
+      "name": "abstain[q_ent_num]",
+      "value": 0.6424444773180953
+    },
+    "5b3ab8308450": {
+      "name": "filter[n_above_0_7_lt_2]",
+      "value": 0.722410584781343
+    },
+    "0a75ca462c40": {
+      "name": "abstain[top3_score_gt_0_5]",
+      "value": 0.5688258891209111
+    },
+    "2f2e9eb07890": {
+      "name": "abstain[q_len_gt_16]",
+      "value": 0.6615482264308583
+    },
+    "fe3a410d9435": {
+      "name": "abstain[first_ent_pos_lt_1]",
+      "value": 0.5322740978707733
+    },
+    "c5cf46a7b05a": {
+      "name": "filter[mean_score_lt_0_3]",
+      "value": 0.6937780900970388
+    },
+    "94a13044776a": {
+      "name": "rerank[top1_score_lt_0_5]",
+      "value": 0.701561598368163
+    },
+    "3b4f97df1e6a": {
+      "name": "abstain[q_ppl_lt_10]",
+      "value": 0.6823330656847799
+    },
+    "9b38d3507a1e": {
+      "name": "abstain[top1_score_lt_0_5]",
+      "value": 0.6841016227406154
+    },
+    "d0eb05e1e533": {
+      "name": "abstain[top2_score_gt_0_7]",
+      "value": 0.6308360634923278
+    },
+    "f61ce434bb1b": {
+      "name": "rerank[first_ent_pos_lt_1]",
+      "value": 0.7133364445603884
+    },
+    "06679421043c": {
+      "name": "rerank[top1_score_lt_0_3]",
+      "value": 0.6918879874848846
+    },
+    "f765e8490d8c": {
+      "name": "rerank[top1_len_lt_64]",
+      "value": 0.7139163014373496
+    },
+    "f5458efeb6cd": {
+      "name": "filter[q_multihop]",
+      "value": 0.7026605236663532
+    },
+    "a48bd448523b": {
+      "name": "abstain[top2_score_gt_0_5]",
+      "value": 0.526445717982185
+    },
+    "d4795eda7b4f": {
+      "name": "rerank[red_gt_0_9]",
+      "value": 0.6924719415199901
+    },
+    "cd6a4e943a10": {
+      "name": "rerank[gen_len_gt_32]",
+      "value": 0.6989908707753366
+    },
+    "34ac8f6bf2a3": {
+      "name": "filter[n_above_0_5_lt_2]",
+      "value": 0.7057049352290382
+    },
+    "e2ae6b77d7fe": {
+      "name": "abstain[top1_score_lt_0_3]",
+      "value": 0.6910762515823833
+    },
+    "55467cb610bb": {
+      "name": "rerank[q_ent_num]",
+      "value": 0.7062839777009718
+    },
+    "2699d73e5b41": {
+      "name": "rerank[q_ent_org]",
+      "value": 0.7009846873271048
+    },
+    "01c1f724574b": {
+      "name": "abstain[gap_lt_0_05]",
+      "value": 0.6521189948638145
+    },
+    "311f5159490a": {
+      "name": "rerank[top3_score_gt_0_5]",
+      "value": 0.715563110539872
+    },
+    "f1508bd734a2": {
+      "name": "filter[first_ent_pos_lt_1]",
+      "value": 0.6851044494879089
+    },
+    "dc176be97684": {
+      "name": "rerank[red_gt_0_7]",
+      "value": 0.7041825260231231
+    },
+    "7c47a18409c8": {
+      "name": "filter[top1_len_gt_256]",
+      "value": 0.6894980849026335
+    },
+    "1328413d175a": {
+      "name": "rerank[q_ppl_gt_40]",
+      "value": 0.6928734646891528
+    },
+    "49b15a2f3dc1": {
+      "name": "filter[top1_score_gt_0_9]",
+      "value": 0.6922768640560442
+    },
+    "523531dfebb7": {
+      "name": "rerank[top1_score_gt_0_7]",
+      "value": 0.715970567828083
+    },
+    "00a8798e92c1": {
+      "name": "filter[top1_score_gt_0_5]",
+      "value": 0.7193961498196295
+    },
+    "91989eb9e775": {
+      "name": "abstain[q_ent_person]",
+      "value": 0.5953643181894983
+    },
+    "c9ff20edd449": {
+      "name": "abstain[top1_src_wiki]",
+      "value": 0.6219969890558149
+    },
+    "90b4d54ee24d": {
+      "name": "rerank[top1_score_gt_0_9]",
+      "value": 0.693714918521014
+    },
+    "005c7a034e48": {
+      "name": "rerank[mean_score_lt_0_3]",
+      "value": 0.6946673509211833
+    },
+    "276ec3aa936b": {
+      "name": "filter[gap_lt_0_10]",
+      "value": 0.7082192636284868
+    },
+    "4bd15567f635": {
+      "name": "filter[q_ppl_lt_10]",
+      "value": 0.6921318919692866
+    },
+    "eb47f21a57d5": {
+      "name": "filter[q_len_gt_8]",
+      "value": 0.7233214217180941
+    },
+    "08340c602f48": {
+      "name": "abstain[red_gt_0_5]",
+      "value": 0.6429435508371586
+    },
+    "bfc5f556f698": {
+      "name": "filter[top1_len_lt_64]",
+      "value": 0.7082907429601183
+    },
+    "f37fae97d00a": {
+      "name": "abstain[q_ent_place]",
+      "value": 0.6027908132329183
+    },
+    "012586d7071e": {
+      "name": "rerank[q_len_gt_8]",
+      "value": 0.7464468496012255
+    },
+    "a4d3e2e96968": {
+      "name": "rerank[q_ppl_lt_10]",
+      "value": 0.6930766040103071
+    },
+    "a468aba16945": {
+      "name": "rerank[q_ent_person]",
+      "value": 0.7131337533795361
+    },
+    "f972daa5374c": {
+      "name": "filter[top1_score_lt_0_3]",
+      "value": 0.6916055528000116
+    },
+    "88733667a2aa": {
+      "name": "abstain[first_ent_pos_gt_3]",
+      "value": 0.6782718070579729
+    },
+    "542f84a9f3db": {
+      "name": "abstain[top1_len_lt_128]",
+      "value": 0.5832354403896381
+    },
+    "b87410c50a6c": {
+      "name": "abstain[ent_missing_top1]",
+      "value": 0.658295667706465
+    },
+    "c8041f14e9ee": {
+      "name": "rerank[n_above_0_5_lt_2]",
+      "value": 0.7116149761010404
+    },
+    "04034880d4e0": {
+      "name": "abstain[top1_score_gt_0_5]",
+      "value": 0.5064681428366229
+    },
+    "fb04a6a56d8b": {
+      "name": "filter[red_gt_0_7]",
+      "value": 0.6981079028957075
+    },
+    "e62f2928dc24": {
+      "name": "filter[red_gt_0_5]",
+      "value": 0.7057758443977181
+    },
+    "8887b23c21fd": {
+      "name": "rerank[top1_src_wiki]",
+      "value": 0.6904311415545006
+    },
+    "458b59a9aa80": {
+      "name": "rerank[top1_len_lt_128]",
+      "value": 0.7384637104372898
+    },
+    "442a1aa9def4": {
+      "name": "filter[first_ent_pos_gt_3]",
+      "value": 0.7071922614144676
+    },
+    "b3860a778ae1": {
+      "name": "abstain[q_ppl_gt_20]",
+      "value": 0.6053049524724072
+    },
+    "04b33b62c3e1": {
+      "name": "abstain[n_above_0_5_lt_2]",
+      "value": 0.6640074291276185
+    },
+    "b461d41ed887": {
+      "name": "filter[gap_lt_0_05]",
+      "value": 0.7003494644752627
+    },
+    "74ded28ecbd7": {
+      "name": "filter[top1_src_stub]",
+      "value": 0.7290044102330395
+    },
+    "7f3d9be10ff4": {
+      "name": "filter[top2_score_gt_0_5]",
+      "value": 0.7121912879185082
+    },
+    "031fc4fdb9f3": {
+      "name": "filter[q_ent_place]",
+      "value": 0.6982636113788044
+    },
+    "d171f58637f1": {
+      "name": "filter[top3_score_gt_0_5]",
+      "value": 0.7031576614951325
+    },
+    "1168685b436a": {
+      "name": "abstain[src_mixed]",
+      "value": 0.5
+    },
+    "154f98d67c40": {
+      "name": "filter[top1_src_wiki]",
+      "value": 0.6783134089439877
+    },
+    "9b71059cec26": {
+      "name": "filter[q_ent_num]",
+      "value": 0.699314633485719
+    },
+    "b99915cb99d4": {
+      "name": "rerank[ent_missing_top3]",
+      "value": 0.7354537435510485
+    },
+    "cc834f436cac": {
+      "name": "abstain[ent_missing_top3]",
+      "value": 0.6506585257549198
+    },
+    "8c07d5044d49": {
+      "name": "filter[top2_score_gt_0_7]",
+      "value": 0.695260484048474
+    },
+    "a5df5aabc983": {
+      "name": "abstain[gap_lt_0_20]",
+      "value": 0.5411376213893752
+    },
+    "bc65b25eb199": {
+      "name": "abstain[top1_score_gt_0_9]",
+      "value": 0.6637079794634376
+    },
+    "0a88e04c8494": {
+      "name": "filter[q_ppl_gt_20]",
+      "value": 0.7094671655275923
+    },
+    "54b707acfbee": {
+      "name": "rerank[red_gt_0_5]",
+      "value": 0.7201379218918673
+    },
+    "4d5293995bbc": {
+      "name": "filter[q_ent_org]",
+      "value": 0.6964342345316871
+    },
+    "50de7eed38e8": {
+      "name": "filter[mean_score_gt_0_5]",
+      "value": 0.7116667453040083
+    },
+    "7b91a523a647": {
+      "name": "rerank[src_low_trust]",
+      "value": 0.7123164781317798
+    },
+    "70c4bcaf9fb2": {
+      "name": "filter[top1_score_lt_0_5]",
+      "value": 0.6981426300559274
+    },
+    "0058f3201908": {
+      "name": "abstain[q_ent_time]",
+      "value": 0.6651112072141558
+    },
+    "24a21ce2f7bf": {
+      "name": "rerank[gap_lt_0_10]",
+      "value": 0.7228883861260701
+    },
+    "d0b5a20cec75": {
+      "name": "filter[top1_score_gt_0_7]",
+      "value": 0.7038105823367716
+    },
+    "8a03fd9a307d": {
+      "name": "abstain[gen_len_gt_32]",
+      "value": 0.6651168548832939
+    },
+    "8b78916c9a9e": {
+      "name": "filter[gen_len_gt_32]",
+      "value": 0.6956614239839589
+    },
+    "a682b6e73e3d": {
+      "name": "abstain[n_above_0_7_lt_2]",
+      "value": 0.5582003768257211
+    },
+    "d7665c7985ac": {
+      "name": "filter[top1_src_blog]",
+      "value": 0.6714099534014384
+    },
+    "fcd8de8ddfb1": {
+      "name": "rerank[gap_lt_0_05]",
+      "value": 0.7088197281573312
+    },
+    "0691f7665422": {
+      "name": "filter[ent_missing_top1]",
+      "value": 0.7324343303876478
+    },
+    "2ec45cfdf87d": {
+      "name": "abstain[n_above_0_5_lt_3]",
+      "value": 0.6205765921296195
+    },
+    "5fae23b34b16": {
+      "name": "rerank[q_ppl_gt_20]",
+      "value": 0.722212179923172
+    },
+    "f79ede706155": {
+      "name": "rerank[ent_missing_top1]",
+      "value": 0.7294943519685639
+    },
+    "98b8b1efc61f": {
+      "name": "rerank[first_ent_pos_gt_3]",
+      "value": 0.7058022329827516
+    },
+    "73123f4cf432": {
+      "name": "filter[gap_lt_0_20]",
+      "value": 0.7203639202076059
+    },
+    "3a1fa415cb1a": {
+      "name": "rerank[q_ent_place]",
+      "value": 0.7079170506817222
+    },
+    "ace1a43c8839": {
+      "name": "abstain[q_ppl_gt_40]",
+      "value": 0.6859275787892056
+    },
+    "7b4beb2103be": {
+      "name": "abstain[mean_score_gt_0_5]",
+      "value": 0.5220441726643871
+    },
+    "067703537ff8": {
+      "name": "filter[gap_lt_0_10&top3_score_gt_0_5]",
+      "value": 0.6969465465725279
+    },
+    "48ea74c226e0": {
+      "name": "filter[gen_conf_lt_0_5&mean_score_lt_0_3]",
+      "value": 0.6917881951272399
+    },
+    "d21a493ed480": {
+      "name": "filter[gen_conf_lt_0_5&mean_score_gt_0_5]",
+      "value": 0.6908536170053309
+    },
+    "26fbe6eaa0de": {
+      "name": "rerank[ent_missing_top3&top2_score_gt_0_5]",
+      "value": 0.7203175012403653
+    },
+    "aea895bef007": {
+      "name": "filter[top1_score_gt_0_9&top3_score_gt_0_5]",
+      "value": 0.6920016187639692
+    },
+    "e886b784a338": {
+      "name": "filter[top1_len_gt_256&top2_score_gt_0_7]",
+      "value": 0.6903778689447754
+    },
+    "81b0940b058f": {
+      "name": "abstain[gen_conf_lt_0_5&top1_score_lt_0_5]",
+      "value": 0.6930489191820169
+    },
+    "c7d470bf8dfc": {
+      "name": "filter[q_len_gt_8&top1_src_wiki]",
+      "value": 0.6794565061284317
+    },
+    "f5cdfdc9b44a": {
+      "name": "rerank[gen_conf_lt_0_5&q_ent_time]",
+      "value": 0.6911587849257893
+    },
+    "b7230893dfce": {
+      "name": "filter[ent_missing_top1&top3_score_gt_0_5]",
+      "value": 0.710356158254162
+    },
+    "c03c06d7c859": {
+      "name": "rerank[ent_missing_top1&q_ent_org]",
+      "value": 0.7011732332127398
+    },
+    "9380c13d3f81": {
+      "name": "abstain[top1_score_gt_0_5&top1_src_forum]",
+      "value": 0.6710593138474542
+    },
+    "51faf076f92b": {
+      "name": "abstain[q_ent_org&q_ent_time]",
+      "value": 0.6841661980562723
+    },
+    "28857e6ec92b": {
+      "name": "rerank[q_multihop&top1_len_lt_128]",
+      "value": 0.705139279862182
+    },
+    "6f3605662f16": {
+      "name": "abstain[q_ent_num&top1_src_forum]",
+      "value": 0.6858724411576093
+    },
+    "5d173d427bc7": {
+      "name": "abstain[q_len_gt_16&top1_src_wiki]",
+      "value": 0.6796490221591834
+    },
+    "b2e3db0b2730": {
+      "name": "abstain[top1_score_gt_0_9&top3_score_gt_0_5]",
+      "value": 0.6645283927655826
+    },
+    "c3707645d184": {
+      "name": "rerank[gap_lt_0_20&top3_score_gt_0_5]",
+      "value": 0.7119691742742152
+    },
+    "27397b154122": {
+      "name": "rerank[q_ent_num&q_ent_person]",
+      "value": 0.6961899143537059
+    },
+    "325b7f528cb0": {
+      "name": "abstain[q_ent_person&q_ent_place]",
+      "value": 0.6500382310928452
+    },
+    "25feaf520797": {
+      "name": "filter[gap_lt_0_05&q_ppl_lt_10]",
+      "value": 0.6910977651999279
+    },
+    "b568194c50a8": {
+      "name": "rerank[ent_missing_top3&top1_score_gt_0_7]",
+      "value": 0.7103882246197937
+    },
+    "aa61d525aed5": {
+      "name": "abstain[n_above_0_5_lt_2&top1_src_stub]",
+      "value": 0.6923307815690344
+    },
+    "fad2ae1d9495": {
+      "name": "filter[gap_lt_0_05&gen_len_gt_32]",
+      "value": 0.6921274679546423
+    },
+    "830a18d60f89": {
+      "name": "filter[mean_score_gt_0_5&top3_score_gt_0_5]",
+      "value": 0.7031732577591893
+    },
+    "c8b9efbcca9b": {
+      "name": "filter[gen_conf_lt_0_5&q_len_gt_16]",
+      "value": 0.6907042055723253
+    },
+    "506ed837bb57": {
+      "name": "abstain[n_above_0_5_lt_3&top1_score_gt_0_7]",
+      "value": 0.6654823234798948
+    },
+    "20d08660e802": {
+      "name": "rerank[q_ent_person&top1_src_stub]",
+      "value": 0.7052482784123847
+    },
+    "287859241bde": {
+      "name": "abstain[top1_len_lt_128&top2_score_gt_0_7]",
+      "value": 0.6574981549583663
+    },
+    "0b125810b621": {
+      "name": "filter[gen_len_gt_32&top1_score_lt_0_5]",
+      "value": 0.6915078367819697
+    },
+    "52b88b70dbee": {
+      "name": "filter[n_above_0_7_lt_2&red_gt_0_9]",
+      "value": 0.691529935274478
+    },
+    "7d3d0d39b35e": {
+      "name": "abstain[gen_conf_lt_0_5&top1_len_lt_128]",
+      "value": 0.6934920138813656
+    },
+    "98ef162ea389": {
+      "name": "rerank[gen_len_gt_32&q_ppl_gt_20]",
+      "value": 0.6951847101927897
+    },
+    "f48a4d4be348": {
+      "name": "filter[top1_score_gt_0_7&top2_score_gt_0_7]",
+      "value": 0.6950075279525442
+    },
+    "56be35b0991c": {
+      "name": "rerank[top1_score_gt_0_7&top1_score_gt_0_9]",
+      "value": 0.693714918521014
+    },
+    "4e16dd53d3ab": {
+      "name": "abstain[q_ent_num&top1_src_stub]",
+      "value": 0.6871331920555889
+    },
+    "8a24aee7584d": {
+      "name": "abstain[q_ent_org&top1_score_gt_0_5]",
+      "value": 0.6397993344651679
+    },
+    "e376734133da": {
+      "name": "filter[ent_missing_top3&top3_score_gt_0_5]",
+      "value": 0.710356158254162
+    },
+    "91c459f559b1": {
+      "name": "rerank[gap_lt_0_20&red_gt_0_9]",
+      "value": 0.6919691348987698
+    },
+    "395000ba20a4": {
+      "name": "abstain[gap_lt_0_20&top3_score_gt_0_5]",
+      "value": 0.5944791373990759
+    },
+    "7112be61747c": {
+      "name": "filter[src_mixed&top1_len_lt_64]",
+      "value": 0.7082907429601183
+    },
+    "7de6c3a32379": {
+      "name": "rerank[n_above_0_5_lt_3&top1_score_gt_0_5]",
+      "value": 0.7167695649137313
+    },
+    "55440bd1c2d2": {
+      "name": "abstain[ent_missing_top1&n_above_0_5_lt_3]",
+      "value": 0.6834066453803448
+    },
+    "cda6f4e6f4f2": {
+      "name": "abstain[q_ent_place&src_low_trust]",
+      "value": 0.6561678209813042
+    },
+    "9c1c3206e427": {
+      "name": "filter[q_ppl_gt_20&top1_score_lt_0_3]",
+      "value": 0.690987391544011
+    },
+    "eb74601d7044": {
+      "name": "rerank[ent_missing_top3&top3_score_gt_0_5]",
+      "value": 0.709450877150747
+    },
+    "04ae076e66f8": {
+      "name": "rerank[first_ent_pos_lt_1&q_ent_place]",
+      "value": 0.6903642682709685
+    },
+    "2316071b3780": {
+      "name": "filter[q_len_gt_16&red_gt_0_5]",
+      "value": 0.6925838436879755
+    },
+    "84df4e4e14cc": {
+      "name": "rerank[n_above_0_5_lt_2&top1_src_stub]",
+      "value": 0.7043413388348196
+    },
+    "5271c0d24da9": {
+      "name": "filter[q_ent_org&q_ppl_lt_10]",
+      "value": 0.6907734824693058
+    },
+    "af9a6cf84399": {
+      "name": "filter[q_ent_person&q_ppl_gt_40]",
+      "value": 0.6906236632000009
+    },
+    "79b9bd53297f": {
+      "name": "abstain[mean_score_gt_0_5&red_gt_0_5]",
+      "value": 0.6460702503284949
+    },
+    "ef12d968a13e": {
+      "name": "rerank[top1_score_lt_0_5&top1_src_wiki]",
+      "value": 0.6909321615443356
+    },
+    "9f0f75c90cc4": {
+      "name": "abstain[q_ent_org&q_ppl_lt_10]",
+      "value": 0.6884878830066535
+    },
+    "750d3c8e7929": {
+      "name": "filter[q_multihop&red_gt_0_7]",
+      "value": 0.692925631776771
+    },
+    "fbdf70df6cb1": {
+      "name": "rerank[q_ent_org&top1_src_forum]",
+      "value": 0.694709386805969
+    },
+    "24111c908bd6": {
+      "name": "abstain[red_gt_0_5&top1_len_lt_128]",
+      "value": 0.6639518304890407
+    },
+    "0ecc47e77910": {
+      "name": "filter[gen_conf_lt_0_5&top1_len_lt_128]",
+      "value": 0.6936084771431954
+    },
+    "a2ee00cee788": {
+      "name": "filter[first_ent_pos_gt_3&gen_len_gt_32]",
+      "value": 0.6928275011386557
+    },
+    "27316f61d487": {
+      "name": "filter[q_ent_place&top1_src_blog]",
+      "value": 0.6862094331498559
+    },
+    "7aae6be47723": {
+      "name": "filter[q_ent_num&top2_score_gt_0_5]",
+      "value": 0.69618851194443
+    },
+    "a1e771807443": {
+      "name": "abstain[src_low_trust&top1_len_lt_64]",
+      "value": 0.6473942151430936
+    },
+    "833cc18457d9": {
+      "name": "filter[top1_src_forum&top2_score_gt_0_7]",
+      "value": 0.6944862208128891
+    },
+    "3ac859117f2e": {
+      "name": "abstain[red_gt_0_9&top1_score_gt_0_5]",
+      "value": 0.6892528660791909
+    },
+    "c8414327ef60": {
+      "name": "rerank[q_len_gt_16&top1_src_wiki]",
+      "value": 0.6904109256871318
+    },
+    "7fe02605e781": {
+      "name": "abstain[gen_conf_lt_0_5&mean_score_gt_0_5]",
+      "value": 0.6904727134850325
+    },
+    "6d796cc73412": {
+      "name": "abstain[gen_len_gt_32&mean_score_gt_0_5]",
+      "value": 0.6684433261542176
+    },
+    "640c3f3c8181": {
+      "name": "filter[q_ppl_gt_40&top1_score_lt_0_5]",
+      "value": 0.6913315118177733
+    },
+    "70bfeaae57d7": {
+      "name": "rerank[q_ent_org&q_ent_place]",
+      "value": 0.6935878927946489
+    },
+    "808154295b42": {
+      "name": "rerank[q_ent_time&red_gt_0_5]",
+      "value": 0.6940892654710612
+    },
+    "84d3bf279830": {
+      "name": "rerank[gap_lt_0_20&q_ent_num]",
+      "value": 0.7047455715298379
+    },
+    "6b96158c27dc": {
+      "name": "rerank[q_ppl_gt_20&src_low_trust]",
+      "value": 0.7029199652123403
+    },
+    "fa364ea96cce": {
+      "name": "abstain[q_ppl_gt_40&top3_score_gt_0_5]",
+      "value": 0.6879829205403623
+    },
+    "12926104017d": {
+      "name": "filter[top1_score_gt_0_9&top2_score_gt_0_7]",
+      "value": 0.6915942158366042
+    },
+    "a396b475b221": {
+      "name": "abstain[gap_lt_0_05&mean_score_gt_0_5]",
+      "value": 0.6576197145391514
+    },
+    "d79681f217f1": {
+      "name": "rerank[src_mixed&top1_score_gt_0_5]",
+      "value": 0.7412691981607893
+    },
+    "cae91302b79a": {
+      "name": "filter[first_ent_pos_lt_1&n_above_0_5_lt_3]",
+      "value": 0.6923004644187104
+    },
+    "2bffde9074fd": {
+      "name": "filter[q_ppl_gt_20&top1_src_blog]",
+      "value": 0.6787722419380907
+    },
+    "fdd3b0d834bc": {
+      "name": "abstain[first_ent_pos_gt_3&red_gt_0_5]",
+      "value": 0.6882767414315601
+    },
+    "ff3045250fd9": {
+      "name": "rerank[ent_missing_top3&q_ppl_lt_10]",
+      "value": 0.692388289692294
+    },
+    "eab6a15a2e9c": {
+      "name": "rerank[gen_conf_lt_0_5&top1_src_stub]",
+      "value": 0.6933513670167545
+    },
+    "0b2e9c367f0d": {
+      "name": "abstain[red_gt_0_5&src_low_trust]",
+      "value": 0.6630459320779385
+    },
+    "c9dec45e60a4": {
+      "name": "rerank[first_ent_pos_gt_3&n_above_0_5_lt_2]",
+      "value": 0.6945925658903338
+    },
+    "c0b80664a4bf": {
+      "name": "filter[n_above_0_7_lt_2&top1_score_lt_0_3]",
+      "value": 0.6916055528000116
+    },
+    "78cb4e27e3b2": {
+      "name": "rerank[ent_missing_top3&top1_len_gt_256]",
+      "value": 0.6907263572206388
+    },
+    "3685a3d1a1f9": {
+      "name": "rerank[gen_len_gt_32&q_len_gt_16]",
+      "value": 0.691970985349945
+    },
+    "875fff92ff73": {
+      "name": "rerank[gen_len_gt_32&n_above_0_5_lt_2]",
+      "value": 0.6934425092981291
+    },
+    "491f250ca64e": {
+      "name": "abstain[gap_lt_0_10&top1_score_gt_0_7]",
+      "value": 0.6509376841054482
+    },
+    "0a1403010eb8": {
+      "name": "filter[top1_score_gt_0_5&top1_src_wiki]",
+      "value": 0.6795827112078946
+    },
+    "5f3d9acb5b59": {
+      "name": "filter[ent_missing_top1&mean_score_lt_0_3]",
+      "value": 0.692638841314204
+    },
+    "112e564cc7ff": {
+      "name": "filter[ent_missing_top3&gen_len_gt_32]",
+      "value": 0.6960280724859154
+    },
+    "ce0179c9e525": {
+      "name": "filter[gap_lt_0_20&red_gt_0_5]",
+      "value": 0.7032234337880124
+    },
+    "4265628e63cc": {
+      "name": "filter[q_ent_place&q_len_gt_16]",
+      "value": 0.6917396567150336
+    },
+    "fad0f7f2e14e": {
+      "name": "abstain[red_gt_0_5&top1_src_stub]",
+      "value": 0.6888201609534137
+    },
+    "1fd36abc117a": {
+      "name": "filter[q_ent_person&q_ent_place]",
+      "value": 0.693335162103977
+    },
+    "63087fe27019": {
+      "name": "abstain[ent_missing_top3&top3_score_gt_0_5]",
+      "value": 0.6654255098576889
+    },
+    "680b4ded4cbb": {
+      "name": "rerank[gap_lt_0_10&q_ent_place]",
+      "value": 0.7001172264697564
+    },
+    "b68779dbcf41": {
+      "name": "abstain[ent_missing_top1&first_ent_pos_gt_3]",
+      "value": 0.6782718070579729
+    },
+    "7cad5967b017": {
+      "name": "abstain[gap_lt_0_10&top1_src_wiki]",
+      "value": 0.6639501004275812
+    },
+    "11142078417f": {
+      "name": "abstain[gen_conf_lt_0_5&n_above_0_5_lt_2]",
+      "value": 0.6938932923359163
+    },
+    "df41bce934ba": {
+      "name": "abstain[q_ent_time&red_gt_0_5]",
+      "value": 0.6844062198990378
+    },
+    "b73db9f3a28e": {
+      "name": "abstain[n_above_0_5_lt_3&q_ent_org]",
+      "value": 0.676116218249776
+    },
+    "727ce3fa80d7": {
+      "name": "abstain[top1_score_gt_0_7&top1_score_gt_0_9]",
+      "value": 0.6637079794634376
+    },
+    "35e2b000a0e5": {
+      "name": "rerank[top1_len_lt_128&top1_src_forum]",
+      "value": 0.7080174284769714
+    },
+    "34ffccb6fd33": {
+      "name": "rerank[q_multihop&top1_src_blog]",
+      "value": 0.6903406695931592
+    },
+    "26e878ddbedb": {
+      "name": "filter[q_len_gt_16&top1_src_wiki]",
+      "value": 0.6885192289921445
+    },
+    "e2dae4b18fad": {
+      "name": "rerank[n_above_0_5_lt_3&top1_src_wiki]",
+      "value": 0.6905407541604002
+    },
+    "d461243dd1fb": {
+      "name": "rerank[ent_missing_top1&top1_score_gt_0_7]",
+      "value": 0.7104231532030474
+    },
+    "55fcd22f110e": {
+      "name": "filter[ent_missing_top1&n_above_0_5_lt_2]",
+      "value": 0.7016953844647204
+    },
+    "f8564565caa8": {
+      "name": "rerank[q_ent_person&top1_len_lt_128]",
+      "value": 0.7077839334594456
+    },
+    "8e72e73100ef": {
+      "name": "rerank[src_mixed&top1_score_gt_0_9]",
+      "value": 0.693714918521014
+    },
+    "1c243f5289ca": {
+      "name": "rerank[q_len_gt_16&src_low_trust]",
+      "value": 0.6938995707781812
+    },
+    "e53bda01d954": {
+      "name": "abstain[src_mixed&top1_score_lt_0_5]",
+      "value": 0.6841016227406154
+    },
+    "e4a01b930f47": {
+      "name": "rerank[gap_lt_0_05&q_ppl_lt_10]",
+      "value": 0.6913741922178626
+    },
+    "10dfa2efcfc1": {
+      "name": "rerank[gen_len_gt_32&q_multihop]",
+      "value": 0.6932275909638383
+    },
+    "42f82545b651": {
+      "name": "filter[first_ent_pos_lt_1&red_gt_0_7]",
+      "value": 0.6917903020419083
+    },
+    "cd7b657c896e": {
+      "name": "rerank[gen_conf_lt_0_5&q_multihop]",
+      "value": 0.694792537576323
+    },
+    "f82d46aaa819": {
+      "name": "rerank[first_ent_pos_lt_1&top1_score_gt_0_5]",
+      "value": 0.706936785765505
+    },
+    "0592402c4691": {
+      "name": "filter[gap_lt_0_10&q_ppl_gt_40]",
+      "value": 0.6912397073754273
+    },
+    "46a7d7a2797a": {
+      "name": "filter[q_multihop&top1_len_lt_128]",
+      "value": 0.7021525158859415
+    },
+    "441349866202": {
+      "name": "rerank[q_ent_person&q_ent_place]",
+      "value": 0.6966727900933644
+    },
+    "3c4fd2f8e95d": {
+      "name": "rerank[n_above_0_7_lt_2&top1_len_lt_128]",
+      "value": 0.7305693464906494
+    },
+    "2ae8bb8f4f40": {
+      "name": "abstain[ent_missing_top3&q_len_gt_8]",
+      "value": 0.6541472814793915
+    },
+    "d84e0025767a": {
+      "name": "abstain[q_ppl_lt_10&top1_src_wiki]",
+      "value": 0.6860640165248667
+    },
+    "bffe5868b12c": {
+      "name": "abstain[q_ppl_lt_10&src_mixed]",
+      "value": 0.6823330656847799
+    },
+    "3f60e363c4fd": {
+      "name": "filter[q_ent_org&top1_score_gt_0_5]",
+      "value": 0.6956570761707891
+    },
+    "214e6d73e7a1": {
+      "name": "rerank[ent_missing_top3&top1_len_lt_64]",
+      "value": 0.7074913300025748
+    },
+    "619466339a7e": {
+      "name": "abstain[gap_lt_0_20&q_ent_person]",
+      "value": 0.6152185107517036
+    },
+    "cea32fff478a": {
+      "name": "abstain[q_ppl_gt_20&top2_score_gt_0_7]",
+      "value": 0.6660467533091341
+    },
+    "9ca52c70a1a0": {
+      "name": "filter[q_ent_time&q_len_gt_16]",
+      "value": 0.6920971729277134
+    },
+    "29dfccee4545": {
+      "name": "filter[q_ent_num&q_ent_person]",
+      "value": 0.693656103589901
+    },
+    "752ad41acd14": {
+      "name": "rerank[gen_len_gt_32&q_ppl_gt_40]",
+      "value": 0.691027257828108
+    },
+    "ed1f0bb92ddc": {
+      "name": "rerank[q_multihop&top2_score_gt_0_5]",
+      "value": 0.69852058780878
+    },
+    "8f6a73e626e2": {
+      "name": "rerank[gap_lt_0_20&n_above_0_5_lt_2]",
+      "value": 0.7089913384769252
+    },
+    "29ade6c7f071": {
+      "name": "abstain[n_above_0_5_lt_2&q_ppl_gt_40]",
+      "value": 0.6901100578217786
+    },
+    "23b38749f2fa": {
+      "name": "abstain[gen_conf_lt_0_5&q_ppl_gt_20]",
+      "value": 0.6931491999356231
+    },
+    "3b9b114f3eb4": {
+      "name": "rerank[gap_lt_0_10&gen_len_gt_32]",
+      "value": 0.6953953662763969
+    },
+    "b917f8209314": {
+      "name": "filter[top2_score_gt_0_5&top2_score_gt_0_7]",
+      "value": 0.695260484048474
+    },
+    "8ebda21c32a9": {
+      "name": "rerank[gap_lt_0_10&q_ent_num]",
+      "value": 0.6991296042220536
+    },
+    "83005ad36761": {
+      "name": "filter[gap_lt_0_10&top1_len_lt_64]",
+      "value": 0.6981717035958503
+    },
+    "a8f2a353f534": {
+      "name": "abstain[gap_lt_0_10&q_ent_num]",
+      "value": 0.6710476298016694
+    },
+    "ba61d0105b57": {
+      "name": "filter[gen_conf_lt_0_5&q_ent_time]",
+      "value": 0.6909118689166286
+    },
+    "ade1143937e8": {
+      "name": "abstain[q_multihop&q_ppl_lt_10]",
+      "value": 0.6896987022249437
+    },
+    "fcec9119ef53": {
+      "name": "filter[gen_len_gt_32&n_above_0_7_lt_2]",
+      "value": 0.6947841192356597
+    },
+    "20139b5e6ef5": {
+      "name": "rerank[gen_conf_lt_0_5&top1_len_lt_128]",
+      "value": 0.6943483251916432
+    },
+    "e499a0673e4c": {
+      "name": "rerank[q_len_gt_8&top1_score_lt_0_5]",
+      "value": 0.7002892784286799
+    },
+    "fe1e1bbf5055": {
+      "name": "rerank[q_ppl_gt_20&top1_src_blog]",
+      "value": 0.6904684380992062
+    },
+    "e1305e5ac1ea": {
+      "name": "abstain[red_gt_0_5&top1_score_gt_0_7]",
+      "value": 0.6558115695783999
+    },
+    "1eb56260b15d": {
+      "name": "rerank[gap_lt_0_10&top1_score_lt_0_3]",
+      "value": 0.6918606622007176
+    },
+    "1bc92a5062e1": {
+      "name": "rerank[gen_conf_lt_0_5&src_mixed]",
+      "value": 0.6952978483462339
+    },
+    "dd3234d963c1": {
+      "name": "filter[n_above_0_5_lt_2&q_ppl_gt_20]",
+      "value": 0.6993833924974329
+    },
+    "ab256e09558f": {
+      "name": "abstain[q_multihop&red_gt_0_7]",
+      "value": 0.6912153566304882
+    },
+    "2f3590c8794b": {
+      "name": "filter[q_ent_place&top1_len_lt_128]",
+      "value": 0.699860200783909
+    },
+    "77e131d4f309": {
+      "name": "filter[q_ent_place&top1_src_wiki]",
+      "value": 0.6841170322411693
+    },
+    "8f7e27f9d42d": {
+      "name": "rerank[q_ent_place&top1_len_lt_64]",
+      "value": 0.6967064051235582
+    },
+    "55bb8e479048": {
+      "name": "abstain[first_ent_pos_gt_3&n_above_0_7_lt_2]",
+      "value": 0.6841669172700471
+    },
+    "49e4547488ef": {
+      "name": "abstain[first_ent_pos_gt_3&q_multihop]",
+      "value": 0.690637737984541
+    },
+    "00bad109b31f": {
+      "name": "filter[gap_lt_0_05&n_above_0_7_lt_2]",
+      "value": 0.6985745362223984
+    },
+    "2d580f5e5a47": {
+      "name": "abstain[mean_score_lt_0_3&q_ent_time]",
+      "value": 0.6906321922623581
+    },
+    "c8fd21073b98": {
+      "name": "rerank[top1_src_stub&top3_score_gt_0_5]",
+      "value": 0.7072158955252187
+    },
+    "e7a06a00121b": {
+      "name": "abstain[q_ent_time&top1_src_forum]",
+      "value": 0.687594730074059
+    },
+    "bd123b50627e": {
+      "name": "filter[q_ent_person&top1_len_lt_128]",
+      "value": 0.7025654690569988
+    },
+    "553e386c0b94": {
+      "name": "abstain[gap_lt_0_20&top1_len_gt_256]",
+      "value": 0.6852232702226727
+    },
+    "4e4356ae8355": {
+      "name": "rerank[n_above_0_5_lt_2&top1_len_lt_128]",
+      "value": 0.7071620300641287
+    },
+    "b7447471e705": {
+      "name": "abstain[q_len_gt_8&red_gt_0_7]",
+      "value": 0.6759719045379746
+    },
+    "72e844f7c405": {
+      "name": "abstain[gap_lt_0_05&gen_len_gt_32]",
+      "value": 0.6859975818286064
+    },
+    "b47fdc94578a": {
+      "name": "abstain[first_ent_pos_lt_1&top1_score_gt_0_9&top1_src_wiki]",
+      "value": 0.680450604585744
+    },
+    "a3f922f3baad": {
+      "name": "rerank[mean_score_gt_0_5&q_ent_person&q_ppl_gt_40]",
+      "value": 0.6908162840564965
+    },
+    "952bf5eab3d3": {
+      "name": "filter[n_above_0_5_lt_2&q_len_gt_8&red_gt_0_5]",
+      "value": 0.695815389821664
+    },
+    "cc2bb6aa825f": {
+      "name": "abstain[q_len_gt_8&q_ppl_gt_20&top1_len_lt_64]",
+      "value": 0.6674383424598836
+    },
+    "2dbb96393c7f": {
+      "name": "rerank[mean_score_lt_0_3&q_len_gt_8&q_multihop]",
+      "value": 0.6931709294049222
+    },
+    "5dfadbdcc239": {
+      "name": "abstain[ent_missing_top3&q_ppl_gt_40&top1_src_blog]",
+      "value": 0.6902031374784465
+    },
+    "87edf2c57cae": {
+      "name": "rerank[n_above_0_7_lt_2&red_gt_0_9&top1_len_lt_128]",
+      "value": 0.6919206432125324
+    },
+    "f4edc5b6d0a4": {
+      "name": "filter[gen_conf_lt_0_5&q_multihop&red_gt_0_5]",
+      "value": 0.6922686235932299
+    },
+    "e696c9479dbe": {
+      "name": "abstain[q_ent_num&q_ent_person&top1_score_gt_0_9]",
+      "value": 0.6865409744796369
+    },
+    "15cc36e3e1a6": {
+      "name": "rerank[n_above_0_5_lt_2&q_ppl_gt_40&top1_len_lt_128]",
+      "value": 0.6914787031381785
+    },
+    "ffb91f992edf": {
+      "name": "filter[n_above_0_7_lt_2&q_ent_num&top2_score_gt_0_5]",
+      "value": 0.6950558179218783
+    },
+    "08630426897f": {
+      "name": "filter[ent_missing_top3&n_above_0_5_lt_3&top1_src_blog]",
+      "value": 0.6875822467979865
+    },
+    "0eb1766b89b8": {
+      "name": "rerank[q_len_gt_8&q_ppl_gt_20&top1_len_lt_64]",
+      "value": 0.7017913308400825
+    },
+    "4bf204114ed5": {
+      "name": "rerank[q_ent_num&red_gt_0_5&top3_score_gt_0_5]",
+      "value": 0.693504634302788
+    },
+    "ca48539b2c8c": {
+      "name": "rerank[gap_lt_0_10&q_ppl_gt_20&src_mixed]",
+      "value": 0.7073436185985936
+    },
+    "daea44bcd4a6": {
+      "name": "filter[gen_len_gt_32&top1_score_gt_0_5&top1_src_forum]",
+      "value": 0.6940961773614126
+    },
+    "635f686dff99": {
+      "name": "rerank[gap_lt_0_05&gen_conf_lt_0_5&top1_score_lt_0_5]",
+      "value": 0.6916298707644971
+    },
+    "4a521c28dbf2": {
+      "name": "abstain[q_ent_num&top1_len_lt_64&top1_src_stub]",
+      "value": 0.689298788389505
+    },
+    "a8d5fdb9fbd2": {
+      "name": "abstain[mean_score_gt_0_5&red_gt_0_7&top1_len_lt_128]",
+      "value": 0.6819339238092107
+    },
+    "7577b9d66885": {
+      "name": "abstain[ent_missing_top1&q_ent_org&top1_score_gt_0_5]",
+      "value": 0.6777888810670397
+    },
+    "70c8ce9984c7": {
+      "name": "abstain[gap_lt_0_05&gap_lt_0_20&top1_src_stub]",
+      "value": 0.6869970034811463
+    },
+    "95d9b26e5341": {
+      "name": "filter[q_ent_place&q_multihop&top2_score_gt_0_7]",
+      "value": 0.6904732352655985
+    },
+    "9923fa3ee5c6": {
+      "name": "abstain[q_ppl_gt_20&src_mixed&top1_score_gt_0_9]",
+      "value": 0.6796102052938708
+    },
+    "0f2a3c66814a": {
+      "name": "rerank[q_ent_person&q_len_gt_8&top1_len_lt_64]",
+      "value": 0.6986038062595924
+    },
+    "705405259c08": {
+      "name": "rerank[first_ent_pos_gt_3&q_ent_person&q_ppl_gt_20]",
+      "value": 0.6957239401520505
+    },
+    "2dc0b460b0ff": {
+      "name": "abstain[gap_lt_0_10&gen_len_gt_32&top1_score_gt_0_5]",
+      "value": 0.6810027425114095
+    },
+    "5732e94197f1": {
+      "name": "rerank[src_mixed&top1_len_lt_128&top1_score_gt_0_7]",
+      "value": 0.7109174246980186
+    },
+    "2d0018b8f79e": {
+      "name": "filter[gap_lt_0_05&src_low_trust&top2_score_gt_0_5]",
+      "value": 0.6929416005824441
+    },
+    "01f0ece3356d": {
+      "name": "abstain[gap_lt_0_05&top1_score_gt_0_5&top1_src_blog]",
+      "value": 0.6752227814839603
+    },
+    "45844d285abd": {
+      "name": "rerank[mean_score_lt_0_3&q_len_gt_16&top1_score_lt_0_5]",
+      "value": 0.6913258219118479
+    },
+    "6c9cc99f2fb2": {
+      "name": "abstain[first_ent_pos_lt_1&top1_len_lt_64&top1_score_gt_0_9]",
+      "value": 0.6856039319226346
+    },
+    "7ef443b178f1": {
+      "name": "filter[mean_score_gt_0_5&q_ent_person&q_ppl_gt_40]",
+      "value": 0.6903649010716352
+    },
+    "f89229095333": {
+      "name": "filter[gap_lt_0_10&q_multihop&top1_score_gt_0_5]",
+      "value": 0.6935389751962582
+    },
+    "d484c88579f0": {
+      "name": "abstain[ent_missing_top1&gap_lt_0_20&n_above_0_7_lt_2]",
+      "value": 0.6772252522078286
+    },
+    "212808ce3dc3": {
+      "name": "filter[ent_missing_top3&gap_lt_0_20&red_gt_0_7]",
+      "value": 0.6956645581744167
+    },
+    "203019b3f100": {
+      "name": "abstain[q_len_gt_8&q_ppl_lt_10&top1_src_wiki]",
+      "value": 0.6864083862124364
+    },
+    "636ed998f2eb": {
+      "name": "rerank[first_ent_pos_lt_1&red_gt_0_5&src_mixed]",
+      "value": 0.7054984388196284
+    },
+    "b6a6def4e9d8": {
+      "name": "filter[n_above_0_7_lt_2&q_len_gt_8&q_ppl_gt_20]",
+      "value": 0.7061737640227754
+    },
+    "9124e55a62b3": {
+      "name": "filter[mean_score_gt_0_5&n_above_0_7_lt_2&top2_score_gt_0_7]",
+      "value": 0.690808692540486
+    },
+    "ec53002031a6": {
+      "name": "rerank[red_gt_0_5&top1_len_lt_128&top1_src_wiki]",
+      "value": 0.6910528442288075
+    },
+    "5e5ec15f530a": {
+      "name": "filter[ent_missing_top1&q_ent_place&top2_score_gt_0_5]",
+      "value": 0.7048410973329601
+    },
+    "87872e0bd838": {
+      "name": "rerank[q_ent_org&top1_score_gt_0_7&top1_src_forum]",
+      "value": 0.6927911831870337
+    },
+    "5f1f12314d30": {
+      "name": "filter[gap_lt_0_05&n_above_0_7_lt_2&q_ent_num]",
+      "value": 0.692665542368471
+    },
+    "1a5c44c6d40e": {
+      "name": "rerank[ent_missing_top3&gen_conf_lt_0_5&red_gt_0_5]",
+      "value": 0.6924577327298368
+    },
+    "f022dbf91e00": {
+      "name": "filter[q_ppl_gt_20&top1_len_lt_128&top1_src_forum]",
+      "value": 0.7035919093926698
+    },
+    "2617368b1bea": {
+      "name": "abstain[first_ent_pos_lt_1&mean_score_lt_0_3&q_ent_place]",
+      "value": 0.6900365320577009
+    },
+    "af1c827206c8": {
+      "name": "filter[n_above_0_5_lt_2&n_above_0_5_lt_3&top1_score_gt_0_5]",
+      "value": 0.6981748575362065
+    },
+    "12c052e68d6f": {
+      "name": "filter[q_len_gt_8&q_ppl_gt_20&top1_len_lt_64]",
+      "value": 0.6988711570185446
+    },
+    "bfb293079927": {
+      "name": "abstain[first_ent_pos_lt_1&red_gt_0_5&top1_len_lt_128]",
+      "value": 0.6690374754902809
+    },
+    "492eaf058cac": {
+      "name": "filter[gap_lt_0_20&q_multihop&top2_score_gt_0_5]",
+      "value": 0.6941031317847656
+    },
+    "54779cb7e26a": {
+      "name": "rerank[q_ent_org&q_ent_place&red_gt_0_5]",
+      "value": 0.6919163071187088
+    },
+    "f87d07df471a": {
+      "name": "rerank[q_ent_org&top1_score_gt_0_7&top1_src_wiki]",
+      "value": 0.6904323723679443
+    },
+    "f8768a1e1530": {
+      "name": "abstain[q_ent_person&q_len_gt_8&q_ppl_gt_20]",
+      "value": 0.6526153916031421
+    },
+    "570a74439853": {
+      "name": "filter[top1_score_gt_0_9&top1_src_wiki&top2_score_gt_0_7]",
+      "value": 0.6896386107737896
+    },
+    "8ee05bd640d2": {
+      "name": "abstain[gap_lt_0_05&q_ent_place&q_ppl_gt_20]",
+      "value": 0.6820307466242034
+    },
+    "8ec7a7dd2ff7": {
+      "name": "filter[ent_missing_top3&mean_score_gt_0_5&n_above_0_5_lt_2]",
+      "value": 0.6919542797695178
+    },
+    "9ed443998b67": {
+      "name": "abstain[q_len_gt_8&q_ppl_gt_20&red_gt_0_9]",
+      "value": 0.6899112290846481
+    },
+    "81ba87af6f28": {
+      "name": "abstain[red_gt_0_7&top1_score_gt_0_5&top1_src_stub]",
+      "value": 0.6897337498836311
+    },
+    "fdd8bcbd48d8": {
+      "name": "abstain[gap_lt_0_10&q_ppl_gt_20&top3_score_gt_0_5]",
+      "value": 0.6692101243214692
+    },
+    "f15f30885089": {
+      "name": "rerank[top1_src_stub&top2_score_gt_0_5&top2_score_gt_0_7]",
+      "value": 0.6977130490573827
+    },
+    "8c56c390e493": {
+      "name": "rerank[ent_missing_top1&q_ent_org&top1_score_gt_0_5]",
+      "value": 0.7001994153840053
+    },
+    "a9f5e7432e57": {
+      "name": "filter[mean_score_lt_0_3&q_len_gt_16&top1_score_lt_0_5]",
+      "value": 0.6911998658337603
+    },
+    "b48e49e10a07": {
+      "name": "rerank[mean_score_gt_0_5&q_len_gt_16&top1_score_gt_0_7]",
+      "value": 0.6946968608482844
+    },
+    "b6074f098112": {
+      "name": "abstain[first_ent_pos_gt_3&n_above_0_5_lt_3&q_ent_time]",
+      "value": 0.6899762494144541
+    },
+    "88a63744872c": {
+      "name": "filter[q_ent_time&q_len_gt_16&src_low_trust]",
+      "value": 0.6910475062827282
+    },
+    "a494d937ce4b": {
+      "name": "abstain[mean_score_lt_0_3&q_len_gt_8&q_multihop]",
+      "value": 0.6916174757225934
+    },
+    "6500547ecd0c": {
+      "name": "filter[q_ent_person&src_mixed&top1_score_gt_0_5]",
+      "value": 0.7018478020498883
+    },
+    "ac36e7e3049c": {
+      "name": "abstain[q_ent_place&q_ent_time&top1_src_blog]",
+      "value": 0.6866897124321472
+    },
+    "87d4877feff7": {
+      "name": "rerank[red_gt_0_5&src_low_trust&top1_src_blog]",
+      "value": 0.6941495849241656
+    },
+    "f7827a89d5fa": {
+      "name": "rerank[first_ent_pos_lt_1&mean_score_gt_0_5&top1_score_gt_0_7]",
+      "value": 0.6961777033660117
+    },
+    "512989fde87d": {
+      "name": "filter[gen_len_gt_32&mean_score_gt_0_5&top1_src_blog]",
+      "value": 0.6888481765655746
+    },
+    "5f15cb2dfde2": {
+      "name": "abstain[ent_missing_top1&gap_lt_0_05&n_above_0_7_lt_2]",
+      "value": 0.6871615204200877
+    },
+    "d879e016428f": {
+      "name": "abstain[gap_lt_0_20&q_ent_place&top2_score_gt_0_7]",
+      "value": 0.6603077103199825
+    },
+    "d4adfef7df10": {
+      "name": "abstain[gap_lt_0_20&q_multihop&q_ppl_gt_20]",
+      "value": 0.6875468006475915
+    },
+    "374925f37904": {
+      "name": "filter[ent_missing_top1&q_ent_num&red_gt_0_7]",
+      "value": 0.6920133845053585
+    },
+    "a01479b0c028": {
+      "name": "rerank[gap_lt_0_10&n_above_0_7_lt_2&top1_score_lt_0_3]",
+      "value": 0.6918606622007176
+    },
+    "6023ef40b25f": {
+      "name": "abstain[n_above_0_7_lt_2&q_ent_time&top1_score_gt_0_5]",
+      "value": 0.6739469187329686
+    },
+    "982848de44af": {
+      "name": "abstain[ent_missing_top3&q_ent_org&top1_score_gt_0_7]",
+      "value": 0.6799180924530418
+    },
+    "9d41c17faf8c": {
+      "name": "filter[ent_missing_top3&gen_conf_lt_0_5&top1_len_lt_64]",
+      "value": 0.6918642317290933
+    },
+    "1503d57a04cc": {
+      "name": "rerank[q_len_gt_16&top1_len_lt_64&top1_score_gt_0_5]",
+      "value": 0.6930103406646396
+    },
+    "a64b65266967": {
+      "name": "abstain[q_ent_time&q_len_gt_8&src_low_trust]",
+      "value": 0.6777518948801599
+    },
+    "d8c1b0a3d896": {
+      "name": "filter[gap_lt_0_20&q_ppl_lt_10&top2_score_gt_0_7]",
+      "value": 0.6907703835965404
+    },
+    "7aa2a82d71c3": {
+      "name": "rerank[gap_lt_0_10&q_len_gt_16&q_multihop]",
+      "value": 0.6920209723800026
+    },
+    "dc4908a9ff94": {
+      "name": "filter[gen_conf_lt_0_5&n_above_0_5_lt_2&top1_score_lt_0_5]",
+      "value": 0.6924972160499611
+    },
+    "37c7a770f450": {
+      "name": "rerank[gap_lt_0_10&q_ppl_gt_20&top3_score_gt_0_5]",
+      "value": 0.6968916627884277
+    },
+    "bdcaafb1ce44": {
+      "name": "filter[gap_lt_0_20&q_ent_org&top1_score_gt_0_7]",
+      "value": 0.6929794676761654
+    },
+    "b42057f797b2": {
+      "name": "filter[ent_missing_top1&gap_lt_0_20&n_above_0_7_lt_2]",
+      "value": 0.7163098181260533
+    },
+    "52d58ef47352": {
+      "name": "abstain[ent_missing_top1&q_ent_place&top1_len_lt_128]",
+      "value": 0.677458656933949
+    },
+    "0ea847c0a752": {
+      "name": "filter[ent_missing_top3&gap_lt_0_05&top1_len_lt_128]",
+      "value": 0.6987792251867668
+    },
+    "96d2eb4bf11f": {
+      "name": "abstain[ent_missing_top3&gap_lt_0_20&top1_score_gt_0_7]",
+      "value": 0.6706864326422923
+    },
+    "9304db88abc6": {
+      "name": "abstain[q_ent_person&q_len_gt_16&top2_score_gt_0_5]",
+      "value": 0.6784095474722374
+    },
+    "60a634615dbc": {
+      "name": "rerank[mean_score_gt_0_5&n_above_0_7_lt_2&q_ent_person]",
+      "value": 0.7025459599446856
+    },
+    "a74ae546a730": {
+      "name": "abstain[q_len_gt_16&red_gt_0_5&top1_len_lt_128]",
+      "value": 0.6863752824525877
+    },
+    "70bac2c5ad99": {
+      "name": "filter[gap_lt_0_20&q_ent_num&q_len_gt_8]",
+      "value": 0.6977043660290663
+    },
+    "79ba0d890e7e": {
+      "name": "filter[n_above_0_5_lt_2&q_ent_place&src_low_trust]",
+      "value": 0.6910006705861987
+    },
+    "aee9ae46c8ce": {
+      "name": "rerank[q_len_gt_16&red_gt_0_5&top1_len_lt_128]",
+      "value": 0.6939508995157007
+    },
+    "599826771195": {
+      "name": "abstain[first_ent_pos_lt_1&q_multihop&top1_score_lt_0_5]",
+      "value": 0.690438414684925
+    },
+    "50272a8254ed": {
+      "name": "filter[mean_score_gt_0_5&n_above_0_7_lt_2&q_ent_person]",
+      "value": 0.6972076952392947
+    },
+    "b4b20c80d448": {
+      "name": "abstain[ent_missing_top3&gap_lt_0_05&gen_conf_lt_0_5]",
+      "value": 0.6912369225435175
+    },
+    "3c0458d2225c": {
+      "name": "abstain[q_ent_num&src_mixed&top1_score_lt_0_3]",
+      "value": 0.6906705357739685
+    },
+    "532d7c8e47a5": {
+      "name": "rerank[n_above_0_5_lt_2&n_above_0_5_lt_3&src_low_trust]",
+      "value": 0.6981074382040975
+    },
+    "f454c9cc76eb": {
+      "name": "rerank[gen_len_gt_32&mean_score_gt_0_5&top1_src_blog]",
+      "value": 0.6905554616945221
+    },
+    "79f2a405480b": {
+      "name": "abstain[gen_conf_lt_0_5&q_ppl_gt_20&top1_len_lt_64]",
+      "value": 0.6916276858023148
+    },
+    "983c4a5198ca": {
+      "name": "abstain[q_ent_time&q_ppl_gt_20&top1_src_stub]",
+      "value": 0.689717346271623
+    },
+    "f9d517128a3e": {
+      "name": "filter[gap_lt_0_10&q_len_gt_16&q_multihop]",
+      "value": 0.6913562453317165
+    },
+    "08fad1c755a9": {
+      "name": "rerank[n_above_0_5_lt_3&top1_len_lt_128&top1_score_lt_0_3]",
+      "value": 0.691524286168662
+    },
+    "f344711faba2": {
+      "name": "abstain[gap_lt_0_05&n_above_0_5_lt_2&n_above_0_5_lt_3]",
+      "value": 0.6866605913351025
+    },
+    "57b8509a1182": {
+      "name": "filter[red_gt_0_7&top1_score_gt_0_5&top1_src_stub]",
+      "value": 0.6953082940953552
+    },
+    "13ecedd532ab": {
+      "name": "rerank[n_above_0_5_lt_3&q_ent_org&top1_src_forum]",
+      "value": 0.69247840434827
+    },
+    "7377ee1dee6c": {
+      "name": "rerank[gap_lt_0_05&gen_len_gt_32&top2_score_gt_0_7]",
+      "value": 0.6912053306039923
+    },
+    "1e485fab784a": {
+      "name": "rerank[q_ent_time&top1_src_blog&top2_score_gt_0_5]",
+      "value": 0.6905900836388608
+    },
+    "81251e208224": {
+      "name": "rerank[first_ent_pos_gt_3&src_low_trust&src_mixed]",
+      "value": 0.6959616830884678
+    },
+    "44d7d25e3f99": {
+      "name": "filter[n_above_0_5_lt_2&q_ent_person&top1_score_gt_0_5]",
+      "value": 0.692216418831734
+    },
+    "8bb16800a80c": {
+      "name": "rerank[n_above_0_7_lt_2&top1_score_gt_0_5&top1_src_blog]",
+      "value": 0.6899277317497238
+    },
+    "821238371231": {
+      "name": "filter[q_ent_num&top1_len_lt_128&top1_score_gt_0_5]",
+      "value": 0.6976843418208976
+    },
+    "f47ae5499635": {
+      "name": "rerank[q_ent_place&q_multihop&top2_score_gt_0_7]",
+      "value": 0.6907091913147092
+    },
+    "a0ff118be3f0": {
+      "name": "filter[gap_lt_0_10&q_ppl_gt_20&top3_score_gt_0_5]",
+      "value": 0.6936307368398836
+    },
+    "39e1be1f1119": {
+      "name": "rerank[gen_len_gt_32&n_above_0_7_lt_2&top1_src_wiki]",
+      "value": 0.6903733643504811
+    },
+    "6478ba0b3cbd": {
+      "name": "rerank[first_ent_pos_gt_3&gap_lt_0_05&top1_len_lt_128]",
+      "value": 0.6935142927493938
+    },
+    "c26adaaef46d": {
+      "name": "abstain[gen_len_gt_32&q_ent_time&top1_score_gt_0_7]",
+      "value": 0.6885899379941439
+    },
+    "359bc91a12bf": {
+      "name": "rerank[ent_missing_top3&q_ent_time&top1_src_forum]",
+      "value": 0.6926838288741979
+    },
+    "b199a5308bcb": {
+      "name": "abstain[gap_lt_0_20&src_low_trust&top1_score_gt_0_9]",
+      "value": 0.6846720514291955
+    },
+    "72fa7df47e34": {
+      "name": "rerank[q_ent_num&q_ent_person&top1_src_blog]",
+      "value": 0.6906234484154979
+    },
+    "1eb6850c04d5": {
+      "name": "filter[ent_missing_top3&first_ent_pos_lt_1&top1_len_lt_128]",
+      "value": 0.6936911019187995
+    },
+    "4bdf09e50c04": {
+      "name": "filter[gen_len_gt_32&q_multihop&top1_src_stub]",
+      "value": 0.6924999192385617
+    },
+    "2929e59f3666": {
+      "name": "abstain[mean_score_gt_0_5&top1_len_lt_128&top3_score_gt_0_5]",
+      "value": 0.621457411005972
+    },
+    "97c62d3f2b5a": {
+      "name": "rerank[ent_missing_top3&first_ent_pos_lt_1&top1_len_lt_128]",
+      "value": 0.695333818327637
+    },
+    "1eb3a49ec3d9": {
+      "name": "abstain[n_above_0_7_lt_2&top2_score_gt_0_7&top3_score_gt_0_5]",
+      "value": 0.6882091343485734
+    },
+    "35862dd12a02": {
+      "name": "abstain[ent_missing_top3&gen_conf_lt_0_5&top1_len_lt_64]",
+      "value": 0.6918060339500905
+    },
+    "536c5aacf485": {
+      "name": "rerank[first_ent_pos_gt_3&q_ent_num&top1_score_gt_0_5]",
+      "value": 0.6941193326951167
+    },
+    "9857bd36613b": {
+      "name": "abstain[gap_lt_0_10&n_above_0_7_lt_2&top1_score_lt_0_3]",
+      "value": 0.6910999973335268
+    },
+    "6baed4f5242e": {
+      "name": "rerank[first_ent_pos_gt_3&q_ent_num&q_multihop]",
+      "value": 0.6919085534128854
+    },
+    "e263fbac740e": {
+      "name": "filter[q_ent_org&q_multihop&top1_src_stub]",
+      "value": 0.6925110457827703
+    },
+    "6583cf35edad": {
+      "name": "filter[gap_lt_0_05&gap_lt_0_20&top1_src_stub]",
+      "value": 0.6989204173085295
+    },
+    "9826fc99faa0": {
+      "name": "rerank[q_ppl_lt_10&top1_score_gt_0_5&top1_score_gt_0_7]",
+      "value": 0.6917057698543094
+    },
+    "f9482c6615e2": {
+      "name": "filter[first_ent_pos_lt_1&mean_score_gt_0_5&top1_score_gt_0_7]",
+      "value": 0.6824090823683732
+    },
+    "23c3f603d1e0": {
+      "name": "filter[first_ent_pos_gt_3&q_ent_num&top1_score_gt_0_5]",
+      "value": 0.6944662284328182
+    },
+    "7c41204a4de2": {
+      "name": "rerank[first_ent_pos_lt_1&q_ent_person&src_low_trust]",
+      "value": 0.6906399615588666
+    },
+    "6530303a63c9": {
+      "name": "filter[gen_conf_lt_0_5&q_multihop&top1_score_lt_0_3]",
+      "value": 0.6910744025459665
+    },
+    "423152f3d0fb": {
+      "name": "abstain[first_ent_pos_gt_3&q_ent_num&top1_score_gt_0_5]",
+      "value": 0.6874193084065178
+    },
+    "412820283478": {
+      "name": "filter[gap_lt_0_05&gen_conf_lt_0_5&n_above_0_5_lt_3]",
+      "value": 0.6913646099329646
+    },
+    "ef11016cf244": {
+      "name": "filter[red_gt_0_5&src_mixed&top1_src_wiki]",
+      "value": 0.6874452631906558
+    },
+    "15d5f43a514e": {
+      "name": "rerank[top1_score_gt_0_9&top2_score_gt_0_7&top3_score_gt_0_5]",
+      "value": 0.6927839456841209
+    },
+    "c13a7c879eff": {
+      "name": "filter[gen_conf_lt_0_5&q_ppl_gt_20&top1_src_blog]",
+      "value": 0.6893762555743872
+    },
+    "f05eaadc83e7": {
+      "name": "filter[red_gt_0_5&top1_len_lt_128&top1_src_wiki]",
+      "value": 0.690006686731809
+    },
+    "0dcdfb7b8ef3": {
+      "name": "filter[gap_lt_0_20&q_ent_place&top2_score_gt_0_7]",
+      "value": 0.6922323573042151
+    },
+    "59dfa92d07e5": {
+      "name": "rerank[gen_len_gt_32&n_above_0_5_lt_2&q_ppl_gt_20]",
+      "value": 0.6925233470754715
+    },
+    "5bf19073948a": {
+      "name": "filter[first_ent_pos_gt_3&q_ppl_gt_20&top2_score_gt_0_5]",
+      "value": 0.6967069771879099
+    },
+    "a150e182edf0": {
+      "name": "abstain[gen_conf_lt_0_5&q_len_gt_16&q_ppl_gt_20]",
+      "value": 0.6909073759397211
+    },
+    "829e0b85dcb3": {
+      "name": "rerank[top1_score_gt_0_7&top1_src_forum&top3_score_gt_0_5]",
+      "value": 0.6973420632444337
+    },
+    "3b9d2c4d2796": {
+      "name": "filter[gap_lt_0_05&q_ent_place&q_ppl_gt_20]",
+      "value": 0.6915436330027506
+    },
+    "f831e54ceb55": {
+      "name": "rerank[gap_lt_0_20&q_ppl_lt_10&top2_score_gt_0_7]",
+      "value": 0.6909713531790935
+    },
+    "510d443e1691": {
+      "name": "rerank[n_above_0_7_lt_2&q_ent_num&top2_score_gt_0_5]",
+      "value": 0.6988526342507598
+    },
+    "e5b1818dbccf": {
+      "name": "rerank[ent_missing_top3&q_ppl_lt_10&top1_len_lt_128]",
+      "value": 0.6917690971346715
+    },
+    "6d3cc0e88edc": {
+      "name": "filter[ent_missing_top3&src_low_trust&top1_len_lt_128]",
+      "value": 0.7045172132925275
+    },
+    "4f9b9798086a": {
+      "name": "filter[mean_score_gt_0_5&q_multihop&top1_src_wiki]",
+      "value": 0.6887244123972969
+    },
+    "fd74fd28d221": {
+      "name": "rerank[q_ent_num&red_gt_0_5&top1_src_wiki]",
+      "value": 0.6912473241103521
+    },
+    "031f2ba2e19a": {
+      "name": "filter[mean_score_gt_0_5&n_above_0_7_lt_2&top1_src_wiki]",
+      "value": 0.6840206382342655
+    },
+    "8408c53194c2": {
+      "name": "filter[q_ent_person&red_gt_0_7&src_low_trust]",
+      "value": 0.6916108014839613
+    },
+    "32fcb4ad4f90": {
+      "name": "rerank[q_ppl_gt_20&top1_len_lt_128&top1_score_gt_0_9]",
+      "value": 0.6917464333739866
+    },
+    "5a7bd575c083": {
+      "name": "abstain[q_ent_person&q_len_gt_8&top1_len_lt_64]",
+      "value": 0.6663285927982285
+    },
+    "203706849fc3": {
+      "name": "abstain[gap_lt_0_05&q_ppl_gt_40&top2_score_gt_0_5]",
+      "value": 0.6889714753052201
+    },
+    "38db44662e5d": {
+      "name": "rerank[first_ent_pos_lt_1&q_ent_num&top2_score_gt_0_5]",
+      "value": 0.6936843290177308
+    },
+    "e417a0bd737d": {
+      "name": "abstain[gap_lt_0_10&q_len_gt_16&q_multihop]",
+      "value": 0.6895179294052591
+    },
+    "23902dd14204": {
+      "name": "filter[gap_lt_0_20&q_ppl_gt_20&top1_src_forum]",
+      "value": 0.7039186295957615
+    },
+    "3a4e7464bdaa": {
+      "name": "rerank[gap_lt_0_10&q_ent_time&top2_score_gt_0_7]",
+      "value": 0.6914851085140842
+    },
+    "6662b3f8cd0f": {
+      "name": "abstain[ent_missing_top1&q_ent_place&top2_score_gt_0_5]",
+      "value": 0.6736251397653883
+    },
+    "cb1c8577959e": {
+      "name": "abstain[gap_lt_0_05&src_low_trust]",
+      "value": 0.6690033283968161
+    },
+    "46967a002c1a": {
+      "name": "rerank[q_ent_place&q_len_gt_16]",
+      "value": 0.69320317612742
+    },
+    "1df6e7a531d1": {
+      "name": "abstain[n_above_0_5_lt_3&n_above_0_7_lt_2]",
+      "value": 0.6220335329238005
+    },
+    "769ebed19de5": {
+      "name": "filter[ent_missing_top3&src_mixed]",
+      "value": 0.7352002384973502
+    },
+    "687c462d98d4": {
+      "name": "abstain[q_len_gt_16&q_len_gt_8&top1_score_gt_0_5]",
+      "value": 0.6621774233451657
+    },
+    "3dff85dc9d08": {
+      "name": "abstain[ent_missing_top3&src_low_trust&top1_len_lt_128]",
+      "value": 0.6735495656604242
+    },
+    "4193bb58da89": {
+      "name": "rerank[q_ent_place&q_ent_time]",
+      "value": 0.693002811559295
+    },
+    "fb831a1584b2": {
+      "name": "abstain[q_ent_num&top1_len_lt_64&top3_score_gt_0_5]",
+      "value": 0.6824543724175353
+    },
+    "d4cf92447957": {
+      "name": "abstain[first_ent_pos_lt_1&gen_conf_lt_0_5&mean_score_lt_0_3]",
+      "value": 0.6918043707679614
+    },
+    "e78fe1fd7d1e": {
+      "name": "rerank[gap_lt_0_05&top1_len_lt_64]",
+      "value": 0.6965028942012427
+    },
+    "d0cac38a22b5": {
+      "name": "abstain[first_ent_pos_gt_3&src_mixed]",
+      "value": 0.6782718070579729
+    },
+    "0fad215b2a99": {
+      "name": "abstain[q_ent_num&src_mixed]",
+      "value": 0.6424444773180953
+    },
+    "910960d31f90": {
+      "name": "abstain[mean_score_gt_0_5&q_ent_person&q_ppl_gt_40]",
+      "value": 0.6882706913914667
+    },
+    "0ffcc16f6768": {
+      "name": "abstain[ent_missing_top3&q_len_gt_16]",
+      "value": 0.6851102319162711
+    },
+    "e32fe4027bb3": {
+      "name": "filter[n_above_0_5_lt_3&top1_score_gt_0_5]",
+      "value": 0.7071537887329928
+    },
+    "db872e9f661b": {
+      "name": "filter[q_len_gt_16&src_low_trust&top2_score_gt_0_5]",
+      "value": 0.6909114026899973
+    },
+    "dcaff5c2b2a9": {
+      "name": "abstain[mean_score_lt_0_3&q_ent_person]",
+      "value": 0.6904085567810933
+    },
+    "4985e922eaee": {
+      "name": "rerank[n_above_0_5_lt_3&q_ent_place]",
+      "value": 0.6986085750423717
+    },
+    "b7fddb63c294": {
+      "name": "rerank[n_above_0_7_lt_2&top2_score_gt_0_7&top3_score_gt_0_5]",
+      "value": 0.6912664174797105
+    },
+    "7c6f3ca9f348": {
+      "name": "filter[gap_lt_0_05&gen_conf_lt_0_5&top1_score_lt_0_5]",
+      "value": 0.6912233691805191
+    },
+    "97f2fc2b2a8a": {
+      "name": "rerank[gap_lt_0_20&q_ent_org&top1_score_gt_0_7]",
+      "value": 0.6953321710778791
+    },
+    "0ea3f127e720": {
+      "name": "abstain[mean_score_lt_0_3&q_len_gt_8]",
+      "value": 0.6910326520664715
+    },
+    "3ed7de97494e": {
+      "name": "abstain[q_ent_place&q_ppl_gt_20&top1_score_gt_0_7]",
+      "value": 0.6614969152109645
+    },
+    "6d1d19815ae9": {
+      "name": "rerank[src_mixed&top1_score_lt_0_5]",
+      "value": 0.701561598368163
+    },
+    "3020d1ca6754": {
+      "name": "abstain[first_ent_pos_gt_3&top3_score_gt_0_5]",
+      "value": 0.6809833619242259
+    },
+    "988df3591cb3": {
+      "name": "filter[q_ent_num&top1_score_gt_0_5]",
+      "value": 0.697875599477115
+    },
+    "0f61109e65e4": {
+      "name": "rerank[gen_conf_lt_0_5&q_multihop&top1_score_lt_0_3]",
+      "value": 0.6911580315510797
+    },
+    "1c5ed8e85799": {
+      "name": "abstain[n_above_0_7_lt_2&red_gt_0_9&top1_len_lt_128]",
+      "value": 0.6902447635610885
+    },
+    "27072afc7b71": {
+      "name": "filter[q_ent_time&top1_src_blog]",
+      "value": 0.6880093239509378
+    },
+    "9e586d069c0e": {
+      "name": "abstain[first_ent_pos_gt_3&gap_lt_0_10&q_ent_org]",
+      "value": 0.688411382230301
+    },
+    "2a0581714913": {
+      "name": "rerank[gap_lt_0_10&top1_src_forum]",
+      "value": 0.7013694304826306
+    },
+    "b74e6cc055e8": {
+      "name": "rerank[q_ppl_lt_10&top1_src_forum]",
+      "value": 0.6912842039579118
+    }
+  }
+}

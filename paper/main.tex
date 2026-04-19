@@ -1,0 +1,140 @@
+% NeurIPS 2026 submission skeleton.  Content lives primarily in paper/sections/*.md;
+% this file is the LaTeX consolidation.  Compiled form is produced via pandoc
+% or by pasting the sections into the neurips_2026 style file.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm, mathtools, bm}
+\usepackage{booktabs, array}
+\usepackage{hyperref}
+\usepackage{graphicx}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{assumption}{Assumption}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\newcommand{\ind}{\mathbb{1}}
+\newcommand{\indep}{\perp\!\!\!\perp}
+
+\title{RuleOPE: Doubly-Robust Offline Evaluation of Compositional Rule-Based
+Interventions in Retrieval-Augmented Generation}
+
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Production retrieval-augmented generation (RAG) systems are routinely updated
+by the addition of deterministic \emph{rules} that filter, re-rank, or veto the
+retrieval step based on boolean predicates over query and passage features.
+There is, however, no principled way to decide \emph{which} rule to ship.
+Existing off-policy evaluation estimators are specialised to stochastic or
+continuous-action bandits, or treat retrieval as a slate recommender, ignoring
+the combinatorial structure of rules.  We introduce RuleOPE, an offline
+evaluation framework for rule-based interventions in RAG.  Our contributions
+are: (i) a formalisation of rule-based interventions as conjunctive boolean
+policies; (ii) a doubly-robust estimator whose reward regression is
+factorised over atomic predicates, so rules sharing atoms share regression
+parameters and the total estimator variance across a rule set of size $M$
+scales sublinearly in $M$; and (iii) a consistency proof and variance bound
+under standard ignorability assumptions, plus explicit characterisation of
+three RAG-specific failure modes.  We release a frozen benchmark of 500
+rules with exact ground-truth values, three correction-noise regimes, and a
+reproducible synthetic substrate.  RuleOPE matches or improves upon every
+baseline including Cascade DR, CIPS-DR, and the Direct Method, with the
+largest gains in the production-realistic deterministic-logging regime.
+\end{abstract}
+
+%-----------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+\input{sections/intro_body}
+
+%-----------------------------------------------------------------------------
+\section{Related work}
+\label{sec:related}
+\input{sections/related_body}
+
+%-----------------------------------------------------------------------------
+\section{Problem formulation}
+\label{sec:formulation}
+\input{sections/formulation_body}
+
+%-----------------------------------------------------------------------------
+\section{The RuleOPE estimator}
+\label{sec:estimator}
+\input{sections/estimator_body}
+
+%-----------------------------------------------------------------------------
+\section{Theory}
+\label{sec:theory}
+\input{sections/theory_body}
+
+%-----------------------------------------------------------------------------
+\section{Benchmark}
+\label{sec:benchmark}
+\input{sections/benchmark_body}
+
+%-----------------------------------------------------------------------------
+\section{Main experiments}
+\label{sec:exp}
+\input{sections/experiments_body}
+
+%-----------------------------------------------------------------------------
+\section{Ablations and scaling}
+\label{sec:abl}
+\input{sections/ablations_body}
+
+%-----------------------------------------------------------------------------
+\section{Failure-mode stress tests and case study}
+\label{sec:failure}
+\input{sections/failure_body}
+
+%-----------------------------------------------------------------------------
+\section{Discussion}
+\label{sec:disc}
+\input{sections/discussion_body}
+
+%-----------------------------------------------------------------------------
+\appendix
+\section{Consistency proof (detailed)}
+See \texttt{theory/proofs.tex}.
+
+\section{Decisions log}
+\input{sections/decisions_body}
+
+%-----------------------------------------------------------------------------
+\section*{References}
+\small
+\begin{itemize}\itemsep=1pt
+\item Chernozhukov et al.\ (2018).  Double/debiased machine learning.  \emph{Econometrics Journal}.
+\item Dud\'ik, Langford, Li (2011).  Doubly robust policy evaluation and learning.  \emph{ICML}.
+\item Es et al.\ (2023).  RAGAS: automated evaluation of RAG.  \emph{arXiv}.
+\item Farajtabar et al.\ (2018).  More robust doubly robust OPE.  \emph{ICML}.
+\item Horvitz, Thompson (1952).  A generalization of sampling without replacement.  \emph{JASA}.
+\item Joachims et al.\ (2018).  Deep learning with logged bandit feedback.  \emph{ICLR}.
+\item Kallus, Uehara (2020).  Double reinforcement learning.  \emph{JMLR}.
+\item Kiyohara et al.\ (2022).  Doubly robust off-policy evaluation for ranking.  \emph{WSDM}.
+\item Li et al.\ (2015).  Counterfactual estimation for slate recommender systems.  \emph{RecSys}.
+\item McInerney et al.\ (2020).  Counterfactual evaluation of slate recommendations.  \emph{RecSys}.
+\item Petroni et al.\ (2021).  KILT: a benchmark for knowledge-intensive tasks.  \emph{NAACL}.
+\item Robins, Rotnitzky, Zhao (1994).  Estimation of regression coefficients when some regressors are not always observed.  \emph{JASA}.
+\item Rosenbaum, Rubin (1983).  The central role of the propensity score.  \emph{Biometrika}.
+\item Rubin (1974).  Estimating causal effects of treatments.  \emph{J.\ Ed.\ Psych.}
+\item Saad-Falcon et al.\ (2023).  ARES: evaluation of RAG.  \emph{NAACL}.
+\item Saito, Joachims (2022).  Off-policy evaluation for large action spaces.  \emph{ICML}.
+\item Saito et al.\ (2023).  OPE for deterministic policies with kernel smoothing.  \emph{arXiv}.
+\item Shivaswamy, Joachims (2015).  Coactive learning.  \emph{JMLR}.
+\item Su et al.\ (2020).  Doubly robust off-policy evaluation with shrinkage.  \emph{ICML}.
+\item Swaminathan, Joachims (2015).  Counterfactual risk minimization.  \emph{JMLR}; The self-normalized estimator, \emph{NeurIPS}.
+\item Swaminathan et al.\ (2017).  Off-policy evaluation for slate recommendation.  \emph{NeurIPS}.
+\item Thakur et al.\ (2021).  BEIR: a heterogenous benchmark for zero-shot evaluation of IR.  \emph{NeurIPS}.
+\item Vlassis et al.\ (2019).  OPE for combinatorial actions.  \emph{ICML workshop}.
+\item Wang et al.\ (2017).  Optimal and adaptive off-policy evaluation in contextual bandits.  \emph{ICML}.
+\item Yang et al.\ (2018).  HotpotQA: a diverse multi-hop QA dataset.  \emph{EMNLP}.
+\item Zhang et al.\ (2020).  Off-policy evaluation with sparse expert feedback.  \emph{AISTATS}.
+\end{itemize}
+
+\end{document}
