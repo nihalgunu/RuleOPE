@@ -7,3 +7,5 @@ __pycache__/
 
 # Large downloaded / generated data (not part of the repo)
 eval/hotpot/
+eval/trivia/
+eval/musique/
