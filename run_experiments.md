@@ -336,7 +336,260 @@ All experiments are seeded; running the full suite with a single
 
 ---
 
-## 15  Summary of claims $\to$ experiments mapping
+## 15  High-risk, high-novelty exploratory experiments
+
+These are experiments that, if successful, constitute their own
+main-conference contribution. Each carries non-trivial risk of
+failing; each would meaningfully distinguish the paper if it works.
+Implement sequentially or in parallel; each is self-contained.
+
+### 15.A  Corrections-as-instrumental-variables (IV-RuleOPE)
+
+- **Claim**: Under the assumption that corrections are an *instrument*
+  for the unobserved reward (satisfying exclusion-restriction and
+  relevance conditions), $V(\rho)$ is point-identified *without*
+  requiring A5's linear structural form. Miao–Geng–Tchetgen-Tchetgen
+  (2018) proximal ID applied to the correction signal.
+- **Implementation**: `src/iv_ruleope.py` — two-stage estimator that
+  uses $C$ as a proximal outcome, $R$ as the outcome of interest,
+  with a shared hidden confounder $U$. Plug into the bridge-function
+  machinery.
+- **Novelty**: first OPE paper (to our knowledge) to use the correction
+  signal as a proximal instrument. Replaces A5 with strictly different
+  (and arguably weaker for RAG) conditions.
+- **Risk**: HIGH. The exclusion restriction may fail in practice —
+  corrections do depend directly on rewards. Needs a careful
+  characterisation of when it holds.
+- **Success criterion**: on a synthetic substrate satisfying the IV
+  conditions, RuleOPE-IV achieves zero bias while DR / standard
+  RuleOPE have non-zero bias.
+
+### 15.B  Compositional rule-ensemble evaluation
+
+- **Claim**: A *set* of rules $\mathcal{S} = \{\rho_1, \ldots, \rho_k\}$
+  induces a composed policy $\pi_{\mathcal{S}}$ whose value is not the
+  sum or product of individual values — rule interactions matter.
+  Estimate $V(\pi_{\mathcal{S}})$ from logs.
+- **Implementation**: `src/rule_ensemble.py` — handle overlapping
+  firing domains, action precedence rules (e.g., abstain beats
+  filter beats noop), and a combinatorial variance-bound that scales
+  sublinearly in $|\mathcal{S}|$ via inclusion-exclusion on atoms.
+- **Novelty**: combinatorial OPE has been studied for slate
+  recommendation but not for rule SETS. To our knowledge the first
+  OPE paper on rule-set interactions.
+- **Risk**: MEDIUM. The combinatorial structure is challenging but
+  tractable; the main risk is that without strong assumptions the
+  bounds are loose.
+- **Experiment**: evaluate the top-20 rules from the benchmark case
+  study, first individually, then as an ensemble. Show the ensemble
+  value differs materially from the sum of individual values.
+
+### 15.C  Conformal rule-OPE (distribution-free CIs)
+
+- **Claim**: Provide valid $1 - \delta$ confidence intervals for
+  $V(\rho)$ without any parametric assumption, using conformal
+  prediction (Vovk 2005; Romano et al. 2020).
+- **Implementation**: `src/conformal_ruleope.py` — split-conformal
+  calibration using out-of-fold RuleOPE residuals; per-rule CI via
+  the conformal quantile.
+- **Novelty**: no existing OPE paper uses conformal prediction for
+  counterfactual policy values. A clean translation of conformal
+  inference to OPE that would be cited broadly.
+- **Risk**: MEDIUM. Conformal needs exchangeability; rule evaluation
+  is i.i.d. over contexts, so the assumption is natural. The
+  *sharpness* of conformal intervals may be loose.
+- **Success criterion**: empirical coverage at nominal $1 - \delta$
+  across rule classes, sharper than Wald intervals in misspecified
+  regimes.
+
+### 15.D  Adversarial minimax rule-OPE
+
+- **Claim**: Compute $\underline{V}(\rho) = \inf_{P' \in \mathcal{C}} V_{P'}(\rho)$
+  where $\mathcal{C}$ is the set of distributions compatible with the
+  observed $(X, R, C)$ marginals plus a user-specified family of
+  structural assumptions (e.g., A4, A5 with unknown $\beta$ in a
+  range).
+- **Implementation**: `src/minimax_ruleope.py` — convex optimisation
+  over moment conditions, using ECOS or CVXPY.
+- **Novelty**: distributionally-robust OPE extended to rule-specific
+  settings; connection to Namkoong–Duchi, Zhan et al. 2024 DRO-OPE.
+- **Risk**: MEDIUM-HIGH. The optimisation can be large; convergence
+  behaviour in the rule-ensemble case is open.
+- **Success criterion**: $\underline{V}(\rho)$ coverage of true $V(\rho)$
+  at nominal rate $1-\delta$, across rule classes.
+
+### 15.E  Active-query rule-OPE
+
+- **Claim**: Given a budget to *collect* additional correction labels
+  on specific queries, which queries should we label to maximally
+  reduce the variance of $\widehat V(\rho^*)$ for the top rule?
+  Formulate as an active-learning problem with a minimax-optimal
+  query policy.
+- **Implementation**: `src/active_ruleope.py` — EIF-gradient-based
+  query scoring, sequential halving on the rule set.
+- **Novelty**: active-learning for OPE has not been studied under the
+  rule framework. Active-OPE more broadly is only in a handful of
+  recent papers (Li et al. 2024).
+- **Risk**: LOW-MEDIUM. The query-policy design is a clean
+  optimisation; the main risk is that in our substrate the
+  variance reduction is dominated by identification, not
+  estimation, so active labelling doesn't help as much as in
+  a pure-estimation regime.
+
+### 15.F  Transductive rule-OPE with conformal calibration
+
+- **Claim**: Provide *per-query* counterfactual predictions
+  $\widehat R(x, \pi_\rho(x))$ with conformal prediction intervals,
+  rather than expected-value estimates $V(\rho)$.
+- **Implementation**: `src/transductive_ruleope.py` — per-query EIF
+  plug-in + split conformal.
+- **Novelty**: rule-OPE typically estimates expectations; per-query
+  counterfactual intervals are a strictly finer object that
+  practitioners can act on query-by-query. Connection to jackknife+,
+  CQR for counterfactuals (Lei & Candès 2021).
+- **Risk**: MEDIUM. Per-query calibration needs careful handling of
+  firing vs. non-firing queries.
+
+### 15.G  Scientific-method FDR-controlled rule evaluation
+
+- **Claim**: Treat each rule as a hypothesis ("this rule increases
+  reward"). Use Benjamini–Hochberg or knockoffs (Barber–Candès 2015)
+  to identify *discoveries* with controlled false discovery rate.
+  Ship rules with FDR guarantees.
+- **Implementation**: `src/fdr_ruleope.py` — compute per-rule p-values
+  from the RuleOPE influence function, apply BH.
+- **Novelty**: no OPE paper uses FDR for rule deployment. Direct
+  translation of FDR machinery to OPE.
+- **Risk**: LOW. BH is well-understood and easy to apply. Main risk
+  is that the p-values are conservative if RuleOPE CIs are
+  misspecified.
+- **Experiment**: on the benchmark, identify rules with
+  BH-controlled FDR $\le 0.05$; compare to a naive top-k selection.
+  Expected: FDR selection is slightly more conservative but has a
+  controlled error rate, which is what a practitioner wants.
+
+### 15.H  Meta-learned bridge functions via transformers
+
+- **Claim**: The bridge function $b_\rho(x)$ depends on the rule $\rho$.
+  Train a transformer that takes the rule's atom composition as
+  input and outputs the bridge. Amortizes the bridge estimation
+  across rules.
+- **Implementation**: `src/meta_bridge.py` — transformer with rule-
+  atom tokens and context features, trained on synthetic
+  substrates with known bridges.
+- **Novelty**: meta-learned identification components are a new
+  direction; amortized DR estimators of any kind are rare.
+- **Risk**: HIGH. Transformer training on small benchmarks may
+  overfit; generalisation to new rules is the open question.
+
+### 15.I  Differentiable rule discovery
+
+- **Claim**: Replace the atom-indicator $\phi_\alpha(x) \in \{0, 1\}$
+  with a smoothed soft-indicator $\sigma_\tau(\phi_\alpha(x))$
+  parameterised by a learnable threshold, and gradient-descend
+  through RuleOPE to find the rule that maximises $\widehat V_{\rm LCB}(\rho)$.
+  Non-convex but empirically effective.
+- **Implementation**: `src/diffrule.py` — JAX or PyTorch
+  implementation of the full pipeline.
+- **Novelty**: differentiable rule discovery is a distinct
+  sub-field; doing it inside an OPE objective is new.
+- **Risk**: HIGH. Non-convex optimisation, saddle points, and
+  getting the gradient flow correct through the cross-fit
+  regression require care.
+
+### 15.J  Causal-mechanism RuleOPE
+
+- **Claim**: Model the RAG pipeline as a structural causal model
+  (Pearl 2009) with explicit retrieval-generation-correction
+  mechanisms. Rules are interventions on specific nodes. Use
+  do-calculus to identify $V(\rho)$ from logs under testable
+  graph assumptions.
+- **Implementation**: `src/scm_ruleope.py` — DoWhy-based
+  identification and estimation.
+- **Novelty**: OPE papers rarely use SCMs explicitly; we would
+  bridge OPE and causal-inference literatures.
+- **Risk**: HIGH. Graph assumptions are strong and hard to verify.
+  May not yield a better estimator than our existing framework.
+
+### 15.K  Rule-OPE under non-stationarity (temporal drift)
+
+- **Claim**: The target distribution drifts over time (corpus
+  updates). Estimate $V(\rho)$ at time $t_1$ from logs at time $t_0$
+  under a parametric drift model.
+- **Implementation**: `src/temporal_ruleope.py` — weighted RuleOPE
+  with importance weights from a drift-model density ratio.
+- **Novelty**: time-varying OPE is a small literature; rule-specific
+  drift is unaddressed.
+- **Risk**: LOW-MEDIUM. Well-scoped; main risk is the drift model
+  is misspecified.
+
+### 15.L  Rule-OPE with LLM-as-judge reward as ground truth
+
+- **Claim**: Use an LLM judge (Claude / GPT-4) to score answer
+  quality; treat the score as the reward. Run the full RuleOPE
+  pipeline on real RAG logs with LLM-judge rewards. Compare
+  estimator MSE against a gold-labeled test split.
+- **Implementation**: `experiments/real_data_llm_judge.py` —
+  uses a small public RAG benchmark (e.g., HotpotQA 500-query
+  subset), a standard RAG pipeline (BM25 + MiniLM retrieval +
+  a small LM), and a judge LLM for rewards.
+- **Novelty**: first application of rule-OPE to a real RAG
+  pipeline with LLM-judge rewards.
+- **Risk**: LOW-MEDIUM. Requires API access or a local judge LLM.
+- **Success criterion**: the rankings and biases observed on our
+  synthetic benchmark qualitatively transfer to the real-data
+  setting.
+
+### 15.M  Fairness-constrained rule-OPE
+
+- **Claim**: A rule may improve average reward but hurt a protected
+  subgroup. Estimate both $V(\rho)$ and its subgroup values
+  $V_G(\rho)$, and select rules subject to a fairness
+  constraint.
+- **Implementation**: `src/fair_ruleope.py` — subgroup-stratified
+  RuleOPE + Pareto-optimal selection.
+- **Novelty**: fairness in OPE is an emerging area; fairness for
+  rule selection is unaddressed.
+- **Risk**: MEDIUM. Subgroup sample sizes may be small; need
+  careful variance bounds.
+
+### 15.N  Bandit-of-rules online deployment
+
+- **Claim**: Deploy the top RuleOPE-ranked rules online in a
+  bandit; use the online reward to re-rank offline estimates.
+  Gives a hybrid offline-online system with formal regret
+  guarantees.
+- **Implementation**: `src/bandit_deployment.py` — UCB over the
+  rule set using RuleOPE offline estimates as warm starts.
+- **Novelty**: bandit warm-start from OPE is a natural marriage
+  but has not been done for rule-based interventions.
+- **Risk**: LOW. Well-scoped. The main open question is
+  quantifying the benefit of the warm start vs. cold UCB.
+
+### Ranking for implementation priority
+
+| Experiment | Novelty | Risk | Effort | Priority |
+|------------|---------|------|--------|----------|
+| 15.C Conformal rule-OPE | High | Med | 1-2 days | **P1** |
+| 15.G FDR-controlled selection | Med-High | Low | 1 day | **P1** |
+| 15.L Real-data LLM judge | Med | Med | 3-5 days | **P1** |
+| 15.A Corrections as IV | Very High | High | 4-6 days | **P2** |
+| 15.B Rule ensemble OPE | High | Med | 3-5 days | **P2** |
+| 15.D Adversarial minimax | High | Med-High | 5-7 days | **P2** |
+| 15.E Active-query rule-OPE | High | Low-Med | 3 days | **P2** |
+| 15.F Transductive rule-OPE | Med | Med | 3 days | **P3** |
+| 15.H Meta-learned bridges | Very High | High | 1-2 weeks | **P3** |
+| 15.I Differentiable rules | High | High | 1-2 weeks | **P3** |
+| 15.J SCM rule-OPE | Med | High | 1-2 weeks | **P3** |
+| 15.K Temporal drift | Med | Low-Med | 3-5 days | **P3** |
+| 15.M Fairness-constrained | Med | Med | 4-6 days | **P3** |
+| 15.N Bandit deployment | Low-Med | Low | 2-3 days | **P3** |
+
+P1 (low risk, high value): pursue immediately as camera-ready
+additions. P2 (medium risk, high value): scope for a follow-up
+paper. P3 (high risk or high effort): multi-paper program.
+
+## 16  Summary of claims $\to$ experiments mapping
 
 | Claim | Tested in |
 |-------|-----------|
