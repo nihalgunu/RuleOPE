@@ -1,0 +1,17 @@
+{
+  "n_rules": 60,
+  "by_gamma": {
+    "1.5": {
+      "mean_width": 0.1595619463320868,
+      "coverage_of_truth": 1.0
+    },
+    "2.0": {
+      "mean_width": 0.2690633326176975,
+      "coverage_of_truth": 1.0
+    },
+    "3.0": {
+      "mean_width": 0.4134834266395986,
+      "coverage_of_truth": 1.0
+    }
+  }
+}

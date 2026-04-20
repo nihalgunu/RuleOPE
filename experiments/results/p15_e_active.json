@@ -1,0 +1,26 @@
+{
+  "rule": "rerank[src_mixed]",
+  "by_budget": {
+    "50": {
+      "var_random": 0.00011108858205425189,
+      "var_active": 5.461105074018931e-05,
+      "var_leverage": 7.81962830174591e-05,
+      "reduction_active_pct": 50.84008659547105,
+      "reduction_leverage_pct": 29.609072713457902
+    },
+    "150": {
+      "var_random": 8.842254174367415e-05,
+      "var_active": 4.931638287495731e-05,
+      "var_leverage": 8.878761205436226e-05,
+      "reduction_active_pct": 44.22645865811083,
+      "reduction_leverage_pct": -0.4128701838795879
+    },
+    "300": {
+      "var_random": 9.373617278581049e-05,
+      "var_active": 6.480930534960195e-05,
+      "var_leverage": 0.00011399408534846466,
+      "reduction_active_pct": 30.859876797303386,
+      "reduction_leverage_pct": -21.61162757193427
+    }
+  }
+}

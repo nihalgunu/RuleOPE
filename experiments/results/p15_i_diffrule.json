@@ -1,0 +1,30 @@
+{
+  "by_action": {
+    "filter": {
+      "discovered_rule": "filter[n_above_0_5_lt_3]",
+      "discovered_value": 0.6925174498789923,
+      "discovered_lcb": 0.6913259940255939,
+      "ground_truth_of_discovered": 0.7147266532116818,
+      "best_enum_rule": "filter[ent_missing_top3]",
+      "best_enum_value_gt": 0.7352002384973502,
+      "regret": 0.02047358528566834,
+      "history_first_last": [
+        0.6913259940255939,
+        0.6912565901359911
+      ]
+    },
+    "rerank": {
+      "discovered_rule": "rerank[n_above_0_5_lt_3]",
+      "discovered_value": 0.692568196468191,
+      "discovered_lcb": 0.6913766841676877,
+      "ground_truth_of_discovered": 0.727761397704656,
+      "best_enum_rule": "rerank[src_mixed]",
+      "best_enum_value_gt": 0.752261030951714,
+      "regret": 0.02449963324705806,
+      "history_first_last": [
+        0.6913766841676877,
+        0.6912565901385155
+      ]
+    }
+  }
+}

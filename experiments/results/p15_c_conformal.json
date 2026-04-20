@@ -1,0 +1,20 @@
+[
+  {
+    "substrate": "compositional",
+    "n_rules": 80,
+    "delta": 0.05,
+    "conformal_coverage": 0.25,
+    "wald_coverage": 0.2625,
+    "conformal_halfwidth_mean": 0.008212201484426588,
+    "wald_halfwidth_mean": 0.008185484829243672
+  },
+  {
+    "substrate": "misspecified",
+    "n_rules": 80,
+    "delta": 0.05,
+    "conformal_coverage": 0.2125,
+    "wald_coverage": 0.2125,
+    "conformal_halfwidth_mean": 0.007562118263973598,
+    "wald_halfwidth_mean": 0.00765057634907393
+  }
+]

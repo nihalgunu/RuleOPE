@@ -1,0 +1,24 @@
+[
+  {
+    "substrate": "compositional",
+    "eta_0.01_lower_coverage": 0.7166666666666667,
+    "eta_0.01_width_mean": 0.015966512473026814,
+    "eta_0.05_lower_coverage": 0.8333333333333334,
+    "eta_0.05_width_mean": 0.03612768207760024,
+    "eta_0.1_lower_coverage": 0.8833333333333333,
+    "eta_0.1_width_mean": 0.051573204518219076,
+    "eta_0.25_lower_coverage": 0.95,
+    "eta_0.25_width_mean": 0.08316774193828387
+  },
+  {
+    "substrate": "misspecified",
+    "eta_0.01_lower_coverage": 0.8333333333333334,
+    "eta_0.01_width_mean": 0.015142775858381908,
+    "eta_0.05_lower_coverage": 0.9166666666666666,
+    "eta_0.05_width_mean": 0.03424039339378566,
+    "eta_0.1_lower_coverage": 0.95,
+    "eta_0.1_width_mean": 0.0488910696860921,
+    "eta_0.25_lower_coverage": 0.9666666666666667,
+    "eta_0.25_width_mean": 0.07901757252073668
+  }
+]

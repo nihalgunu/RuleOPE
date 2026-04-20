@@ -4,54 +4,54 @@
       "beta_target": 0.5,
       "bridge_scalar": -0.21875,
       "bridge_squared": 0.0478515625,
-      "avg_formula_gap": 7.843835901451063e-07,
-      "avg_empirical_gap": 0.0002909015263983452,
-      "correlation": 0.8950820813071205,
-      "ratio_formula_to_empirical": 0.002696388705334646
+      "avg_formula_gap": 7.843835902131792e-07,
+      "avg_empirical_gap": 3.300064333364661e-05,
+      "correlation": 0.16396912816294723,
+      "ratio_formula_to_empirical": 0.02376873633288966
     },
     {
       "beta_target": 1.0,
       "bridge_scalar": -0.1875,
       "bridge_squared": 0.03515625,
-      "avg_formula_gap": 5.762818213310985e-07,
-      "avg_empirical_gap": 0.00020456559728269604,
-      "correlation": 0.908951991478625,
-      "ratio_formula_to_empirical": 0.002817100377512233
+      "avg_formula_gap": 5.762818213811112e-07,
+      "avg_empirical_gap": -8.448084530841436e-05,
+      "correlation": -0.6178079460537235,
+      "ratio_formula_to_empirical": NaN
     },
     {
       "beta_target": 1.5,
       "bridge_scalar": -0.15625,
       "bridge_squared": 0.0244140625,
-      "avg_formula_gap": 4.0019570925770723e-07,
-      "avg_empirical_gap": 4.994578091704195e-05,
-      "correlation": 0.5364798413483056,
-      "ratio_formula_to_empirical": 0.008012602904786234
+      "avg_formula_gap": 4.001957092924384e-07,
+      "avg_empirical_gap": -0.00015928417780182693,
+      "correlation": -0.9281946336746659,
+      "ratio_formula_to_empirical": NaN
     },
     {
       "beta_target": 2.0,
       "bridge_scalar": -0.125,
       "bridge_squared": 0.015625,
-      "avg_formula_gap": 2.561252539249326e-07,
-      "avg_empirical_gap": 8.067113082146679e-05,
-      "correlation": 0.579416423130778,
-      "ratio_formula_to_empirical": 0.003174930750527883
+      "avg_formula_gap": 2.561252539471606e-07,
+      "avg_empirical_gap": -0.00013108092493578947,
+      "correlation": -0.5961047150222397,
+      "ratio_formula_to_empirical": NaN
     },
     {
       "beta_target": 2.5,
       "bridge_scalar": -0.09375,
       "bridge_squared": 0.0087890625,
-      "avg_formula_gap": 1.4407045533277463e-07,
-      "avg_empirical_gap": -0.00011878706497539088,
-      "correlation": -0.6781516792062435,
+      "avg_formula_gap": 1.440704553452778e-07,
+      "avg_empirical_gap": -3.8890337704726375e-05,
+      "correlation": -0.18567389126646403,
       "ratio_formula_to_empirical": NaN
     },
     {
       "beta_target": 3.0,
       "bridge_scalar": -0.0625,
       "bridge_squared": 0.00390625,
-      "avg_formula_gap": 6.403131348123315e-08,
-      "avg_empirical_gap": -8.721594678602272e-05,
-      "correlation": -0.17348494647676946,
+      "avg_formula_gap": 6.403131348679015e-08,
+      "avg_empirical_gap": -0.00015638210327558618,
+      "correlation": -0.82798266992035,
       "ratio_formula_to_empirical": NaN
     },
     {
@@ -59,31 +59,31 @@
       "bridge_scalar": 0.0,
       "bridge_squared": 0.0,
       "avg_formula_gap": 0.0,
-      "avg_empirical_gap": 0.0001395280513363059,
+      "avg_empirical_gap": -0.0003225731934166099,
       "correlation": NaN,
-      "ratio_formula_to_empirical": 0.0
+      "ratio_formula_to_empirical": NaN
     },
     {
       "beta_target": 5.0,
       "bridge_scalar": 0.0625,
       "bridge_squared": 0.00390625,
-      "avg_formula_gap": 6.403131348123315e-08,
-      "avg_empirical_gap": -3.528710421272233e-05,
-      "correlation": 0.03924244657816736,
+      "avg_formula_gap": 6.403131348679015e-08,
+      "avg_empirical_gap": -0.00031208787583104626,
+      "correlation": -0.761565736741124,
       "ratio_formula_to_empirical": NaN
     },
     {
       "beta_target": 6.0,
       "bridge_scalar": 0.125,
       "bridge_squared": 0.015625,
-      "avg_formula_gap": 2.561252539249326e-07,
-      "avg_empirical_gap": 8.469589291371638e-05,
-      "correlation": 0.7481252203258898,
-      "ratio_formula_to_empirical": 0.0030240575441581236
+      "avg_formula_gap": 2.561252539471606e-07,
+      "avg_empirical_gap": -0.0003785639502252966,
+      "correlation": -0.6415224443154873,
+      "ratio_formula_to_empirical": NaN
     }
   ],
-  "sweep_correlation_formula_vs_empirical": 0.7523424245985729,
-  "sweep_ratio_empirical_over_formula": 239.27674266145814,
+  "sweep_correlation_formula_vs_empirical": 0.6386199505096487,
+  "sweep_ratio_empirical_over_formula": -609.1134413930992,
   "n_bootstrap": 40,
   "N": 1500,
   "n_rules_subset": 20

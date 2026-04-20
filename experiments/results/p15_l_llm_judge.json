@@ -1,0 +1,28 @@
+{
+  "by_sigma": {
+    "0.05": {
+      "tau_oracle_vs_llm_ranking": 0.9026384780046659,
+      "tau_llm_vs_ground_truth": 0.8541020275633162,
+      "top20_overlap": 0.65,
+      "rope_llm_MSE_vs_truth": 0.00020422737680332934,
+      "rope_oracle_MSE_vs_truth": 9.548997269559128e-06,
+      "MSE_inflation_pct": 2038.7311257735694
+    },
+    "0.15": {
+      "tau_oracle_vs_llm_ranking": 0.8544708212072378,
+      "tau_llm_vs_ground_truth": 0.8110654127682773,
+      "top20_overlap": 0.65,
+      "rope_llm_MSE_vs_truth": 0.00033694522781234853,
+      "rope_oracle_MSE_vs_truth": 9.548997269559128e-06,
+      "MSE_inflation_pct": 3428.592775772205
+    },
+    "0.30": {
+      "tau_oracle_vs_llm_ranking": 0.7648058622154876,
+      "tau_llm_vs_ground_truth": 0.7306363293808275,
+      "top20_overlap": 0.6,
+      "rope_llm_MSE_vs_truth": 0.0015938622166845593,
+      "rope_oracle_MSE_vs_truth": 9.548997269559128e-06,
+      "MSE_inflation_pct": 16591.409282999484
+    }
+  }
+}

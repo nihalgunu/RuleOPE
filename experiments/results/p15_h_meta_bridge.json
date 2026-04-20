@@ -1,0 +1,8 @@
+{
+  "n_rules": 80,
+  "meta_MSE": 0.002340187950729599,
+  "per_rule_MSE": 1.3769802461879037e-05,
+  "meta_to_per_rule_ratio": 169.95072784873162,
+  "meta_train_time_s": 3.6763370037078857,
+  "per_rule_train_time_s": 5.70376992225647
+}

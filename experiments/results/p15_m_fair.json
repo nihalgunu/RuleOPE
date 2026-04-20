@@ -1,0 +1,35 @@
+{
+  "n_rules": 50,
+  "by_tau": {
+    "0.005": {
+      "n_feasible": 33,
+      "n_total": 50,
+      "best_fair_rule": "rerank[src_mixed]",
+      "best_fair_overall": 0.7510189638514033,
+      "best_overall_rule": "rerank[src_mixed]",
+      "best_overall_value": 0.7510189638514033,
+      "fairness_cost": 0.0,
+      "max_drop_at_best_overall": -0.036820587295121054
+    },
+    "0.020": {
+      "n_feasible": 35,
+      "n_total": 50,
+      "best_fair_rule": "rerank[src_mixed]",
+      "best_fair_overall": 0.7510189638514033,
+      "best_overall_rule": "rerank[src_mixed]",
+      "best_overall_value": 0.7510189638514033,
+      "fairness_cost": 0.0,
+      "max_drop_at_best_overall": -0.036820587295121054
+    },
+    "0.050": {
+      "n_feasible": 40,
+      "n_total": 50,
+      "best_fair_rule": "rerank[src_mixed]",
+      "best_fair_overall": 0.7510189638514033,
+      "best_overall_rule": "rerank[src_mixed]",
+      "best_overall_value": 0.7510189638514033,
+      "fairness_cost": 0.0,
+      "max_drop_at_best_overall": -0.036820587295121054
+    }
+  }
+}

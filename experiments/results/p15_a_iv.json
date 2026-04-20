@@ -1,0 +1,22 @@
+[
+  {
+    "substrate": "compositional",
+    "n_rules": 60,
+    "DR_abs_bias": 0.0390277281007803,
+    "RuleOPE_abs_bias": 0.03433831166872093,
+    "IV_abs_bias": 0.06832966244902743,
+    "DR_signed_bias": -0.006183656728252525,
+    "RuleOPE_signed_bias": -0.010873073160311898,
+    "IV_signed_bias": -0.0502538434072971
+  },
+  {
+    "substrate": "misspecified",
+    "n_rules": 60,
+    "DR_abs_bias": 0.05006598227549161,
+    "RuleOPE_abs_bias": 0.049560783998843894,
+    "IV_abs_bias": 0.10944538476549609,
+    "DR_signed_bias": -0.03368359208816072,
+    "RuleOPE_signed_bias": -0.03418879036480844,
+    "IV_signed_bias": -0.1048354316789164
+  }
+]

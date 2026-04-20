@@ -1,0 +1,8 @@
+{
+  "horizon": 1500,
+  "best_value": 0.752261030951714,
+  "warm_final_regret": 26.391546427572084,
+  "cold_final_regret": 5.391546427571183,
+  "warm_to_cold_ratio": 4.894986398078948,
+  "warm_advantage_first_100": -3.000000000000001
+}
