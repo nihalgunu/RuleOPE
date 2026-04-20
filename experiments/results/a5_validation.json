@@ -1,0 +1,77 @@
+{
+  "n_queries": 1500,
+  "seed": 0,
+  "alpha_c": 0.1,
+  "beta_a": {
+    "noop": 0.4,
+    "filter": 0.6,
+    "rerank": 0.55
+  },
+  "T1_correction_linearity": {
+    "unrestricted_Brier": 0.20904219051094503,
+    "restricted_Brier": 0.20546176584884251,
+    "unrestricted_logloss": 0.6055849343599469,
+    "restricted_logloss": 0.5988157698835268,
+    "Brier_gap": -0.0035804246621025104,
+    "interpretation": "Brier_gap near 0 -> correction-linearity well-supported"
+  },
+  "T2_contrast_learnability": {
+    "n_rules": 97,
+    "compdr_V_R2": 0.15575862275682884,
+    "eif_V_R2": 0.3288877133399385,
+    "compdr_V_MAE": 0.08017587580367634,
+    "eif_V_MAE": 0.06685207377647187,
+    "eif_MSE_improvement_over_compdr_pct": 20.507060569390024,
+    "contrast_learnability_per_action": {
+      "filter": {
+        "m_hat_R2_vs_oracle_cf": 0.011972412443508107,
+        "m_hat_MAE_vs_oracle_cf": 0.23672226891220813,
+        "mean_oracle_cf": 0.35876840696117807,
+        "mean_m_hat": 0.3510122497278045
+      },
+      "rerank": {
+        "m_hat_R2_vs_oracle_cf": 0.030619420305084577,
+        "m_hat_MAE_vs_oracle_cf": 0.25123533490830796,
+        "mean_oracle_cf": 0.7048192771084337,
+        "mean_m_hat": 0.6917540516400114
+      }
+    }
+  },
+  "T3_sensitivity_to_A5_violation": [
+    {
+      "noise_std": 0.0,
+      "compdr_MAE": 0.08017587580367634,
+      "eif_MAE": 0.06685207377647187,
+      "compdr_RMSE": 0.08540280776815289,
+      "eif_RMSE": 0.07614412971063896
+    },
+    {
+      "noise_std": 0.05,
+      "compdr_MAE": 0.08017587580367634,
+      "eif_MAE": 0.055821421365554055,
+      "compdr_RMSE": 0.08540280776815289,
+      "eif_RMSE": 0.06697053639599232
+    },
+    {
+      "noise_std": 0.1,
+      "compdr_MAE": 0.08017587580367634,
+      "eif_MAE": 0.05464032403377698,
+      "compdr_RMSE": 0.08540280776815289,
+      "eif_RMSE": 0.0657235513408743
+    },
+    {
+      "noise_std": 0.2,
+      "compdr_MAE": 0.08017587580367634,
+      "eif_MAE": 0.05518028056699564,
+      "compdr_RMSE": 0.08540280776815289,
+      "eif_RMSE": 0.06626017582195615
+    },
+    {
+      "noise_std": 0.4,
+      "compdr_MAE": 0.08017587580367634,
+      "eif_MAE": 0.05709915201486792,
+      "compdr_RMSE": 0.08540280776815289,
+      "eif_RMSE": 0.06744541681275557
+    }
+  ]
+}

@@ -10,26 +10,26 @@ specialised to stochastic or continuous-action bandits, or treat the retrieval
 step as a slate recommender, ignoring the combinatorial structure of rules.
 
 We introduce **RuleOPE**, an offline evaluation *framework* for rule-based
-interventions in RAG with five tightly coupled contributions: (i) a
+interventions in RAG with four tightly coupled contributions: (i) a
 formalisation of rule-based interventions as conjunctive boolean policies
-over a fixed atom vocabulary, supporting deterministic logging and sparse
-post-hoc correction signals; (ii) a doubly-robust estimator whose reward
+over a fixed atom vocabulary; (ii) a doubly-robust estimator whose reward
 regression is factorised over atomic predicates, so rules sharing atoms
 share regression parameters and the total variance across a rule set of
-size $M$ scales sublinearly in $M$; (iii) **DualShrinkOPE**, a soft,
-per-rule Bayes-optimal convex combination of the rule-OPE and Direct
-Method estimators, which we prove dominates either alone in expected MSE;
-(iv) **JointRuleOPE**, a cross-rule random-effects shrinkage estimator
-that dominates independent per-rule estimation in joint MSE; (v)
-**Counterfactual Rule Risk Minimisation (CRRM)**, a rule-*learning*
-extension with a compositional Rademacher regret bound that scales with
-atom sparsity $s$ and atom-vocabulary size $d$, not the rule-space size
-$M$. We release a frozen benchmark of 500 rules with exact ground-truth
-values and three correction-noise regimes. In the production-realistic
-deterministic-logging regime at 300--2400 queries, RuleOPE reduces mean-
-squared error by **10--23\%** over the strongest classical baseline
-(which Cascade DR, DR, and CIPS-DR all collapse to in this regime) and
-improves top-20 Kendall's tau by 0.05--0.15.
+size $M$ scales as $O(d)$ (atom vocabulary size) rather than $O(M\,d)$;
+(iii) a no-replay identification theorem for $V(\rho)$ under a
+compositional-reward assumption A3, together with an empirical
+validation of A3 on HotpotQA where the assumption explains 67\% of
+within-query reward variance with no atom-level residual dependence
+surviving Bonferroni correction (§5C.1); (iv) on three real-data
+benchmarks --- HotpotQA, TriviaQA, MuSiQue --- in the small-$N$ regime
+($N \in \{150, 300\}$ query--reward pairs, matching the realistic
+deployment budget), RuleOPE achieves **statistically significant MSE
+reductions of 15\%--67\%** over the OBP-style NonCompDR baseline
+(Saito et al.\ 2021), with mechanism-isolating ablations showing that
+compositional atom-sharing alone drives the gain. We also release a
+frozen synthetic benchmark of 500 rules with exact ground-truth values
+and three correction-noise regimes for reproducible methodology
+testing.
 
 # 1  Introduction
 

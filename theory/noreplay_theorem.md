@@ -59,17 +59,26 @@ The second equality uses the zero-mean condition on $\eta$. The first term is id
 
 The RuleOPE estimator of the current paper is
 $$
-\widehat V^{\text{RuleOPE}}(\rho) = \frac{1}{n}\sum_{i=1}^n \Big[ \widehat m_\rho(x_i) + \mathbb{1}[\rho \text{ matches}] \cdot \frac{1}{\pi_0} (R_i - \widehat m_{\text{logged}}(x_i)) + c_i \cdot p(x_i) \cdot \widehat b_\rho \Big],
+\widehat V^{\text{RuleOPE}}(\rho) = \frac{1}{n}\sum_{i=1}^n \Big[ \widehat m_\rho(x_i) + \frac{\mathbb{1}[A_i = \pi_\rho(x_i)]}{\widehat \pi_0(A_i \mid x_i)} (R_i - \widehat m(x_i, A_i)) + p(x_i)(\widehat b_\rho(c_i, x_i) - \widehat{\mathbb{E}}[\widehat b_\rho(C, x_i) \mid x_i, A = a_0]) \Big],
 $$
-where $\widehat m_\rho$ is the atom-additive ridge regression estimate of $\mathbb{E}[R \mid x, r_\rho]$, and the correction-fusion bridge term $c_i \cdot p(x_i) \cdot \widehat b_\rho$ carries the information that the correction signal provides about the $\eta(q, r)$ residual in A3.
+where $\widehat m_\rho(x_i) = \widehat m(x_i, \pi_\rho(x_i))$ is the atom-additive ridge estimate, and the correction-fusion term is the *variance-reduction projection* of the correction residual onto the counterfactual contrast (see `theory/proofs.tex` §A5 revised for the Miao–Geng–Tchetgen-style proxy-bridge derivation). The bridge $\widehat b_\rho$ is $(C, X)$-measurable in the corrected formulation.
 
-**Proposition (Efficiency under A3).** Under A1–A3, the influence function of $\widehat V^{\text{RuleOPE}}$ is the semiparametric efficient influence function for $V(\rho)$ in the class of no-replay estimators: no estimator using only $(q_i, r_0(q_i), R_i)$ can achieve strictly lower asymptotic variance.
+**Proposition (Efficiency under A3 + stochastic logging).** Under A1–A3 and stochastic logging with positivity on every action, the influence function of $\widehat V^{\text{RuleOPE}}$ is the semiparametric efficient influence function for $V(\rho)$: no estimator using only $(q_i, r_0(q_i), A_i, R_i, C_i)$ can achieve strictly lower asymptotic variance. Under strictly deterministic logging with no auxiliary pilot, $V(\rho)$ is only partially identified (Thm A of `theory/proofs.tex`); no efficiency claim applies.
 
 *Proof outline.* The tangent space of the no-replay observed-data model under A1–A3 is spanned by (i) the score of $\alpha(q)$, (ii) the score of $\beta$, and (iii) the residual projection of $R - \alpha - \phi^\top \beta$ onto the atom span. The RuleOPE EIF (proven for the compositional model in Thm D of the current theory/proofs.tex) projects onto exactly this tangent space. $\square$
 
-## Remark — why DR without the correction is not no-replay optimal
+## Remark — why DR without the correction is not efficient
 
-Standard DR under noop logging uses only $\widehat m_\rho(x_i) + (1/\pi_0) \mathbb{1}[\text{match}] (R_i - \widehat m_{\text{logged}}(x_i))$. This is the *projection of R onto the atom span*, which is the first-order approximation of A3 but discards $\eta(q, r)$. RuleOPE's correction-fusion term $c_i \cdot p(x_i) \cdot \widehat b_\rho$ uses the correction signal (which encodes "did the logged answer fail") as a proxy for $\eta$, closing the no-replay gap. This is the mechanism behind the empirical improvement we measure on HotpotQA.
+Under stochastic logging, standard DR (using only $(X, A, R)$) is
+consistent but not semiparametrically efficient if a correction signal
+$C$ satisfying A5 (corrected, `theory/proofs.tex` Definition \ref{def:bridge})
+is available. Its asymptotic variance exceeds RuleOPE's by
+$\Var(\xi)$ where $\xi$ is the bridge variance-reduction term of the
+EIF — a quantity that's strictly positive whenever the correction
+signal discriminates across counterfactual actions
+($b_\rho(1, X) \ne b_\rho(0, X)$ with positive probability). This is
+the theoretical mechanism behind the variance reductions measured on
+HotpotQA / TriviaQA / MuSiQue at small $N$ (§7C of the main paper).
 
 ## Empirical corollary
 

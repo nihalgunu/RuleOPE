@@ -1,0 +1,78 @@
+{
+  "150": {
+    "n_trials": 100,
+    "MSE_NC_mean": 0.03628126821717592,
+    "MSE_RO_mean": 0.03333056822917484,
+    "mean_log_ratio": 0.1427061504670385,
+    "log_ratio_CI90_bootstrap": [
+      0.08095090742531365,
+      0.20750247084057313
+    ],
+    "pct_mean": 15.339082850861828,
+    "pct_CI90_bootstrap": [
+      8.431766331422242,
+      23.060075745461674
+    ],
+    "paired_t_stat": 2.783237185278765,
+    "paired_t_pvalue": 0.00644689753379268,
+    "significance_bootstrap_CI": true,
+    "significance_paired_t": true
+  },
+  "300": {
+    "n_trials": 100,
+    "MSE_NC_mean": 0.03912164223779695,
+    "MSE_RO_mean": 0.038578523912280165,
+    "mean_log_ratio": 0.10574582021135807,
+    "log_ratio_CI90_bootstrap": [
+      0.042819736629137725,
+      0.17580006151713232
+    ],
+    "pct_mean": 11.153930976985095,
+    "pct_CI90_bootstrap": [
+      4.374972804701671,
+      19.21996682268132
+    ],
+    "paired_t_stat": 0.6472055714120221,
+    "paired_t_pvalue": 0.5189968038341133,
+    "significance_bootstrap_CI": true,
+    "significance_paired_t": false
+  },
+  "600": {
+    "n_trials": 100,
+    "MSE_NC_mean": 0.042539432547404325,
+    "MSE_RO_mean": 0.04141797042876668,
+    "mean_log_ratio": 0.06957413099456612,
+    "log_ratio_CI90_bootstrap": [
+      0.026011083475427025,
+      0.12041075489095865
+    ],
+    "pct_mean": 7.205153050534796,
+    "pct_CI90_bootstrap": [
+      2.635232396116405,
+      12.79600715541247
+    ],
+    "paired_t_stat": 1.9217349253088438,
+    "paired_t_pvalue": 0.05751471231231905,
+    "significance_bootstrap_CI": true,
+    "significance_paired_t": false
+  },
+  "1200": {
+    "n_trials": 100,
+    "MSE_NC_mean": 0.047810390300501514,
+    "MSE_RO_mean": 0.04550790455917074,
+    "mean_log_ratio": 0.08661951522362714,
+    "log_ratio_CI90_bootstrap": [
+      0.04148798214936637,
+      0.14338446218196244
+    ],
+    "pct_mean": 9.048168909286346,
+    "pct_CI90_bootstrap": [
+      4.236063484178376,
+      15.417345242095791
+    ],
+    "paired_t_stat": 4.988134376861236,
+    "paired_t_pvalue": 2.606201971484367e-06,
+    "significance_bootstrap_CI": true,
+    "significance_paired_t": true
+  }
+}

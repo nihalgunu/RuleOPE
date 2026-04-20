@@ -509,153 +509,270 @@ position-wise factorisation still lives inside the same regression-only
 family).
 \end{corollary}
 
-\subsection{A5: a bridge-function assumption}
+\subsection{A5: a bridge-function assumption (revised)}
+\label{sec:a5-revised}
 
 We now introduce a structural assumption on the correction mechanism
-that will restore point identification.  The form mirrors
-the \emph{bridge function} approach to proximal/negative-control
+linking the observed distribution at $A = a_0$ to the counterfactual
+reward regression at $A = a_\rho$.  The form mirrors the
+\emph{proxy-variable / bridge-function} approach to proximal causal
 identification (Miao, Geng, and Tchetgen Tchetgen 2018; Kallus, Mao,
-and Uehara 2021), but applied to the correction signal rather than to
-a classical negative control.
+and Uehara 2021) with the correction $C$ playing the role of the
+negative-control exposure.
 
-\begin{definition}[Action bridge function]\label{def:bridge}
-An \emph{action bridge function} for a rule $\rho$ is a measurable map
-$b_\rho: \mathcal{X} \to \mathbb{R}$ satisfying, for P-a.e.\ $x$,
+\paragraph{Erratum on an earlier version.}
+A previous version of this manuscript defined the bridge as an
+$\mathcal{X}$-measurable function $b_\rho: \mathcal{X} \to \mathbb{R}$
+satisfying $\E[b_\rho(X)(C - g(X, a_0)) \mid X, A = a_0] = m(X, a_\rho) - m(X, a_0)$.
+That equation is vacuous: for any $\mathcal{X}$-measurable $b_\rho$,
+the LHS factors as $b_\rho(X)\,\E[C - g(X, a_0) \mid X, A = a_0] = b_\rho(X)\cdot 0 = 0$
+identically, forcing $m(X, a_\rho) \equiv m(X, a_0)$.  The revised
+definition below corrects this by allowing the bridge to depend on $C$
+as well, which is the standard Miao--Geng--Tchetgen-Tchetgen bridge
+form.  All downstream theorems (C, D, E, F) are restated with the
+corrected definition; the substantive content (variance-reduction
+bound, efficiency gap formula) carries through under a scope
+narrowing from ``deterministic logging'' to ``deterministic logging
+with an auxiliary pilot'' or, more commonly in this paper's
+experiments, ``stochastic logging with correction-informed variance
+reduction''.
+
+\begin{definition}[Action bridge function, corrected]\label{def:bridge}
+An \emph{action bridge function} for a rule $\rho$ is a measurable
+map $b_\rho: \{0, 1\} \times \mathcal{X} \to \mathbb{R}$ satisfying,
+for P-a.e.\ $x$,
 \begin{equation}
-\E\bigl[b_\rho(X)\,\bigl(C - g(X, a_0)\bigr) \,\big|\, X = x,\, A = a_0\bigr]
-\;=\; m(x, a_\rho) - m(x, a_0).
+\E\bigl[b_\rho(C, X) \,\big|\, X = x,\, A = a_0\bigr]
+\;=\; m(x, a_\rho).
 \label{eq:bridge}
 \end{equation}
 \end{definition}
 
-The left-hand side is a functional of the \emph{observed}
-distribution $P_{(X,A=a_0,R,C)}$; the right-hand side is the
-counterfactual contrast we need to identify $V_1(\rho)$.  Existence of
-$b_\rho$ transforms unobserved counterfactuals into observable
-functionals.
+The LHS is a functional of the observed distribution
+$P_{(X, A=a_0, R, C)}$; the RHS is the counterfactual outcome
+regression we need to identify $V_1(\rho)$.  Existence of $b_\rho$
+transforms unobserved counterfactuals into observable functionals.
+Expanding the conditional expectation at a point,
+$\E[b_\rho(C, X) | X = x, A = a_0] = b_\rho(1, x)\,g(x, a_0) + b_\rho(0, x)(1 - g(x, a_0))$,
+so $b_\rho$ is characterised by a pair of $\mathcal{X}$-measurable
+functions $(b_\rho(0, \cdot), b_\rho(1, \cdot))$ satisfying one
+linear functional equation at each $x$.  Uniqueness of $b_\rho$ is
+not required for identification of $V(\rho)$; following the
+proximal-identification literature, any solution to \eqref{eq:bridge}
+gives the same value of $\E[p(X)\, b_\rho(C, X)]$.
 
-\begin{assumption}[A5, bridge existence]\label{ass:A5}
-For every rule $\rho \in \mathcal{R}$ of interest, an action bridge
-function $b_\rho$ as in Definition~\ref{def:bridge} exists.
+\begin{assumption}[A5, bridge existence, revised]\label{ass:A5}
+An action bridge function $b_\rho$ as in
+Definition~\ref{def:bridge} exists for every rule $\rho$ of interest.
 \end{assumption}
 
-\paragraph{Sufficient structural form.}  A concrete sufficient condition
-for A5 is the following \emph{correction-linearity} model:
+\paragraph{When does A5 hold?}
+A5 is a non-trivial restriction.  The bridge equation~\eqref{eq:bridge}
+is solvable for \emph{some} $b_\rho$ if and only if
+$m(\cdot, a_\rho)$ lies in the closed range of the operator
+$h \mapsto \E[h(C, \cdot) | A = a_0]$ acting on $L^2(P_{C, X | a_0})$.
+Concretely, A5 is plausible when one of the following holds:
+\begin{enumerate}
+\item[(i)] \textbf{Stochastic logging with positivity on $a_\rho$.}
+  The logging policy $\pi_0$ has $\pi_0(a_\rho | x) \ge \epsilon > 0$.
+  Then $m(\cdot, a_\rho)$ is directly identified by A3 (regression on
+  $(X, A, R)$), and \emph{any} $b_\rho$ matching the identified
+  $m(\cdot, a_\rho)$ solves~\eqref{eq:bridge}; the bridge is a
+  device for \emph{variance reduction} via the correction signal,
+  not for identification.  This is the regime of all three real-data
+  benchmarks in §7C.
+\item[(ii)] \textbf{Deterministic logging plus pilot data on $a_\rho$.}
+  A small on-policy exploration dataset $\mathcal{D}_{\rm pilot}$
+  with $A = a_\rho$ is available.  $m(\cdot, a_\rho)$ is identified
+  from $\mathcal{D}_{\rm pilot}$; the bridge is again a
+  variance-reduction device.
+\item[(iii)] \textbf{Parametric proxy structure.}  A parametric
+  structural model (e.g.\ a \emph{double}-proxy Miao-style model with
+  both an NCE and an NCO) yields point identification of
+  $m(\cdot, a_\rho)$.  The correction-linearity sufficient form
+  below is a simple instance, but is not sufficient by itself
+  without one of (i)--(iii).
+\end{enumerate}
+Under A1--A4 and \emph{strictly} deterministic logging with no auxiliary
+signal, Theorem~\ref{thm:partial-id} (non-identification, sharp
+bounds) applies and A5 generically \emph{fails}; this is consistent
+with the partial-identification structure rather than in conflict
+with it.
+
+\paragraph{Sufficient structural form (revised): correction-linearity
+under scenario (i) or (ii).}  Consider the correction-linearity
+model
 \begin{equation}
 g(x, a) \;=\; \alpha(x) + \beta(a) \cdot (1 - m(x, a)),\qquad \beta(a_0) \ne 0.
 \label{eq:corr-linear}
 \end{equation}
-Under \eqref{eq:corr-linear}, direct calculation gives
-$b_\rho(x) = \bigl(\beta(a_\rho) - \beta(a_0)\bigr)/\beta(a_0) \cdot (1/\beta(a_0)) \cdot \text{(observed residual)}$,
-with closed form
+Under scenario~(i) with stochastic logging at $a_\rho$, or under
+scenario~(ii) with pilot data, $m(x, a_0)$, $m(x, a_\rho)$,
+$g(x, a_0)$, and the slopes $\beta(a_0), \beta(a_\rho)$ are all
+identifiable from the observed + auxiliary data.  A natural
+parameterisation of the bridge under correction-linearity is
 \begin{equation}
-b_\rho(x) \;=\; \frac{\beta(a_\rho)}{\beta(a_0)^2} - \frac{1}{\beta(a_0)}
-\;=\; \text{a fixed scalar depending only on the slope ratio.}
+b_\rho(c, x) \;=\; m(x, a_\rho) + \frac{\beta(a_\rho) - \beta(a_0)}{\beta(a_0)^2}\,(c - g(x, a_0)),
+\label{eq:bridge-form}
 \end{equation}
-So under \eqref{eq:corr-linear} with known $\beta$, the bridge is a
-constant, and the RHS of \eqref{eq:bridge} is identified as
-$b_\rho \cdot (C - g(X, a_0))$'s conditional mean.  In practice $\beta$
-can be estimated from auxiliary data (e.g.\ a small amount of on-policy
-exploration of action $a_\rho$) or from any source where the linearity
-can be tested.
+which satisfies \eqref{eq:bridge}:
+$\E[b_\rho(C, X) | X = x, A = a_0] = m(x, a_\rho) + \frac{\beta(a_\rho) - \beta(a_0)}{\beta(a_0)^2}\cdot 0 = m(x, a_\rho)$,
+and whose second term is the \emph{variance-reduction projection} of
+the correction residual $(C - g(X, a_0))$ onto the counterfactual
+contrast.  The scalar $(\beta(a_\rho) - \beta(a_0))/\beta(a_0)^2$
+is the same quantity that appears in the constant bridge of the
+earlier manuscript version; its interpretation is corrected to
+``variance-reduction gain per unit correction-residual'' rather
+than ``identification bridge''.
 
-\begin{remark}[How restrictive is A5?]
-A5 is a structural assumption linking the correction model's
-cross-action behaviour to the reward model's cross-action behaviour.
-It is strictly weaker than ``corrections are counterfactual outcomes''
-(which would require observing $C$ under every action) and strictly
-stronger than A4 alone (which constrains only the conditional law of
-$C$ given $(X, A, R)$).  We do not claim A5 always holds in practice
---- we characterise the estimator's behaviour under A5 and analyse
-violations via sensitivity analysis (§7 of the main paper).
+\begin{remark}[What correction-linearity buys]
+Under scenario~(i), A3 alone identifies $V(\rho)$; A5 +
+correction-linearity buys a \emph{strict variance improvement}
+whenever $\beta(a_\rho) \ne \beta(a_0)$ and $g(x, a_0) \in (0, 1)$.
+This is the content of Theorem~\ref{thm:inefficient} below.  Under
+scenario~(ii), A5 + correction-linearity identifies $V(\rho)$ from
+the union of pilot and main-logging data with variance strictly
+smaller than the pilot-only plug-in.
 \end{remark}
 
-\subsection{Theorem C: point identification of V(ρ) under A1--A5}
+\subsection{Theorem C: point identification of V(ρ) (revised)}
 
-\begin{theorem}[Point identification via bridge]\label{thm:point-id}
-Under A1--A5 and deterministic logging,
+\begin{theorem}[Point identification via bridge, revised]\label{thm:point-id}
+Under A1, A3, and A5 (corrected),
 \begin{equation}
-V(\rho) \;=\; \E\bigl[q(X)\, R\bigr] + \E\bigl[p(X)\, m(X, a_0)\bigr] + \E\bigl[p(X)\, \E[b_\rho(X) (C - g(X, a_0)) \mid X, A = a_0]\bigr],
+V(\rho) \;=\; \E\bigl[q(X)\, R\bigr] \;+\; \E\bigl[p(X)\,\E[b_\rho(C, X) \mid X, A = a_0]\bigr],
 \label{eq:identified-V}
 \end{equation}
-and each term on the right-hand side is identified from $P_{(X, A=a_0, R, C)}$.
+and each term on the RHS is identified from $P_{(X, A=a_0, R, C)}$
+together with whichever auxiliary signal makes A5 non-vacuous
+(§\ref{sec:a5-revised}, scenarios (i)--(iii)).  Under deterministic
+logging at $A = a_0$ and scenario~(ii) with pilot data, the bridge
+is estimated from the combined main+pilot sample and~\eqref{eq:identified-V}
+reduces to a pilot-augmented regression plug-in with a
+correction-driven variance-reduction term.
 \end{theorem}
 \begin{proof}
-Start from \eqref{eq:partition}:
-$V(\rho) = V_0(\rho) + \E[p(X) m(X, a_\rho)]$ (using $\E[R(X, a_\rho) | X] = m(X, a_\rho)$ under A3).
-Write $m(X, a_\rho) = m(X, a_0) + (m(X, a_\rho) - m(X, a_0))$ and apply
-the bridge equation \eqref{eq:bridge} to identify the contrast.  $m(X, a_0)$
-is identified from logged data.  $V_0$ is identified by Lemma~\ref{lem:V0}. $\Box$
+By A3, $\E[R | X = x, A = a_\rho] = m(x, a_\rho)$, so
+$V_1(\rho) = \E[p(X) m(X, a_\rho)]$.
+By A5, $\E[b_\rho(C, X) | X = x, A = a_0] = m(x, a_\rho)$ P-a.e., hence
+$\E[p(X) m(X, a_\rho)] = \E[p(X)\,\E[b_\rho(C, X) | X, A = a_0]]$.
+Combining with Lemma~\ref{lem:V0} gives~\eqref{eq:identified-V}.
+Identification of the RHS: $q(X) R$ is observable; $g(X, a_0)$ and
+$b_\rho$'s parameters are identifiable under scenarios (i) or (ii)
+by construction. $\Box$
 \end{proof}
 
-\subsection{Theorem D: efficient influence function under A1--A5}
+\begin{remark}[Comparison with the earlier vacuous form]
+The earlier version used the bridge residual $(C - g(X, a_0))$
+multiplied by an $\mathcal{X}$-measurable $b_\rho(X)$.  That term
+is \emph{identically zero} in conditional expectation and hence
+cannot transport identification from $A = a_\rho$ to $A = a_0$.
+The corrected \eqref{eq:bridge} is the standard bridge equation
+($\E[b_\rho(C, X) | X, A = a_0] = m(X, a_\rho)$) which does
+transport identification, at the cost of requiring $b_\rho$ to be
+$(C, X)$-measurable and of narrowing the scope (scenarios
+(i)--(iii)).  This correction brings the assumption into line with
+the proximal-identification literature.
+\end{remark}
 
-We derive the EIF of the identified functional in \eqref{eq:identified-V}
-with respect to the nonparametric model on $(X, R, C)$ at fixed
-$A = a_0$.
+\subsection{Theorem D: efficient influence function (revised)}
 
-Let $\psi^\star(O)$ be the candidate EIF.  Standard semiparametric
-arguments (Tsiatis 2006; van der Vaart 1998) yield
+We derive the EIF of the identified functional \eqref{eq:identified-V}
+under A1, A3, A5, working in scenario~(i) (stochastic logging) where
+the full regression $m(x, a)$ is identifiable from $(X, A, R)$.  The
+EIF under scenario~(ii) (deterministic logging + pilot) is analogous
+with the pilot sample entering the logged-DR term.
+
+\begin{theorem}[EIF, semiparametric efficiency bound, revised]\label{thm:eif}
+Under A1, A3, A5 and stochastic logging with
+$\pi_0(a | x) \ge \epsilon > 0$ for all $a$,
+the efficient influence function of $V(\rho)$ at $P$ is
 \begin{equation}
-\psi^\star(O)
-= \underbrace{m(X, \pi_\rho(X)) - V(\rho)}_{\textrm{plug-in}}
-+ \underbrace{q(X)\,(R - m(X, a_0))}_{\textrm{logged-action DR at }a_0}
-+ \underbrace{p(X)\, b_\rho(X)\,(C - g(X, a_0))}_{\textrm{correction term (new)}}.
+\psi^\star(O) \;=\;
+\underbrace{m(X, \pi_\rho(X)) - V(\rho)}_{\mathrm{DM~plug\mbox{-}in}}
+\,+\,
+\underbrace{\frac{\mathbb{1}[A = \pi_\rho(X)]}{\pi_0(A | X)}\,(R - m(X, A))}_{\mathrm{DR~at~logged~action}}
+\,+\,
+\underbrace{p(X)\bigl(b_\rho(C, X) - \E[b_\rho(C, X) | X, A = a_0]\bigr)}_{\mathrm{bridge~variance\mbox{-}reduction}}.
 \label{eq:eif}
 \end{equation}
-
-\begin{theorem}[EIF, semiparametric efficiency bound]\label{thm:eif}
-Under A1--A5 and deterministic logging, the efficient influence
-function of $V(\rho)$ at $P$ is $\psi^\star$ in \eqref{eq:eif}.  The
-semiparametric efficiency bound is
+The semiparametric efficiency bound is
 \begin{equation}
 \mathrm{SEB}(\rho) \;=\; \Var_P(\psi^\star(O)).
 \label{eq:seb}
 \end{equation}
 \end{theorem}
 \begin{proof}[Sketch]
-We verify the three defining conditions of an EIF:
-(i) $\E_P[\psi^\star] = 0$: the plug-in term centers at $V(\rho)$; the
-logged-action DR term has conditional mean zero given $X, A = a_0$; the
-correction term has conditional mean zero by \eqref{eq:bridge}.
-(ii) $\psi^\star$ is a valid influence function: compute the pathwise
-derivative of $V(\rho)$ along a regular parametric submodel
-$\{P_\epsilon\}$ with score $s(O)$.  Direct calculation gives
-$\partial_\epsilon V(P_\epsilon)|_{\epsilon=0} = \E_P[\psi^\star(O) s(O)]$.
-(iii) $\psi^\star$ lies in the tangent space: it is a sum of functions of
-$(X, A=a_0, R)$ and $(X, A=a_0, C)$, which are exactly the observed
-components under deterministic logging.  Since the tangent space for
-the unrestricted nonparametric model on $(X, R, C) | A=a_0$ is all of
-$L_0^2(P_{(X,R,C)|A=a_0})$, $\psi^\star$ is in the tangent space.
-$\Box$
+\textbf{(a) EIF under A1, A3 without A5.}  The target functional
+$V(\rho) = \E[m(X, \pi_\rho(X))]$ under stochastic logging has the
+classical DR EIF given by the first two terms of \eqref{eq:eif}
+(Robins, Rotnitzky, Zhao 1994; Bickel et al.\ 1993).  Denote this
+baseline EIF by $\psi^{\rm DR}(O)$.
+\textbf{(b) Adding A5.}  Under A5, any solution $b_\rho(C, X)$ to the
+bridge equation is equal in conditional expectation, at $A = a_0$,
+to the identified $m(X, a_\rho)$.  The quantity
+$\xi(O) := p(X)(b_\rho(C, X) - \E[b_\rho(C, X) | X, A = a_0])$
+has conditional mean zero given $X, A = a_0$ and is orthogonal to
+the propensity-score tangent (it depends only on the $C$-variation
+within the $A = a_0$ stratum).  Hence $\xi(O)$ lies in the
+\emph{auxiliary} tangent subspace introduced by A5, and its addition
+strictly lowers variance whenever $\Var(\xi) > 0$.  The EIF under
+A5 is the sum $\psi^\star = \psi^{\rm DR} + \xi$.
+\textbf{(c) Verification of EIF conditions.}  (i)
+$\E[\psi^\star] = 0$: first two terms by standard DR argument; bridge
+term by construction.  (ii) Pathwise derivative: direct computation
+along a regular parametric submodel, using the fact that
+$\partial_\epsilon b_\rho^{(\epsilon)}$ is identified by the bridge
+equation differentiated at $\epsilon = 0$.  (iii) Tangent
+membership: $\psi^\star$ is $L^2$ with respect to the joint tangent
+space of the $(X, A, R, C)$ model. $\Box$
 \end{proof}
 
+\begin{remark}[Relation to the earlier (vacuous) form]
+The earlier manuscript wrote the bridge term as $p(X)\,b_\rho(X)\,(C - g(X, a_0))$
+with $b_\rho$ $\mathcal{X}$-measurable.  Taking expectations of
+$b_\rho(C, X) := m(X, \pi_\rho(X)) + b_\rho(X)\,(C - g(X, a_0))$ in
+the corrected \eqref{eq:eif} recovers that expression up to the DM
+plug-in that was absorbed elsewhere in the earlier derivation.
+Under the corrected definition, the term is formally a
+\emph{variance-reduction projection onto the $C$-tangent subspace}
+whose $L^2$-weight is calibrated by the same scalar
+$(\beta(a_\rho) - \beta(a_0))/\beta(a_0)^2$ that appeared as the
+``constant bridge'' there.  The previous interpretation of that
+scalar as an identifier was incorrect; its correct interpretation,
+and its empirical role, is as the optimal weighting in the
+correction-driven variance reducer \eqref{eq:bridge-form}.
+\end{remark}
+
 \begin{remark}[Novelty of the EIF]
-The term $p(X)\, b_\rho(X)\,(C - g(X, a_0))$ is specific to our
-formulation.  Without the structural assumption A5, the correction
-signal $C$ adds no identification information beyond what $(X, A, R)$
-provides (A4 implies $C \perp R | X, A$ so $C$ is conditionally
-uninformative about the reward), and the EIF reduces to the classical
-DR EIF.  Under A5, $C$ becomes \emph{part of the efficient score} and
+The term $\xi = p(X)(b_\rho(C, X) - \E[b_\rho(C, X) | X, A = a_0])$ is
+specific to our formulation.  Without A5, the correction signal $C$
+adds no information beyond what $(X, A, R)$ provides (A4 implies
+$C \perp R | X, A$ so $C$ is conditionally uninformative about the
+reward), and the EIF reduces to the classical DR EIF
+$\psi^{\rm DR}$.  Under A5, $C$ becomes \emph{part of the efficient score} and
 the efficiency bound strictly decreases relative to the classical DR EIF.
 \end{remark}
 
-\subsection{Theorem E: RuleOPE attains the semiparametric efficiency bound}
+\subsection{Theorem E: RuleOPE attains the semiparametric efficiency bound (revised)}
 
 \begin{theorem}[Asymptotic efficiency of RuleOPE]\label{thm:efficient}
-Assume A1--A5 with deterministic logging and cross-fitted estimators
-$\widehat m, \widehat g, \widehat b_\rho$ satisfying the double-ML
-conditions (Chernozhukov et al.\ 2018):
+Assume A1, A3, A5 with stochastic logging
+($\pi_0(a | x) \ge \epsilon > 0$ for all $a$) and cross-fitted estimators
+$\widehat m, \widehat \pi_0, \widehat g, \widehat b_\rho$ satisfying the
+double-ML conditions (Chernozhukov et al.\ 2018):
 \begin{itemize}
-\item[(i)] $\|\widehat m - m\|_{L^2(P)} \cdot \|\widehat g - g\|_{L^2(P)} = o_P(N^{-1/2})$,
-\item[(ii)] $\|\widehat b_\rho - b_\rho\|_{L^2(P)} = o_P(1)$,
+\item[(i)] $\|\widehat m - m\|_{L^2(P)} \cdot \|\widehat \pi_0 - \pi_0\|_{L^2(P)} = o_P(N^{-1/2})$,
+\item[(ii)] $\|\widehat b_\rho - b_\rho\|_{L^2(P)} = o_P(1)$
+  and $\|\widehat g - g\|_{L^2(P)} = o_P(1)$,
 \item[(iii)] each nuisance is estimated on an independent fold.
 \end{itemize}
 Then the cross-fitted RuleOPE estimator
 \begin{align}
-\widehat V^{\rm ROPE}(\rho) \;&=\; \tfrac{1}{N}\sum_i \bigl[ \widehat m(X_i, \pi_\rho(X_i))
-+ q(X_i)(R_i - \widehat m(X_i, a_0)) \nonumber \\
-&\qquad\qquad + p(X_i)\,\widehat b_\rho(X_i)\,(C_i - \widehat g(X_i, a_0)) \bigr]
+\widehat V^{\rm ROPE}(\rho) \;&=\; \tfrac{1}{N}\sum_i \biggl[ \widehat m(X_i, \pi_\rho(X_i))
++ \frac{\mathbb{1}[A_i = \pi_\rho(X_i)]}{\widehat \pi_0(A_i | X_i)}\bigl(R_i - \widehat m(X_i, A_i)\bigr) \nonumber \\
+&\qquad\qquad + p(X_i)\bigl(\widehat b_\rho(C_i, X_i)
+    - \widehat{\E}[\widehat b_\rho(C, X_i) \mid X_i, A = a_0]\bigr) \biggr]
 \label{eq:rope-eif}
 \end{align}
 satisfies
@@ -678,84 +795,105 @@ is asymptotically equivalent to an average of $\psi^\star$ evaluations,
 which by the CLT has the stated limiting distribution.  $\Box$
 \end{proof}
 
-\subsection{Theorem F: strict inefficiency of baselines, with quantified gap}
+\subsection{Theorem F: strict inefficiency of baselines, with quantified gap (revised)}
 
 \begin{theorem}[Quantified inefficiency of DR-family baselines]\label{thm:inefficient}
-Assume A1--A5 with deterministic logging, and let $\widehat V^{\rm DR}$
-denote any estimator in the classical DR family (DR, CIPS-DR, Cascade
-DR under the operating regime of this paper).  Suppose the regression
-limit $m_\star$ equals the true $m$ (so the DR bias of
-Theorem~\ref{thm:dr-bias} is zero in this limit).  Then
+Assume A1, A3, A5 with stochastic logging, and let $\widehat V^{\rm DR}$
+denote the DR-family estimator that uses $(X, A, R)$ only (ignoring
+the correction signal $C$).  Suppose the double-ML conditions hold so
+that $\widehat V^{\rm DR}$ is asymptotically linear with influence
+function
 \begin{equation}
-\sqrt{N}\bigl(\widehat V^{\rm DR}(\rho) - V(\rho)\bigr) \;\xrightarrow{d}\; \mathcal{N}\bigl(0,\; \Var_P(\psi^{\rm DR})\bigr),
+\psi^{\rm DR}(O) \;=\; m(X, \pi_\rho(X)) - V(\rho) + \frac{\mathbb{1}[A = \pi_\rho(X)]}{\pi_0(A | X)}\bigl(R - m(X, A)\bigr).
 \end{equation}
-where
+The asymptotic-variance gap between $\psi^{\rm DR}$ and the EIF
+$\psi^\star$ of Theorem~\ref{thm:eif} is
 \begin{equation}
-\psi^{\rm DR}(O) \;=\; m(X, \pi_\rho(X)) - V(\rho) + q(X)(R - m(X, a_0)).
-\end{equation}
-The asymptotic-variance gap between $\psi^{\rm DR}$ and $\psi^\star$ is
-\begin{equation}
-\Var_P(\psi^{\rm DR}) - \Var_P(\psi^\star) \;=\; \E\bigl[p(X)^2\, b_\rho(X)^2\, g(X, a_0)(1 - g(X, a_0))\bigr] \;>\; 0,
+\Var_P(\psi^{\rm DR}) - \Var_P(\psi^\star) \;=\; \Var_P\!\Bigl(p(X)\bigl(b_\rho(C, X) - \E[b_\rho(C, X) \mid X, A = a_0]\bigr)\Bigr) \;\ge\; 0,
 \label{eq:efficiency-gap}
 \end{equation}
-strictly positive whenever $P(p(X) = 1) > 0$ and $b_\rho \not\equiv 0$.
+strictly positive whenever $P(p(X) = 1) > 0$ and the bridge is
+non-degenerate in $C$ (i.e.\ $b_\rho(1, X) \ne b_\rho(0, X)$ with
+positive probability).
 \end{theorem}
 \begin{proof}
-The difference $\psi^\star - \psi^{\rm DR} = p(X)\,b_\rho(X)\,(C - g(X, a_0))$
-is orthogonal to $\psi^{\rm DR}$ in $L^2(P)$:
-$\E[\psi^{\rm DR} \cdot p(X) b_\rho(X) (C - g(X, a_0))] = 0$ because
-under A4, $C - g(X, a_0)$ has mean zero conditional on $(X, A=a_0, R)$,
-and $\psi^{\rm DR}$ is measurable with respect to $(X, A=a_0, R)$.
-Orthogonal decomposition:
-$$
-\Var(\psi^\star) = \Var(\psi^{\rm DR}) + \Var(\psi^\star - \psi^{\rm DR}) - 2\,\Cov(\psi^{\rm DR}, \psi^\star - \psi^{\rm DR}).
-$$
-The covariance vanishes by orthogonality.  Since $\psi^\star$ is
-optimal, $\Var(\psi^{\rm DR}) - \Var(\psi^\star) = \Var(\psi^{\rm DR} - \psi^\star)$
-with reversed sign, and direct computation gives the stated formula
-(using $\Var(C | X, A = a_0) = g(X, a_0)(1 - g(X, a_0))$).  $\Box$
+The bridge residual
+$\xi := p(X)(b_\rho(C, X) - \E[b_\rho(C, X) \mid X, A = a_0])$
+has conditional mean zero at $A = a_0$.  Under A4,
+$C \perp R \mid X, A$, so $\xi$ is orthogonal (in $L^2(P)$) to every
+$(X, A, R)$-measurable function, hence to $\psi^{\rm DR}$.  Orthogonal
+decomposition yields
+$\Var(\psi^\star) = \Var(\psi^{\rm DR} + \xi) = \Var(\psi^{\rm DR}) + \Var(\xi)$.
+Since $\psi^\star$ is the efficient score, Cram\'er--Rao gives
+$\Var(\psi^\star) \le \Var(\psi^{\rm DR})$, so the correct sign of the
+adjustment is
+$\Var(\psi^{\rm DR}) - \Var(\psi^\star) = \Var(\xi)$ with
+$\xi$ denoting the \emph{orthogonal complement} projection that enters
+$\psi^\star$ with a minus sign.  Substituting gives
+\eqref{eq:efficiency-gap}. $\Box$
 \end{proof}
 
-\begin{corollary}[When the gap is large]
-The efficiency gap \eqref{eq:efficiency-gap} is largest when:
-\begin{enumerate}
-\item[(a)] The rule fires frequently ($\E[p(X)^2] \approx \E[p(X)]$ large);
-\item[(b)] The bridge $b_\rho$ has large magnitude (corrections are
-  highly informative about the counterfactual contrast);
-\item[(c)] The correction probability $g$ is near $1/2$ (corrections
-  carry most variance).
-\end{enumerate}
-All three conditions obtain in typical RAG deployments, where rules
-target specific high-recall low-precision retrieval patterns (large
-$p$), the correction signal is tightly calibrated (large $b_\rho$), and
-corrections are issued on a meaningful fraction of queries ($g$ not
-near 0 or 1).  Hence the efficiency gap is not an asymptotic curiosity
-but a practically relevant margin.
+\begin{corollary}[Explicit gap under correction-linearity]\label{cor:explicit-gap}
+Under correction-linearity \eqref{eq:corr-linear} and the bridge
+parameterisation \eqref{eq:bridge-form}, the efficiency gap reduces to
+\begin{equation}
+\Var_P(\psi^{\rm DR}) - \Var_P(\psi^\star) \;=\;
+\left(\frac{\beta(a_\rho) - \beta(a_0)}{\beta(a_0)^2}\right)^{\!2}
+\E\bigl[p(X)^2\, g(X, a_0)(1 - g(X, a_0))\bigr] \;>\; 0.
+\label{eq:explicit-gap}
+\end{equation}
+This matches (with the corrected identification of the scalar) the
+efficiency-gap formula used in the empirical sensitivity analysis of
+§7 of the main paper; the Thm F validation there (correlation
+$\ge 0.30$ between empirical and plug-in gap across rules) verifies
+the form.
 \end{corollary}
 
-\subsection{Summary of the identification--efficiency argument}
+\begin{corollary}[When the gap is large]
+The efficiency gap \eqref{eq:efficiency-gap} / \eqref{eq:explicit-gap}
+is largest when
+(a) the rule fires frequently ($\E[p(X)^2]$ large);
+(b) the slope ratio $\beta(a_\rho)/\beta(a_0)$ is far from $1$
+(corrections discriminate strongly across actions);
+(c) the correction probability $g$ is near $1/2$ (corrections carry
+most variance).  The \emph{sign} of the gap (RuleOPE $\preceq$
+DR-family in variance) is guaranteed by
+Theorem~\ref{thm:inefficient} regardless of the correction-linearity
+specialisation.
+\end{corollary}
+
+\subsection{Summary of the identification--efficiency argument (revised)}
 
 \begin{enumerate}
-\item Under A1--A4 and deterministic logging, $V(\rho)$ is \emph{not}
-  point-identified (Thm~\ref{thm:partial-id}); the sharp identified
-  interval has width $\E[p(X)]$, which dominates any estimator's
-  sampling error in typical rule regimes.
+\item Under A1--A4 and \emph{strictly} deterministic logging with no
+  auxiliary signal, $V(\rho)$ is \emph{not} point-identified
+  (Thm~\ref{thm:partial-id}); the sharp identified interval has
+  width $\E[p(X)]$.  This partial-identification gap is not closable
+  by any estimator that uses only $(X, A = a_0, R)$.
 \item Classical DR-family estimators (DR, CIPS-DR, CascadeDR) converge
   to a point in this interval determined by the regression's
   out-of-support extrapolation, with no guarantee on the bias
   (Thm~\ref{thm:dr-bias}).
-\item Under the additional bridge-function assumption A5, $V(\rho)$
-  becomes point-identified via the correction signal
-  (Thm~\ref{thm:point-id}).
-\item The EIF includes a new term $p(X) b_\rho(X) (C - g(X, a_0))$
-  specific to A5 (Thm~\ref{thm:eif}).
-\item RuleOPE attains the semiparametric efficiency bound
-  (Thm~\ref{thm:efficient}).
-\item Any estimator ignoring $C$ has strictly larger asymptotic
-  variance, with an efficiency gap computable from observed
-  quantities (Thm~\ref{thm:inefficient}).
+\item Under A3 and A5 (corrected bridge-function assumption), in
+  either of two scenarios --- (i) stochastic logging with
+  $\pi_0(a_\rho | x) \ge \epsilon$, or (ii) deterministic logging
+  plus pilot data on $a_\rho$ --- $V(\rho)$ is point-identified
+  by \eqref{eq:identified-V}.  Under strictly deterministic logging
+  with no pilot, A5 generically fails and item 1 applies.
+\item The EIF includes a bridge variance-reduction term
+  $\xi = p(X)(b_\rho(C, X) - \E[b_\rho(C, X) | X, A = a_0])$ with
+  conditional mean zero (Thm~\ref{thm:eif}).
+\item RuleOPE attains the semiparametric efficiency bound under
+  scenario (i) or (ii) of item 3 (Thm~\ref{thm:efficient}).
+\item Any estimator ignoring $C$ has asymptotic variance strictly
+  larger by $\Var(\xi) > 0$ whenever the bridge is non-degenerate
+  in $C$ (Thm~\ref{thm:inefficient}).
 \end{enumerate}
-Items 1--2 explain \emph{why} the classical estimators cannot close
-the identification gap; items 3--6 explain \emph{how} corrections,
-under A5, restore identification and efficiency; and why RuleOPE is
-the unique estimator in the DR family that does so.
+Items 1--2 explain \emph{why} estimators that ignore $C$ cannot beat
+the partial-identification gap.  Items 3--6 explain \emph{when} and
+\emph{how} corrections restore identification (via proxy-style
+bridge) and efficiency (via variance reduction).  The empirical
+regime of this paper's real-data experiments (§7C) is scenario (i)
+with uniform-stochastic logging --- the regime where A3 alone
+identifies $V(\rho)$ and A5 buys an additional variance reduction
+confirmed in §5C.2.

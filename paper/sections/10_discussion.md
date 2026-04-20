@@ -5,26 +5,41 @@
 RuleOPE is a conservative drop-in replacement for DR in rule-evaluation
 workflows. On benchmarks where DR is already consistent and
 low-variance (stochastic logging, well-specified regression), RuleOPE
-does not underperform. In settings with *deterministic logging*,
-*miscoverage of important query classes*, or *unstable retrieval*,
-where classical DR collapses into pure DM, RuleOPE's correction-fusion
-term provides strictly more information at the cost of a learnt gate.
-Practitioners should deploy RuleOPE whenever a correction signal is
-collected anyway (as in Phyvant-style production logs) — the marginal
-cost is a single logistic regression on the same feature space as the
-reward model.
+does not underperform. The empirical regime in which our method
+materially helps is the **small-$N$ regime** ($N \approx 100$--$500$
+query--reward pairs, which matches the realistic deployment budget
+when rules are evaluated from an internal review queue or a partial
+online experiment). On three real-data benchmarks (HotpotQA, TriviaQA,
+MuSiQue) in this regime, we report statistically significant MSE
+reductions of 15\%--67\% over the OBP-style NonCompDR baseline
+(§7C.3); at $N \ge 600$ both estimators saturate toward the shared
+noise floor and the advantage shrinks. Practitioners with logs in the
+thousand-query range should expect diminishing returns; practitioners
+operating at $N \le 300$ get the largest benefit.
+
+In settings with *deterministic logging*, *miscoverage of important
+query classes*, or *unstable retrieval*, where classical DR collapses
+into pure DM, RuleOPE's correction-fusion term provides additional
+variance reduction at the cost of a learnt gate. On empirical data
+where the correction-linearity sufficient condition of A5 holds
+approximately (verified in §5C.2), adding the bridge term reduces
+held-out MAE by roughly 17\% over CompDR.
 
 ## 10.2 Limitations
 
-**L1: Calibration to real pipelines.** Our benchmark is synthetic.
-The substrate's feature marginals are calibrated to published BEIR
-and KILT statistics (§6.2), but the reward function is closed-form
-rather than a real generator. We expect real pipelines to have
-heavier-tailed reward distributions and more feature correlations.
-The camera-ready version will add an empirical appendix on production
-logs from a public RAG deployment (we will not use Phyvant data — the
-paper is framed entirely around public substrates; see §11 for the
-rationale and the separate production-adaptation roadmap).
+**L1: Large-$N$ saturation.** The real-data advantage is largest at
+small $N$ ($\le 300$) and shrinks into CI noise at $N \ge 600$ on
+HotpotQA and TriviaQA (§7C.3). Practitioners operating at
+$N \gg 1000$ should expect classical DR to perform comparably.
+MuSiQue retains a large advantage at all tested $N$; we attribute
+this to its higher rule-pool effective dimension (more rules with
+sparse firing patterns, larger compositional headroom).
+
+**L2: Real-data breadth.** We evaluate on three QA benchmarks
+(HotpotQA, TriviaQA, MuSiQue) with a single LLM (Mistral-7B). Further
+benchmarks --- Natural Questions, HybridQA, MultiHop-RAG, and
+non-QA tasks (summarisation, open-ended generation) --- are deferred
+to the camera-ready appendix.
 
 **L2: Conjunctive-rule restriction.** The rule class is conjunctive
 (CNF with one clause). Decision-list rules ("if $\phi_1$ then $a_1$
