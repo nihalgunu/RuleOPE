@@ -67,6 +67,23 @@ class RuleOPEConfig:
     r_abstain: float = 0.5
     # shrinkage of the correction-driven term (0 disables, 1 uses as-is)
     correction_weight: float = 1.0
+    # -----------------------------------------------------------------
+    # NEW: bridge-based EIF implementation (Thms D--F of theory/proofs.tex).
+    # When mode == "eif", the correction-fusion term is the closed-form
+    # bridge contribution p(X)*b_rho*(C - g(X, a_0)) rather than the
+    # earlier pseudo-reward heuristic.  Requires a known (beta_target,
+    # beta_logged) pair, or "auto" which assumes beta(a) = beta_default
+    # for every action (b_rho = 0, correction term vanishes -- a
+    # deliberately conservative default that never hurts).
+    # "heuristic" is the MSE-oriented default used for benchmark evaluation
+    # and comparison tables (see experiments/small_n_comparison.py).
+    # "eif" is the Thm-D implementation used for theorem validation
+    # (see experiments/efficiency_validation.py).  The two modes differ
+    # only in the correction-fusion term's functional form; the DM+DR
+    # backbone is identical.
+    mode: str = "heuristic"
+    beta_target: float = 1.0      # slope for the target rule action (used in mode="eif")
+    beta_logged: float = 4.0      # slope for the logged (noop) action (used in mode="eif")
 
 
 class RuleOPE(Estimator):
@@ -140,32 +157,36 @@ class RuleOPE(Estimator):
         w_logged = np.where(match, 1.0 / propensities, 0.0)
         psi_logged = m_rule + w_logged * (r - m_logged)
 
-        # Correction-driven term: active only on queries where rule fires with
-        # a non-noop action and the logged action was noop (so no coverage from
-        # the logged-action DR term).
-        active = fires & ~match & (rule.action != "noop")
-        if active.any():
-            p_ratio = np.zeros(len(logs), dtype=np.float64)
-            p_c_given_noop = self._gate_prob(logs, "noop")
-            p_c_given_a = self._gate_prob(logs, rule.action)
-            # "Correction-informativeness": 1 - P(c|a) / P(c|noop).  Intuitively,
-            # if correction is *less* likely under the rule's action than under
-            # the logging action, the correction signal is informative that
-            # the rule's action would have avoided the error.
-            eps = 1e-3
-            informativeness = np.clip(
-                1.0 - p_c_given_a / np.maximum(p_c_given_noop, eps),
-                0.0,
-                1.0,
-            )
-            # Gate: we only gain signal when there was actually a correction.
-            gate = np.minimum(informativeness / np.maximum(p_c_given_noop, eps), self.cfg.gate_clip)
-            p_ratio = np.where(active, gate, 0.0)
-
-            pseudo_r = self._pseudo_reward(logs, rule.action)
-            psi_corr = self.cfg.correction_weight * c * p_ratio * (pseudo_r - m_rule)
+        # Correction-driven term: implements the EIF of Thm D when
+        # cfg.mode == "eif", otherwise the earlier heuristic form.
+        if self.cfg.mode == "eif":
+            # psi^corr_i = p(X_i) * b_rho * (C_i - g_hat(X_i, a_0))
+            # under the correction-linearity form of A5:
+            #   b_rho = (beta(a_rho) - beta(a_0)) / beta(a_0)^2.
+            if abs(self.cfg.beta_logged) < 1e-9 or rule.action == "noop":
+                b_rho = 0.0
+            else:
+                b_rho = (self.cfg.beta_target - self.cfg.beta_logged) / (self.cfg.beta_logged ** 2)
+            g_a0 = self._gate_prob(logs, "noop")  # baseline correction rate under logging
+            p_fire = fires.astype(np.float64)
+            psi_corr = self.cfg.correction_weight * p_fire * b_rho * (c - g_a0)
         else:
-            psi_corr = np.zeros(len(logs), dtype=np.float64)
+            active = fires & ~match & (rule.action != "noop")
+            if active.any():
+                p_c_given_noop = self._gate_prob(logs, "noop")
+                p_c_given_a = self._gate_prob(logs, rule.action)
+                eps = 1e-3
+                informativeness = np.clip(
+                    1.0 - p_c_given_a / np.maximum(p_c_given_noop, eps), 0.0, 1.0,
+                )
+                gate = np.minimum(
+                    informativeness / np.maximum(p_c_given_noop, eps), self.cfg.gate_clip
+                )
+                p_ratio = np.where(active, gate, 0.0)
+                pseudo_r = self._pseudo_reward(logs, rule.action)
+                psi_corr = self.cfg.correction_weight * c * p_ratio * (pseudo_r - m_rule)
+            else:
+                psi_corr = np.zeros(len(logs), dtype=np.float64)
 
         psi = psi_logged + psi_corr
         est = float(psi.mean())
