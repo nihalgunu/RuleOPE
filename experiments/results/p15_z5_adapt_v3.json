@@ -1,0 +1,113 @@
+{
+  "mild": {
+    "eval_delta": 0.01,
+    "n_truly_better": 68,
+    "fdr_q_nominal": 0.1,
+    "Wald_effect": {
+      "n_discoveries": 57,
+      "true_positives": 57,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.8382352941176471
+    },
+    "BH_effect": {
+      "n_discoveries": 47,
+      "true_positives": 47,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.6911764705882353
+    },
+    "ADAPT_v2": {
+      "n_discoveries": 48,
+      "true_positives": 48,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.7058823529411765,
+      "runtime_s": 40.23651099205017,
+      "pi_0_hat": 1.0
+    },
+    "ADAPT_v3": {
+      "n_discoveries": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.0,
+      "runtime_s": 97.66489434242249,
+      "knockoff_threshold": Infinity
+    }
+  },
+  "moderate": {
+    "eval_delta": 0.01,
+    "n_truly_better": 70,
+    "fdr_q_nominal": 0.1,
+    "Wald_effect": {
+      "n_discoveries": 46,
+      "true_positives": 46,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.6571428571428571
+    },
+    "BH_effect": {
+      "n_discoveries": 39,
+      "true_positives": 39,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5571428571428572
+    },
+    "ADAPT_v2": {
+      "n_discoveries": 38,
+      "true_positives": 38,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5428571428571428,
+      "runtime_s": 20.98649024963379,
+      "pi_0_hat": 1.0
+    },
+    "ADAPT_v3": {
+      "n_discoveries": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.0,
+      "runtime_s": 22.099936962127686,
+      "knockoff_threshold": Infinity
+    }
+  },
+  "heavy": {
+    "eval_delta": 0.01,
+    "n_truly_better": 71,
+    "fdr_q_nominal": 0.1,
+    "Wald_effect": {
+      "n_discoveries": 37,
+      "true_positives": 37,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5211267605633803
+    },
+    "BH_effect": {
+      "n_discoveries": 24,
+      "true_positives": 24,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.3380281690140845
+    },
+    "ADAPT_v2": {
+      "n_discoveries": 27,
+      "true_positives": 27,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.38028169014084506,
+      "runtime_s": 44.26522994041443,
+      "pi_0_hat": 1.0
+    },
+    "ADAPT_v3": {
+      "n_discoveries": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.0,
+      "runtime_s": 60.465059757232666,
+      "knockoff_threshold": Infinity
+    }
+  }
+}

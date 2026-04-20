@@ -1,0 +1,28 @@
+{
+  "n_rules": 500,
+  "baseline_value": 0.6925007442889652,
+  "n_truly_better": 219,
+  "by_q": {
+    "0.05": {
+      "n_discoveries": 147,
+      "empirical_FDR": 0.02040816326530612,
+      "true_positives": 144,
+      "topk_FDR_matched_k": 0.02040816326530612,
+      "BH_threshold_p": 0.014665338409727724
+    },
+    "0.10": {
+      "n_discoveries": 155,
+      "empirical_FDR": 0.025806451612903226,
+      "true_positives": 151,
+      "topk_FDR_matched_k": 0.025806451612903226,
+      "BH_threshold_p": 0.03063713416421543
+    },
+    "0.20": {
+      "n_discoveries": 174,
+      "empirical_FDR": 0.034482758620689655,
+      "true_positives": 168,
+      "topk_FDR_matched_k": 0.040229885057471264,
+      "BH_threshold_p": 0.06725640780924524
+    }
+  }
+}

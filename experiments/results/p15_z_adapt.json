@@ -1,0 +1,179 @@
+{
+  "mild": {
+    "n_truly_better_at_delta_0_01": 68,
+    "matched_k": 77,
+    "delta_threshold": 0.01,
+    "S1_naive_topk": {
+      "n_discoveries": 77,
+      "n_truly_better": 68,
+      "true_positives": 67,
+      "false_positives": 10,
+      "empirical_FDR": 0.12987012987012986,
+      "empirical_TPR": 0.9852941176470589,
+      "mean_regret_per_discovery": 0.038411179253016736
+    },
+    "S2_drift_topk": {
+      "n_discoveries": 77,
+      "n_truly_better": 68,
+      "true_positives": 67,
+      "false_positives": 10,
+      "empirical_FDR": 0.12987012987012986,
+      "empirical_TPR": 0.9852941176470589,
+      "mean_regret_per_discovery": 0.038383041707710897
+    },
+    "S3_drift_active_topk": {
+      "n_discoveries": 77,
+      "n_truly_better": 68,
+      "true_positives": 68,
+      "false_positives": 9,
+      "empirical_FDR": 0.11688311688311688,
+      "empirical_TPR": 1.0,
+      "mean_regret_per_discovery": 0.03829467592439306
+    },
+    "B_wald_uncorrected": {
+      "n_discoveries": 87,
+      "n_truly_better": 68,
+      "true_positives": 68,
+      "false_positives": 19,
+      "empirical_FDR": 0.21839080459770116,
+      "empirical_TPR": 1.0,
+      "mean_regret_per_discovery": 0.040525889515882096
+    },
+    "B_bonferroni": {
+      "n_discoveries": 58,
+      "n_truly_better": 68,
+      "true_positives": 57,
+      "false_positives": 1,
+      "empirical_FDR": 0.017241379310344827,
+      "empirical_TPR": 0.8382352941176471,
+      "mean_regret_per_discovery": 0.03397628528768981
+    },
+    "S4_ADAPT_drift_active_FDR": {
+      "n_discoveries": 77,
+      "n_truly_better": 68,
+      "true_positives": 68,
+      "false_positives": 9,
+      "empirical_FDR": 0.11688311688311688,
+      "empirical_TPR": 1.0,
+      "mean_regret_per_discovery": 0.03829467592439306
+    }
+  },
+  "moderate": {
+    "n_truly_better_at_delta_0_01": 70,
+    "matched_k": 62,
+    "delta_threshold": 0.01,
+    "S1_naive_topk": {
+      "n_discoveries": 62,
+      "n_truly_better": 70,
+      "true_positives": 61,
+      "false_positives": 1,
+      "empirical_FDR": 0.016129032258064516,
+      "empirical_TPR": 0.8714285714285714,
+      "mean_regret_per_discovery": 0.03570968378653305
+    },
+    "S2_drift_topk": {
+      "n_discoveries": 62,
+      "n_truly_better": 70,
+      "true_positives": 61,
+      "false_positives": 1,
+      "empirical_FDR": 0.016129032258064516,
+      "empirical_TPR": 0.8714285714285714,
+      "mean_regret_per_discovery": 0.03558144539042429
+    },
+    "S3_drift_active_topk": {
+      "n_discoveries": 62,
+      "n_truly_better": 70,
+      "true_positives": 61,
+      "false_positives": 1,
+      "empirical_FDR": 0.016129032258064516,
+      "empirical_TPR": 0.8714285714285714,
+      "mean_regret_per_discovery": 0.03558144539042429
+    },
+    "B_wald_uncorrected": {
+      "n_discoveries": 72,
+      "n_truly_better": 70,
+      "true_positives": 67,
+      "false_positives": 5,
+      "empirical_FDR": 0.06944444444444445,
+      "empirical_TPR": 0.9571428571428572,
+      "mean_regret_per_discovery": 0.03801453605990679
+    },
+    "B_bonferroni": {
+      "n_discoveries": 32,
+      "n_truly_better": 70,
+      "true_positives": 32,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.45714285714285713,
+      "mean_regret_per_discovery": 0.025603495520639896
+    },
+    "S4_ADAPT_drift_active_FDR": {
+      "n_discoveries": 62,
+      "n_truly_better": 70,
+      "true_positives": 61,
+      "false_positives": 1,
+      "empirical_FDR": 0.016129032258064516,
+      "empirical_TPR": 0.8714285714285714,
+      "mean_regret_per_discovery": 0.035515163404875705
+    }
+  },
+  "heavy": {
+    "n_truly_better_at_delta_0_01": 71,
+    "matched_k": 26,
+    "delta_threshold": 0.01,
+    "S1_naive_topk": {
+      "n_discoveries": 26,
+      "n_truly_better": 71,
+      "true_positives": 26,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.36619718309859156,
+      "mean_regret_per_discovery": 0.02401151839636606
+    },
+    "S2_drift_topk": {
+      "n_discoveries": 26,
+      "n_truly_better": 71,
+      "true_positives": 26,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.36619718309859156,
+      "mean_regret_per_discovery": 0.023249273444030716
+    },
+    "S3_drift_active_topk": {
+      "n_discoveries": 26,
+      "n_truly_better": 71,
+      "true_positives": 26,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.36619718309859156,
+      "mean_regret_per_discovery": 0.022885095527389487
+    },
+    "B_wald_uncorrected": {
+      "n_discoveries": 61,
+      "n_truly_better": 71,
+      "true_positives": 58,
+      "false_positives": 3,
+      "empirical_FDR": 0.04918032786885246,
+      "empirical_TPR": 0.8169014084507042,
+      "mean_regret_per_discovery": 0.03628936481442446
+    },
+    "B_bonferroni": {
+      "n_discoveries": 7,
+      "n_truly_better": 71,
+      "true_positives": 7,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.09859154929577464,
+      "mean_regret_per_discovery": 0.009579141643667133
+    },
+    "S4_ADAPT_drift_active_FDR": {
+      "n_discoveries": 26,
+      "n_truly_better": 71,
+      "true_positives": 26,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.36619718309859156,
+      "mean_regret_per_discovery": 0.02313239719458704
+    }
+  }
+}

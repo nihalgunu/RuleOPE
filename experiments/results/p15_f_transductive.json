@@ -1,0 +1,23 @@
+{
+  "rule": "rerank[src_mixed]",
+  "delta_levels": {
+    "0.05": {
+      "empirical_coverage": 0.979,
+      "target_coverage": 0.95,
+      "mean_width": 0.2387710021843309,
+      "fires_frac": 1.0
+    },
+    "0.10": {
+      "empirical_coverage": 0.939,
+      "target_coverage": 0.9,
+      "mean_width": 0.19847546258866444,
+      "fires_frac": 1.0
+    },
+    "0.20": {
+      "empirical_coverage": 0.841,
+      "target_coverage": 0.8,
+      "mean_width": 0.15102063376861508,
+      "fires_frac": 1.0
+    }
+  }
+}

@@ -4,179 +4,179 @@
     "action": "rerank",
     "depth": 1,
     "fires_frac": 1.0,
-    "rope_estimate": 0.7510218794305668,
+    "rope_estimate": 0.7510189638514033,
     "ground_truth": 0.752261030951714,
-    "abs_err": 0.0012391515211472859
+    "abs_err": 0.0012420671003107175
   },
   {
     "rule": "rerank[q_len_gt_8]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.90875,
-    "rope_estimate": 0.7456303853856998,
+    "rope_estimate": 0.7456290976892128,
     "ground_truth": 0.7464468496012255,
-    "abs_err": 0.0008164642155257251
+    "abs_err": 0.0008177519120127208
   },
   {
     "rule": "rerank[top1_score_gt_0_5]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.8685,
-    "rope_estimate": 0.7431583855604725,
+    "rope_estimate": 0.743156280387923,
     "ground_truth": 0.7412691981607893,
-    "abs_err": 0.0018891873996832453
+    "abs_err": 0.0018870822271337406
   },
   {
     "rule": "rerank[src_mixed&top1_score_gt_0_5]",
     "action": "rerank",
     "depth": 2,
     "fires_frac": 0.8685,
-    "rope_estimate": 0.7431583855604725,
+    "rope_estimate": 0.743156280387923,
     "ground_truth": 0.7412691981607893,
-    "abs_err": 0.0018891873996832453
+    "abs_err": 0.0018870822271337406
   },
   {
     "rule": "rerank[gap_lt_0_20]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.78825,
-    "rope_estimate": 0.7417235270338715,
+    "rope_estimate": 0.7417210222501697,
     "ground_truth": 0.7441839528148195,
-    "abs_err": 0.0024604257809480723
+    "abs_err": 0.0024629305646498567
   },
   {
     "rule": "rerank[n_above_0_7_lt_2]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.80175,
-    "rope_estimate": 0.7402452625377416,
+    "rope_estimate": 0.7402430658427483,
     "ground_truth": 0.742156238537443,
-    "abs_err": 0.0019109759997013587
+    "abs_err": 0.0019131726946945982
   },
   {
     "rule": "rerank[top1_len_lt_128]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.6225,
-    "rope_estimate": 0.7354451005206615,
+    "rope_estimate": 0.7354422795384885,
     "ground_truth": 0.7384637104372898,
-    "abs_err": 0.0030186099166282787
+    "abs_err": 0.0030214308988012473
   },
   {
     "rule": "rerank[top2_score_gt_0_5]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.7005,
-    "rope_estimate": 0.7344370000983961,
+    "rope_estimate": 0.7344347934735499,
     "ground_truth": 0.7318577821390052,
-    "abs_err": 0.002579217959390867
+    "abs_err": 0.0025770113345446877
   },
   {
     "rule": "rerank[mean_score_gt_0_5]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.71925,
-    "rope_estimate": 0.7328129096216087,
+    "rope_estimate": 0.7328111135925819,
     "ground_truth": 0.7309307129616607,
-    "abs_err": 0.0018821966599480433
+    "abs_err": 0.0018804006309212085
   },
   {
     "rule": "filter[src_mixed]",
     "action": "filter",
     "depth": 1,
     "fires_frac": 1.0,
-    "rope_estimate": 0.7276417739102543,
+    "rope_estimate": 0.7276421812520029,
     "ground_truth": 0.7269690142983186,
-    "abs_err": 0.0006727596119356916
+    "abs_err": 0.0006731669536842455
   },
   {
     "rule": "rerank[n_above_0_7_lt_2&top1_len_lt_128]",
     "action": "rerank",
     "depth": 2,
     "fires_frac": 0.506,
-    "rope_estimate": 0.7268913922457653,
+    "rope_estimate": 0.7268888217989441,
     "ground_truth": 0.7305693464906494,
-    "abs_err": 0.003677954244884152
+    "abs_err": 0.0036805246917053225
   },
   {
     "rule": "filter[ent_missing_top3]",
     "action": "filter",
     "depth": 1,
     "fires_frac": 0.356,
-    "rope_estimate": 0.7268445493045856,
+    "rope_estimate": 0.7268451533404454,
     "ground_truth": 0.7352002384973502,
-    "abs_err": 0.008355689192764526
+    "abs_err": 0.008355085156904751
   },
   {
     "rule": "filter[ent_missing_top3&src_mixed]",
     "action": "filter",
     "depth": 2,
     "fires_frac": 0.356,
-    "rope_estimate": 0.7268445493045856,
+    "rope_estimate": 0.7268451533404454,
     "ground_truth": 0.7352002384973502,
-    "abs_err": 0.008355689192764526
+    "abs_err": 0.008355085156904751
   },
   {
     "rule": "rerank[n_above_0_5_lt_3]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.5425,
-    "rope_estimate": 0.7263669686849125,
+    "rope_estimate": 0.7263653022190022,
     "ground_truth": 0.727761397704656,
-    "abs_err": 0.001394429019743515
+    "abs_err": 0.001396095485653781
   },
   {
     "rule": "rerank[ent_missing_top3]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.356,
-    "rope_estimate": 0.7263339444710282,
+    "rope_estimate": 0.7263325032377023,
     "ground_truth": 0.7354537435510485,
-    "abs_err": 0.009119799080020363
+    "abs_err": 0.009121240313346268
   },
   {
     "rule": "filter[ent_missing_top1]",
     "action": "filter",
     "depth": 1,
     "fires_frac": 0.2335,
-    "rope_estimate": 0.7253653451750819,
+    "rope_estimate": 0.7253661668400111,
     "ground_truth": 0.7324343303876478,
-    "abs_err": 0.007068985212565937
+    "abs_err": 0.00706816354763673
   },
   {
     "rule": "filter[q_len_gt_8]",
     "action": "filter",
     "depth": 1,
     "fires_frac": 0.90875,
-    "rope_estimate": 0.724062929907428,
+    "rope_estimate": 0.7240642928540826,
     "ground_truth": 0.7233214217180941,
-    "abs_err": 0.0007415081893339392
+    "abs_err": 0.0007428711359884765
   },
   {
     "rule": "filter[top1_len_lt_128]",
     "action": "filter",
     "depth": 1,
     "fires_frac": 0.6225,
-    "rope_estimate": 0.7235348802411513,
+    "rope_estimate": 0.7235365563890332,
     "ground_truth": 0.7256822409312061,
-    "abs_err": 0.0021473606900548337
+    "abs_err": 0.0021456845421728987
   },
   {
     "rule": "rerank[top1_src_stub]",
     "action": "rerank",
     "depth": 1,
     "fires_frac": 0.17625,
-    "rope_estimate": 0.7233750546247156,
+    "rope_estimate": 0.7233745499766688,
     "ground_truth": 0.7306529424199102,
-    "abs_err": 0.00727788779519456
+    "abs_err": 0.007278392443241355
   },
   {
     "rule": "filter[top1_score_gt_0_5]",
     "action": "filter",
     "depth": 1,
     "fires_frac": 0.8685,
-    "rope_estimate": 0.7228569229496876,
+    "rope_estimate": 0.7228573310709178,
     "ground_truth": 0.7193961498196295,
-    "abs_err": 0.0034607731300581035
+    "abs_err": 0.003461181251288248
   }
 ]

@@ -1,0 +1,10 @@
+{
+  "rule": "rerank[src_mixed]",
+  "naive_estimate": 0.7508179393558019,
+  "weighted_estimate": 0.7158826358384439,
+  "ground_truth_target": 0.717918695841116,
+  "naive_abs_err": 0.03289924351468587,
+  "weighted_abs_err": 0.002036060002672091,
+  "weight_ess": 3267.8224101479914,
+  "naive_to_weighted_err_ratio": 16.1582878066017
+}

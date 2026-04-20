@@ -1,0 +1,146 @@
+{
+  "mild": {
+    "n_truly_better": 129,
+    "delta_threshold": 0.0,
+    "fdr_q_nominal": 0.1,
+    "ADAPT_v1": {
+      "n_discoveries": 77,
+      "true_positives": 76,
+      "false_positives": 1,
+      "empirical_FDR": 0.012987012987012988,
+      "empirical_TPR": 0.5891472868217055,
+      "mean_regret_per_discovery": 0.03829467592439317,
+      "runtime_s": 14.407614946365356
+    },
+    "ADAPT_v2": {
+      "n_discoveries": 93,
+      "true_positives": 91,
+      "false_positives": 2,
+      "empirical_FDR": 0.021505376344086023,
+      "empirical_TPR": 0.7054263565891473,
+      "mean_regret_per_discovery": 0.041647664004215934,
+      "runtime_s": 42.87791633605957,
+      "pi_0_hat": 0.66
+    },
+    "BH_no_storey": {
+      "n_discoveries": 92,
+      "true_positives": 90,
+      "false_positives": 2,
+      "empirical_FDR": 0.021739130434782608,
+      "empirical_TPR": 0.6976744186046512,
+      "mean_regret_per_discovery": 0.04146495851442644
+    },
+    "Wald": {
+      "n_discoveries": 96,
+      "true_positives": 94,
+      "false_positives": 2,
+      "empirical_FDR": 0.020833333333333332,
+      "empirical_TPR": 0.7286821705426356,
+      "mean_regret_per_discovery": 0.04216247828056552
+    },
+    "Bonferroni": {
+      "n_discoveries": 72,
+      "true_positives": 72,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5581395348837209,
+      "mean_regret_per_discovery": 0.03702296045299547
+    }
+  },
+  "moderate": {
+    "n_truly_better": 129,
+    "delta_threshold": 0.0,
+    "fdr_q_nominal": 0.1,
+    "ADAPT_v1": {
+      "n_discoveries": 62,
+      "true_positives": 62,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.4806201550387597,
+      "mean_regret_per_discovery": 0.035515163404875816,
+      "runtime_s": 20.43527126312256
+    },
+    "ADAPT_v2": {
+      "n_discoveries": 78,
+      "true_positives": 77,
+      "false_positives": 1,
+      "empirical_FDR": 0.01282051282051282,
+      "empirical_TPR": 0.5968992248062015,
+      "mean_regret_per_discovery": 0.0394181771829023,
+      "runtime_s": 17.805490016937256,
+      "pi_0_hat": 0.67
+    },
+    "BH_no_storey": {
+      "n_discoveries": 75,
+      "true_positives": 75,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5813953488372093,
+      "mean_regret_per_discovery": 0.038552728209213516
+    },
+    "Wald": {
+      "n_discoveries": 85,
+      "true_positives": 84,
+      "false_positives": 1,
+      "empirical_FDR": 0.011764705882352941,
+      "empirical_TPR": 0.6511627906976745,
+      "mean_regret_per_discovery": 0.04095032450625602
+    },
+    "Bonferroni": {
+      "n_discoveries": 52,
+      "true_positives": 52,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.40310077519379844,
+      "mean_regret_per_discovery": 0.032713572798298896
+    }
+  },
+  "heavy": {
+    "n_truly_better": 130,
+    "delta_threshold": 0.0,
+    "fdr_q_nominal": 0.1,
+    "ADAPT_v1": {
+      "n_discoveries": 26,
+      "true_positives": 26,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.2,
+      "mean_regret_per_discovery": 0.02313239719458704,
+      "runtime_s": 6.991458177566528
+    },
+    "ADAPT_v2": {
+      "n_discoveries": 69,
+      "true_positives": 69,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5307692307692308,
+      "mean_regret_per_discovery": 0.03812602282973121,
+      "runtime_s": 10.197784185409546,
+      "pi_0_hat": 0.67
+    },
+    "BH_no_storey": {
+      "n_discoveries": 65,
+      "true_positives": 65,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.5,
+      "mean_regret_per_discovery": 0.03699739192413565
+    },
+    "Wald": {
+      "n_discoveries": 78,
+      "true_positives": 78,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.6,
+      "mean_regret_per_discovery": 0.04022392501088867
+    },
+    "Bonferroni": {
+      "n_discoveries": 32,
+      "true_positives": 32,
+      "false_positives": 0,
+      "empirical_FDR": 0.0,
+      "empirical_TPR": 0.24615384615384617,
+      "mean_regret_per_discovery": 0.025416176709611604
+    }
+  }
+}

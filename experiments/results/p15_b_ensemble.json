@@ -1,0 +1,17 @@
+{
+  "k": 5,
+  "rules": [
+    "rerank[src_mixed]",
+    "rerank[q_len_gt_8]",
+    "rerank[top1_score_gt_0_5]",
+    "rerank[src_mixed&top1_score_gt_0_5]",
+    "rerank[gap_lt_0_20]"
+  ],
+  "ensemble_estimate": 0.7508179393558019,
+  "ensemble_stderr": 0.0032599824077827713,
+  "sum_individual": 3.724681644566632,
+  "max_individual": 0.7510189638514033,
+  "ground_truth_ensemble": 0.752261030951714,
+  "ground_truth_individual_max": 0.752261030951714,
+  "interaction_gap_pct": -0.19183388963887313
+}
