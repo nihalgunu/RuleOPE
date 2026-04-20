@@ -19,10 +19,14 @@ The three theorems make three empirically testable predictions:
 * **Thm E (RuleOPE attains the SEB)**: RuleOPE's empirical variance
   matches $\mathrm{Var}_P(\psi^\star)$ and is strictly smaller than the
   classical-DR estimator variance.
-* **Thm F (quantified efficiency gap)**: the variance gap between DR
-  and RuleOPE equals $\mathbb{E}[p(X)^2 b_\rho(X)^2 g(X, a_0)(1 - g(X, a_0))]$
+* **Thm F (quantified efficiency gap, revised).** The variance gap
+  between any $C$-ignoring DR-family estimator and RuleOPE equals
+  $\mathrm{Var}\!\bigl(p(X)(b_\rho(C, X) - \mathbb{E}[b_\rho(C, X) \mid X, A = a_0])\bigr)$,
+  which under correction-linearity reduces to
+  $\bigl(\tfrac{\beta(a_\rho) - \beta(a_0)}{\beta(a_0)^2}\bigr)^{\!2} \mathbb{E}[p(X)^2 g(X, a_0)(1 - g(X, a_0))]$
   *exactly* up to Monte Carlo error; correlation between the
-  bootstrap-empirical gap and the closed-form formula should be $\gtrsim 0.5$.
+  bootstrap-empirical gap and the closed-form formula should be
+  $\gtrsim 0.5$.
 
 ## 7.2 The standard methodology
 

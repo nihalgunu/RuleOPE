@@ -17,13 +17,19 @@ noise floor and the advantage shrinks. Practitioners with logs in the
 thousand-query range should expect diminishing returns; practitioners
 operating at $N \le 300$ get the largest benefit.
 
-In settings with *deterministic logging*, *miscoverage of important
-query classes*, or *unstable retrieval*, where classical DR collapses
-into pure DM, RuleOPE's correction-fusion term provides additional
-variance reduction at the cost of a learnt gate. On empirical data
-where the correction-linearity sufficient condition of A5 holds
-approximately (verified in §5C.2), adding the bridge term reduces
-held-out MAE by roughly 17\% over CompDR.
+In settings where classical DR collapses into pure DM — *stochastic
+logging with very small $\pi_0(a_\rho \mid x)$*, *miscoverage of
+important query classes*, or *unstable retrieval* — RuleOPE's
+correction-fusion term provides additional variance reduction at the
+cost of a learnt gate, provided A5's proxy-style bridge is
+non-vacuous (scenario (i) stochastic logging, or scenario (ii)
+deterministic logging plus a pilot on $a_\rho$; see §5.4 revised).
+Under strictly deterministic logging with no pilot and no second
+proxy, A5 generically fails and no estimator using only
+$(X, A = a_0, R, C)$ can close Thm A's $\mathbb{E}[p(X)]$-wide
+identification gap. On empirical data where the correction-linearity
+sufficient condition holds approximately (§5C.2), adding the bridge
+term reduces held-out MAE by roughly 17\% over CompDR.
 
 ## 10.2 Limitations
 

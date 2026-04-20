@@ -19,7 +19,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import numpy as np
-from scipy.stats import kendalltau, ttest_rel
+from scipy.stats import kendalltau, ttest_rel, wilcoxon, shapiro, binomtest, skew, kurtosis
 
 from src.estimators.doubly_robust import DoublyRobust
 from src.estimators.rule_ope import RuleOPE
@@ -111,25 +111,80 @@ def run(n_trials: int, Ns: list[int], pool_size: int = 1500):
 
         t_stat, p_val = ttest_rel(mse_NC, mse_RO)
 
+        # Robust / nonparametric paired tests on the log-ratio (NC - RO)
+        # - Wilcoxon signed-rank: robust to heavy tails, tests H0: median = 0.
+        # - Sign test: most robust, tests H0: P(log_ratio > 0) = 0.5.
+        # - Bootstrap-t: studentized bootstrap CI, less sensitive to skew than t.
+        # - Normality diagnostics explain disagreement between t and bootstrap.
+        try:
+            w_stat, w_p = wilcoxon(log_ratio, alternative="greater")
+            w_stat = float(w_stat); w_p = float(w_p)
+        except Exception:
+            w_stat, w_p = float("nan"), float("nan")
+        n_pos = int((log_ratio > 0).sum())
+        try:
+            sign_p = float(binomtest(n_pos, n=len(log_ratio), p=0.5, alternative="greater").pvalue)
+        except Exception:
+            sign_p = float("nan")
+        try:
+            sh_stat, sh_p = shapiro(log_ratio)
+            sh_stat = float(sh_stat); sh_p = float(sh_p)
+        except Exception:
+            sh_stat, sh_p = float("nan"), float("nan")
+        lr_skew = float(skew(log_ratio))
+        lr_kurt = float(kurtosis(log_ratio))  # excess kurtosis; Gaussian = 0
+
+        # Studentized (bootstrap-t) CI on mean log-ratio: resample, studentize,
+        # invert to get an interval that is correct under non-normality.
+        rng3 = np.random.default_rng(91)
+        se_full = float(log_ratio.std(ddof=1) / np.sqrt(len(log_ratio)))
+        t_stars = []
+        for _ in range(5000):
+            idxs = rng3.integers(0, len(log_ratio), size=len(log_ratio))
+            b = log_ratio[idxs]
+            se_b = b.std(ddof=1) / np.sqrt(len(b))
+            if se_b > 0:
+                t_stars.append((b.mean() - mean_lr) / se_b)
+        t_stars = np.array(t_stars)
+        t_lo, t_hi = np.quantile(t_stars, [0.95, 0.05])  # note swap for pivot
+        bt_ci_lo = float(mean_lr - t_lo * se_full)
+        bt_ci_hi = float(mean_lr - t_hi * se_full)
+
         results[str(N)] = {
             "n_trials": int(len(mse_NC)),
             "MSE_NC_mean": float(mse_NC.mean()),
             "MSE_RO_mean": float(mse_RO.mean()),
             "mean_log_ratio": mean_lr,
             "log_ratio_CI90_bootstrap": [ci_lo, ci_hi],
+            "log_ratio_CI90_bootstrap_t": [bt_ci_lo, bt_ci_hi],
             "pct_mean":  pct_mean,
             "pct_CI90_bootstrap": [pct_lo, pct_hi],
             "paired_t_stat": float(t_stat),
             "paired_t_pvalue": float(p_val),
+            "wilcoxon_stat": w_stat,
+            "wilcoxon_pvalue_greater": w_p,
+            "sign_test_n_pos": n_pos,
+            "sign_test_pvalue_greater": sign_p,
+            "shapiro_stat": sh_stat,
+            "shapiro_pvalue": sh_p,
+            "log_ratio_skew": lr_skew,
+            "log_ratio_excess_kurtosis": lr_kurt,
+            "log_ratio_per_trial": [float(x) for x in log_ratio],
             "significance_bootstrap_CI": bool(ci_lo > 0),
+            "significance_bootstrap_t_CI": bool(bt_ci_lo > 0),
             "significance_paired_t": bool(p_val < 0.05 and mse_RO.mean() < mse_NC.mean()),
+            "significance_wilcoxon": bool(w_p < 0.05),
+            "significance_sign_test": bool(sign_p < 0.05),
         }
         print(f"  mean log-ratio    = {mean_lr:+.4f}   pct = {pct_mean:+.2f}%", flush=True)
         print(f"  bootstrap 90% CI  = [{ci_lo:+.4f}, {ci_hi:+.4f}]   "
               f"({pct_lo:+.2f}%, {pct_hi:+.2f}%)", flush=True)
+        print(f"  bootstrap-t 90%CI = [{bt_ci_lo:+.4f}, {bt_ci_hi:+.4f}]", flush=True)
         print(f"  paired t-test     t={t_stat:+.2f}, p={p_val:.3e}", flush=True)
-        print(f"  sig by bootstrap? {ci_lo > 0}   sig by t-test? {p_val < 0.05 and mse_RO.mean() < mse_NC.mean()}",
-              flush=True)
+        print(f"  Wilcoxon (>)      W={w_stat:.1f},  p={w_p:.3e}", flush=True)
+        print(f"  sign test (>)     n+={n_pos}/{len(log_ratio)}, p={sign_p:.3e}", flush=True)
+        print(f"  Shapiro-Wilk      W={sh_stat:.3f}, p={sh_p:.3e}   "
+              f"skew={lr_skew:+.2f}  excess-kurt={lr_kurt:+.2f}", flush=True)
 
     Path("experiments/results").mkdir(parents=True, exist_ok=True)
     with open("experiments/results/trivia_paired_test.json", "w") as f:

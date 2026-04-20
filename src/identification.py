@@ -1,20 +1,24 @@
 """Partial-identification bounds and efficiency-gap diagnostics.
 
-Implements the theory of Section "Identification and efficiency under
-deterministic logging" in `theory/proofs.tex`:
+Implements the theory of Section "Identification and efficiency" in
+`theory/proofs.tex` (revised):
 
 * `partial_id_bounds(rule, logs)` returns (V_L, V_U) -- the sharp
-  identification interval under A1-A4 and deterministic logging.
-* `efficiency_gap(rule, logs, bridge, gate)` returns an empirical estimate
-  of the variance gap between the classical DR influence function and the
-  RuleOPE efficient influence function, per Theorem F.
-* `bridge_linear(beta_target, beta_logged)` gives the closed-form
-  bridge function under the correction-linearity model.
+  identification interval under A1-A4 and strict deterministic logging
+  (Thm A). No estimator using only (X, A=a_0, R) can close this gap.
+* `bridge_linear(beta_target, beta_logged)` returns the scalar
+  (beta_target - beta_logged) / beta_logged^2, which is the optimal
+  weight on the correction residual (C - g(X, a_0)) in the efficient
+  influence function under correction-linearity. Under the revised
+  (C, X)-measurable bridge A5, this scalar is interpreted as a
+  *variance-reduction gain* rather than an identification bridge.
+* `efficiency_gap(rule, logs, bridge, gate)` returns the plug-in
+  Var(psi^DR) - Var(psi^star) = E[p(X)^2 b^2 g(1-g)] per Thm F
+  (revised corollary).
 
-The bounds are useful as diagnostics: they tell a practitioner how much
-of their rule-evaluation error is identification gap versus estimation
-error, and hence whether collecting more data or collecting more
-corrections is the right next step.
+These bounds are diagnostics: they tell a practitioner how much of
+their rule-evaluation error is identification gap vs. estimation
+error, and hence whether to collect more data or more corrections.
 """
 from __future__ import annotations
 

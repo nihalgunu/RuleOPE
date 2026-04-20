@@ -86,11 +86,14 @@ of standard BEIR retrieval pipelines.
    in which production RAG pipelines actually operate.
 
 2. **RuleOPE estimator** (§4). A doubly-robust estimator with
-   compositionally factorised reward regression and a correction-fusion
-   term that provides finite-sample identification of rule values in
-   deterministic logging. The compositional factorisation reduces the
-   cross-rule variance contribution of the regression from $O(M \cdot d)$
-   to $O(K \cdot d)$ where $d, K$ are fixed.
+   compositionally factorised reward regression (identification by A3;
+   §5) and an optional correction-fusion term that delivers a strict
+   semiparametric variance reduction under the proxy-style bridge
+   assumption A5 whenever logging is stochastic on the target action
+   or a pilot sample is available (§5.4, revised). The compositional
+   factorisation reduces the cross-rule variance contribution of the
+   regression from $O(M \cdot d)$ to $O(K \cdot d)$ where $d, K$ are
+   fixed.
 
 3. **DualShrinkOPE** (§4.6 and Theorem 3). Bayes-optimal per-rule
    convex combination of RuleOPE and the Direct Method, with an
