@@ -15,6 +15,7 @@ declare -A MAP=(
   [07c_real_data]=real_data_body
   [08_ablations_scaling]=ablations_body
   [09_failure_case]=failure_body
+  [09b_discovery]=discovery_body
   [10_discussion]=discussion_body
   [11_decisions_log]=decisions_body
 )

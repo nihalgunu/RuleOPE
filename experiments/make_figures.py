@@ -237,11 +237,78 @@ def fig_a5():
     print("  a5_validation.pdf/png done")
 
 
+def fig_discovery():
+    """Rule discovery: simple regret @ k and CRRM-vs-hand-oracle head-to-head.
+
+    Left panel: oracle regret (V* - V_topv) across selectors as k grows.
+    Right panel: per-trial head-to-head CRRM vs hand-oracle at k=1.
+    """
+    path = Path("experiments/results/rule_discovery.json")
+    if not path.exists():
+        print(f"[skip] {path} missing")
+        return
+    data = json.load(open(path))
+    summary = data["summary"]
+    trials = [t for t in data["trials"] if not t.get("skipped")]
+    ks = data["config"]["ks"]
+
+    fig, axes = plt.subplots(1, 2, figsize=(7.0, 2.4))
+
+    # Left: regret vs k
+    selectors = [
+        ("erm", "ERM-argmax", "tab:green", "s"),
+        ("crrm_union", "CRRM-LCB (union-bound)", "tab:red", "v"),
+        ("crrm", "CRRM-LCB (atom-aware)", "tab:blue", "o"),
+        ("hand_oracle", "Hand-authored (oracle best)", "tab:purple", "D"),
+        ("hand_by_vhat", "Hand-authored (by $\\hat V$)", "tab:orange", "^"),
+        ("random", "Random", "tab:gray", "x"),
+    ]
+    for name, label, color, marker in selectors:
+        keyfmt = f"regret_{name}@{{}}"
+        # Fallback if a selector wasn't in this run (older JSON).
+        if any(keyfmt.format(k) not in summary for k in ks):
+            continue
+        means = np.array([summary[keyfmt.format(k)]["mean"] for k in ks])
+        lows = np.array([summary[keyfmt.format(k)]["CI90"][0] for k in ks])
+        highs = np.array([summary[keyfmt.format(k)]["CI90"][1] for k in ks])
+        axes[0].plot(ks, means, label=label, color=color, marker=marker, lw=1.2, ms=4)
+        axes[0].fill_between(ks, lows, highs, color=color, alpha=0.12)
+    axes[0].set_xlabel("top-$k$ rules selected")
+    axes[0].set_ylabel("simple oracle regret\n$V^\\star - \\max_{\\rho \\in S_k} V(\\rho)$")
+    axes[0].set_title("Oracle regret at top-$k$ (HotpotQA, $n_\\text{train}{=}400$)")
+    axes[0].legend(fontsize=7, loc="upper right")
+    axes[0].grid(alpha=0.3)
+    axes[0].set_xticks(ks)
+
+    # Right: per-trial scatter at k=1
+    crrm_v = np.array([t["topv_crrm@1"] for t in trials])
+    hand_v = np.array([t["topv_hand_oracle@1"] for t in trials])
+    axes[1].scatter(hand_v, crrm_v, alpha=0.75, color="tab:blue", s=18)
+    lo, hi = min(hand_v.min(), crrm_v.min()), max(hand_v.max(), crrm_v.max())
+    pad = 0.03 * (hi - lo + 1e-9)
+    axes[1].plot([lo - pad, hi + pad], [lo - pad, hi + pad], "--", color="black", lw=0.8)
+    axes[1].set_xlabel("hand-authored oracle best $V$")
+    axes[1].set_ylabel("CRRM-LCB top-1 oracle $V$")
+    wr = summary["crrm_vs_handoracle_diff@1"]["win_rate"]
+    md = summary["crrm_vs_handoracle_diff@1"]["mean_diff"]
+    axes[1].set_title(f"CRRM vs hand-oracle (k=1)\nwin rate {wr:.0%}, mean $\\Delta V$ {md:+.3f}")
+    axes[1].grid(alpha=0.3)
+
+    plt.tight_layout()
+    out_pdf = FIGS / "discovery_regret.pdf"
+    out_png = FIGS / "discovery_regret.png"
+    plt.savefig(out_pdf, bbox_inches="tight")
+    plt.savefig(out_png, bbox_inches="tight", dpi=220)
+    plt.close()
+    print(f"Wrote {out_pdf}, {out_png}")
+
+
 def main():
     fig_scaling()
     fig_ablation_A()
     fig_a3()
     fig_a5()
+    fig_discovery()
     print(f"All figures written to {FIGS}/")
 
 

@@ -10,7 +10,7 @@ specialised to stochastic or continuous-action bandits, or treat the retrieval
 step as a slate recommender, ignoring the combinatorial structure of rules.
 
 We introduce **RuleOPE**, an offline evaluation *framework* for rule-based
-interventions in RAG with four tightly coupled contributions: (i) a
+interventions in RAG with five tightly coupled contributions: (i) a
 formalisation of rule-based interventions as conjunctive boolean policies
 over a fixed atom vocabulary; (ii) a doubly-robust estimator whose reward
 regression is factorised over atomic predicates, so rules sharing atoms
@@ -26,10 +26,16 @@ benchmarks --- HotpotQA, TriviaQA, MuSiQue --- in the small-$N$ regime
 deployment budget), RuleOPE achieves **statistically significant MSE
 reductions of 15\%--67\%** over the OBP-style NonCompDR baseline
 (Saito et al.\ 2021), with mechanism-isolating ablations showing that
-compositional atom-sharing alone drives the gain. We also release a
-frozen synthetic benchmark of 500 rules with exact ground-truth values
-and three correction-noise regimes for reproducible methodology
-testing.
+compositional atom-sharing alone drives the gain; and (v) a
+**plug-in rule-discovery loop** (§9B) --- enumerate, score with
+RuleOPE, select via ERM-argmax --- that on HotpotQA's
+3528-candidate depth-$\le 2$ space recovers the oracle-best rule at
+median zero regret (mean $0.018$) and improves over a 500-rule
+hand-curated baseline by $0.007$ at $N{=}150$, elevating RuleOPE
+from an *estimator* to a *rule-learning framework*. We also
+release a frozen synthetic benchmark of 500 rules with exact
+ground-truth values and three correction-noise regimes for
+reproducible methodology testing.
 
 # 1  Introduction
 
