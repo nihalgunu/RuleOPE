@@ -1,0 +1,4041 @@
+{"id": "qb_5582__noop", "text": "UNKNOWN"}
+{"id": "qb_5582__filter", "text": "UNKNOWN"}
+{"id": "qb_5582__rerank", "text": "UNKNOWN"}
+{"id": "bb_951__noop", "text": "UNKNOWN"}
+{"id": "bb_951__filter", "text": "UNKNOWN"}
+{"id": "bb_951__rerank", "text": "UNKNOWN"}
+{"id": "odql_5886__noop", "text": "Nairobi"}
+{"id": "odql_5886__filter", "text": "Nairobi"}
+{"id": "odql_5886__rerank", "text": "Nairobi"}
+{"id": "bb_5035__noop", "text": "fatty hump"}
+{"id": "bb_5035__filter", "text": "fatty hump"}
+{"id": "bb_5035__rerank", "text": "fatty hump"}
+{"id": "sfq_15024__noop", "text": "UNKNOWN"}
+{"id": "sfq_15024__filter", "text": "UNKNOWN"}
+{"id": "sfq_15024__rerank", "text": "UNKNOWN"}
+{"id": "qw_6047__noop", "text": "Donna Summer"}
+{"id": "qw_6047__filter", "text": "Donna Summer"}
+{"id": "qw_6047__rerank", "text": "Donna Summer"}
+{"id": "jp_2379__noop", "text": "UNKNOWN"}
+{"id": "jp_2379__filter", "text": "UNKNOWN"}
+{"id": "jp_2379__rerank", "text": "UNKNOWN"}
+{"id": "sfq_21242__noop", "text": "UNKNOWN"}
+{"id": "sfq_21242__filter", "text": "UNKNOWN"}
+{"id": "sfq_21242__rerank", "text": "UNKNOWN"}
+{"id": "bb_6043__noop", "text": "Unknown"}
+{"id": "bb_6043__filter", "text": "UNKNOWN"}
+{"id": "bb_6043__rerank", "text": "Unknown"}
+{"id": "qz_2291__noop", "text": "UNKNOWN"}
+{"id": "qz_2291__filter", "text": "UNKNOWN"}
+{"id": "qz_2291__rerank", "text": "UNKNOWN"}
+{"id": "bt_2403__noop", "text": "David Whitby"}
+{"id": "bt_2403__filter", "text": "David Whitby"}
+{"id": "bt_2403__rerank", "text": "David Whitby"}
+{"id": "odql_10472__noop", "text": "Winnie Mae"}
+{"id": "odql_10472__filter", "text": "Winnie Mae"}
+{"id": "odql_10472__rerank", "text": "Winnie Mae"}
+{"id": "qb_7372__noop", "text": "UNKNOWN"}
+{"id": "qb_7372__filter", "text": "UNKNOWN"}
+{"id": "qb_7372__rerank", "text": "UNKNOWN"}
+{"id": "tc_1704__noop", "text": "French Open"}
+{"id": "tc_1704__filter", "text": "French Open"}
+{"id": "tc_1704__rerank", "text": "French Open"}
+{"id": "sfq_8322__noop", "text": "Bud Flanagan"}
+{"id": "sfq_8322__filter", "text": "UNKNOWN"}
+{"id": "sfq_8322__rerank", "text": "Bud Flanagan"}
+{"id": "bt_4413__noop", "text": "UNKNOWN"}
+{"id": "bt_4413__filter", "text": "John Entwistle"}
+{"id": "bt_4413__rerank", "text": "UNKNOWN"}
+{"id": "qw_2825__noop", "text": "UNKNOWN"}
+{"id": "qw_2825__filter", "text": "UNKNOWN"}
+{"id": "qw_2825__rerank", "text": "UNKNOWN"}
+{"id": "qf_590__noop", "text": "February"}
+{"id": "qf_590__filter", "text": "February"}
+{"id": "qf_590__rerank", "text": "February"}
+{"id": "qg_3753__noop", "text": "The Muffin Man"}
+{"id": "qg_3753__filter", "text": "The Muffin Man"}
+{"id": "qg_3753__rerank", "text": "The Muffin Man"}
+{"id": "bb_969__noop", "text": "Hamm"}
+{"id": "bb_969__filter", "text": "Hamm"}
+{"id": "bb_969__rerank", "text": "Hamm"}
+{"id": "bb_4230__noop", "text": "UNKNOWN"}
+{"id": "bb_4230__filter", "text": "UNKNOWN"}
+{"id": "bb_4230__rerank", "text": "UNKNOWN"}
+{"id": "qz_5795__noop", "text": "Gulf of Aden"}
+{"id": "qz_5795__filter", "text": "Gulf of Aden"}
+{"id": "qz_5795__rerank", "text": "Gulf of Aden"}
+{"id": "jp_3148__noop", "text": "Paul Simon"}
+{"id": "jp_3148__filter", "text": "Paul Simon"}
+{"id": "jp_3148__rerank", "text": "Paul Simon"}
+{"id": "odql_2147__noop", "text": "John Key"}
+{"id": "odql_2147__filter", "text": "UNKNOWN"}
+{"id": "odql_2147__rerank", "text": "John Key"}
+{"id": "bb_2748__noop", "text": "Afghanistan"}
+{"id": "bb_2748__filter", "text": "Afghanistan"}
+{"id": "bb_2748__rerank", "text": "Afghanistan"}
+{"id": "qw_4976__noop", "text": "UNKNOWN"}
+{"id": "qw_4976__filter", "text": "UNKNOWN"}
+{"id": "qw_4976__rerank", "text": "UNKNOWN"}
+{"id": "jp_4273__noop", "text": "chipmunk"}
+{"id": "jp_4273__filter", "text": "Chipmunks"}
+{"id": "jp_4273__rerank", "text": "chipmunk"}
+{"id": "qf_854__noop", "text": "UNKNOWN"}
+{"id": "qf_854__filter", "text": "UNKNOWN"}
+{"id": "qf_854__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4438__noop", "text": "Elbe"}
+{"id": "sfq_4438__filter", "text": "Elbe"}
+{"id": "sfq_4438__rerank", "text": "Elbe"}
+{"id": "wh_1982__noop", "text": "UNKNOWN"}
+{"id": "wh_1982__filter", "text": "UNKNOWN"}
+{"id": "wh_1982__rerank", "text": "UNKNOWN"}
+{"id": "sfq_21270__noop", "text": "UNKNOWN"}
+{"id": "sfq_21270__filter", "text": "UNKNOWN"}
+{"id": "sfq_21270__rerank", "text": "UNKNOWN"}
+{"id": "qw_2876__noop", "text": "Millennium"}
+{"id": "qw_2876__filter", "text": "Millennium"}
+{"id": "qw_2876__rerank", "text": "Millennium"}
+{"id": "qf_3546__noop", "text": "UNKNOWN"}
+{"id": "qf_3546__filter", "text": "UNKNOWN"}
+{"id": "qf_3546__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5980__noop", "text": "Birmingham"}
+{"id": "sfq_5980__filter", "text": "Birmingham"}
+{"id": "sfq_5980__rerank", "text": "Birmingham"}
+{"id": "odql_8184__noop", "text": "Unknown"}
+{"id": "odql_8184__filter", "text": "Unknown"}
+{"id": "odql_8184__rerank", "text": "Unknown"}
+{"id": "bt_363__noop", "text": "UNKNOWN"}
+{"id": "bt_363__filter", "text": "UNKNOWN"}
+{"id": "bt_363__rerank", "text": "UNKNOWN"}
+{"id": "qb_153__noop", "text": "Mull"}
+{"id": "qb_153__filter", "text": "UNKNOWN"}
+{"id": "qb_153__rerank", "text": "Mull"}
+{"id": "tc_664__noop", "text": "UNKNOWN"}
+{"id": "tc_664__filter", "text": "UNKNOWN"}
+{"id": "tc_664__rerank", "text": "UNKNOWN"}
+{"id": "bt_1731__noop", "text": "UNKNOWN"}
+{"id": "bt_1731__filter", "text": "Donald Sutherland"}
+{"id": "bt_1731__rerank", "text": "UNKNOWN"}
+{"id": "odql_13667__noop", "text": "Bleak House"}
+{"id": "odql_13667__filter", "text": "Bleak House"}
+{"id": "odql_13667__rerank", "text": "Bleak House"}
+{"id": "wh_2361__noop", "text": "Gunpowder Plot"}
+{"id": "wh_2361__filter", "text": "UNKNOWN"}
+{"id": "wh_2361__rerank", "text": "Gunpowder Plot"}
+{"id": "wh_2657__noop", "text": "UNKNOWN"}
+{"id": "wh_2657__filter", "text": "UNKNOWN"}
+{"id": "wh_2657__rerank", "text": "UNKNOWN"}
+{"id": "qw_12892__noop", "text": "train"}
+{"id": "qw_12892__filter", "text": "railway"}
+{"id": "qw_12892__rerank", "text": "train"}
+{"id": "bb_9279__noop", "text": "UNKNOWN"}
+{"id": "bb_9279__filter", "text": "UNKNOWN"}
+{"id": "bb_9279__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14528__noop", "text": "UNKNOWN"}
+{"id": "sfq_14528__filter", "text": "UNKNOWN"}
+{"id": "sfq_14528__rerank", "text": "UNKNOWN"}
+{"id": "sfq_17158__noop", "text": "Unknown"}
+{"id": "sfq_17158__filter", "text": "UNKNOWN"}
+{"id": "sfq_17158__rerank", "text": "Unknown"}
+{"id": "dpql_786__noop", "text": "farthing"}
+{"id": "dpql_786__filter", "text": "farthing"}
+{"id": "dpql_786__rerank", "text": "farthing"}
+{"id": "sfq_7427__noop", "text": "John Ford"}
+{"id": "sfq_7427__filter", "text": "John Ford"}
+{"id": "sfq_7427__rerank", "text": "John Ford"}
+{"id": "sfq_15660__noop", "text": "1951"}
+{"id": "sfq_15660__filter", "text": "UNKNOWN"}
+{"id": "sfq_15660__rerank", "text": "1951"}
+{"id": "qb_4446__noop", "text": "Absinthe"}
+{"id": "qb_4446__filter", "text": "absinthe"}
+{"id": "qb_4446__rerank", "text": "Absinthe"}
+{"id": "wh_1698__noop", "text": "Newcastle United"}
+{"id": "wh_1698__filter", "text": "Newcastle United"}
+{"id": "wh_1698__rerank", "text": "Newcastle United"}
+{"id": "dpql_6276__noop", "text": "India"}
+{"id": "dpql_6276__filter", "text": "UNKNOWN"}
+{"id": "dpql_6276__rerank", "text": "India"}
+{"id": "odql_7636__noop", "text": "Marcelo R\u00edos"}
+{"id": "odql_7636__filter", "text": "Marc Rosset"}
+{"id": "odql_7636__rerank", "text": "Marcelo R\u00edos"}
+{"id": "qw_11528__noop", "text": "Twiggy"}
+{"id": "qw_11528__filter", "text": "Twiggy"}
+{"id": "qw_11528__rerank", "text": "Twiggy"}
+{"id": "qw_12518__noop", "text": "Buffalo Six"}
+{"id": "qw_12518__filter", "text": "Buffalo Six"}
+{"id": "qw_12518__rerank", "text": "Buffalo Six"}
+{"id": "odql_3849__noop", "text": "UNKNOWN"}
+{"id": "odql_3849__filter", "text": "UNKNOWN"}
+{"id": "odql_3849__rerank", "text": "UNKNOWN"}
+{"id": "qw_9395__noop", "text": "UNKNOWN"}
+{"id": "qw_9395__filter", "text": "UNKNOWN"}
+{"id": "qw_9395__rerank", "text": "UNKNOWN"}
+{"id": "sfq_25100__noop", "text": "UNKNOWN"}
+{"id": "sfq_25100__filter", "text": "UNKNOWN"}
+{"id": "sfq_25100__rerank", "text": "UNKNOWN"}
+{"id": "jp_4206__noop", "text": "Valhalla"}
+{"id": "jp_4206__filter", "text": "Valhalla"}
+{"id": "jp_4206__rerank", "text": "Valhalla"}
+{"id": "sfq_6104__noop", "text": "UNKNOWN"}
+{"id": "sfq_6104__filter", "text": "Bizet"}
+{"id": "sfq_6104__rerank", "text": "UNKNOWN"}
+{"id": "sfq_12979__noop", "text": "UNKNOWN"}
+{"id": "sfq_12979__filter", "text": "UNKNOWN"}
+{"id": "sfq_12979__rerank", "text": "UNKNOWN"}
+{"id": "qf_1884__noop", "text": "Unknown"}
+{"id": "qf_1884__filter", "text": "Unknown"}
+{"id": "qf_1884__rerank", "text": "Unknown"}
+{"id": "sfq_12061__noop", "text": "UNKNOWN"}
+{"id": "sfq_12061__filter", "text": "UNKNOWN"}
+{"id": "sfq_12061__rerank", "text": "UNKNOWN"}
+{"id": "sfq_24363__noop", "text": "UNKNOWN"}
+{"id": "sfq_24363__filter", "text": "UNKNOWN"}
+{"id": "sfq_24363__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22623__noop", "text": "Shrek"}
+{"id": "sfq_22623__filter", "text": "Prince Charming"}
+{"id": "sfq_22623__rerank", "text": "Shrek"}
+{"id": "odql_15030__noop", "text": "UNKNOWN"}
+{"id": "odql_15030__filter", "text": "UNKNOWN"}
+{"id": "odql_15030__rerank", "text": "UNKNOWN"}
+{"id": "odql_12464__noop", "text": "John Barbirolli"}
+{"id": "odql_12464__filter", "text": "Sir John Barbirolli"}
+{"id": "odql_12464__rerank", "text": "John Barbirolli"}
+{"id": "qw_14720__noop", "text": "UNKNOWN"}
+{"id": "qw_14720__filter", "text": "UNKNOWN"}
+{"id": "qw_14720__rerank", "text": "UNKNOWN"}
+{"id": "qb_8014__noop", "text": "Tangled"}
+{"id": "qb_8014__filter", "text": "Tangled"}
+{"id": "qb_8014__rerank", "text": "Tangled"}
+{"id": "dpql_3202__noop", "text": "Daily Herald"}
+{"id": "dpql_3202__filter", "text": "Illustrated Mirror"}
+{"id": "dpql_3202__rerank", "text": "Daily Herald"}
+{"id": "qb_5547__noop", "text": "UNKNOWN"}
+{"id": "qb_5547__filter", "text": "UNKNOWN"}
+{"id": "qb_5547__rerank", "text": "UNKNOWN"}
+{"id": "wh_2105__noop", "text": "UNKNOWN"}
+{"id": "wh_2105__filter", "text": "Irrawaddy"}
+{"id": "wh_2105__rerank", "text": "UNKNOWN"}
+{"id": "odql_11788__noop", "text": "UNKNOWN"}
+{"id": "odql_11788__filter", "text": "UNKNOWN"}
+{"id": "odql_11788__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22152__noop", "text": "UNKNOWN"}
+{"id": "sfq_22152__filter", "text": "UNKNOWN"}
+{"id": "sfq_22152__rerank", "text": "UNKNOWN"}
+{"id": "qz_5042__noop", "text": "UNKNOWN"}
+{"id": "qz_5042__filter", "text": "UNKNOWN"}
+{"id": "qz_5042__rerank", "text": "UNKNOWN"}
+{"id": "bb_9192__noop", "text": "UNKNOWN"}
+{"id": "bb_9192__filter", "text": "UNKNOWN"}
+{"id": "bb_9192__rerank", "text": "UNKNOWN"}
+{"id": "qw_4590__noop", "text": "supersede"}
+{"id": "qw_4590__filter", "text": "supercalifragilisticexpialidocious"}
+{"id": "qw_4590__rerank", "text": "supersede"}
+{"id": "sfq_7739__noop", "text": "Beaujolais"}
+{"id": "sfq_7739__filter", "text": "Beaujolais"}
+{"id": "sfq_7739__rerank", "text": "Beaujolais"}
+{"id": "tb_1234__noop", "text": "Dams"}
+{"id": "tb_1234__filter", "text": "UNKNOWN"}
+{"id": "tb_1234__rerank", "text": "Dams"}
+{"id": "sfq_20731__noop", "text": "Far From the Madding Crowd"}
+{"id": "sfq_20731__filter", "text": "UNKNOWN"}
+{"id": "sfq_20731__rerank", "text": "Far From the Madding Crowd"}
+{"id": "qb_10284__noop", "text": "Illinois"}
+{"id": "qb_10284__filter", "text": "Illinois"}
+{"id": "qb_10284__rerank", "text": "Illinois"}
+{"id": "odql_7362__noop", "text": "UNKNOWN"}
+{"id": "odql_7362__filter", "text": "Little Lord Fauntleroy"}
+{"id": "odql_7362__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11266__noop", "text": "Geometry"}
+{"id": "sfq_11266__filter", "text": "UNKNOWN"}
+{"id": "sfq_11266__rerank", "text": "Geometry"}
+{"id": "bb_9212__noop", "text": "George"}
+{"id": "bb_9212__filter", "text": "Unknown"}
+{"id": "bb_9212__rerank", "text": "George"}
+{"id": "odql_12340__noop", "text": "Eagle"}
+{"id": "odql_12340__filter", "text": "Elephant"}
+{"id": "odql_12340__rerank", "text": "Eagle"}
+{"id": "qb_9577__noop", "text": "Edmund"}
+{"id": "qb_9577__filter", "text": "Edmund"}
+{"id": "qb_9577__rerank", "text": "Edmund"}
+{"id": "dpql_2724__noop", "text": "Pa"}
+{"id": "dpql_2724__filter", "text": "Pa"}
+{"id": "dpql_2724__rerank", "text": "Pa"}
+{"id": "qz_1357__noop", "text": "UNKNOWN"}
+{"id": "qz_1357__filter", "text": "UNKNOWN"}
+{"id": "qz_1357__rerank", "text": "UNKNOWN"}
+{"id": "bt_4322__noop", "text": "Aardvark"}
+{"id": "bt_4322__filter", "text": "Aardvark"}
+{"id": "bt_4322__rerank", "text": "Aardvark"}
+{"id": "qg_1107__noop", "text": "UNKNOWN"}
+{"id": "qg_1107__filter", "text": "UNKNOWN"}
+{"id": "qg_1107__rerank", "text": "UNKNOWN"}
+{"id": "sfq_25843__noop", "text": "hare"}
+{"id": "sfq_25843__filter", "text": "hare"}
+{"id": "sfq_25843__rerank", "text": "hare"}
+{"id": "qw_8126__noop", "text": "7"}
+{"id": "qw_8126__filter", "text": "7"}
+{"id": "qw_8126__rerank", "text": "7"}
+{"id": "sfq_23983__noop", "text": "UNKNOWN"}
+{"id": "sfq_23983__filter", "text": "Emma"}
+{"id": "sfq_23983__rerank", "text": "UNKNOWN"}
+{"id": "qf_3578__noop", "text": "William Connor"}
+{"id": "qf_3578__filter", "text": "UNKNOWN"}
+{"id": "qf_3578__rerank", "text": "William Connor"}
+{"id": "bt_1394__noop", "text": "UNKNOWN"}
+{"id": "bt_1394__filter", "text": "UNKNOWN"}
+{"id": "bt_1394__rerank", "text": "UNKNOWN"}
+{"id": "dpql_4690__noop", "text": "UNKNOWN"}
+{"id": "dpql_4690__filter", "text": "UNKNOWN"}
+{"id": "dpql_4690__rerank", "text": "UNKNOWN"}
+{"id": "qb_6790__noop", "text": "UNKNOWN"}
+{"id": "qb_6790__filter", "text": "UNKNOWN"}
+{"id": "qb_6790__rerank", "text": "UNKNOWN"}
+{"id": "wh_2051__noop", "text": "Notre-Dame de Paris"}
+{"id": "wh_2051__filter", "text": "UNKNOWN"}
+{"id": "wh_2051__rerank", "text": "Notre-Dame de Paris"}
+{"id": "sfq_10994__noop", "text": "UNKNOWN"}
+{"id": "sfq_10994__filter", "text": "UNKNOWN"}
+{"id": "sfq_10994__rerank", "text": "UNKNOWN"}
+{"id": "sfq_23272__noop", "text": "Susan Sarandon"}
+{"id": "sfq_23272__filter", "text": "Susan Sarandon"}
+{"id": "sfq_23272__rerank", "text": "Susan Sarandon"}
+{"id": "qg_2879__noop", "text": "United Kingdom"}
+{"id": "qg_2879__filter", "text": "UNKNOWN"}
+{"id": "qg_2879__rerank", "text": "United Kingdom"}
+{"id": "bb_5972__noop", "text": "Boxing"}
+{"id": "bb_5972__filter", "text": "Boxing"}
+{"id": "bb_5972__rerank", "text": "Boxing"}
+{"id": "dpql_1557__noop", "text": "UNKNOWN"}
+{"id": "dpql_1557__filter", "text": "UNKNOWN"}
+{"id": "dpql_1557__rerank", "text": "UNKNOWN"}
+{"id": "qb_8798__noop", "text": "UNKNOWN"}
+{"id": "qb_8798__filter", "text": "UNKNOWN"}
+{"id": "qb_8798__rerank", "text": "UNKNOWN"}
+{"id": "sfq_1957__noop", "text": "UNKNOWN"}
+{"id": "sfq_1957__filter", "text": "UNKNOWN"}
+{"id": "sfq_1957__rerank", "text": "UNKNOWN"}
+{"id": "tb_1863__noop", "text": "The Kinks"}
+{"id": "tb_1863__filter", "text": "Kinks"}
+{"id": "tb_1863__rerank", "text": "The Kinks"}
+{"id": "qg_4604__noop", "text": "National Guard"}
+{"id": "qg_4604__filter", "text": "National Guard"}
+{"id": "qg_4604__rerank", "text": "National Guard"}
+{"id": "bb_1788__noop", "text": "UNKNOWN"}
+{"id": "bb_1788__filter", "text": "UNKNOWN"}
+{"id": "bb_1788__rerank", "text": "UNKNOWN"}
+{"id": "wh_3819__noop", "text": "Spain"}
+{"id": "wh_3819__filter", "text": "Spain"}
+{"id": "wh_3819__rerank", "text": "Spain"}
+{"id": "qw_2320__noop", "text": "oil"}
+{"id": "qw_2320__filter", "text": "oil"}
+{"id": "qw_2320__rerank", "text": "oil"}
+{"id": "qz_2280__noop", "text": "J. Howard Marshall II"}
+{"id": "qz_2280__filter", "text": "J. Howard Marshall II"}
+{"id": "qz_2280__rerank", "text": "J. Howard Marshall II"}
+{"id": "odql_13940__noop", "text": "Stockholm"}
+{"id": "odql_13940__filter", "text": "Stockholm"}
+{"id": "odql_13940__rerank", "text": "Stockholm"}
+{"id": "jp_3248__noop", "text": "DeLorean"}
+{"id": "jp_3248__filter", "text": "DeLorean"}
+{"id": "jp_3248__rerank", "text": "DeLorean"}
+{"id": "sfq_10083__noop", "text": "Douglas"}
+{"id": "sfq_10083__filter", "text": "Douglas"}
+{"id": "sfq_10083__rerank", "text": "Douglas"}
+{"id": "qb_9877__noop", "text": "UNKNOWN"}
+{"id": "qb_9877__filter", "text": "UNKNOWN"}
+{"id": "qb_9877__rerank", "text": "UNKNOWN"}
+{"id": "bb_3006__noop", "text": "Little Ice Age"}
+{"id": "bb_3006__filter", "text": "Little Ice Age"}
+{"id": "bb_3006__rerank", "text": "Little Ice Age"}
+{"id": "qf_3555__noop", "text": "Vickers Vimy"}
+{"id": "qf_3555__filter", "text": "Vickers Vimy"}
+{"id": "qf_3555__rerank", "text": "Vickers Vimy"}
+{"id": "sfq_21320__noop", "text": "Gorky"}
+{"id": "sfq_21320__filter", "text": "Maxim Gorky"}
+{"id": "sfq_21320__rerank", "text": "Gorky"}
+{"id": "wh_1908__noop", "text": "UNKNOWN"}
+{"id": "wh_1908__filter", "text": "UNKNOWN"}
+{"id": "wh_1908__rerank", "text": "UNKNOWN"}
+{"id": "odql_3714__noop", "text": "UNKNOWN"}
+{"id": "odql_3714__filter", "text": "UNKNOWN"}
+{"id": "odql_3714__rerank", "text": "UNKNOWN"}
+{"id": "bb_285__noop", "text": "451"}
+{"id": "bb_285__filter", "text": "451"}
+{"id": "bb_285__rerank", "text": "451"}
+{"id": "sfq_17663__noop", "text": "Anchovies"}
+{"id": "sfq_17663__filter", "text": "anchovies"}
+{"id": "sfq_17663__rerank", "text": "Anchovies"}
+{"id": "jp_1791__noop", "text": "UNKNOWN"}
+{"id": "jp_1791__filter", "text": "UNKNOWN"}
+{"id": "jp_1791__rerank", "text": "UNKNOWN"}
+{"id": "sfq_23467__noop", "text": "Brecon Beacons National Park"}
+{"id": "sfq_23467__filter", "text": "Brecon Beacons National Park"}
+{"id": "sfq_23467__rerank", "text": "Brecon Beacons National Park"}
+{"id": "odql_9975__noop", "text": "The Pillow Book"}
+{"id": "odql_9975__filter", "text": "The Pillow Book"}
+{"id": "odql_9975__rerank", "text": "The Pillow Book"}
+{"id": "dpql_701__noop", "text": "UNKNOWN"}
+{"id": "dpql_701__filter", "text": "Hampsteads"}
+{"id": "dpql_701__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3917__noop", "text": "Apollo"}
+{"id": "sfq_3917__filter", "text": "Apollo"}
+{"id": "sfq_3917__rerank", "text": "Apollo"}
+{"id": "qz_4637__noop", "text": "8 minutes"}
+{"id": "qz_4637__filter", "text": "8 minutes"}
+{"id": "qz_4637__rerank", "text": "8 minutes"}
+{"id": "sfq_17011__noop", "text": "Masada"}
+{"id": "sfq_17011__filter", "text": "Masada"}
+{"id": "sfq_17011__rerank", "text": "Masada"}
+{"id": "qg_3622__noop", "text": "Aden"}
+{"id": "qg_3622__filter", "text": "UNKNOWN"}
+{"id": "qg_3622__rerank", "text": "Aden"}
+{"id": "sfq_19462__noop", "text": "Thermopylae"}
+{"id": "sfq_19462__filter", "text": "Thermopylae"}
+{"id": "sfq_19462__rerank", "text": "Thermopylae"}
+{"id": "odql_15045__noop", "text": "Golden Apples"}
+{"id": "odql_15045__filter", "text": "UNKNOWN"}
+{"id": "odql_15045__rerank", "text": "Golden Apples"}
+{"id": "sfq_234__noop", "text": "Unknown"}
+{"id": "sfq_234__filter", "text": "Unknown"}
+{"id": "sfq_234__rerank", "text": "Unknown"}
+{"id": "sfq_20367__noop", "text": "Sussex"}
+{"id": "sfq_20367__filter", "text": "UNKNOWN"}
+{"id": "sfq_20367__rerank", "text": "Sussex"}
+{"id": "sfq_2162__noop", "text": "small intestine"}
+{"id": "sfq_2162__filter", "text": "Small intestine"}
+{"id": "sfq_2162__rerank", "text": "small intestine"}
+{"id": "bb_5442__noop", "text": "Polyuria"}
+{"id": "bb_5442__filter", "text": "Diabetes"}
+{"id": "bb_5442__rerank", "text": "Polyuria"}
+{"id": "qb_4151__noop", "text": "UNKNOWN"}
+{"id": "qb_4151__filter", "text": "UNKNOWN"}
+{"id": "qb_4151__rerank", "text": "UNKNOWN"}
+{"id": "jp_553__noop", "text": "Chechen Republic"}
+{"id": "jp_553__filter", "text": "Chechen-Ingush Republic"}
+{"id": "jp_553__rerank", "text": "Chechen Republic"}
+{"id": "odql_8221__noop", "text": "Motorcycle speedway"}
+{"id": "odql_8221__filter", "text": "Ice hockey"}
+{"id": "odql_8221__rerank", "text": "Motorcycle speedway"}
+{"id": "tc_938__noop", "text": "bear"}
+{"id": "tc_938__filter", "text": "bear"}
+{"id": "tc_938__rerank", "text": "bear"}
+{"id": "dpql_4814__noop", "text": "UNKNOWN"}
+{"id": "dpql_4814__filter", "text": "UNKNOWN"}
+{"id": "dpql_4814__rerank", "text": "UNKNOWN"}
+{"id": "qf_2320__noop", "text": "UNKNOWN"}
+{"id": "qf_2320__filter", "text": "UNKNOWN"}
+{"id": "qf_2320__rerank", "text": "UNKNOWN"}
+{"id": "jp_2305__noop", "text": "Benedict XVI"}
+{"id": "jp_2305__filter", "text": "UNKNOWN"}
+{"id": "jp_2305__rerank", "text": "Benedict XVI"}
+{"id": "dpql_2140__noop", "text": "UNKNOWN"}
+{"id": "dpql_2140__filter", "text": "UNKNOWN"}
+{"id": "dpql_2140__rerank", "text": "UNKNOWN"}
+{"id": "sfq_20557__noop", "text": "UNKNOWN"}
+{"id": "sfq_20557__filter", "text": "UNKNOWN"}
+{"id": "sfq_20557__rerank", "text": "UNKNOWN"}
+{"id": "qz_267__noop", "text": "UNKNOWN"}
+{"id": "qz_267__filter", "text": "UNKNOWN"}
+{"id": "qz_267__rerank", "text": "UNKNOWN"}
+{"id": "qw_9214__noop", "text": "UNKNOWN"}
+{"id": "qw_9214__filter", "text": "UNKNOWN"}
+{"id": "qw_9214__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4725__noop", "text": "Galway Bay"}
+{"id": "sfq_4725__filter", "text": "UNKNOWN"}
+{"id": "sfq_4725__rerank", "text": "Galway Bay"}
+{"id": "odql_2768__noop", "text": "UNKNOWN"}
+{"id": "odql_2768__filter", "text": "UNKNOWN"}
+{"id": "odql_2768__rerank", "text": "UNKNOWN"}
+{"id": "qw_6866__noop", "text": "Mexico"}
+{"id": "qw_6866__filter", "text": "Mexico"}
+{"id": "qw_6866__rerank", "text": "Mexico"}
+{"id": "jp_3637__noop", "text": "Bay of Bengal"}
+{"id": "jp_3637__filter", "text": "Bay of Bengal"}
+{"id": "jp_3637__rerank", "text": "Bay of Bengal"}
+{"id": "sfq_16684__noop", "text": "UNKNOWN"}
+{"id": "sfq_16684__filter", "text": "UNKNOWN"}
+{"id": "sfq_16684__rerank", "text": "UNKNOWN"}
+{"id": "sfq_23080__noop", "text": "Piccolo"}
+{"id": "sfq_23080__filter", "text": "Glockenspiel"}
+{"id": "sfq_23080__rerank", "text": "Piccolo"}
+{"id": "bt_2434__noop", "text": "UK"}
+{"id": "bt_2434__filter", "text": "England"}
+{"id": "bt_2434__rerank", "text": "UK"}
+{"id": "qw_1355__noop", "text": "Taiwan"}
+{"id": "qw_1355__filter", "text": "Taiwan"}
+{"id": "qw_1355__rerank", "text": "Taiwan"}
+{"id": "qb_5271__noop", "text": "Moscow"}
+{"id": "qb_5271__filter", "text": "Moscow"}
+{"id": "qb_5271__rerank", "text": "Moscow"}
+{"id": "sfq_25284__noop", "text": "Vindaloo"}
+{"id": "sfq_25284__filter", "text": "UNKNOWN"}
+{"id": "sfq_25284__rerank", "text": "Vindaloo"}
+{"id": "odql_6144__noop", "text": "UNKNOWN"}
+{"id": "odql_6144__filter", "text": "UNKNOWN"}
+{"id": "odql_6144__rerank", "text": "UNKNOWN"}
+{"id": "dpql_3963__noop", "text": "Omega"}
+{"id": "dpql_3963__filter", "text": "Omega"}
+{"id": "dpql_3963__rerank", "text": "Omega"}
+{"id": "qg_3418__noop", "text": "UNKNOWN"}
+{"id": "qg_3418__filter", "text": "UNKNOWN"}
+{"id": "qg_3418__rerank", "text": "UNKNOWN"}
+{"id": "bb_9390__noop", "text": "Hebrew"}
+{"id": "bb_9390__filter", "text": "Hebrew"}
+{"id": "bb_9390__rerank", "text": "Hebrew"}
+{"id": "qw_7843__noop", "text": "boxing"}
+{"id": "qw_7843__filter", "text": "Boxing"}
+{"id": "qw_7843__rerank", "text": "boxing"}
+{"id": "qw_2135__noop", "text": "The Avengers"}
+{"id": "qw_2135__filter", "text": "The Avengers"}
+{"id": "qw_2135__rerank", "text": "The Avengers"}
+{"id": "tc_1602__noop", "text": "UNKNOWN"}
+{"id": "tc_1602__filter", "text": "UNKNOWN"}
+{"id": "tc_1602__rerank", "text": "UNKNOWN"}
+{"id": "odql_3310__noop", "text": "UNKNOWN"}
+{"id": "odql_3310__filter", "text": "UNKNOWN"}
+{"id": "odql_3310__rerank", "text": "UNKNOWN"}
+{"id": "odql_11166__noop", "text": "Microsoft"}
+{"id": "odql_11166__filter", "text": "UNKNOWN"}
+{"id": "odql_11166__rerank", "text": "Microsoft"}
+{"id": "qb_1993__noop", "text": "Sir Walter Scott"}
+{"id": "qb_1993__filter", "text": "Sir Walter Scott"}
+{"id": "qb_1993__rerank", "text": "Sir Walter Scott"}
+{"id": "qw_9853__noop", "text": "Panama"}
+{"id": "qw_9853__filter", "text": "Panama"}
+{"id": "qw_9853__rerank", "text": "Panama"}
+{"id": "qg_2410__noop", "text": "UNKNOWN"}
+{"id": "qg_2410__filter", "text": "UNKNOWN"}
+{"id": "qg_2410__rerank", "text": "UNKNOWN"}
+{"id": "sfq_7117__noop", "text": "UNKNOWN"}
+{"id": "sfq_7117__filter", "text": "UNKNOWN"}
+{"id": "sfq_7117__rerank", "text": "UNKNOWN"}
+{"id": "qw_10812__noop", "text": "UNKNOWN"}
+{"id": "qw_10812__filter", "text": "UNKNOWN"}
+{"id": "qw_10812__rerank", "text": "UNKNOWN"}
+{"id": "qg_2740__noop", "text": "Ford Model T"}
+{"id": "qg_2740__filter", "text": "Ford Model T"}
+{"id": "qg_2740__rerank", "text": "Ford Model T"}
+{"id": "bb_8761__noop", "text": "UNKNOWN"}
+{"id": "bb_8761__filter", "text": "UNKNOWN"}
+{"id": "bb_8761__rerank", "text": "UNKNOWN"}
+{"id": "tb_1911__noop", "text": "Gregor Mendel"}
+{"id": "tb_1911__filter", "text": "UNKNOWN"}
+{"id": "tb_1911__rerank", "text": "Gregor Mendel"}
+{"id": "sfq_14728__noop", "text": "UNKNOWN"}
+{"id": "sfq_14728__filter", "text": "UNKNOWN"}
+{"id": "sfq_14728__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13492__noop", "text": "UNKNOWN"}
+{"id": "sfq_13492__filter", "text": "UNKNOWN"}
+{"id": "sfq_13492__rerank", "text": "UNKNOWN"}
+{"id": "jp_208__noop", "text": "Hillario"}
+{"id": "jp_208__filter", "text": "Unknown"}
+{"id": "jp_208__rerank", "text": "Hillario"}
+{"id": "qz_848__noop", "text": "Red Lion"}
+{"id": "qz_848__filter", "text": "Red Lion"}
+{"id": "qz_848__rerank", "text": "Red Lion"}
+{"id": "qg_3229__noop", "text": "Air Force"}
+{"id": "qg_3229__filter", "text": "Air Force"}
+{"id": "qg_3229__rerank", "text": "Air Force"}
+{"id": "sfq_9248__noop", "text": "3"}
+{"id": "sfq_9248__filter", "text": "UNKNOWN"}
+{"id": "sfq_9248__rerank", "text": "3"}
+{"id": "sfq_24078__noop", "text": "UNKNOWN"}
+{"id": "sfq_24078__filter", "text": "UNKNOWN"}
+{"id": "sfq_24078__rerank", "text": "UNKNOWN"}
+{"id": "sfq_23110__noop", "text": "Black Caviar"}
+{"id": "sfq_23110__filter", "text": "Black Caviar"}
+{"id": "sfq_23110__rerank", "text": "Black Caviar"}
+{"id": "dpql_3261__noop", "text": "UNKNOWN"}
+{"id": "dpql_3261__filter", "text": "UNKNOWN"}
+{"id": "dpql_3261__rerank", "text": "UNKNOWN"}
+{"id": "qw_1265__noop", "text": "UNKNOWN"}
+{"id": "qw_1265__filter", "text": "UNKNOWN"}
+{"id": "qw_1265__rerank", "text": "UNKNOWN"}
+{"id": "bb_6229__noop", "text": "Cyanide"}
+{"id": "bb_6229__filter", "text": "Cyanide"}
+{"id": "bb_6229__rerank", "text": "Cyanide"}
+{"id": "qz_6268__noop", "text": "Birmingham"}
+{"id": "qz_6268__filter", "text": "Birmingham"}
+{"id": "qz_6268__rerank", "text": "Birmingham"}
+{"id": "qz_2466__noop", "text": "Will Smith"}
+{"id": "qz_2466__filter", "text": "Will Smith"}
+{"id": "qz_2466__rerank", "text": "Will Smith"}
+{"id": "odql_12061__noop", "text": "Ruby"}
+{"id": "odql_12061__filter", "text": "Ruby"}
+{"id": "odql_12061__rerank", "text": "Ruby"}
+{"id": "sfq_1472__noop", "text": "Tim Smith"}
+{"id": "sfq_1472__filter", "text": "Tim Smith"}
+{"id": "sfq_1472__rerank", "text": "Tim Smith"}
+{"id": "bb_89__noop", "text": "UNKNOWN"}
+{"id": "bb_89__filter", "text": "Deepwater Horizon"}
+{"id": "bb_89__rerank", "text": "UNKNOWN"}
+{"id": "qb_2990__noop", "text": "UNKNOWN"}
+{"id": "qb_2990__filter", "text": "UNKNOWN"}
+{"id": "qb_2990__rerank", "text": "UNKNOWN"}
+{"id": "qw_9768__noop", "text": "UNKNOWN"}
+{"id": "qw_9768__filter", "text": "UNKNOWN"}
+{"id": "qw_9768__rerank", "text": "UNKNOWN"}
+{"id": "bt_2321__noop", "text": "Black Monday"}
+{"id": "bt_2321__filter", "text": "Black Monday"}
+{"id": "bt_2321__rerank", "text": "Black Monday"}
+{"id": "qw_6046__noop", "text": "Singapore"}
+{"id": "qw_6046__filter", "text": "Singapore"}
+{"id": "qw_6046__rerank", "text": "Singapore"}
+{"id": "wh_4379__noop", "text": "Fernando Verdasco"}
+{"id": "wh_4379__filter", "text": "Nicol\u00e1s Almagro"}
+{"id": "wh_4379__rerank", "text": "Fernando Verdasco"}
+{"id": "dpql_1872__noop", "text": "Adult bunny"}
+{"id": "dpql_1872__filter", "text": "Adult bunnies were called rabbits."}
+{"id": "dpql_1872__rerank", "text": "Adult bunny"}
+{"id": "dpql_2584__noop", "text": "UNKNOWN"}
+{"id": "dpql_2584__filter", "text": "UNKNOWN"}
+{"id": "dpql_2584__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13639__noop", "text": "Oak Village"}
+{"id": "sfq_13639__filter", "text": "Oak Village"}
+{"id": "sfq_13639__rerank", "text": "Oak Village"}
+{"id": "qz_1603__noop", "text": "When Harry Met Sally..."}
+{"id": "qz_1603__filter", "text": "When Harry Met Sally..."}
+{"id": "qz_1603__rerank", "text": "When Harry Met Sally..."}
+{"id": "bb_4180__noop", "text": "Morpheme"}
+{"id": "bb_4180__filter", "text": "Morpheme"}
+{"id": "bb_4180__rerank", "text": "Morpheme"}
+{"id": "qg_2471__noop", "text": "Bear"}
+{"id": "qg_2471__filter", "text": "Bear"}
+{"id": "qg_2471__rerank", "text": "Bear"}
+{"id": "sfq_20420__noop", "text": "Wisconsin"}
+{"id": "sfq_20420__filter", "text": "Wisconsin"}
+{"id": "sfq_20420__rerank", "text": "Wisconsin"}
+{"id": "qw_2109__noop", "text": "UNKNOWN"}
+{"id": "qw_2109__filter", "text": "UNKNOWN"}
+{"id": "qw_2109__rerank", "text": "UNKNOWN"}
+{"id": "wh_1296__noop", "text": "Prisoner"}
+{"id": "wh_1296__filter", "text": "Prisoner"}
+{"id": "wh_1296__rerank", "text": "Prisoner"}
+{"id": "sfq_1470__noop", "text": "UNKNOWN"}
+{"id": "sfq_1470__filter", "text": "UNKNOWN"}
+{"id": "sfq_1470__rerank", "text": "UNKNOWN"}
+{"id": "sfq_2769__noop", "text": "UNKNOWN"}
+{"id": "sfq_2769__filter", "text": "UNKNOWN"}
+{"id": "sfq_2769__rerank", "text": "UNKNOWN"}
+{"id": "sfq_416__noop", "text": "UNKNOWN"}
+{"id": "sfq_416__filter", "text": "UNKNOWN"}
+{"id": "sfq_416__rerank", "text": "UNKNOWN"}
+{"id": "odql_6331__noop", "text": "UNKNOWN"}
+{"id": "odql_6331__filter", "text": "UNKNOWN"}
+{"id": "odql_6331__rerank", "text": "UNKNOWN"}
+{"id": "jp_1696__noop", "text": "UNKNOWN"}
+{"id": "jp_1696__filter", "text": "UNKNOWN"}
+{"id": "jp_1696__rerank", "text": "UNKNOWN"}
+{"id": "wh_4283__noop", "text": "Chant de guerre pour l'Arm\u00e9e du Rhin"}
+{"id": "wh_4283__filter", "text": "UNKNOWN"}
+{"id": "wh_4283__rerank", "text": "Chant de guerre pour l'Arm\u00e9e du Rhin"}
+{"id": "odql_465__noop", "text": "Ron Atkinson"}
+{"id": "odql_465__filter", "text": "UNKNOWN"}
+{"id": "odql_465__rerank", "text": "Ron Atkinson"}
+{"id": "qw_12098__noop", "text": "Spanish"}
+{"id": "qw_12098__filter", "text": "Spanish"}
+{"id": "qw_12098__rerank", "text": "Spanish"}
+{"id": "qf_2323__noop", "text": "Help!"}
+{"id": "qf_2323__filter", "text": "Help!"}
+{"id": "qf_2323__rerank", "text": "Help!"}
+{"id": "qg_3820__noop", "text": "UNKNOWN"}
+{"id": "qg_3820__filter", "text": "UNKNOWN"}
+{"id": "qg_3820__rerank", "text": "UNKNOWN"}
+{"id": "qz_298__noop", "text": "Circle"}
+{"id": "qz_298__filter", "text": "District"}
+{"id": "qz_298__rerank", "text": "Circle"}
+{"id": "odql_12827__noop", "text": "J. B. Priestley"}
+{"id": "odql_12827__filter", "text": "UNKNOWN"}
+{"id": "odql_12827__rerank", "text": "J. B. Priestley"}
+{"id": "sfq_25944__noop", "text": "Indian Ocean"}
+{"id": "sfq_25944__filter", "text": "Indian Ocean"}
+{"id": "sfq_25944__rerank", "text": "Indian Ocean"}
+{"id": "sfq_8996__noop", "text": "Phil Archer"}
+{"id": "sfq_8996__filter", "text": "The Archers"}
+{"id": "sfq_8996__rerank", "text": "Phil Archer"}
+{"id": "qw_15968__noop", "text": "Henry IV"}
+{"id": "qw_15968__filter", "text": "Henry IV"}
+{"id": "qw_15968__rerank", "text": "Henry IV"}
+{"id": "qf_2342__noop", "text": "300"}
+{"id": "qf_2342__filter", "text": "300"}
+{"id": "qf_2342__rerank", "text": "300"}
+{"id": "sfq_21334__noop", "text": "pollex"}
+{"id": "sfq_21334__filter", "text": "pollex"}
+{"id": "sfq_21334__rerank", "text": "pollex"}
+{"id": "qw_8531__noop", "text": "Illinois"}
+{"id": "qw_8531__filter", "text": "UNKNOWN"}
+{"id": "qw_8531__rerank", "text": "Illinois"}
+{"id": "bt_116__noop", "text": "1215"}
+{"id": "bt_116__filter", "text": "1215"}
+{"id": "bt_116__rerank", "text": "1215"}
+{"id": "qz_4540__noop", "text": "Fleet"}
+{"id": "qz_4540__filter", "text": "Fleet"}
+{"id": "qz_4540__rerank", "text": "Fleet"}
+{"id": "odql_6264__noop", "text": "UNKNOWN"}
+{"id": "odql_6264__filter", "text": "UNKNOWN"}
+{"id": "odql_6264__rerank", "text": "UNKNOWN"}
+{"id": "odql_416__noop", "text": "Zagreb"}
+{"id": "odql_416__filter", "text": "UNKNOWN"}
+{"id": "odql_416__rerank", "text": "Zagreb"}
+{"id": "sfq_9579__noop", "text": "UNKNOWN"}
+{"id": "sfq_9579__filter", "text": "Otter"}
+{"id": "sfq_9579__rerank", "text": "UNKNOWN"}
+{"id": "sfq_21761__noop", "text": "steel"}
+{"id": "sfq_21761__filter", "text": "railroad"}
+{"id": "sfq_21761__rerank", "text": "steel"}
+{"id": "wh_2730__noop", "text": "UNKNOWN"}
+{"id": "wh_2730__filter", "text": "UNKNOWN"}
+{"id": "wh_2730__rerank", "text": "UNKNOWN"}
+{"id": "jp_1061__noop", "text": "Fugu"}
+{"id": "jp_1061__filter", "text": "UNKNOWN"}
+{"id": "jp_1061__rerank", "text": "Fugu"}
+{"id": "tb_30__noop", "text": "Mongolia"}
+{"id": "tb_30__filter", "text": "Mongolia"}
+{"id": "tb_30__rerank", "text": "Mongolia"}
+{"id": "qb_9347__noop", "text": "South Africa"}
+{"id": "qb_9347__filter", "text": "South Africa"}
+{"id": "qb_9347__rerank", "text": "South Africa"}
+{"id": "qw_15580__noop", "text": "Cole Porter"}
+{"id": "qw_15580__filter", "text": "Cole Porter"}
+{"id": "qw_15580__rerank", "text": "Cole Porter"}
+{"id": "bb_2568__noop", "text": "sea"}
+{"id": "bb_2568__filter", "text": "sea"}
+{"id": "bb_2568__rerank", "text": "sea"}
+{"id": "qg_3242__noop", "text": "middle ear"}
+{"id": "qg_3242__filter", "text": "middle ear"}
+{"id": "qg_3242__rerank", "text": "middle ear"}
+{"id": "qg_2781__noop", "text": "Woodstock"}
+{"id": "qg_2781__filter", "text": "Woodstock"}
+{"id": "qg_2781__rerank", "text": "Woodstock"}
+{"id": "odql_113__noop", "text": "UNKNOWN"}
+{"id": "odql_113__filter", "text": "UNKNOWN"}
+{"id": "odql_113__rerank", "text": "UNKNOWN"}
+{"id": "qw_3195__noop", "text": "Eclipse"}
+{"id": "qw_3195__filter", "text": "Eclipse"}
+{"id": "qw_3195__rerank", "text": "Eclipse"}
+{"id": "qf_49__noop", "text": "Midas"}
+{"id": "qf_49__filter", "text": "Midas"}
+{"id": "qf_49__rerank", "text": "Midas"}
+{"id": "bb_6336__noop", "text": "UNKNOWN"}
+{"id": "bb_6336__filter", "text": "UNKNOWN"}
+{"id": "bb_6336__rerank", "text": "UNKNOWN"}
+{"id": "bt_1712__noop", "text": "UNKNOWN"}
+{"id": "bt_1712__filter", "text": "UNKNOWN"}
+{"id": "bt_1712__rerank", "text": "UNKNOWN"}
+{"id": "qw_299__noop", "text": "Denali"}
+{"id": "qw_299__filter", "text": "Alaska Range"}
+{"id": "qw_299__rerank", "text": "Denali"}
+{"id": "qg_3996__noop", "text": "Penthouse"}
+{"id": "qg_3996__filter", "text": "Playboy"}
+{"id": "qg_3996__rerank", "text": "Penthouse"}
+{"id": "qw_4376__noop", "text": "Berlin"}
+{"id": "qw_4376__filter", "text": "Berlin"}
+{"id": "qw_4376__rerank", "text": "Berlin"}
+{"id": "bt_1238__noop", "text": "UNKNOWN"}
+{"id": "bt_1238__filter", "text": "UNKNOWN"}
+{"id": "bt_1238__rerank", "text": "UNKNOWN"}
+{"id": "qw_1816__noop", "text": "Paul Gauguin"}
+{"id": "qw_1816__filter", "text": "UNKNOWN"}
+{"id": "qw_1816__rerank", "text": "Paul Gauguin"}
+{"id": "odql_5682__noop", "text": "UNKNOWN"}
+{"id": "odql_5682__filter", "text": "UNKNOWN"}
+{"id": "odql_5682__rerank", "text": "UNKNOWN"}
+{"id": "dpql_3312__noop", "text": "UNKNOWN"}
+{"id": "dpql_3312__filter", "text": "UNKNOWN"}
+{"id": "dpql_3312__rerank", "text": "UNKNOWN"}
+{"id": "odql_9495__noop", "text": "UNKNOWN"}
+{"id": "odql_9495__filter", "text": "UNKNOWN"}
+{"id": "odql_9495__rerank", "text": "UNKNOWN"}
+{"id": "sfq_15080__noop", "text": "UNKNOWN"}
+{"id": "sfq_15080__filter", "text": "UNKNOWN"}
+{"id": "sfq_15080__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14282__noop", "text": "UNKNOWN"}
+{"id": "sfq_14282__filter", "text": "UNKNOWN"}
+{"id": "sfq_14282__rerank", "text": "UNKNOWN"}
+{"id": "qb_1861__noop", "text": "George IV"}
+{"id": "qb_1861__filter", "text": "George IV"}
+{"id": "qb_1861__rerank", "text": "George IV"}
+{"id": "odql_2328__noop", "text": "UNKNOWN"}
+{"id": "odql_2328__filter", "text": "Fiesta"}
+{"id": "odql_2328__rerank", "text": "UNKNOWN"}
+{"id": "jp_233__noop", "text": "UNKNOWN"}
+{"id": "jp_233__filter", "text": "UNKNOWN"}
+{"id": "jp_233__rerank", "text": "UNKNOWN"}
+{"id": "qw_13811__noop", "text": "UNKNOWN"}
+{"id": "qw_13811__filter", "text": "UNKNOWN"}
+{"id": "qw_13811__rerank", "text": "UNKNOWN"}
+{"id": "odql_5464__noop", "text": "UNKNOWN"}
+{"id": "odql_5464__filter", "text": "UNKNOWN"}
+{"id": "odql_5464__rerank", "text": "UNKNOWN"}
+{"id": "qw_9502__noop", "text": "UNKNOWN"}
+{"id": "qw_9502__filter", "text": "UNKNOWN"}
+{"id": "qw_9502__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14108__noop", "text": "Prokofiev"}
+{"id": "sfq_14108__filter", "text": "Prokofiev"}
+{"id": "sfq_14108__rerank", "text": "Prokofiev"}
+{"id": "qz_5554__noop", "text": "UNKNOWN"}
+{"id": "qz_5554__filter", "text": "UNKNOWN"}
+{"id": "qz_5554__rerank", "text": "UNKNOWN"}
+{"id": "qw_881__noop", "text": "UNKNOWN"}
+{"id": "qw_881__filter", "text": "UNKNOWN"}
+{"id": "qw_881__rerank", "text": "UNKNOWN"}
+{"id": "qz_6391__noop", "text": "The Tempest"}
+{"id": "qz_6391__filter", "text": "The Tempest"}
+{"id": "qz_6391__rerank", "text": "The Tempest"}
+{"id": "bb_8857__noop", "text": "UNKNOWN"}
+{"id": "bb_8857__filter", "text": "UNKNOWN"}
+{"id": "bb_8857__rerank", "text": "UNKNOWN"}
+{"id": "odql_13215__noop", "text": "Ruritania"}
+{"id": "odql_13215__filter", "text": "UNKNOWN"}
+{"id": "odql_13215__rerank", "text": "Ruritania"}
+{"id": "dpql_1775__noop", "text": "Percy Sledge"}
+{"id": "dpql_1775__filter", "text": "Percy Sledge"}
+{"id": "dpql_1775__rerank", "text": "Percy Sledge"}
+{"id": "qf_2680__noop", "text": "UNKNOWN"}
+{"id": "qf_2680__filter", "text": "UNKNOWN"}
+{"id": "qf_2680__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5904__noop", "text": "Ottoman Empire"}
+{"id": "sfq_5904__filter", "text": "Ottoman Empire"}
+{"id": "sfq_5904__rerank", "text": "Ottoman Empire"}
+{"id": "dpql_5042__noop", "text": "horse theft"}
+{"id": "dpql_5042__filter", "text": "UNKNOWN"}
+{"id": "dpql_5042__rerank", "text": "horse theft"}
+{"id": "dpql_3635__noop", "text": "UNKNOWN"}
+{"id": "dpql_3635__filter", "text": "UNKNOWN"}
+{"id": "dpql_3635__rerank", "text": "UNKNOWN"}
+{"id": "qb_10205__noop", "text": "UNKNOWN"}
+{"id": "qb_10205__filter", "text": "UNKNOWN"}
+{"id": "qb_10205__rerank", "text": "UNKNOWN"}
+{"id": "qw_385__noop", "text": "UNKNOWN"}
+{"id": "qw_385__filter", "text": "Unknown"}
+{"id": "qw_385__rerank", "text": "UNKNOWN"}
+{"id": "qf_2679__noop", "text": "UNKNOWN"}
+{"id": "qf_2679__filter", "text": "UNKNOWN"}
+{"id": "qf_2679__rerank", "text": "UNKNOWN"}
+{"id": "qg_2126__noop", "text": "Taste"}
+{"id": "qg_2126__filter", "text": "Taste"}
+{"id": "qg_2126__rerank", "text": "Taste"}
+{"id": "qw_12439__noop", "text": "Spain"}
+{"id": "qw_12439__filter", "text": "Spain"}
+{"id": "qw_12439__rerank", "text": "Spain"}
+{"id": "odql_3551__noop", "text": "Connecticut"}
+{"id": "odql_3551__filter", "text": "Connecticut"}
+{"id": "odql_3551__rerank", "text": "Connecticut"}
+{"id": "qf_1441__noop", "text": "Heracles"}
+{"id": "qf_1441__filter", "text": "Perseus"}
+{"id": "qf_1441__rerank", "text": "Heracles"}
+{"id": "dpql_2271__noop", "text": "mullet"}
+{"id": "dpql_2271__filter", "text": "UNKNOWN"}
+{"id": "dpql_2271__rerank", "text": "mullet"}
+{"id": "jp_2992__noop", "text": "UNKNOWN"}
+{"id": "jp_2992__filter", "text": "UNKNOWN"}
+{"id": "jp_2992__rerank", "text": "UNKNOWN"}
+{"id": "qf_1348__noop", "text": "Joan Crawford"}
+{"id": "qf_1348__filter", "text": "Joan Crawford"}
+{"id": "qf_1348__rerank", "text": "Joan Crawford"}
+{"id": "tc_635__noop", "text": "Peru"}
+{"id": "tc_635__filter", "text": "Peru"}
+{"id": "tc_635__rerank", "text": "Peru"}
+{"id": "qb_8760__noop", "text": "Cardiff"}
+{"id": "qb_8760__filter", "text": "Cardiff"}
+{"id": "qb_8760__rerank", "text": "Cardiff"}
+{"id": "jp_3591__noop", "text": "Egypt"}
+{"id": "jp_3591__filter", "text": "Egypt"}
+{"id": "jp_3591__rerank", "text": "Egypt"}
+{"id": "sfq_12439__noop", "text": "Admiral Graf Spee"}
+{"id": "sfq_12439__filter", "text": "Admiral Graf Spee"}
+{"id": "sfq_12439__rerank", "text": "Admiral Graf Spee"}
+{"id": "qg_1126__noop", "text": "UNKNOWN"}
+{"id": "qg_1126__filter", "text": "UNKNOWN"}
+{"id": "qg_1126__rerank", "text": "UNKNOWN"}
+{"id": "sfq_6756__noop", "text": "UNKNOWN"}
+{"id": "sfq_6756__filter", "text": "Antoine Lavoisier"}
+{"id": "sfq_6756__rerank", "text": "UNKNOWN"}
+{"id": "odql_7825__noop", "text": "UNKNOWN"}
+{"id": "odql_7825__filter", "text": "Glockenspiel"}
+{"id": "odql_7825__rerank", "text": "UNKNOWN"}
+{"id": "wh_961__noop", "text": "Warwick Davis"}
+{"id": "wh_961__filter", "text": "Warwick Davis"}
+{"id": "wh_961__rerank", "text": "Warwick Davis"}
+{"id": "odql_2889__noop", "text": "Titan"}
+{"id": "odql_2889__filter", "text": "Titan"}
+{"id": "odql_2889__rerank", "text": "Titan"}
+{"id": "qf_1022__noop", "text": "UNKNOWN"}
+{"id": "qf_1022__filter", "text": "UNKNOWN"}
+{"id": "qf_1022__rerank", "text": "UNKNOWN"}
+{"id": "jp_1403__noop", "text": "Ireland"}
+{"id": "jp_1403__filter", "text": "Ireland"}
+{"id": "jp_1403__rerank", "text": "Ireland"}
+{"id": "dpql_447__noop", "text": "UNKNOWN"}
+{"id": "dpql_447__filter", "text": "UNKNOWN"}
+{"id": "dpql_447__rerank", "text": "UNKNOWN"}
+{"id": "qf_1735__noop", "text": "1938"}
+{"id": "qf_1735__filter", "text": "1948"}
+{"id": "qf_1735__rerank", "text": "1938"}
+{"id": "qw_9282__noop", "text": "Reptiles"}
+{"id": "qw_9282__filter", "text": "sauropods"}
+{"id": "qw_9282__rerank", "text": "Reptiles"}
+{"id": "qf_3361__noop", "text": "UNKNOWN"}
+{"id": "qf_3361__filter", "text": "Unknown"}
+{"id": "qf_3361__rerank", "text": "UNKNOWN"}
+{"id": "sfq_2570__noop", "text": "QAR"}
+{"id": "sfq_2570__filter", "text": "QAR"}
+{"id": "sfq_2570__rerank", "text": "QAR"}
+{"id": "dpql_5779__noop", "text": "UNKNOWN"}
+{"id": "dpql_5779__filter", "text": "UNKNOWN"}
+{"id": "dpql_5779__rerank", "text": "UNKNOWN"}
+{"id": "qb_9001__noop", "text": "UNKNOWN"}
+{"id": "qb_9001__filter", "text": "UNKNOWN"}
+{"id": "qb_9001__rerank", "text": "UNKNOWN"}
+{"id": "bb_2276__noop", "text": "Scotland"}
+{"id": "bb_2276__filter", "text": "Scotland"}
+{"id": "bb_2276__rerank", "text": "Scotland"}
+{"id": "sfq_14501__noop", "text": "Preston"}
+{"id": "sfq_14501__filter", "text": "Preston"}
+{"id": "sfq_14501__rerank", "text": "Preston"}
+{"id": "bt_3142__noop", "text": "calf skin"}
+{"id": "bt_3142__filter", "text": "skin"}
+{"id": "bt_3142__rerank", "text": "calf skin"}
+{"id": "qw_13977__noop", "text": "oil"}
+{"id": "qw_13977__filter", "text": "UNKNOWN"}
+{"id": "qw_13977__rerank", "text": "oil"}
+{"id": "qb_5444__noop", "text": "India"}
+{"id": "qb_5444__filter", "text": "India"}
+{"id": "qb_5444__rerank", "text": "India"}
+{"id": "odql_12517__noop", "text": "UNKNOWN"}
+{"id": "odql_12517__filter", "text": "Thunderbirds"}
+{"id": "odql_12517__rerank", "text": "UNKNOWN"}
+{"id": "qw_15293__noop", "text": "UNKNOWN"}
+{"id": "qw_15293__filter", "text": "UNKNOWN"}
+{"id": "qw_15293__rerank", "text": "UNKNOWN"}
+{"id": "qb_4561__noop", "text": "Montgomery"}
+{"id": "qb_4561__filter", "text": "Montgomery"}
+{"id": "qb_4561__rerank", "text": "Montgomery"}
+{"id": "odql_14991__noop", "text": "Trainspotting"}
+{"id": "odql_14991__filter", "text": "Trainspotting"}
+{"id": "odql_14991__rerank", "text": "Trainspotting"}
+{"id": "wh_4109__noop", "text": "gowns"}
+{"id": "wh_4109__filter", "text": "UNKNOWN"}
+{"id": "wh_4109__rerank", "text": "gowns"}
+{"id": "qw_14053__noop", "text": "Whit Sunday"}
+{"id": "qw_14053__filter", "text": "Whit Sunday"}
+{"id": "qw_14053__rerank", "text": "Whit Sunday"}
+{"id": "qw_12722__noop", "text": "UNKNOWN"}
+{"id": "qw_12722__filter", "text": "UNKNOWN"}
+{"id": "qw_12722__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4432__noop", "text": "Doctor Angelicus"}
+{"id": "sfq_4432__filter", "text": "UNKNOWN"}
+{"id": "sfq_4432__rerank", "text": "Doctor Angelicus"}
+{"id": "qb_5233__noop", "text": "David Jason"}
+{"id": "qb_5233__filter", "text": "UNKNOWN"}
+{"id": "qb_5233__rerank", "text": "David Jason"}
+{"id": "tb_1075__noop", "text": "tepuis"}
+{"id": "tb_1075__filter", "text": "tepuis"}
+{"id": "tb_1075__rerank", "text": "tepuis"}
+{"id": "qb_7658__noop", "text": "SEX"}
+{"id": "qb_7658__filter", "text": "Unknown"}
+{"id": "qb_7658__rerank", "text": "SEX"}
+{"id": "dpql_5260__noop", "text": "Chris Broad"}
+{"id": "dpql_5260__filter", "text": "William Clarke"}
+{"id": "dpql_5260__rerank", "text": "Chris Broad"}
+{"id": "odql_3340__noop", "text": "UNKNOWN"}
+{"id": "odql_3340__filter", "text": "May Day"}
+{"id": "odql_3340__rerank", "text": "UNKNOWN"}
+{"id": "jp_3569__noop", "text": "corset stays"}
+{"id": "jp_3569__filter", "text": "corset"}
+{"id": "jp_3569__rerank", "text": "corset stays"}
+{"id": "bt_1819__noop", "text": "UNKNOWN"}
+{"id": "bt_1819__filter", "text": "UNKNOWN"}
+{"id": "bt_1819__rerank", "text": "UNKNOWN"}
+{"id": "qw_2296__noop", "text": "UNKNOWN"}
+{"id": "qw_2296__filter", "text": "UNKNOWN"}
+{"id": "qw_2296__rerank", "text": "UNKNOWN"}
+{"id": "sfq_24119__noop", "text": "15"}
+{"id": "sfq_24119__filter", "text": "14"}
+{"id": "sfq_24119__rerank", "text": "15"}
+{"id": "sfq_19__noop", "text": "Crete"}
+{"id": "sfq_19__filter", "text": "Crete"}
+{"id": "sfq_19__rerank", "text": "Crete"}
+{"id": "qw_13951__noop", "text": "Braveheart"}
+{"id": "qw_13951__filter", "text": "Braveheart"}
+{"id": "qw_13951__rerank", "text": "Braveheart"}
+{"id": "qb_7441__noop", "text": "lizard"}
+{"id": "qb_7441__filter", "text": "lizard"}
+{"id": "qb_7441__rerank", "text": "lizard"}
+{"id": "qw_4069__noop", "text": "UNKNOWN"}
+{"id": "qw_4069__filter", "text": "Louis"}
+{"id": "qw_4069__rerank", "text": "UNKNOWN"}
+{"id": "qf_475__noop", "text": "2007"}
+{"id": "qf_475__filter", "text": "2007"}
+{"id": "qf_475__rerank", "text": "2007"}
+{"id": "wh_974__noop", "text": "UNKNOWN"}
+{"id": "wh_974__filter", "text": "UNKNOWN"}
+{"id": "wh_974__rerank", "text": "UNKNOWN"}
+{"id": "odql_1823__noop", "text": "Edward Vernon"}
+{"id": "odql_1823__filter", "text": "UNKNOWN"}
+{"id": "odql_1823__rerank", "text": "Edward Vernon"}
+{"id": "sfq_8998__noop", "text": "The Magnet"}
+{"id": "sfq_8998__filter", "text": "Greyfriars School"}
+{"id": "sfq_8998__rerank", "text": "The Magnet"}
+{"id": "qb_1032__noop", "text": "squash"}
+{"id": "qb_1032__filter", "text": "squash"}
+{"id": "qb_1032__rerank", "text": "squash"}
+{"id": "sfq_26244__noop", "text": "\u00c9douard Manet"}
+{"id": "sfq_26244__filter", "text": "Manet"}
+{"id": "sfq_26244__rerank", "text": "\u00c9douard Manet"}
+{"id": "qw_8760__noop", "text": "Ronald Searle"}
+{"id": "qw_8760__filter", "text": "Ronald Searle"}
+{"id": "qw_8760__rerank", "text": "Ronald Searle"}
+{"id": "qw_12135__noop", "text": "Harry"}
+{"id": "qw_12135__filter", "text": "Harry"}
+{"id": "qw_12135__rerank", "text": "Harry"}
+{"id": "sfq_13031__noop", "text": "UNKNOWN"}
+{"id": "sfq_13031__filter", "text": "UNKNOWN"}
+{"id": "sfq_13031__rerank", "text": "UNKNOWN"}
+{"id": "bb_4921__noop", "text": "Ahoy"}
+{"id": "bb_4921__filter", "text": "Ahoy"}
+{"id": "bb_4921__rerank", "text": "Ahoy"}
+{"id": "qw_6881__noop", "text": "Kopassus"}
+{"id": "qw_6881__filter", "text": "Kopassus"}
+{"id": "qw_6881__rerank", "text": "Kopassus"}
+{"id": "qw_9983__noop", "text": "UNKNOWN"}
+{"id": "qw_9983__filter", "text": "UNKNOWN"}
+{"id": "qw_9983__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13408__noop", "text": "Tina Turner"}
+{"id": "sfq_13408__filter", "text": "Tina"}
+{"id": "sfq_13408__rerank", "text": "Tina Turner"}
+{"id": "sfq_2698__noop", "text": "UNKNOWN"}
+{"id": "sfq_2698__filter", "text": "UNKNOWN"}
+{"id": "sfq_2698__rerank", "text": "UNKNOWN"}
+{"id": "qw_1201__noop", "text": "UNKNOWN"}
+{"id": "qw_1201__filter", "text": "UNKNOWN"}
+{"id": "qw_1201__rerank", "text": "UNKNOWN"}
+{"id": "qb_10302__noop", "text": "Saturday Night Live"}
+{"id": "qb_10302__filter", "text": "Saturday Night Live"}
+{"id": "qb_10302__rerank", "text": "Saturday Night Live"}
+{"id": "sfq_12060__noop", "text": "UNKNOWN"}
+{"id": "sfq_12060__filter", "text": "UNKNOWN"}
+{"id": "sfq_12060__rerank", "text": "UNKNOWN"}
+{"id": "odql_11120__noop", "text": "Weather"}
+{"id": "odql_11120__filter", "text": "The Great British Weather"}
+{"id": "odql_11120__rerank", "text": "Weather"}
+{"id": "qg_3117__noop", "text": "Kellogg's"}
+{"id": "qg_3117__filter", "text": "Kellogg's"}
+{"id": "qg_3117__rerank", "text": "Kellogg's"}
+{"id": "bb_4656__noop", "text": "Beaujolais nouveau"}
+{"id": "bb_4656__filter", "text": "Beaujolais nouveau"}
+{"id": "bb_4656__rerank", "text": "Beaujolais nouveau"}
+{"id": "odql_11076__noop", "text": "Monet"}
+{"id": "odql_11076__filter", "text": "UNKNOWN"}
+{"id": "odql_11076__rerank", "text": "Monet"}
+{"id": "qg_4025__noop", "text": "Motel 6"}
+{"id": "qg_4025__filter", "text": "Motel 6"}
+{"id": "qg_4025__rerank", "text": "Motel 6"}
+{"id": "sfq_22341__noop", "text": "Griffin"}
+{"id": "sfq_22341__filter", "text": "Griffin"}
+{"id": "sfq_22341__rerank", "text": "Griffin"}
+{"id": "qb_7738__noop", "text": "animals"}
+{"id": "qb_7738__filter", "text": "animals"}
+{"id": "qb_7738__rerank", "text": "animals"}
+{"id": "qg_482__noop", "text": "UNKNOWN"}
+{"id": "qg_482__filter", "text": "UNKNOWN"}
+{"id": "qg_482__rerank", "text": "UNKNOWN"}
+{"id": "sfq_19103__noop", "text": "UNKNOWN"}
+{"id": "sfq_19103__filter", "text": "UNKNOWN"}
+{"id": "sfq_19103__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4770__noop", "text": "UNKNOWN"}
+{"id": "sfq_4770__filter", "text": "UNKNOWN"}
+{"id": "sfq_4770__rerank", "text": "UNKNOWN"}
+{"id": "bt_3047__noop", "text": "antelope"}
+{"id": "bt_3047__filter", "text": "Mammal"}
+{"id": "bt_3047__rerank", "text": "antelope"}
+{"id": "qz_2749__noop", "text": "UNKNOWN"}
+{"id": "qz_2749__filter", "text": "UNKNOWN"}
+{"id": "qz_2749__rerank", "text": "UNKNOWN"}
+{"id": "sfq_20018__noop", "text": "Ynys Gybi"}
+{"id": "sfq_20018__filter", "text": "Ynys Gybi"}
+{"id": "sfq_20018__rerank", "text": "Ynys Gybi"}
+{"id": "qb_2893__noop", "text": "Pakistan"}
+{"id": "qb_2893__filter", "text": "Pakistan"}
+{"id": "qb_2893__rerank", "text": "Pakistan"}
+{"id": "odql_547__noop", "text": "Schleswig-Holstein"}
+{"id": "odql_547__filter", "text": "Schleswig-Holstein"}
+{"id": "odql_547__rerank", "text": "Schleswig-Holstein"}
+{"id": "qb_7781__noop", "text": "Hydrogen and helium"}
+{"id": "qb_7781__filter", "text": "hydrogen"}
+{"id": "qb_7781__rerank", "text": "Hydrogen and helium"}
+{"id": "qb_7975__noop", "text": "UNKNOWN"}
+{"id": "qb_7975__filter", "text": "UNKNOWN"}
+{"id": "qb_7975__rerank", "text": "UNKNOWN"}
+{"id": "sfq_16509__noop", "text": "UNKNOWN"}
+{"id": "sfq_16509__filter", "text": "UNKNOWN"}
+{"id": "sfq_16509__rerank", "text": "UNKNOWN"}
+{"id": "qb_3930__noop", "text": "November"}
+{"id": "qb_3930__filter", "text": "November"}
+{"id": "qb_3930__rerank", "text": "November"}
+{"id": "qz_3927__noop", "text": "20"}
+{"id": "qz_3927__filter", "text": "Twenty-One"}
+{"id": "qz_3927__rerank", "text": "20"}
+{"id": "sfq_9481__noop", "text": "1989"}
+{"id": "sfq_9481__filter", "text": "1989"}
+{"id": "sfq_9481__rerank", "text": "1989"}
+{"id": "qg_2655__noop", "text": "makes Jack a dull boy"}
+{"id": "qg_2655__filter", "text": "makes Jack a dull boy"}
+{"id": "qg_2655__rerank", "text": "makes Jack a dull boy"}
+{"id": "dpql_1746__noop", "text": "jellyfish"}
+{"id": "dpql_1746__filter", "text": "jellyfish"}
+{"id": "dpql_1746__rerank", "text": "jellyfish"}
+{"id": "qb_1340__noop", "text": "Italy"}
+{"id": "qb_1340__filter", "text": "UNKNOWN"}
+{"id": "qb_1340__rerank", "text": "Italy"}
+{"id": "jp_3108__noop", "text": "Flush"}
+{"id": "jp_3108__filter", "text": "Flush"}
+{"id": "jp_3108__rerank", "text": "Flush"}
+{"id": "jp_3690__noop", "text": "Brazil"}
+{"id": "jp_3690__filter", "text": "Brazil"}
+{"id": "jp_3690__rerank", "text": "Brazil"}
+{"id": "sfq_5775__noop", "text": "UNKNOWN"}
+{"id": "sfq_5775__filter", "text": "hat"}
+{"id": "sfq_5775__rerank", "text": "UNKNOWN"}
+{"id": "sfq_19794__noop", "text": "Calcium"}
+{"id": "sfq_19794__filter", "text": "Calcium"}
+{"id": "sfq_19794__rerank", "text": "Calcium"}
+{"id": "odql_9956__noop", "text": "UNKNOWN"}
+{"id": "odql_9956__filter", "text": "UNKNOWN"}
+{"id": "odql_9956__rerank", "text": "UNKNOWN"}
+{"id": "qw_8435__noop", "text": "Mosque"}
+{"id": "qw_8435__filter", "text": "Mosque"}
+{"id": "qw_8435__rerank", "text": "Mosque"}
+{"id": "bb_8750__noop", "text": "General Motors"}
+{"id": "bb_8750__filter", "text": "GM"}
+{"id": "bb_8750__rerank", "text": "General Motors"}
+{"id": "dpql_4350__noop", "text": "Australia"}
+{"id": "dpql_4350__filter", "text": "Australia"}
+{"id": "dpql_4350__rerank", "text": "Australia"}
+{"id": "qw_8921__noop", "text": "Bowie knife"}
+{"id": "qw_8921__filter", "text": "Bowie knife"}
+{"id": "qw_8921__rerank", "text": "Bowie knife"}
+{"id": "sfq_22338__noop", "text": "UNKNOWN"}
+{"id": "sfq_22338__filter", "text": "UNKNOWN"}
+{"id": "sfq_22338__rerank", "text": "UNKNOWN"}
+{"id": "bb_4965__noop", "text": "Twin Towers"}
+{"id": "bb_4965__filter", "text": "Petronas Towers"}
+{"id": "bb_4965__rerank", "text": "Twin Towers"}
+{"id": "qb_4066__noop", "text": "Angel Falls"}
+{"id": "qb_4066__filter", "text": "Kaieteur Falls"}
+{"id": "qb_4066__rerank", "text": "Angel Falls"}
+{"id": "qw_1193__noop", "text": "UNKNOWN"}
+{"id": "qw_1193__filter", "text": "William Howard Taft"}
+{"id": "qw_1193__rerank", "text": "UNKNOWN"}
+{"id": "odql_257__noop", "text": "Songs of Experience"}
+{"id": "odql_257__filter", "text": "Songs of Experience"}
+{"id": "odql_257__rerank", "text": "Songs of Experience"}
+{"id": "sfq_23885__noop", "text": "Duncan Jones"}
+{"id": "sfq_23885__filter", "text": "Duncan Jones"}
+{"id": "sfq_23885__rerank", "text": "Duncan Jones"}
+{"id": "qw_1367__noop", "text": "Little Jack Horner"}
+{"id": "qw_1367__filter", "text": "Little Jack Horner"}
+{"id": "qw_1367__rerank", "text": "Little Jack Horner"}
+{"id": "sfq_17324__noop", "text": "Pierre Trudeau"}
+{"id": "sfq_17324__filter", "text": "Pierre Trudeau"}
+{"id": "sfq_17324__rerank", "text": "Pierre Trudeau"}
+{"id": "sfq_9040__noop", "text": "Word"}
+{"id": "sfq_9040__filter", "text": "Word"}
+{"id": "sfq_9040__rerank", "text": "Word"}
+{"id": "odql_1898__noop", "text": "Richard"}
+{"id": "odql_1898__filter", "text": "Richard"}
+{"id": "odql_1898__rerank", "text": "Richard"}
+{"id": "qw_11151__noop", "text": "Paul McCartney"}
+{"id": "qw_11151__filter", "text": "Paul McCartney"}
+{"id": "qw_11151__rerank", "text": "Paul McCartney"}
+{"id": "qg_1376__noop", "text": "United"}
+{"id": "qg_1376__filter", "text": "UNKNOWN"}
+{"id": "qg_1376__rerank", "text": "United"}
+{"id": "dpql_3692__noop", "text": "Johannesburg"}
+{"id": "dpql_3692__filter", "text": "Johannesburg"}
+{"id": "dpql_3692__rerank", "text": "Johannesburg"}
+{"id": "odql_13428__noop", "text": "Romania"}
+{"id": "odql_13428__filter", "text": "Romania"}
+{"id": "odql_13428__rerank", "text": "Romania"}
+{"id": "bb_8050__noop", "text": "Wikipedia"}
+{"id": "bb_8050__filter", "text": "Wikipedia"}
+{"id": "bb_8050__rerank", "text": "Wikipedia"}
+{"id": "qb_5538__noop", "text": "Sheep"}
+{"id": "qb_5538__filter", "text": "Sheep"}
+{"id": "qb_5538__rerank", "text": "Sheep"}
+{"id": "dpql_383__noop", "text": "Hickory"}
+{"id": "dpql_383__filter", "text": "Shellbark"}
+{"id": "dpql_383__rerank", "text": "Hickory"}
+{"id": "qg_2238__noop", "text": "UNKNOWN"}
+{"id": "qg_2238__filter", "text": "UNKNOWN"}
+{"id": "qg_2238__rerank", "text": "UNKNOWN"}
+{"id": "jp_2518__noop", "text": "10001"}
+{"id": "jp_2518__filter", "text": "10001"}
+{"id": "jp_2518__rerank", "text": "10001"}
+{"id": "sfq_10656__noop", "text": "Sylvester"}
+{"id": "sfq_10656__filter", "text": "UNKNOWN"}
+{"id": "sfq_10656__rerank", "text": "Sylvester"}
+{"id": "sfq_797__noop", "text": "Adam Faith"}
+{"id": "sfq_797__filter", "text": "UNKNOWN"}
+{"id": "sfq_797__rerank", "text": "Adam Faith"}
+{"id": "qb_6193__noop", "text": "Switzerland"}
+{"id": "qb_6193__filter", "text": "Switzerland"}
+{"id": "qb_6193__rerank", "text": "Switzerland"}
+{"id": "dpql_1544__noop", "text": "field"}
+{"id": "dpql_1544__filter", "text": "field"}
+{"id": "dpql_1544__rerank", "text": "field"}
+{"id": "bb_6443__noop", "text": "Tarantino"}
+{"id": "bb_6443__filter", "text": "Quentin Tarantino"}
+{"id": "bb_6443__rerank", "text": "Tarantino"}
+{"id": "wh_1544__noop", "text": "UNKNOWN"}
+{"id": "wh_1544__filter", "text": "UNKNOWN"}
+{"id": "wh_1544__rerank", "text": "UNKNOWN"}
+{"id": "wh_833__noop", "text": "UNKNOWN"}
+{"id": "wh_833__filter", "text": "UNKNOWN"}
+{"id": "wh_833__rerank", "text": "UNKNOWN"}
+{"id": "qz_1794__noop", "text": "The Sunday Post"}
+{"id": "qz_1794__filter", "text": "The Sunday Post"}
+{"id": "qz_1794__rerank", "text": "The Sunday Post"}
+{"id": "qw_8893__noop", "text": "UNKNOWN"}
+{"id": "qw_8893__filter", "text": "UNKNOWN"}
+{"id": "qw_8893__rerank", "text": "UNKNOWN"}
+{"id": "sfq_12902__noop", "text": "Italy"}
+{"id": "sfq_12902__filter", "text": "Italy"}
+{"id": "sfq_12902__rerank", "text": "Italy"}
+{"id": "sfq_25241__noop", "text": "UNKNOWN"}
+{"id": "sfq_25241__filter", "text": "UNKNOWN"}
+{"id": "sfq_25241__rerank", "text": "UNKNOWN"}
+{"id": "sfq_24884__noop", "text": "Hyundai"}
+{"id": "sfq_24884__filter", "text": "Hyundai"}
+{"id": "sfq_24884__rerank", "text": "Hyundai"}
+{"id": "sfq_12053__noop", "text": "UNKNOWN"}
+{"id": "sfq_12053__filter", "text": "UNKNOWN"}
+{"id": "sfq_12053__rerank", "text": "UNKNOWN"}
+{"id": "odql_8649__noop", "text": "UNKNOWN"}
+{"id": "odql_8649__filter", "text": "UNKNOWN"}
+{"id": "odql_8649__rerank", "text": "UNKNOWN"}
+{"id": "odql_3603__noop", "text": "prawns"}
+{"id": "odql_3603__filter", "text": "UNKNOWN"}
+{"id": "odql_3603__rerank", "text": "prawns"}
+{"id": "bt_1854__noop", "text": "UNKNOWN"}
+{"id": "bt_1854__filter", "text": "UNKNOWN"}
+{"id": "bt_1854__rerank", "text": "UNKNOWN"}
+{"id": "sfq_19334__noop", "text": "UNKNOWN"}
+{"id": "sfq_19334__filter", "text": "Melpomene"}
+{"id": "sfq_19334__rerank", "text": "UNKNOWN"}
+{"id": "sfq_25329__noop", "text": "Portugal"}
+{"id": "sfq_25329__filter", "text": "Portugal"}
+{"id": "sfq_25329__rerank", "text": "Portugal"}
+{"id": "sfq_17574__noop", "text": "UNKNOWN"}
+{"id": "sfq_17574__filter", "text": "Phytotherapy"}
+{"id": "sfq_17574__rerank", "text": "UNKNOWN"}
+{"id": "qw_1253__noop", "text": "Spirit of St. Louis"}
+{"id": "qw_1253__filter", "text": "UNKNOWN"}
+{"id": "qw_1253__rerank", "text": "Spirit of St. Louis"}
+{"id": "sfq_12881__noop", "text": "UNKNOWN"}
+{"id": "sfq_12881__filter", "text": "UNKNOWN"}
+{"id": "sfq_12881__rerank", "text": "UNKNOWN"}
+{"id": "qg_2675__noop", "text": "UNKNOWN"}
+{"id": "qg_2675__filter", "text": "UNKNOWN"}
+{"id": "qg_2675__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3898__noop", "text": "UNKNOWN"}
+{"id": "sfq_3898__filter", "text": "UNKNOWN"}
+{"id": "sfq_3898__rerank", "text": "UNKNOWN"}
+{"id": "qb_3740__noop", "text": "UNKNOWN"}
+{"id": "qb_3740__filter", "text": "UNKNOWN"}
+{"id": "qb_3740__rerank", "text": "UNKNOWN"}
+{"id": "qw_7700__noop", "text": "green"}
+{"id": "qw_7700__filter", "text": "green"}
+{"id": "qw_7700__rerank", "text": "green"}
+{"id": "wh_3424__noop", "text": "UNKNOWN"}
+{"id": "wh_3424__filter", "text": "UNKNOWN"}
+{"id": "wh_3424__rerank", "text": "UNKNOWN"}
+{"id": "wh_3534__noop", "text": "Alien III"}
+{"id": "wh_3534__filter", "text": "Alien Resurrection"}
+{"id": "wh_3534__rerank", "text": "Alien III"}
+{"id": "sfq_1538__noop", "text": "Valhalla"}
+{"id": "sfq_1538__filter", "text": "Valhalla"}
+{"id": "sfq_1538__rerank", "text": "Valhalla"}
+{"id": "qg_2428__noop", "text": "Troposphere"}
+{"id": "qg_2428__filter", "text": "Troposphere"}
+{"id": "qg_2428__rerank", "text": "Troposphere"}
+{"id": "jp_1391__noop", "text": "Monotremes"}
+{"id": "jp_1391__filter", "text": "Monotremes"}
+{"id": "jp_1391__rerank", "text": "Monotremes"}
+{"id": "qb_3501__noop", "text": "Topeka"}
+{"id": "qb_3501__filter", "text": "Topeka"}
+{"id": "qb_3501__rerank", "text": "Topeka"}
+{"id": "wh_3040__noop", "text": "Dad's Army"}
+{"id": "wh_3040__filter", "text": "Local Defence Volunteers or LDV"}
+{"id": "wh_3040__rerank", "text": "Dad's Army"}
+{"id": "dpql_1799__noop", "text": "UNKNOWN"}
+{"id": "dpql_1799__filter", "text": "UNKNOWN"}
+{"id": "dpql_1799__rerank", "text": "UNKNOWN"}
+{"id": "qw_10253__noop", "text": "House of Orange-Nassau"}
+{"id": "qw_10253__filter", "text": "UNKNOWN"}
+{"id": "qw_10253__rerank", "text": "House of Orange-Nassau"}
+{"id": "tc_2257__noop", "text": "December"}
+{"id": "tc_2257__filter", "text": "December"}
+{"id": "tc_2257__rerank", "text": "December"}
+{"id": "bb_1026__noop", "text": "Sneakerless"}
+{"id": "bb_1026__filter", "text": "Barefoot Bandit"}
+{"id": "bb_1026__rerank", "text": "Sneakerless"}
+{"id": "sfq_16858__noop", "text": "UNKNOWN"}
+{"id": "sfq_16858__filter", "text": "UNKNOWN"}
+{"id": "sfq_16858__rerank", "text": "UNKNOWN"}
+{"id": "sfq_17923__noop", "text": "UNKNOWN"}
+{"id": "sfq_17923__filter", "text": "UNKNOWN"}
+{"id": "sfq_17923__rerank", "text": "UNKNOWN"}
+{"id": "sfq_9746__noop", "text": "Pope Pius XII"}
+{"id": "sfq_9746__filter", "text": "Pope Pius XII"}
+{"id": "sfq_9746__rerank", "text": "Pope Pius XII"}
+{"id": "odql_11086__noop", "text": "Serjeants' Inn"}
+{"id": "odql_11086__filter", "text": "Serjeants' Inn"}
+{"id": "odql_11086__rerank", "text": "Serjeants' Inn"}
+{"id": "sfq_24284__noop", "text": "UNKNOWN"}
+{"id": "sfq_24284__filter", "text": "UNKNOWN"}
+{"id": "sfq_24284__rerank", "text": "UNKNOWN"}
+{"id": "qg_1425__noop", "text": "Driving Miss Daisy"}
+{"id": "qg_1425__filter", "text": "Driving Miss Daisy"}
+{"id": "qg_1425__rerank", "text": "Driving Miss Daisy"}
+{"id": "qw_5945__noop", "text": "Netherlands"}
+{"id": "qw_5945__filter", "text": "Netherlands"}
+{"id": "qw_5945__rerank", "text": "Netherlands"}
+{"id": "sfq_25587__noop", "text": "Sedgefield"}
+{"id": "sfq_25587__filter", "text": "Sedgefield"}
+{"id": "sfq_25587__rerank", "text": "Sedgefield"}
+{"id": "wh_829__noop", "text": "Anterior fontanelle"}
+{"id": "wh_829__filter", "text": "Anterior fontanelle"}
+{"id": "wh_829__rerank", "text": "Anterior fontanelle"}
+{"id": "qw_16513__noop", "text": "UNKNOWN"}
+{"id": "qw_16513__filter", "text": "UNKNOWN"}
+{"id": "qw_16513__rerank", "text": "UNKNOWN"}
+{"id": "tc_2580__noop", "text": "Austria"}
+{"id": "tc_2580__filter", "text": "Austria"}
+{"id": "tc_2580__rerank", "text": "Austria"}
+{"id": "odql_7894__noop", "text": "UNKNOWN"}
+{"id": "odql_7894__filter", "text": "Joseph"}
+{"id": "odql_7894__rerank", "text": "UNKNOWN"}
+{"id": "qb_10190__noop", "text": "UNKNOWN"}
+{"id": "qb_10190__filter", "text": "UNKNOWN"}
+{"id": "qb_10190__rerank", "text": "UNKNOWN"}
+{"id": "odql_8089__noop", "text": "Ellice Islands"}
+{"id": "odql_8089__filter", "text": "Ellice Islands"}
+{"id": "odql_8089__rerank", "text": "Ellice Islands"}
+{"id": "bb_5__noop", "text": "UNKNOWN"}
+{"id": "bb_5__filter", "text": "UNKNOWN"}
+{"id": "bb_5__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13483__noop", "text": "UNKNOWN"}
+{"id": "sfq_13483__filter", "text": "Robinson"}
+{"id": "sfq_13483__rerank", "text": "UNKNOWN"}
+{"id": "bt_1101__noop", "text": "Michael Winner"}
+{"id": "bt_1101__filter", "text": "Michael Winner"}
+{"id": "bt_1101__rerank", "text": "Michael Winner"}
+{"id": "wh_4195__noop", "text": "cat"}
+{"id": "wh_4195__filter", "text": "cat"}
+{"id": "wh_4195__rerank", "text": "cat"}
+{"id": "dpql_2667__noop", "text": "priestly"}
+{"id": "dpql_2667__filter", "text": "UNKNOWN"}
+{"id": "dpql_2667__rerank", "text": "priestly"}
+{"id": "sfq_22043__noop", "text": "Kendall"}
+{"id": "sfq_22043__filter", "text": "Kendall"}
+{"id": "sfq_22043__rerank", "text": "Kendall"}
+{"id": "odql_2860__noop", "text": "UNKNOWN"}
+{"id": "odql_2860__filter", "text": "UNKNOWN"}
+{"id": "odql_2860__rerank", "text": "UNKNOWN"}
+{"id": "sfq_26158__noop", "text": "alligator pear"}
+{"id": "sfq_26158__filter", "text": "alligator pear"}
+{"id": "sfq_26158__rerank", "text": "alligator pear"}
+{"id": "qw_7108__noop", "text": "Bayer"}
+{"id": "qw_7108__filter", "text": "Bayer system"}
+{"id": "qw_7108__rerank", "text": "Bayer"}
+{"id": "qw_11383__noop", "text": "Burkina Faso"}
+{"id": "qw_11383__filter", "text": "Burkina Faso"}
+{"id": "qw_11383__rerank", "text": "Burkina Faso"}
+{"id": "dpql_580__noop", "text": "trade unions"}
+{"id": "dpql_580__filter", "text": "trade unions"}
+{"id": "dpql_580__rerank", "text": "trade unions"}
+{"id": "bt_1934__noop", "text": "Atlanta"}
+{"id": "bt_1934__filter", "text": "UNKNOWN"}
+{"id": "bt_1934__rerank", "text": "Atlanta"}
+{"id": "qz_1958__noop", "text": "Milk"}
+{"id": "qz_1958__filter", "text": "Milk"}
+{"id": "qz_1958__rerank", "text": "Milk"}
+{"id": "dpql_5235__noop", "text": "briny flowing salt water"}
+{"id": "dpql_5235__filter", "text": "briny flowing salt water"}
+{"id": "dpql_5235__rerank", "text": "briny flowing salt water"}
+{"id": "odql_1190__noop", "text": "Botswana"}
+{"id": "odql_1190__filter", "text": "Botswana"}
+{"id": "odql_1190__rerank", "text": "Botswana"}
+{"id": "qw_2149__noop", "text": "Seven Wonders"}
+{"id": "qw_2149__filter", "text": "Seven Wonders"}
+{"id": "qw_2149__rerank", "text": "Seven Wonders"}
+{"id": "qw_722__noop", "text": "UNKNOWN"}
+{"id": "qw_722__filter", "text": "UNKNOWN"}
+{"id": "qw_722__rerank", "text": "UNKNOWN"}
+{"id": "jp_258__noop", "text": "Duchess"}
+{"id": "jp_258__filter", "text": "UNKNOWN"}
+{"id": "jp_258__rerank", "text": "Duchess"}
+{"id": "bt_3368__noop", "text": "behind"}
+{"id": "bt_3368__filter", "text": "behind"}
+{"id": "bt_3368__rerank", "text": "behind"}
+{"id": "jp_4010__noop", "text": "Despicable Me"}
+{"id": "jp_4010__filter", "text": "Despicable Me"}
+{"id": "jp_4010__rerank", "text": "Despicable Me"}
+{"id": "sfq_4292__noop", "text": "UNKNOWN"}
+{"id": "sfq_4292__filter", "text": "Clint Eastwood"}
+{"id": "sfq_4292__rerank", "text": "UNKNOWN"}
+{"id": "qz_1221__noop", "text": "UNKNOWN"}
+{"id": "qz_1221__filter", "text": "UNKNOWN"}
+{"id": "qz_1221__rerank", "text": "UNKNOWN"}
+{"id": "bb_2939__noop", "text": "UNKNOWN"}
+{"id": "bb_2939__filter", "text": "Unknown"}
+{"id": "bb_2939__rerank", "text": "UNKNOWN"}
+{"id": "bb_5173__noop", "text": "Sicily"}
+{"id": "bb_5173__filter", "text": "Sicily"}
+{"id": "bb_5173__rerank", "text": "Sicily"}
+{"id": "bb_8736__noop", "text": "Japan"}
+{"id": "bb_8736__filter", "text": "Japan"}
+{"id": "bb_8736__rerank", "text": "Japan"}
+{"id": "sfq_9742__noop", "text": "UNKNOWN"}
+{"id": "sfq_9742__filter", "text": "UNKNOWN"}
+{"id": "sfq_9742__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11542__noop", "text": "UNKNOWN"}
+{"id": "sfq_11542__filter", "text": "UNKNOWN"}
+{"id": "sfq_11542__rerank", "text": "UNKNOWN"}
+{"id": "odql_7729__noop", "text": "Costa del Sol"}
+{"id": "odql_7729__filter", "text": "Costa del Sol"}
+{"id": "odql_7729__rerank", "text": "Costa del Sol"}
+{"id": "sfq_20388__noop", "text": "UNKNOWN"}
+{"id": "sfq_20388__filter", "text": "UNKNOWN"}
+{"id": "sfq_20388__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3731__noop", "text": "1863"}
+{"id": "sfq_3731__filter", "text": "1863"}
+{"id": "sfq_3731__rerank", "text": "1863"}
+{"id": "qz_2428__noop", "text": "Kitsune"}
+{"id": "qz_2428__filter", "text": "Kitsune"}
+{"id": "qz_2428__rerank", "text": "Kitsune"}
+{"id": "qf_1492__noop", "text": "UNKNOWN"}
+{"id": "qf_1492__filter", "text": "Alamo"}
+{"id": "qf_1492__rerank", "text": "UNKNOWN"}
+{"id": "sfq_1748__noop", "text": "Master"}
+{"id": "sfq_1748__filter", "text": "Master"}
+{"id": "sfq_1748__rerank", "text": "Master"}
+{"id": "odql_5893__noop", "text": "UNKNOWN"}
+{"id": "odql_5893__filter", "text": "UNKNOWN"}
+{"id": "odql_5893__rerank", "text": "UNKNOWN"}
+{"id": "wh_3204__noop", "text": "American Civil War"}
+{"id": "wh_3204__filter", "text": "American Civil War"}
+{"id": "wh_3204__rerank", "text": "American Civil War"}
+{"id": "qg_1992__noop", "text": "UNKNOWN"}
+{"id": "qg_1992__filter", "text": "UNKNOWN"}
+{"id": "qg_1992__rerank", "text": "UNKNOWN"}
+{"id": "dpql_206__noop", "text": "UNKNOWN"}
+{"id": "dpql_206__filter", "text": "UNKNOWN"}
+{"id": "dpql_206__rerank", "text": "UNKNOWN"}
+{"id": "odql_14327__noop", "text": "Baulk line"}
+{"id": "odql_14327__filter", "text": "Baulk line"}
+{"id": "odql_14327__rerank", "text": "Baulk line"}
+{"id": "odql_3970__noop", "text": "UNKNOWN"}
+{"id": "odql_3970__filter", "text": "UNKNOWN"}
+{"id": "odql_3970__rerank", "text": "UNKNOWN"}
+{"id": "dpql_3856__noop", "text": "Unknown"}
+{"id": "dpql_3856__filter", "text": "Unknown"}
+{"id": "dpql_3856__rerank", "text": "Unknown"}
+{"id": "qb_192__noop", "text": "Piano"}
+{"id": "qb_192__filter", "text": "UNKNOWN"}
+{"id": "qb_192__rerank", "text": "Piano"}
+{"id": "odql_181__noop", "text": "Standard"}
+{"id": "odql_181__filter", "text": "Standard"}
+{"id": "odql_181__rerank", "text": "Standard"}
+{"id": "qw_14960__noop", "text": "Danish"}
+{"id": "qw_14960__filter", "text": "Danish"}
+{"id": "qw_14960__rerank", "text": "Danish"}
+{"id": "bb_5861__noop", "text": "Corgi"}
+{"id": "bb_5861__filter", "text": "Corgi"}
+{"id": "bb_5861__rerank", "text": "Corgi"}
+{"id": "qz_2419__noop", "text": "UNKNOWN"}
+{"id": "qz_2419__filter", "text": "UNKNOWN"}
+{"id": "qz_2419__rerank", "text": "UNKNOWN"}
+{"id": "odql_1324__noop", "text": "Suffolk"}
+{"id": "odql_1324__filter", "text": "Suffolk"}
+{"id": "odql_1324__rerank", "text": "Suffolk"}
+{"id": "tb_1962__noop", "text": "Anthropocene"}
+{"id": "tb_1962__filter", "text": "Anthropocene"}
+{"id": "tb_1962__rerank", "text": "Anthropocene"}
+{"id": "tb_1061__noop", "text": "Indus Valley"}
+{"id": "tb_1061__filter", "text": "Indus River"}
+{"id": "tb_1061__rerank", "text": "Indus Valley"}
+{"id": "qg_2451__noop", "text": "people"}
+{"id": "qg_2451__filter", "text": "people"}
+{"id": "qg_2451__rerank", "text": "people"}
+{"id": "tc_2644__noop", "text": "PEOPLE"}
+{"id": "tc_2644__filter", "text": "PEOPLE"}
+{"id": "tc_2644__rerank", "text": "PEOPLE"}
+{"id": "qz_1429__noop", "text": "1500 metres"}
+{"id": "qz_1429__filter", "text": "1500 metres"}
+{"id": "qz_1429__rerank", "text": "1500 metres"}
+{"id": "odql_8665__noop", "text": "Striding Edge"}
+{"id": "odql_8665__filter", "text": "UNKNOWN"}
+{"id": "odql_8665__rerank", "text": "Striding Edge"}
+{"id": "qz_4911__noop", "text": "UNKNOWN"}
+{"id": "qz_4911__filter", "text": "UNKNOWN"}
+{"id": "qz_4911__rerank", "text": "UNKNOWN"}
+{"id": "sfq_15999__noop", "text": "Colorado"}
+{"id": "sfq_15999__filter", "text": "Colorado"}
+{"id": "sfq_15999__rerank", "text": "Colorado"}
+{"id": "qb_10036__noop", "text": "UNKNOWN"}
+{"id": "qb_10036__filter", "text": "UNKNOWN"}
+{"id": "qb_10036__rerank", "text": "UNKNOWN"}
+{"id": "dpql_5473__noop", "text": "UNKNOWN"}
+{"id": "dpql_5473__filter", "text": "UNKNOWN"}
+{"id": "dpql_5473__rerank", "text": "UNKNOWN"}
+{"id": "qw_14119__noop", "text": "painting"}
+{"id": "qw_14119__filter", "text": "Painter"}
+{"id": "qw_14119__rerank", "text": "painting"}
+{"id": "qz_2176__noop", "text": "UNKNOWN"}
+{"id": "qz_2176__filter", "text": "UNKNOWN"}
+{"id": "qz_2176__rerank", "text": "UNKNOWN"}
+{"id": "qw_8577__noop", "text": "UNKNOWN"}
+{"id": "qw_8577__filter", "text": "UNKNOWN"}
+{"id": "qw_8577__rerank", "text": "UNKNOWN"}
+{"id": "qb_8808__noop", "text": "Las Vegas"}
+{"id": "qb_8808__filter", "text": "Las Vegas"}
+{"id": "qb_8808__rerank", "text": "Las Vegas"}
+{"id": "bb_9298__noop", "text": "Matthew Arnold"}
+{"id": "bb_9298__filter", "text": "Edward FitzGerald"}
+{"id": "bb_9298__rerank", "text": "Matthew Arnold"}
+{"id": "qw_16174__noop", "text": "Parthenogenesis"}
+{"id": "qw_16174__filter", "text": "parthenogenesis"}
+{"id": "qw_16174__rerank", "text": "Parthenogenesis"}
+{"id": "bb_5986__noop", "text": "virtue"}
+{"id": "bb_5986__filter", "text": "UNKNOWN"}
+{"id": "bb_5986__rerank", "text": "virtue"}
+{"id": "qb_9242__noop", "text": "Rugby union"}
+{"id": "qb_9242__filter", "text": "UNKNOWN"}
+{"id": "qb_9242__rerank", "text": "Rugby union"}
+{"id": "sfq_12180__noop", "text": "UNKNOWN"}
+{"id": "sfq_12180__filter", "text": "UNKNOWN"}
+{"id": "sfq_12180__rerank", "text": "UNKNOWN"}
+{"id": "sfq_1895__noop", "text": "airline pilot"}
+{"id": "sfq_1895__filter", "text": "UNKNOWN"}
+{"id": "sfq_1895__rerank", "text": "airline pilot"}
+{"id": "qw_841__noop", "text": "UNKNOWN"}
+{"id": "qw_841__filter", "text": "UNKNOWN"}
+{"id": "qw_841__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3308__noop", "text": "mantle"}
+{"id": "sfq_3308__filter", "text": "mantle"}
+{"id": "sfq_3308__rerank", "text": "mantle"}
+{"id": "odql_12656__noop", "text": "Ben Jonson"}
+{"id": "odql_12656__filter", "text": "Ben Jonson"}
+{"id": "odql_12656__rerank", "text": "Ben Jonson"}
+{"id": "qw_10046__noop", "text": "10"}
+{"id": "qw_10046__filter", "text": "10"}
+{"id": "qw_10046__rerank", "text": "10"}
+{"id": "jp_3505__noop", "text": "Nigeria"}
+{"id": "jp_3505__filter", "text": "Nigeria"}
+{"id": "jp_3505__rerank", "text": "Nigeria"}
+{"id": "sfq_13503__noop", "text": "Hereward"}
+{"id": "sfq_13503__filter", "text": "Hereward"}
+{"id": "sfq_13503__rerank", "text": "Hereward"}
+{"id": "sfq_4033__noop", "text": "UNKNOWN"}
+{"id": "sfq_4033__filter", "text": "UNKNOWN"}
+{"id": "sfq_4033__rerank", "text": "UNKNOWN"}
+{"id": "qg_260__noop", "text": "Popeye"}
+{"id": "qg_260__filter", "text": "Popeye"}
+{"id": "qg_260__rerank", "text": "Popeye"}
+{"id": "tb_1826__noop", "text": "Zadok the Priest"}
+{"id": "tb_1826__filter", "text": "Unknown"}
+{"id": "tb_1826__rerank", "text": "Zadok the Priest"}
+{"id": "sfq_9794__noop", "text": "UNKNOWN"}
+{"id": "sfq_9794__filter", "text": "UNKNOWN"}
+{"id": "sfq_9794__rerank", "text": "UNKNOWN"}
+{"id": "bb_5924__noop", "text": "Sauria"}
+{"id": "bb_5924__filter", "text": "Sauropsida"}
+{"id": "bb_5924__rerank", "text": "Sauria"}
+{"id": "sfq_2940__noop", "text": "UNKNOWN"}
+{"id": "sfq_2940__filter", "text": "UNKNOWN"}
+{"id": "sfq_2940__rerank", "text": "UNKNOWN"}
+{"id": "qz_952__noop", "text": "UNKNOWN"}
+{"id": "qz_952__filter", "text": "UNKNOWN"}
+{"id": "qz_952__rerank", "text": "UNKNOWN"}
+{"id": "dpql_5360__noop", "text": "William Adelin"}
+{"id": "dpql_5360__filter", "text": "William"}
+{"id": "dpql_5360__rerank", "text": "William Adelin"}
+{"id": "sfq_10361__noop", "text": "hobbit"}
+{"id": "sfq_10361__filter", "text": "Little Lady"}
+{"id": "sfq_10361__rerank", "text": "hobbit"}
+{"id": "odql_11142__noop", "text": "UNKNOWN"}
+{"id": "odql_11142__filter", "text": "UNKNOWN"}
+{"id": "odql_11142__rerank", "text": "UNKNOWN"}
+{"id": "wh_4331__noop", "text": "UNKNOWN"}
+{"id": "wh_4331__filter", "text": "UNKNOWN"}
+{"id": "wh_4331__rerank", "text": "UNKNOWN"}
+{"id": "odql_434__noop", "text": "UNKNOWN"}
+{"id": "odql_434__filter", "text": "UNKNOWN"}
+{"id": "odql_434__rerank", "text": "UNKNOWN"}
+{"id": "qb_9945__noop", "text": "Barack Obama"}
+{"id": "qb_9945__filter", "text": "UNKNOWN"}
+{"id": "qb_9945__rerank", "text": "Barack Obama"}
+{"id": "sfq_11961__noop", "text": "UNKNOWN"}
+{"id": "sfq_11961__filter", "text": "UNKNOWN"}
+{"id": "sfq_11961__rerank", "text": "UNKNOWN"}
+{"id": "qb_6748__noop", "text": "Leeds"}
+{"id": "qb_6748__filter", "text": "Unknown"}
+{"id": "qb_6748__rerank", "text": "Leeds"}
+{"id": "bt_4498__noop", "text": "UNKNOWN"}
+{"id": "bt_4498__filter", "text": "UNKNOWN"}
+{"id": "bt_4498__rerank", "text": "UNKNOWN"}
+{"id": "odql_3731__noop", "text": "Dik Browne"}
+{"id": "odql_3731__filter", "text": "UNKNOWN"}
+{"id": "odql_3731__rerank", "text": "Dik Browne"}
+{"id": "odql_5141__noop", "text": "UNKNOWN"}
+{"id": "odql_5141__filter", "text": "UNKNOWN"}
+{"id": "odql_5141__rerank", "text": "UNKNOWN"}
+{"id": "qb_9443__noop", "text": "UNKNOWN"}
+{"id": "qb_9443__filter", "text": "UNKNOWN"}
+{"id": "qb_9443__rerank", "text": "UNKNOWN"}
+{"id": "sfq_9793__noop", "text": "Sumerian"}
+{"id": "sfq_9793__filter", "text": "Sumerian"}
+{"id": "sfq_9793__rerank", "text": "Sumerian"}
+{"id": "qw_11126__noop", "text": "UNKNOWN"}
+{"id": "qw_11126__filter", "text": "UNKNOWN"}
+{"id": "qw_11126__rerank", "text": "UNKNOWN"}
+{"id": "tb_361__noop", "text": "UNKNOWN"}
+{"id": "tb_361__filter", "text": "UNKNOWN"}
+{"id": "tb_361__rerank", "text": "UNKNOWN"}
+{"id": "odql_6744__noop", "text": "UNKNOWN"}
+{"id": "odql_6744__filter", "text": "UNKNOWN"}
+{"id": "odql_6744__rerank", "text": "UNKNOWN"}
+{"id": "tc_2850__noop", "text": "BEAVER"}
+{"id": "tc_2850__filter", "text": "UNKNOWN"}
+{"id": "tc_2850__rerank", "text": "BEAVER"}
+{"id": "odql_3696__noop", "text": "Tunisia"}
+{"id": "odql_3696__filter", "text": "Tunisia"}
+{"id": "odql_3696__rerank", "text": "Tunisia"}
+{"id": "dpql_3600__noop", "text": "Tara King"}
+{"id": "dpql_3600__filter", "text": "Tara King"}
+{"id": "dpql_3600__rerank", "text": "Tara King"}
+{"id": "qb_1757__noop", "text": "four"}
+{"id": "qb_1757__filter", "text": "Four"}
+{"id": "qb_1757__rerank", "text": "four"}
+{"id": "qb_9244__noop", "text": "Sweden"}
+{"id": "qb_9244__filter", "text": "Sweden"}
+{"id": "qb_9244__rerank", "text": "Sweden"}
+{"id": "qb_7849__noop", "text": "UNKNOWN"}
+{"id": "qb_7849__filter", "text": "UNKNOWN"}
+{"id": "qb_7849__rerank", "text": "UNKNOWN"}
+{"id": "dpql_5263__noop", "text": "UNKNOWN"}
+{"id": "dpql_5263__filter", "text": "UNKNOWN"}
+{"id": "dpql_5263__rerank", "text": "UNKNOWN"}
+{"id": "sfq_21670__noop", "text": "New Mexico"}
+{"id": "sfq_21670__filter", "text": "New Mexico"}
+{"id": "sfq_21670__rerank", "text": "New Mexico"}
+{"id": "sfq_17796__noop", "text": "UNKNOWN"}
+{"id": "sfq_17796__filter", "text": "UNKNOWN"}
+{"id": "sfq_17796__rerank", "text": "UNKNOWN"}
+{"id": "qf_3619__noop", "text": "UNKNOWN"}
+{"id": "qf_3619__filter", "text": "UNKNOWN"}
+{"id": "qf_3619__rerank", "text": "UNKNOWN"}
+{"id": "bt_1232__noop", "text": "UNKNOWN"}
+{"id": "bt_1232__filter", "text": "UNKNOWN"}
+{"id": "bt_1232__rerank", "text": "UNKNOWN"}
+{"id": "sfq_24481__noop", "text": "UNKNOWN"}
+{"id": "sfq_24481__filter", "text": "UNKNOWN"}
+{"id": "sfq_24481__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5545__noop", "text": "UNKNOWN"}
+{"id": "sfq_5545__filter", "text": "UNKNOWN"}
+{"id": "sfq_5545__rerank", "text": "UNKNOWN"}
+{"id": "bb_771__noop", "text": "UNKNOWN"}
+{"id": "bb_771__filter", "text": "Unknown"}
+{"id": "bb_771__rerank", "text": "UNKNOWN"}
+{"id": "qz_1384__noop", "text": "UNKNOWN"}
+{"id": "qz_1384__filter", "text": "UNKNOWN"}
+{"id": "qz_1384__rerank", "text": "UNKNOWN"}
+{"id": "qz_2379__noop", "text": "1830"}
+{"id": "qz_2379__filter", "text": "1829"}
+{"id": "qz_2379__rerank", "text": "1830"}
+{"id": "tc_1442__noop", "text": "UNKNOWN"}
+{"id": "tc_1442__filter", "text": "UNKNOWN"}
+{"id": "tc_1442__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3556__noop", "text": "UNKNOWN"}
+{"id": "sfq_3556__filter", "text": "UNKNOWN"}
+{"id": "sfq_3556__rerank", "text": "UNKNOWN"}
+{"id": "sfq_1461__noop", "text": "Uilleann pipes"}
+{"id": "sfq_1461__filter", "text": "Uilleann pipes"}
+{"id": "sfq_1461__rerank", "text": "Uilleann pipes"}
+{"id": "odql_10600__noop", "text": "Monaco"}
+{"id": "odql_10600__filter", "text": "Monaco"}
+{"id": "odql_10600__rerank", "text": "Monaco"}
+{"id": "odql_12791__noop", "text": "Unknown"}
+{"id": "odql_12791__filter", "text": "Batley and Spen"}
+{"id": "odql_12791__rerank", "text": "Unknown"}
+{"id": "tc_1250__noop", "text": "UNKNOWN"}
+{"id": "tc_1250__filter", "text": "UNKNOWN"}
+{"id": "tc_1250__rerank", "text": "UNKNOWN"}
+{"id": "qb_8090__noop", "text": "Shetland"}
+{"id": "qb_8090__filter", "text": "Shetland"}
+{"id": "qb_8090__rerank", "text": "Shetland"}
+{"id": "sfq_15075__noop", "text": "Schengen"}
+{"id": "sfq_15075__filter", "text": "UNKNOWN"}
+{"id": "sfq_15075__rerank", "text": "Schengen"}
+{"id": "qw_13767__noop", "text": "Eton College"}
+{"id": "qw_13767__filter", "text": "Eton College"}
+{"id": "qw_13767__rerank", "text": "Eton College"}
+{"id": "qb_9353__noop", "text": "UNKNOWN"}
+{"id": "qb_9353__filter", "text": "UNKNOWN"}
+{"id": "qb_9353__rerank", "text": "UNKNOWN"}
+{"id": "qg_1842__noop", "text": "UNKNOWN"}
+{"id": "qg_1842__filter", "text": "UNKNOWN"}
+{"id": "qg_1842__rerank", "text": "UNKNOWN"}
+{"id": "sfq_7438__noop", "text": "UNKNOWN"}
+{"id": "sfq_7438__filter", "text": "UNKNOWN"}
+{"id": "sfq_7438__rerank", "text": "UNKNOWN"}
+{"id": "tc_1340__noop", "text": "UNKNOWN"}
+{"id": "tc_1340__filter", "text": "New Zealand"}
+{"id": "tc_1340__rerank", "text": "UNKNOWN"}
+{"id": "sfq_359__noop", "text": "Queen of Hearts"}
+{"id": "sfq_359__filter", "text": "UNKNOWN"}
+{"id": "sfq_359__rerank", "text": "Queen of Hearts"}
+{"id": "qz_2471__noop", "text": "unknown"}
+{"id": "qz_2471__filter", "text": "Unknown"}
+{"id": "qz_2471__rerank", "text": "unknown"}
+{"id": "odql_8725__noop", "text": "Essex Eagles"}
+{"id": "odql_8725__filter", "text": "Essex Eagles"}
+{"id": "odql_8725__rerank", "text": "Essex Eagles"}
+{"id": "sfq_6781__noop", "text": "UNKNOWN"}
+{"id": "sfq_6781__filter", "text": "UNKNOWN"}
+{"id": "sfq_6781__rerank", "text": "UNKNOWN"}
+{"id": "odql_2370__noop", "text": "Nigeria"}
+{"id": "odql_2370__filter", "text": "Nigeria"}
+{"id": "odql_2370__rerank", "text": "Nigeria"}
+{"id": "dpql_654__noop", "text": "War and Peace"}
+{"id": "dpql_654__filter", "text": "War and Peace"}
+{"id": "dpql_654__rerank", "text": "War and Peace"}
+{"id": "qb_7087__noop", "text": "Beard"}
+{"id": "qb_7087__filter", "text": "beard"}
+{"id": "qb_7087__rerank", "text": "Beard"}
+{"id": "wh_3689__noop", "text": "UNKNOWN"}
+{"id": "wh_3689__filter", "text": "Unknown"}
+{"id": "wh_3689__rerank", "text": "UNKNOWN"}
+{"id": "jp_2354__noop", "text": "Isosceles"}
+{"id": "jp_2354__filter", "text": "Isosceles"}
+{"id": "jp_2354__rerank", "text": "Isosceles"}
+{"id": "qw_16746__noop", "text": "Mexico"}
+{"id": "qw_16746__filter", "text": "Mexico"}
+{"id": "qw_16746__rerank", "text": "Mexico"}
+{"id": "qw_14568__noop", "text": "Robert Devereux"}
+{"id": "qw_14568__filter", "text": "Robert Devereux"}
+{"id": "qw_14568__rerank", "text": "Robert Devereux"}
+{"id": "sfq_735__noop", "text": "UNKNOWN"}
+{"id": "sfq_735__filter", "text": "UNKNOWN"}
+{"id": "sfq_735__rerank", "text": "UNKNOWN"}
+{"id": "qb_640__noop", "text": "Bedloe's Island"}
+{"id": "qb_640__filter", "text": "Bedloe's Island"}
+{"id": "qb_640__rerank", "text": "Bedloe's Island"}
+{"id": "sfq_22058__noop", "text": "Barbara Vine"}
+{"id": "sfq_22058__filter", "text": "Barbara Vine"}
+{"id": "sfq_22058__rerank", "text": "Barbara Vine"}
+{"id": "sfq_15984__noop", "text": "Virginia"}
+{"id": "sfq_15984__filter", "text": "UNKNOWN"}
+{"id": "sfq_15984__rerank", "text": "Virginia"}
+{"id": "tb_1787__noop", "text": "UNKNOWN"}
+{"id": "tb_1787__filter", "text": "UNKNOWN"}
+{"id": "tb_1787__rerank", "text": "UNKNOWN"}
+{"id": "sfq_18519__noop", "text": "UNKNOWN"}
+{"id": "sfq_18519__filter", "text": "UNKNOWN"}
+{"id": "sfq_18519__rerank", "text": "UNKNOWN"}
+{"id": "odql_6097__noop", "text": "Turandot"}
+{"id": "odql_6097__filter", "text": "Turandot"}
+{"id": "odql_6097__rerank", "text": "Turandot"}
+{"id": "bb_8875__noop", "text": "Burma"}
+{"id": "bb_8875__filter", "text": "Burma"}
+{"id": "bb_8875__rerank", "text": "Burma"}
+{"id": "odql_8358__noop", "text": "Atlanta"}
+{"id": "odql_8358__filter", "text": "Atlanta"}
+{"id": "odql_8358__rerank", "text": "Atlanta"}
+{"id": "sfq_7190__noop", "text": "Philip Pullman"}
+{"id": "sfq_7190__filter", "text": "UNKNOWN"}
+{"id": "sfq_7190__rerank", "text": "Philip Pullman"}
+{"id": "dpql_224__noop", "text": "Noises Off"}
+{"id": "dpql_224__filter", "text": "Noises Off"}
+{"id": "dpql_224__rerank", "text": "Noises Off"}
+{"id": "bb_1464__noop", "text": "UNKNOWN"}
+{"id": "bb_1464__filter", "text": "UNKNOWN"}
+{"id": "bb_1464__rerank", "text": "UNKNOWN"}
+{"id": "wh_1278__noop", "text": "Omaha"}
+{"id": "wh_1278__filter", "text": "Grand Island"}
+{"id": "wh_1278__rerank", "text": "Omaha"}
+{"id": "qw_3390__noop", "text": "Winnipeg"}
+{"id": "qw_3390__filter", "text": "Winnipeg"}
+{"id": "qw_3390__rerank", "text": "Winnipeg"}
+{"id": "dpql_6139__noop", "text": "Edward III"}
+{"id": "dpql_6139__filter", "text": "Edward III"}
+{"id": "dpql_6139__rerank", "text": "Edward III"}
+{"id": "sfq_392__noop", "text": "Stern"}
+{"id": "sfq_392__filter", "text": "UNKNOWN"}
+{"id": "sfq_392__rerank", "text": "Stern"}
+{"id": "sfq_20776__noop", "text": "UNKNOWN"}
+{"id": "sfq_20776__filter", "text": "UNKNOWN"}
+{"id": "sfq_20776__rerank", "text": "UNKNOWN"}
+{"id": "qw_6702__noop", "text": "UNKNOWN"}
+{"id": "qw_6702__filter", "text": "UNKNOWN"}
+{"id": "qw_6702__rerank", "text": "UNKNOWN"}
+{"id": "qb_9129__noop", "text": "Sir Giles Gilbert Scott"}
+{"id": "qb_9129__filter", "text": "Scott"}
+{"id": "qb_9129__rerank", "text": "Sir Giles Gilbert Scott"}
+{"id": "sfq_24487__noop", "text": "UNKNOWN"}
+{"id": "sfq_24487__filter", "text": "UNKNOWN"}
+{"id": "sfq_24487__rerank", "text": "UNKNOWN"}
+{"id": "jp_661__noop", "text": "Maine"}
+{"id": "jp_661__filter", "text": "UNKNOWN"}
+{"id": "jp_661__rerank", "text": "Maine"}
+{"id": "dpql_608__noop", "text": "UNKNOWN"}
+{"id": "dpql_608__filter", "text": "UNKNOWN"}
+{"id": "dpql_608__rerank", "text": "UNKNOWN"}
+{"id": "sfq_93__noop", "text": "Jack Klugman"}
+{"id": "sfq_93__filter", "text": "Jack Klugman"}
+{"id": "sfq_93__rerank", "text": "Jack Klugman"}
+{"id": "bb_7071__noop", "text": "UNKNOWN"}
+{"id": "bb_7071__filter", "text": "UNKNOWN"}
+{"id": "bb_7071__rerank", "text": "UNKNOWN"}
+{"id": "qb_7331__noop", "text": "UNKNOWN"}
+{"id": "qb_7331__filter", "text": "UNKNOWN"}
+{"id": "qb_7331__rerank", "text": "UNKNOWN"}
+{"id": "bb_2153__noop", "text": "UNKNOWN"}
+{"id": "bb_2153__filter", "text": "UNKNOWN"}
+{"id": "bb_2153__rerank", "text": "UNKNOWN"}
+{"id": "qw_5734__noop", "text": "UNKNOWN"}
+{"id": "qw_5734__filter", "text": "Happy Birthday to You"}
+{"id": "qw_5734__rerank", "text": "UNKNOWN"}
+{"id": "bb_3986__noop", "text": "socialism"}
+{"id": "bb_3986__filter", "text": "unknown"}
+{"id": "bb_3986__rerank", "text": "socialism"}
+{"id": "bb_2650__noop", "text": "New York"}
+{"id": "bb_2650__filter", "text": "UNKNOWN"}
+{"id": "bb_2650__rerank", "text": "New York"}
+{"id": "sfq_6428__noop", "text": "Judah"}
+{"id": "sfq_6428__filter", "text": "Judah"}
+{"id": "sfq_6428__rerank", "text": "Judah"}
+{"id": "sfq_1864__noop", "text": "1881"}
+{"id": "sfq_1864__filter", "text": "UNKNOWN"}
+{"id": "sfq_1864__rerank", "text": "1881"}
+{"id": "qw_16727__noop", "text": "UNKNOWN"}
+{"id": "qw_16727__filter", "text": "UNKNOWN"}
+{"id": "qw_16727__rerank", "text": "UNKNOWN"}
+{"id": "sfq_2748__noop", "text": "The French Connection"}
+{"id": "sfq_2748__filter", "text": "The French Connection"}
+{"id": "sfq_2748__rerank", "text": "The French Connection"}
+{"id": "qb_5565__noop", "text": "Diamond"}
+{"id": "qb_5565__filter", "text": "Diamond"}
+{"id": "qb_5565__rerank", "text": "Diamond"}
+{"id": "qg_636__noop", "text": "UNKNOWN"}
+{"id": "qg_636__filter", "text": "CO2"}
+{"id": "qg_636__rerank", "text": "UNKNOWN"}
+{"id": "odql_272__noop", "text": "Tiberius"}
+{"id": "odql_272__filter", "text": "Thomas"}
+{"id": "odql_272__rerank", "text": "Tiberius"}
+{"id": "qw_6361__noop", "text": "UNKNOWN"}
+{"id": "qw_6361__filter", "text": "UNKNOWN"}
+{"id": "qw_6361__rerank", "text": "UNKNOWN"}
+{"id": "wh_2615__noop", "text": "1977"}
+{"id": "wh_2615__filter", "text": "1977"}
+{"id": "wh_2615__rerank", "text": "1977"}
+{"id": "odql_5120__noop", "text": "UNKNOWN"}
+{"id": "odql_5120__filter", "text": "UNKNOWN"}
+{"id": "odql_5120__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22539__noop", "text": "Henry III"}
+{"id": "sfq_22539__filter", "text": "Henry III"}
+{"id": "sfq_22539__rerank", "text": "Henry III"}
+{"id": "jp_2435__noop", "text": "UNKNOWN"}
+{"id": "jp_2435__filter", "text": "UNKNOWN"}
+{"id": "jp_2435__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3796__noop", "text": "UNKNOWN"}
+{"id": "sfq_3796__filter", "text": "UNKNOWN"}
+{"id": "sfq_3796__rerank", "text": "UNKNOWN"}
+{"id": "bt_4055__noop", "text": "UNKNOWN"}
+{"id": "bt_4055__filter", "text": "\u00ae"}
+{"id": "bt_4055__rerank", "text": "UNKNOWN"}
+{"id": "qw_5161__noop", "text": "UNKNOWN"}
+{"id": "qw_5161__filter", "text": "Sophie Marceau"}
+{"id": "qw_5161__rerank", "text": "UNKNOWN"}
+{"id": "qw_3011__noop", "text": "Infection"}
+{"id": "qw_3011__filter", "text": "Infection"}
+{"id": "qw_3011__rerank", "text": "Infection"}
+{"id": "sfq_22453__noop", "text": "UNKNOWN"}
+{"id": "sfq_22453__filter", "text": "UNKNOWN"}
+{"id": "sfq_22453__rerank", "text": "UNKNOWN"}
+{"id": "sfq_25776__noop", "text": "Cambodia"}
+{"id": "sfq_25776__filter", "text": "Cambodia"}
+{"id": "sfq_25776__rerank", "text": "Cambodia"}
+{"id": "sfq_18285__noop", "text": "UNKNOWN"}
+{"id": "sfq_18285__filter", "text": "Pathfinders"}
+{"id": "sfq_18285__rerank", "text": "UNKNOWN"}
+{"id": "qz_2980__noop", "text": "UNKNOWN"}
+{"id": "qz_2980__filter", "text": "UNKNOWN"}
+{"id": "qz_2980__rerank", "text": "UNKNOWN"}
+{"id": "odql_10365__noop", "text": "UNKNOWN"}
+{"id": "odql_10365__filter", "text": "UNKNOWN"}
+{"id": "odql_10365__rerank", "text": "UNKNOWN"}
+{"id": "qb_3798__noop", "text": "Bradley Walsh"}
+{"id": "qb_3798__filter", "text": "Bradley Walsh"}
+{"id": "qb_3798__rerank", "text": "Bradley Walsh"}
+{"id": "sfq_5786__noop", "text": "Clematis vitalba"}
+{"id": "sfq_5786__filter", "text": "Clematis"}
+{"id": "sfq_5786__rerank", "text": "Clematis vitalba"}
+{"id": "sfq_7428__noop", "text": "UNKNOWN"}
+{"id": "sfq_7428__filter", "text": "UNKNOWN"}
+{"id": "sfq_7428__rerank", "text": "UNKNOWN"}
+{"id": "odql_13077__noop", "text": "Denmark"}
+{"id": "odql_13077__filter", "text": "Denmark"}
+{"id": "odql_13077__rerank", "text": "Denmark"}
+{"id": "sfq_8960__noop", "text": "Jon and Tracy"}
+{"id": "sfq_8960__filter", "text": "Jon and Tracy"}
+{"id": "sfq_8960__rerank", "text": "Jon and Tracy"}
+{"id": "jp_1238__noop", "text": "UNKNOWN"}
+{"id": "jp_1238__filter", "text": "Freud"}
+{"id": "jp_1238__rerank", "text": "UNKNOWN"}
+{"id": "odql_13981__noop", "text": "UNKNOWN"}
+{"id": "odql_13981__filter", "text": "UNKNOWN"}
+{"id": "odql_13981__rerank", "text": "UNKNOWN"}
+{"id": "qw_12817__noop", "text": "Wimbledon"}
+{"id": "qw_12817__filter", "text": "US Open"}
+{"id": "qw_12817__rerank", "text": "Wimbledon"}
+{"id": "wh_984__noop", "text": "neurons"}
+{"id": "wh_984__filter", "text": "neurons"}
+{"id": "wh_984__rerank", "text": "neurons"}
+{"id": "sfq_646__noop", "text": "UNKNOWN"}
+{"id": "sfq_646__filter", "text": "UNKNOWN"}
+{"id": "sfq_646__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5023__noop", "text": "UNKNOWN"}
+{"id": "sfq_5023__filter", "text": "UNKNOWN"}
+{"id": "sfq_5023__rerank", "text": "UNKNOWN"}
+{"id": "bb_439__noop", "text": "ARA General Belgrano"}
+{"id": "bb_439__filter", "text": "UNKNOWN"}
+{"id": "bb_439__rerank", "text": "ARA General Belgrano"}
+{"id": "qb_8396__noop", "text": "reddish-brown"}
+{"id": "qb_8396__filter", "text": "UNKNOWN"}
+{"id": "qb_8396__rerank", "text": "reddish-brown"}
+{"id": "qb_4673__noop", "text": "150"}
+{"id": "qb_4673__filter", "text": "150"}
+{"id": "qb_4673__rerank", "text": "150"}
+{"id": "sfq_1798__noop", "text": "UNKNOWN"}
+{"id": "sfq_1798__filter", "text": "UNKNOWN"}
+{"id": "sfq_1798__rerank", "text": "UNKNOWN"}
+{"id": "bb_2054__noop", "text": "aqua fortis"}
+{"id": "bb_2054__filter", "text": "spirit of niter"}
+{"id": "bb_2054__rerank", "text": "aqua fortis"}
+{"id": "qf_183__noop", "text": "Alice Cooper"}
+{"id": "qf_183__filter", "text": "Alice Cooper"}
+{"id": "qf_183__rerank", "text": "Alice Cooper"}
+{"id": "sfq_24995__noop", "text": "Amy Tan"}
+{"id": "sfq_24995__filter", "text": "UNKNOWN"}
+{"id": "sfq_24995__rerank", "text": "Amy Tan"}
+{"id": "bb_6465__noop", "text": "pari passu"}
+{"id": "bb_6465__filter", "text": "pari passu"}
+{"id": "bb_6465__rerank", "text": "pari passu"}
+{"id": "odql_8369__noop", "text": "Louis XVIII"}
+{"id": "odql_8369__filter", "text": "Charles X"}
+{"id": "odql_8369__rerank", "text": "Louis XVIII"}
+{"id": "tc_1456__noop", "text": "Dodgers"}
+{"id": "tc_1456__filter", "text": "Dodgers"}
+{"id": "tc_1456__rerank", "text": "Dodgers"}
+{"id": "qg_4147__noop", "text": "UNKNOWN"}
+{"id": "qg_4147__filter", "text": "60 minutes"}
+{"id": "qg_4147__rerank", "text": "UNKNOWN"}
+{"id": "sfq_19469__noop", "text": "UNKNOWN"}
+{"id": "sfq_19469__filter", "text": "UNKNOWN"}
+{"id": "sfq_19469__rerank", "text": "UNKNOWN"}
+{"id": "sfq_16908__noop", "text": "UNKNOWN"}
+{"id": "sfq_16908__filter", "text": "UNKNOWN"}
+{"id": "sfq_16908__rerank", "text": "UNKNOWN"}
+{"id": "qz_68__noop", "text": "Helium"}
+{"id": "qz_68__filter", "text": "Helium"}
+{"id": "qz_68__rerank", "text": "Helium"}
+{"id": "sfq_24846__noop", "text": "UNKNOWN"}
+{"id": "sfq_24846__filter", "text": "UNKNOWN"}
+{"id": "sfq_24846__rerank", "text": "UNKNOWN"}
+{"id": "bb_4678__noop", "text": "A"}
+{"id": "bb_4678__filter", "text": "UNKNOWN"}
+{"id": "bb_4678__rerank", "text": "UNKNOWN"}
+{"id": "odql_724__noop", "text": "Crimson Tide"}
+{"id": "odql_724__filter", "text": "UNKNOWN"}
+{"id": "odql_724__rerank", "text": "Crimson Tide"}
+{"id": "qb_4796__noop", "text": "UNKNOWN"}
+{"id": "qb_4796__filter", "text": "UNKNOWN"}
+{"id": "qb_4796__rerank", "text": "UNKNOWN"}
+{"id": "qg_108__noop", "text": "Tutankhamun"}
+{"id": "qg_108__filter", "text": "Tutankhamun"}
+{"id": "qg_108__rerank", "text": "Tutankhamun"}
+{"id": "sfq_16789__noop", "text": "UNKNOWN"}
+{"id": "sfq_16789__filter", "text": "UNKNOWN"}
+{"id": "sfq_16789__rerank", "text": "UNKNOWN"}
+{"id": "odql_7545__noop", "text": "UNKNOWN"}
+{"id": "odql_7545__filter", "text": "UNKNOWN"}
+{"id": "odql_7545__rerank", "text": "UNKNOWN"}
+{"id": "qb_907__noop", "text": "John Hurt"}
+{"id": "qb_907__filter", "text": "UNKNOWN"}
+{"id": "qb_907__rerank", "text": "John Hurt"}
+{"id": "odql_10620__noop", "text": "Tartaric"}
+{"id": "odql_10620__filter", "text": "Tartaric"}
+{"id": "odql_10620__rerank", "text": "Tartaric"}
+{"id": "wh_119__noop", "text": "UNKNOWN"}
+{"id": "wh_119__filter", "text": "UNKNOWN"}
+{"id": "wh_119__rerank", "text": "UNKNOWN"}
+{"id": "odql_6525__noop", "text": "Terry and June"}
+{"id": "odql_6525__filter", "text": "Terry and June"}
+{"id": "odql_6525__rerank", "text": "Terry and June"}
+{"id": "bt_1412__noop", "text": "1943"}
+{"id": "bt_1412__filter", "text": "1943"}
+{"id": "bt_1412__rerank", "text": "1943"}
+{"id": "qw_10155__noop", "text": "j"}
+{"id": "qw_10155__filter", "text": "i or j represent the unit in the direction of the x-axis or y-axis, respectively."}
+{"id": "qw_10155__rerank", "text": "j"}
+{"id": "odql_11899__noop", "text": "UNKNOWN"}
+{"id": "odql_11899__filter", "text": "UNKNOWN"}
+{"id": "odql_11899__rerank", "text": "UNKNOWN"}
+{"id": "wh_3524__noop", "text": "Germany"}
+{"id": "wh_3524__filter", "text": "Germany"}
+{"id": "wh_3524__rerank", "text": "Germany"}
+{"id": "qb_3887__noop", "text": "UNKNOWN"}
+{"id": "qb_3887__filter", "text": "UNKNOWN"}
+{"id": "qb_3887__rerank", "text": "UNKNOWN"}
+{"id": "odql_11066__noop", "text": "cello"}
+{"id": "odql_11066__filter", "text": "cello"}
+{"id": "odql_11066__rerank", "text": "cello"}
+{"id": "wh_881__noop", "text": "Sainsbury's"}
+{"id": "wh_881__filter", "text": "UNKNOWN"}
+{"id": "wh_881__rerank", "text": "Sainsbury's"}
+{"id": "sfq_19994__noop", "text": "Jaws"}
+{"id": "sfq_19994__filter", "text": "Jaws"}
+{"id": "sfq_19994__rerank", "text": "Jaws"}
+{"id": "sfq_17845__noop", "text": "Unknown"}
+{"id": "sfq_17845__filter", "text": "UNKNOWN"}
+{"id": "sfq_17845__rerank", "text": "Unknown"}
+{"id": "qw_7144__noop", "text": "UNKNOWN"}
+{"id": "qw_7144__filter", "text": "UNKNOWN"}
+{"id": "qw_7144__rerank", "text": "UNKNOWN"}
+{"id": "wh_4300__noop", "text": "Willy Russell"}
+{"id": "wh_4300__filter", "text": "Willy Russell"}
+{"id": "wh_4300__rerank", "text": "Willy Russell"}
+{"id": "qw_2492__noop", "text": "UNKNOWN"}
+{"id": "qw_2492__filter", "text": "UNKNOWN"}
+{"id": "qw_2492__rerank", "text": "UNKNOWN"}
+{"id": "qw_9350__noop", "text": "UNKNOWN"}
+{"id": "qw_9350__filter", "text": "UNKNOWN"}
+{"id": "qw_9350__rerank", "text": "UNKNOWN"}
+{"id": "odql_12059__noop", "text": "Equatorial Guinea"}
+{"id": "odql_12059__filter", "text": "Equatorial Guinea"}
+{"id": "odql_12059__rerank", "text": "Equatorial Guinea"}
+{"id": "qg_1770__noop", "text": "Miranda v. Arizona"}
+{"id": "qg_1770__filter", "text": "Miranda v. Arizona"}
+{"id": "qg_1770__rerank", "text": "Miranda v. Arizona"}
+{"id": "qz_3393__noop", "text": "UNKNOWN"}
+{"id": "qz_3393__filter", "text": "UNKNOWN"}
+{"id": "qz_3393__rerank", "text": "UNKNOWN"}
+{"id": "qf_1273__noop", "text": "Bank of England"}
+{"id": "qf_1273__filter", "text": "Bank of England"}
+{"id": "qf_1273__rerank", "text": "Bank of England"}
+{"id": "odql_4507__noop", "text": "UNKNOWN"}
+{"id": "odql_4507__filter", "text": "UNKNOWN"}
+{"id": "odql_4507__rerank", "text": "UNKNOWN"}
+{"id": "jp_742__noop", "text": "UNKNOWN"}
+{"id": "jp_742__filter", "text": "UNKNOWN"}
+{"id": "jp_742__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14710__noop", "text": "Dundee"}
+{"id": "sfq_14710__filter", "text": "Dundee"}
+{"id": "sfq_14710__rerank", "text": "Dundee"}
+{"id": "bb_7470__noop", "text": "UNKNOWN"}
+{"id": "bb_7470__filter", "text": "UNKNOWN"}
+{"id": "bb_7470__rerank", "text": "UNKNOWN"}
+{"id": "jp_1725__noop", "text": "Pandora"}
+{"id": "jp_1725__filter", "text": "UNKNOWN"}
+{"id": "jp_1725__rerank", "text": "Pandora"}
+{"id": "sfq_10172__noop", "text": "UNKNOWN"}
+{"id": "sfq_10172__filter", "text": "UNKNOWN"}
+{"id": "sfq_10172__rerank", "text": "UNKNOWN"}
+{"id": "qb_4795__noop", "text": "The Archers"}
+{"id": "qb_4795__filter", "text": "UNKNOWN"}
+{"id": "qb_4795__rerank", "text": "The Archers"}
+{"id": "sfq_25123__noop", "text": "UNKNOWN"}
+{"id": "sfq_25123__filter", "text": "UNKNOWN"}
+{"id": "sfq_25123__rerank", "text": "UNKNOWN"}
+{"id": "sfq_1034__noop", "text": "UNKNOWN"}
+{"id": "sfq_1034__filter", "text": "unknown"}
+{"id": "sfq_1034__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11066__noop", "text": "Transuranic elements"}
+{"id": "sfq_11066__filter", "text": "Transuranic elements"}
+{"id": "sfq_11066__rerank", "text": "Transuranic elements"}
+{"id": "qb_1767__noop", "text": "Bolivia"}
+{"id": "qb_1767__filter", "text": "Bolivia"}
+{"id": "qb_1767__rerank", "text": "Bolivia"}
+{"id": "qw_12159__noop", "text": "veterinary"}
+{"id": "qw_12159__filter", "text": "veterinary"}
+{"id": "qw_12159__rerank", "text": "veterinary"}
+{"id": "jp_1979__noop", "text": "Nihon"}
+{"id": "jp_1979__filter", "text": "Nippon"}
+{"id": "jp_1979__rerank", "text": "Nihon"}
+{"id": "qb_4294__noop", "text": "Queens"}
+{"id": "qb_4294__filter", "text": "Brooklyn"}
+{"id": "qb_4294__rerank", "text": "Queens"}
+{"id": "odql_2520__noop", "text": "UNKNOWN"}
+{"id": "odql_2520__filter", "text": "UNKNOWN"}
+{"id": "odql_2520__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11409__noop", "text": "Gniezno"}
+{"id": "sfq_11409__filter", "text": "Gniezno"}
+{"id": "sfq_11409__rerank", "text": "Gniezno"}
+{"id": "sfq_18671__noop", "text": "UNKNOWN"}
+{"id": "sfq_18671__filter", "text": "Unknown"}
+{"id": "sfq_18671__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5264__noop", "text": "120"}
+{"id": "sfq_5264__filter", "text": "300"}
+{"id": "sfq_5264__rerank", "text": "120"}
+{"id": "bt_556__noop", "text": "Columbus"}
+{"id": "bt_556__filter", "text": "Columbus"}
+{"id": "bt_556__rerank", "text": "Columbus"}
+{"id": "odql_11026__noop", "text": "UNKNOWN"}
+{"id": "odql_11026__filter", "text": "UNKNOWN"}
+{"id": "odql_11026__rerank", "text": "UNKNOWN"}
+{"id": "qw_13197__noop", "text": "Moffitt"}
+{"id": "qw_13197__filter", "text": "UNKNOWN"}
+{"id": "qw_13197__rerank", "text": "Moffitt"}
+{"id": "qw_6093__noop", "text": "UNKNOWN"}
+{"id": "qw_6093__filter", "text": "UNKNOWN"}
+{"id": "qw_6093__rerank", "text": "UNKNOWN"}
+{"id": "qb_733__noop", "text": "UNKNOWN"}
+{"id": "qb_733__filter", "text": "UNKNOWN"}
+{"id": "qb_733__rerank", "text": "UNKNOWN"}
+{"id": "qf_735__noop", "text": "UNKNOWN"}
+{"id": "qf_735__filter", "text": "UNKNOWN"}
+{"id": "qf_735__rerank", "text": "UNKNOWN"}
+{"id": "tc_2833__noop", "text": "UNKNOWN"}
+{"id": "tc_2833__filter", "text": "UNKNOWN"}
+{"id": "tc_2833__rerank", "text": "UNKNOWN"}
+{"id": "sfq_261__noop", "text": "UNKNOWN"}
+{"id": "sfq_261__filter", "text": "HMHS Britannic"}
+{"id": "sfq_261__rerank", "text": "UNKNOWN"}
+{"id": "bt_2615__noop", "text": "Brian Clough"}
+{"id": "bt_2615__filter", "text": "Nottingham Forest"}
+{"id": "bt_2615__rerank", "text": "Brian Clough"}
+{"id": "qf_3611__noop", "text": "William Lyons"}
+{"id": "qf_3611__filter", "text": "William Lyons"}
+{"id": "qf_3611__rerank", "text": "William Lyons"}
+{"id": "wh_610__noop", "text": "Tungsten"}
+{"id": "wh_610__filter", "text": "Tungsten"}
+{"id": "wh_610__rerank", "text": "Tungsten"}
+{"id": "odql_12020__noop", "text": "Ginger Rogers"}
+{"id": "odql_12020__filter", "text": "Ginger Rogers"}
+{"id": "odql_12020__rerank", "text": "Ginger Rogers"}
+{"id": "sfq_7632__noop", "text": "UNKNOWN"}
+{"id": "sfq_7632__filter", "text": "UNKNOWN"}
+{"id": "sfq_7632__rerank", "text": "UNKNOWN"}
+{"id": "qg_1500__noop", "text": "Pac-Man"}
+{"id": "qg_1500__filter", "text": "UNKNOWN"}
+{"id": "qg_1500__rerank", "text": "Pac-Man"}
+{"id": "qw_8843__noop", "text": "UNKNOWN"}
+{"id": "qw_8843__filter", "text": "UNKNOWN"}
+{"id": "qw_8843__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22792__noop", "text": "17 June 1939"}
+{"id": "sfq_22792__filter", "text": "17 June 1939"}
+{"id": "sfq_22792__rerank", "text": "17 June 1939"}
+{"id": "odql_2092__noop", "text": "UNKNOWN"}
+{"id": "odql_2092__filter", "text": "UNKNOWN"}
+{"id": "odql_2092__rerank", "text": "UNKNOWN"}
+{"id": "qg_1752__noop", "text": "The Princess Bride"}
+{"id": "qg_1752__filter", "text": "The Princess Bride"}
+{"id": "qg_1752__rerank", "text": "The Princess Bride"}
+{"id": "qw_9221__noop", "text": "UNKNOWN"}
+{"id": "qw_9221__filter", "text": "UNKNOWN"}
+{"id": "qw_9221__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4265__noop", "text": "J. M. W. Turner"}
+{"id": "sfq_4265__filter", "text": "J. M. W. Turner"}
+{"id": "sfq_4265__rerank", "text": "J. M. W. Turner"}
+{"id": "jp_2105__noop", "text": "Fish"}
+{"id": "jp_2105__filter", "text": "Fish"}
+{"id": "jp_2105__rerank", "text": "Fish"}
+{"id": "sfq_16305__noop", "text": "UNKNOWN"}
+{"id": "sfq_16305__filter", "text": "unknown"}
+{"id": "sfq_16305__rerank", "text": "UNKNOWN"}
+{"id": "qw_11689__noop", "text": "Scotland"}
+{"id": "qw_11689__filter", "text": "Ireland"}
+{"id": "qw_11689__rerank", "text": "Scotland"}
+{"id": "qg_2966__noop", "text": "Ted Kennedy"}
+{"id": "qg_2966__filter", "text": "Ted"}
+{"id": "qg_2966__rerank", "text": "Ted Kennedy"}
+{"id": "dpql_6251__noop", "text": "Liverpool"}
+{"id": "dpql_6251__filter", "text": "Liverpool"}
+{"id": "dpql_6251__rerank", "text": "Liverpool"}
+{"id": "bb_2764__noop", "text": "medall"}
+{"id": "bb_2764__filter", "text": "UNKNOWN"}
+{"id": "bb_2764__rerank", "text": "medall"}
+{"id": "sfq_23900__noop", "text": "Travis Bickle"}
+{"id": "sfq_23900__filter", "text": "Travis Bickle"}
+{"id": "sfq_23900__rerank", "text": "Travis Bickle"}
+{"id": "sfq_25397__noop", "text": "Barings"}
+{"id": "sfq_25397__filter", "text": "Barings Bank"}
+{"id": "sfq_25397__rerank", "text": "Barings"}
+{"id": "odql_3445__noop", "text": "Unknown"}
+{"id": "odql_3445__filter", "text": "The Smiths"}
+{"id": "odql_3445__rerank", "text": "Unknown"}
+{"id": "sfq_25261__noop", "text": "Aviva"}
+{"id": "sfq_25261__filter", "text": "Aviva"}
+{"id": "sfq_25261__rerank", "text": "Aviva"}
+{"id": "sfq_15064__noop", "text": "UNKNOWN"}
+{"id": "sfq_15064__filter", "text": "UNKNOWN"}
+{"id": "sfq_15064__rerank", "text": "UNKNOWN"}
+{"id": "qw_10929__noop", "text": "UNKNOWN"}
+{"id": "qw_10929__filter", "text": "UNKNOWN"}
+{"id": "qw_10929__rerank", "text": "UNKNOWN"}
+{"id": "qb_3535__noop", "text": "Bang"}
+{"id": "qb_3535__filter", "text": "Bang"}
+{"id": "qb_3535__rerank", "text": "Bang"}
+{"id": "sfq_22962__noop", "text": "UNKNOWN"}
+{"id": "sfq_22962__filter", "text": "UNKNOWN"}
+{"id": "sfq_22962__rerank", "text": "UNKNOWN"}
+{"id": "wh_2605__noop", "text": "UNKNOWN"}
+{"id": "wh_2605__filter", "text": "UNKNOWN"}
+{"id": "wh_2605__rerank", "text": "UNKNOWN"}
+{"id": "sfq_962__noop", "text": "Salford"}
+{"id": "sfq_962__filter", "text": "UNKNOWN"}
+{"id": "sfq_962__rerank", "text": "Salford"}
+{"id": "bt_3763__noop", "text": "UNKNOWN"}
+{"id": "bt_3763__filter", "text": "UNKNOWN"}
+{"id": "bt_3763__rerank", "text": "UNKNOWN"}
+{"id": "qb_7838__noop", "text": "UNKNOWN"}
+{"id": "qb_7838__filter", "text": "Ra\u00fal Juli\u00e1"}
+{"id": "qb_7838__rerank", "text": "UNKNOWN"}
+{"id": "qw_12239__noop", "text": "Bicycle racing"}
+{"id": "qw_12239__filter", "text": "Bicycle racing"}
+{"id": "qw_12239__rerank", "text": "Bicycle racing"}
+{"id": "odql_7986__noop", "text": "African violets"}
+{"id": "odql_7986__filter", "text": "African Violet"}
+{"id": "odql_7986__rerank", "text": "African violets"}
+{"id": "jp_2463__noop", "text": "Portuguese"}
+{"id": "jp_2463__filter", "text": "Portuguese"}
+{"id": "jp_2463__rerank", "text": "Portuguese"}
+{"id": "qw_3344__noop", "text": "Cricket"}
+{"id": "qw_3344__filter", "text": "Cricket"}
+{"id": "qw_3344__rerank", "text": "Cricket"}
+{"id": "odql_7465__noop", "text": "Jean-Paul Sartre"}
+{"id": "odql_7465__filter", "text": "UNKNOWN"}
+{"id": "odql_7465__rerank", "text": "Jean-Paul Sartre"}
+{"id": "qw_10771__noop", "text": "UNKNOWN"}
+{"id": "qw_10771__filter", "text": "UNKNOWN"}
+{"id": "qw_10771__rerank", "text": "UNKNOWN"}
+{"id": "wh_3188__noop", "text": "Richard II"}
+{"id": "wh_3188__filter", "text": "Richard II"}
+{"id": "wh_3188__rerank", "text": "Richard II"}
+{"id": "qg_1054__noop", "text": "UNKNOWN"}
+{"id": "qg_1054__filter", "text": "UNKNOWN"}
+{"id": "qg_1054__rerank", "text": "UNKNOWN"}
+{"id": "odql_10039__noop", "text": "Belgrade"}
+{"id": "odql_10039__filter", "text": "Beograd"}
+{"id": "odql_10039__rerank", "text": "Belgrade"}
+{"id": "odql_8166__noop", "text": "Calvin Coolidge"}
+{"id": "odql_8166__filter", "text": "UNKNOWN"}
+{"id": "odql_8166__rerank", "text": "Calvin Coolidge"}
+{"id": "odql_6171__noop", "text": "Belmopan"}
+{"id": "odql_6171__filter", "text": "Belmopan"}
+{"id": "odql_6171__rerank", "text": "Belmopan"}
+{"id": "sfq_2516__noop", "text": "Egypt"}
+{"id": "sfq_2516__filter", "text": "Egypt"}
+{"id": "sfq_2516__rerank", "text": "Egypt"}
+{"id": "sfq_9498__noop", "text": "UNKNOWN"}
+{"id": "sfq_9498__filter", "text": "UNKNOWN"}
+{"id": "sfq_9498__rerank", "text": "UNKNOWN"}
+{"id": "qb_9685__noop", "text": "failure"}
+{"id": "qb_9685__filter", "text": "failure"}
+{"id": "qb_9685__rerank", "text": "failure"}
+{"id": "odql_9882__noop", "text": "M\u00e1 vlast"}
+{"id": "odql_9882__filter", "text": "Marenka"}
+{"id": "odql_9882__rerank", "text": "M\u00e1 vlast"}
+{"id": "bb_1614__noop", "text": "UNKNOWN"}
+{"id": "bb_1614__filter", "text": "UNKNOWN"}
+{"id": "bb_1614__rerank", "text": "UNKNOWN"}
+{"id": "bt_3162__noop", "text": "UNKNOWN"}
+{"id": "bt_3162__filter", "text": "UNKNOWN"}
+{"id": "bt_3162__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14968__noop", "text": "Erie Canal"}
+{"id": "sfq_14968__filter", "text": "UNKNOWN"}
+{"id": "sfq_14968__rerank", "text": "Erie Canal"}
+{"id": "qw_16467__noop", "text": "Samuel Butler"}
+{"id": "qw_16467__filter", "text": "Samuel Butler"}
+{"id": "qw_16467__rerank", "text": "Samuel Butler"}
+{"id": "sfq_11232__noop", "text": "UNKNOWN"}
+{"id": "sfq_11232__filter", "text": "UNKNOWN"}
+{"id": "sfq_11232__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14439__noop", "text": "UNKNOWN"}
+{"id": "sfq_14439__filter", "text": "UNKNOWN"}
+{"id": "sfq_14439__rerank", "text": "UNKNOWN"}
+{"id": "wh_3778__noop", "text": "Enigma"}
+{"id": "wh_3778__filter", "text": "Enigma"}
+{"id": "wh_3778__rerank", "text": "Enigma"}
+{"id": "tc_827__noop", "text": "UNKNOWN"}
+{"id": "tc_827__filter", "text": "UNKNOWN"}
+{"id": "tc_827__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22244__noop", "text": "Genesis"}
+{"id": "sfq_22244__filter", "text": "Genesis"}
+{"id": "sfq_22244__rerank", "text": "Genesis"}
+{"id": "qw_13980__noop", "text": "UNKNOWN"}
+{"id": "qw_13980__filter", "text": "UNKNOWN"}
+{"id": "qw_13980__rerank", "text": "UNKNOWN"}
+{"id": "odql_4978__noop", "text": "UNKNOWN"}
+{"id": "odql_4978__filter", "text": "UNKNOWN"}
+{"id": "odql_4978__rerank", "text": "UNKNOWN"}
+{"id": "qw_10077__noop", "text": "Abolition"}
+{"id": "qw_10077__filter", "text": "abolition"}
+{"id": "qw_10077__rerank", "text": "Abolition"}
+{"id": "odql_14179__noop", "text": "UNKNOWN"}
+{"id": "odql_14179__filter", "text": "UNKNOWN"}
+{"id": "odql_14179__rerank", "text": "UNKNOWN"}
+{"id": "bb_2858__noop", "text": "Insulin"}
+{"id": "bb_2858__filter", "text": "insulin"}
+{"id": "bb_2858__rerank", "text": "Insulin"}
+{"id": "qw_2865__noop", "text": "Unknown"}
+{"id": "qw_2865__filter", "text": "Johanna"}
+{"id": "qw_2865__rerank", "text": "Unknown"}
+{"id": "sfq_10687__noop", "text": "calories"}
+{"id": "sfq_10687__filter", "text": "UNKNOWN"}
+{"id": "sfq_10687__rerank", "text": "calories"}
+{"id": "qw_793__noop", "text": "UNKNOWN"}
+{"id": "qw_793__filter", "text": "World Tournament"}
+{"id": "qw_793__rerank", "text": "UNKNOWN"}
+{"id": "odql_13468__noop", "text": "Warwickshire"}
+{"id": "odql_13468__filter", "text": "Hertfordshire"}
+{"id": "odql_13468__rerank", "text": "Warwickshire"}
+{"id": "qb_4306__noop", "text": "UNKNOWN"}
+{"id": "qb_4306__filter", "text": "Ivor the Engine and the DragonUNKNOWN"}
+{"id": "qb_4306__rerank", "text": "UNKNOWN"}
+{"id": "qw_3601__noop", "text": "UNKNOWN"}
+{"id": "qw_3601__filter", "text": "UNKNOWN"}
+{"id": "qw_3601__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4660__noop", "text": "David Copperfield"}
+{"id": "sfq_4660__filter", "text": "David Copperfield"}
+{"id": "sfq_4660__rerank", "text": "David Copperfield"}
+{"id": "qb_5532__noop", "text": "origami"}
+{"id": "qb_5532__filter", "text": "UNKNOWN"}
+{"id": "qb_5532__rerank", "text": "origami"}
+{"id": "qf_2569__noop", "text": "The Star-Spangled Banner"}
+{"id": "qf_2569__filter", "text": "The Star-Spangled Banner"}
+{"id": "qf_2569__rerank", "text": "The Star-Spangled Banner"}
+{"id": "odql_6477__noop", "text": "UNKNOWN"}
+{"id": "odql_6477__filter", "text": "Hilary Swank"}
+{"id": "odql_6477__rerank", "text": "UNKNOWN"}
+{"id": "wh_2164__noop", "text": "UNKNOWN"}
+{"id": "wh_2164__filter", "text": "UNKNOWN"}
+{"id": "wh_2164__rerank", "text": "UNKNOWN"}
+{"id": "qf_2136__noop", "text": "New Mexico"}
+{"id": "qf_2136__filter", "text": "New Mexico"}
+{"id": "qf_2136__rerank", "text": "New Mexico"}
+{"id": "bb_8563__noop", "text": "UNKNOWN"}
+{"id": "bb_8563__filter", "text": "UNKNOWN"}
+{"id": "bb_8563__rerank", "text": "UNKNOWN"}
+{"id": "bb_168__noop", "text": "Scotland"}
+{"id": "bb_168__filter", "text": "UNKNOWN"}
+{"id": "bb_168__rerank", "text": "Scotland"}
+{"id": "sfq_10342__noop", "text": "UNKNOWN"}
+{"id": "sfq_10342__filter", "text": "UNKNOWN"}
+{"id": "sfq_10342__rerank", "text": "UNKNOWN"}
+{"id": "tc_653__noop", "text": "27"}
+{"id": "tc_653__filter", "text": "27"}
+{"id": "tc_653__rerank", "text": "27"}
+{"id": "qw_14634__noop", "text": "UNKNOWN"}
+{"id": "qw_14634__filter", "text": "UNKNOWN"}
+{"id": "qw_14634__rerank", "text": "UNKNOWN"}
+{"id": "bb_4640__noop", "text": "swastika"}
+{"id": "bb_4640__filter", "text": "UNKNOWN"}
+{"id": "bb_4640__rerank", "text": "swastika"}
+{"id": "odql_11633__noop", "text": "Irving Berlin"}
+{"id": "odql_11633__filter", "text": "Irving Berlin"}
+{"id": "odql_11633__rerank", "text": "Irving Berlin"}
+{"id": "qb_1167__noop", "text": "Double X"}
+{"id": "qb_1167__filter", "text": "Double X"}
+{"id": "qb_1167__rerank", "text": "Double X"}
+{"id": "odql_2476__noop", "text": "UNKNOWN"}
+{"id": "odql_2476__filter", "text": "UNKNOWN"}
+{"id": "odql_2476__rerank", "text": "UNKNOWN"}
+{"id": "odql_11930__noop", "text": "giraffe"}
+{"id": "odql_11930__filter", "text": "Giraffa"}
+{"id": "odql_11930__rerank", "text": "giraffe"}
+{"id": "jp_2496__noop", "text": "big house"}
+{"id": "jp_2496__filter", "text": "big house"}
+{"id": "jp_2496__rerank", "text": "big house"}
+{"id": "odql_6454__noop", "text": "UNKNOWN"}
+{"id": "odql_6454__filter", "text": "UNKNOWN"}
+{"id": "odql_6454__rerank", "text": "UNKNOWN"}
+{"id": "sfq_23703__noop", "text": "UNKNOWN"}
+{"id": "sfq_23703__filter", "text": "UNKNOWN"}
+{"id": "sfq_23703__rerank", "text": "UNKNOWN"}
+{"id": "qb_4501__noop", "text": "St. Martin's"}
+{"id": "qb_4501__filter", "text": "St Mary Le Bow"}
+{"id": "qb_4501__rerank", "text": "St. Martin's"}
+{"id": "dpql_3467__noop", "text": "UNKNOWN"}
+{"id": "dpql_3467__filter", "text": "UNKNOWN"}
+{"id": "dpql_3467__rerank", "text": "UNKNOWN"}
+{"id": "sfq_7155__noop", "text": "Aire"}
+{"id": "sfq_7155__filter", "text": "UNKNOWN"}
+{"id": "sfq_7155__rerank", "text": "Aire"}
+{"id": "bb_5043__noop", "text": "iPhone"}
+{"id": "bb_5043__filter", "text": "iPhone"}
+{"id": "bb_5043__rerank", "text": "iPhone"}
+{"id": "sfq_22957__noop", "text": "Michelangelo Merisi"}
+{"id": "sfq_22957__filter", "text": "Caravaggio"}
+{"id": "sfq_22957__rerank", "text": "Michelangelo Merisi"}
+{"id": "bb_2117__noop", "text": "Las Vegas"}
+{"id": "bb_2117__filter", "text": "Las Vegas"}
+{"id": "bb_2117__rerank", "text": "Las Vegas"}
+{"id": "qz_4642__noop", "text": "UNKNOWN"}
+{"id": "qz_4642__filter", "text": "rum"}
+{"id": "qz_4642__rerank", "text": "UNKNOWN"}
+{"id": "sfq_19838__noop", "text": "Amadeus"}
+{"id": "sfq_19838__filter", "text": "Amadeus"}
+{"id": "sfq_19838__rerank", "text": "Amadeus"}
+{"id": "sfq_16309__noop", "text": "PJ Harvey"}
+{"id": "sfq_16309__filter", "text": "Polly Jean Harvey"}
+{"id": "sfq_16309__rerank", "text": "PJ Harvey"}
+{"id": "sfq_14389__noop", "text": "UNKNOWN"}
+{"id": "sfq_14389__filter", "text": "UNKNOWN"}
+{"id": "sfq_14389__rerank", "text": "UNKNOWN"}
+{"id": "qb_9518__noop", "text": "Robert"}
+{"id": "qb_9518__filter", "text": "Robert"}
+{"id": "qb_9518__rerank", "text": "Robert"}
+{"id": "qw_15940__noop", "text": "UNKNOWN"}
+{"id": "qw_15940__filter", "text": "UNKNOWN"}
+{"id": "qw_15940__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4947__noop", "text": "Alaska"}
+{"id": "sfq_4947__filter", "text": "Alaska"}
+{"id": "sfq_4947__rerank", "text": "Alaska"}
+{"id": "wh_2932__noop", "text": "UNKNOWN"}
+{"id": "wh_2932__filter", "text": "UNKNOWN"}
+{"id": "wh_2932__rerank", "text": "UNKNOWN"}
+{"id": "sfq_19304__noop", "text": "Meniscus"}
+{"id": "sfq_19304__filter", "text": "Meniscus"}
+{"id": "sfq_19304__rerank", "text": "Meniscus"}
+{"id": "qg_4165__noop", "text": "UNKNOWN"}
+{"id": "qg_4165__filter", "text": "UNKNOWN"}
+{"id": "qg_4165__rerank", "text": "UNKNOWN"}
+{"id": "qz_5950__noop", "text": "Space: 1999"}
+{"id": "qz_5950__filter", "text": "Space: 1999"}
+{"id": "qz_5950__rerank", "text": "Space: 1999"}
+{"id": "qg_2077__noop", "text": "Bosnia and Herzegovina"}
+{"id": "qg_2077__filter", "text": "Bosnia and Herzegovina"}
+{"id": "qg_2077__rerank", "text": "Bosnia and Herzegovina"}
+{"id": "sfq_15208__noop", "text": "Hitachi"}
+{"id": "sfq_15208__filter", "text": "UNKNOWN"}
+{"id": "sfq_15208__rerank", "text": "Hitachi"}
+{"id": "qz_4056__noop", "text": "Chymosin"}
+{"id": "qz_4056__filter", "text": "Chymosin"}
+{"id": "qz_4056__rerank", "text": "Chymosin"}
+{"id": "odql_8282__noop", "text": "The Mill on the Floss"}
+{"id": "odql_8282__filter", "text": "UNKNOWN"}
+{"id": "odql_8282__rerank", "text": "The Mill on the Floss"}
+{"id": "sfq_19711__noop", "text": "UNKNOWN"}
+{"id": "sfq_19711__filter", "text": "UNKNOWN"}
+{"id": "sfq_19711__rerank", "text": "UNKNOWN"}
+{"id": "jp_2411__noop", "text": "Michigan"}
+{"id": "jp_2411__filter", "text": "Michigan"}
+{"id": "jp_2411__rerank", "text": "Michigan"}
+{"id": "sfq_809__noop", "text": "Sir Thomas Gresham"}
+{"id": "sfq_809__filter", "text": "Gresham"}
+{"id": "sfq_809__rerank", "text": "Sir Thomas Gresham"}
+{"id": "qg_261__noop", "text": "Bill of Rights"}
+{"id": "qg_261__filter", "text": "Bill of Rights"}
+{"id": "qg_261__rerank", "text": "Bill of Rights"}
+{"id": "bt_1538__noop", "text": "Quincy"}
+{"id": "bt_1538__filter", "text": "Quincy"}
+{"id": "bt_1538__rerank", "text": "Quincy"}
+{"id": "wh_2493__noop", "text": "UNKNOWN"}
+{"id": "wh_2493__filter", "text": "UNKNOWN"}
+{"id": "wh_2493__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13333__noop", "text": "Germany"}
+{"id": "sfq_13333__filter", "text": "Germany"}
+{"id": "sfq_13333__rerank", "text": "Germany"}
+{"id": "qw_180__noop", "text": "tattoo"}
+{"id": "qw_180__filter", "text": "tattoo"}
+{"id": "qw_180__rerank", "text": "tattoo"}
+{"id": "qw_2752__noop", "text": "UNKNOWN"}
+{"id": "qw_2752__filter", "text": "UNKNOWN"}
+{"id": "qw_2752__rerank", "text": "UNKNOWN"}
+{"id": "sfq_16646__noop", "text": "foot"}
+{"id": "sfq_16646__filter", "text": "foot"}
+{"id": "sfq_16646__rerank", "text": "foot"}
+{"id": "tb_464__noop", "text": "UNKNOWN"}
+{"id": "tb_464__filter", "text": "UNKNOWN"}
+{"id": "tb_464__rerank", "text": "UNKNOWN"}
+{"id": "odql_2606__noop", "text": "UNKNOWN"}
+{"id": "odql_2606__filter", "text": "UNKNOWN"}
+{"id": "odql_2606__rerank", "text": "UNKNOWN"}
+{"id": "bb_7554__noop", "text": "UNKNOWN"}
+{"id": "bb_7554__filter", "text": "UNKNOWN"}
+{"id": "bb_7554__rerank", "text": "UNKNOWN"}
+{"id": "jp_3344__noop", "text": "Florence"}
+{"id": "jp_3344__filter", "text": "Florence"}
+{"id": "jp_3344__rerank", "text": "Florence"}
+{"id": "wh_2061__noop", "text": "Daniel Defoe"}
+{"id": "wh_2061__filter", "text": "Defoe"}
+{"id": "wh_2061__rerank", "text": "Daniel Defoe"}
+{"id": "qw_11192__noop", "text": "hypnotism"}
+{"id": "qw_11192__filter", "text": "psychiatry"}
+{"id": "qw_11192__rerank", "text": "hypnotism"}
+{"id": "qz_5801__noop", "text": "Manfred von Richthofen"}
+{"id": "qz_5801__filter", "text": "Manfred von Richthofen"}
+{"id": "qz_5801__rerank", "text": "Manfred von Richthofen"}
+{"id": "qb_606__noop", "text": "France"}
+{"id": "qb_606__filter", "text": "France"}
+{"id": "qb_606__rerank", "text": "France"}
+{"id": "qw_6561__noop", "text": "England"}
+{"id": "qw_6561__filter", "text": "England"}
+{"id": "qw_6561__rerank", "text": "England"}
+{"id": "jp_1196__noop", "text": "Han"}
+{"id": "jp_1196__filter", "text": "Han"}
+{"id": "jp_1196__rerank", "text": "Han"}
+{"id": "odql_13474__noop", "text": "UNKNOWN"}
+{"id": "odql_13474__filter", "text": "UNKNOWN"}
+{"id": "odql_13474__rerank", "text": "UNKNOWN"}
+{"id": "bb_4263__noop", "text": "bacteria"}
+{"id": "bb_4263__filter", "text": "bacteria"}
+{"id": "bb_4263__rerank", "text": "bacteria"}
+{"id": "qg_3556__noop", "text": "Copper and zinc"}
+{"id": "qg_3556__filter", "text": "copper and zinc"}
+{"id": "qg_3556__rerank", "text": "Copper and zinc"}
+{"id": "qb_5601__noop", "text": "Brentford"}
+{"id": "qb_5601__filter", "text": "Wycombe Wanderers F.C."}
+{"id": "qb_5601__rerank", "text": "Brentford"}
+{"id": "dpql_3447__noop", "text": "Misery"}
+{"id": "dpql_3447__filter", "text": "Misery"}
+{"id": "dpql_3447__rerank", "text": "Misery"}
+{"id": "qg_1485__noop", "text": "Goofy"}
+{"id": "qg_1485__filter", "text": "UNKNOWN"}
+{"id": "qg_1485__rerank", "text": "Goofy"}
+{"id": "wh_934__noop", "text": "Daniel"}
+{"id": "wh_934__filter", "text": "Daniel Craig"}
+{"id": "wh_934__rerank", "text": "Daniel"}
+{"id": "odql_11285__noop", "text": "UNKNOWN"}
+{"id": "odql_11285__filter", "text": "UNKNOWN"}
+{"id": "odql_11285__rerank", "text": "UNKNOWN"}
+{"id": "qz_3775__noop", "text": "UNKNOWN"}
+{"id": "qz_3775__filter", "text": "UNKNOWN"}
+{"id": "qz_3775__rerank", "text": "UNKNOWN"}
+{"id": "qb_7207__noop", "text": "UNKNOWN"}
+{"id": "qb_7207__filter", "text": "UNKNOWN"}
+{"id": "qb_7207__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22766__noop", "text": "Malcolm"}
+{"id": "sfq_22766__filter", "text": "UNKNOWN"}
+{"id": "sfq_22766__rerank", "text": "Malcolm"}
+{"id": "qw_6622__noop", "text": "Canada"}
+{"id": "qw_6622__filter", "text": "Australia"}
+{"id": "qw_6622__rerank", "text": "Canada"}
+{"id": "odql_11421__noop", "text": "guilder"}
+{"id": "odql_11421__filter", "text": "guilder"}
+{"id": "odql_11421__rerank", "text": "guilder"}
+{"id": "sfq_12546__noop", "text": "oxymoron"}
+{"id": "sfq_12546__filter", "text": "oxymoron"}
+{"id": "sfq_12546__rerank", "text": "oxymoron"}
+{"id": "qw_9364__noop", "text": "Library of Congress"}
+{"id": "qw_9364__filter", "text": "Library of Congress"}
+{"id": "qw_9364__rerank", "text": "Library of Congress"}
+{"id": "qw_8767__noop", "text": "Curling"}
+{"id": "qw_8767__filter", "text": "Curling"}
+{"id": "qw_8767__rerank", "text": "Curling"}
+{"id": "bt_1361__noop", "text": "Shaukat Khanum"}
+{"id": "bt_1361__filter", "text": "Shaukat"}
+{"id": "bt_1361__rerank", "text": "Shaukat Khanum"}
+{"id": "sfq_17478__noop", "text": "Bassoon"}
+{"id": "sfq_17478__filter", "text": "UNKNOWN"}
+{"id": "sfq_17478__rerank", "text": "Bassoon"}
+{"id": "qb_2909__noop", "text": "Genghis Khan"}
+{"id": "qb_2909__filter", "text": "UNKNOWN"}
+{"id": "qb_2909__rerank", "text": "Genghis Khan"}
+{"id": "qz_6316__noop", "text": "UNKNOWN"}
+{"id": "qz_6316__filter", "text": "UNKNOWN"}
+{"id": "qz_6316__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11850__noop", "text": "Mark Hamill"}
+{"id": "sfq_11850__filter", "text": "Mark Hamill"}
+{"id": "sfq_11850__rerank", "text": "Mark Hamill"}
+{"id": "sfq_25914__noop", "text": "UNKNOWN"}
+{"id": "sfq_25914__filter", "text": "UNKNOWN"}
+{"id": "sfq_25914__rerank", "text": "UNKNOWN"}
+{"id": "odql_2653__noop", "text": "27"}
+{"id": "odql_2653__filter", "text": "27"}
+{"id": "odql_2653__rerank", "text": "27"}
+{"id": "sfq_8308__noop", "text": "UNKNOWN"}
+{"id": "sfq_8308__filter", "text": "UNKNOWN"}
+{"id": "sfq_8308__rerank", "text": "UNKNOWN"}
+{"id": "odql_9880__noop", "text": "Hestia"}
+{"id": "odql_9880__filter", "text": "Hestia"}
+{"id": "odql_9880__rerank", "text": "Hestia"}
+{"id": "qb_801__noop", "text": "dog"}
+{"id": "qb_801__filter", "text": "dog"}
+{"id": "qb_801__rerank", "text": "dog"}
+{"id": "qb_5694__noop", "text": "queen"}
+{"id": "qb_5694__filter", "text": "King"}
+{"id": "qb_5694__rerank", "text": "queen"}
+{"id": "qf_2587__noop", "text": "UNKNOWN"}
+{"id": "qf_2587__filter", "text": "UNKNOWN"}
+{"id": "qf_2587__rerank", "text": "UNKNOWN"}
+{"id": "sfq_9126__noop", "text": "UNKNOWN"}
+{"id": "sfq_9126__filter", "text": "UNKNOWN"}
+{"id": "sfq_9126__rerank", "text": "UNKNOWN"}
+{"id": "qz_3995__noop", "text": "Chelsea"}
+{"id": "qz_3995__filter", "text": "Tottenham Hotspur"}
+{"id": "qz_3995__rerank", "text": "Chelsea"}
+{"id": "sfq_298__noop", "text": "UNKNOWN"}
+{"id": "sfq_298__filter", "text": "UNKNOWN"}
+{"id": "sfq_298__rerank", "text": "UNKNOWN"}
+{"id": "odql_12554__noop", "text": "UNKNOWN"}
+{"id": "odql_12554__filter", "text": "UNKNOWN"}
+{"id": "odql_12554__rerank", "text": "UNKNOWN"}
+{"id": "qb_7327__noop", "text": "Malcolm Bradbury"}
+{"id": "qb_7327__filter", "text": "UNKNOWN"}
+{"id": "qb_7327__rerank", "text": "Malcolm Bradbury"}
+{"id": "qg_2927__noop", "text": "Titanium"}
+{"id": "qg_2927__filter", "text": "Titanium"}
+{"id": "qg_2927__rerank", "text": "Titanium"}
+{"id": "qw_3116__noop", "text": "West Berlin and East Berlin"}
+{"id": "qw_3116__filter", "text": "West Berlin and East Berlin"}
+{"id": "qw_3116__rerank", "text": "West Berlin and East Berlin"}
+{"id": "qw_10915__noop", "text": "UNKNOWN"}
+{"id": "qw_10915__filter", "text": "\u672a\u77e5"}
+{"id": "qw_10915__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22946__noop", "text": "French"}
+{"id": "sfq_22946__filter", "text": "French"}
+{"id": "sfq_22946__rerank", "text": "French"}
+{"id": "sfq_13219__noop", "text": "Tegmark"}
+{"id": "sfq_13219__filter", "text": "Tegmark"}
+{"id": "sfq_13219__rerank", "text": "Tegmark"}
+{"id": "odql_952__noop", "text": "UNKNOWN"}
+{"id": "odql_952__filter", "text": "UNKNOWN"}
+{"id": "odql_952__rerank", "text": "UNKNOWN"}
+{"id": "jp_16__noop", "text": "Kaiser-Walzer"}
+{"id": "jp_16__filter", "text": "Kaiser-Walzer"}
+{"id": "jp_16__rerank", "text": "Kaiser-Walzer"}
+{"id": "bb_338__noop", "text": "Red"}
+{"id": "bb_338__filter", "text": "red"}
+{"id": "bb_338__rerank", "text": "Red"}
+{"id": "jp_1299__noop", "text": "Extrusive"}
+{"id": "jp_1299__filter", "text": "Extrusive"}
+{"id": "jp_1299__rerank", "text": "Extrusive"}
+{"id": "qb_10267__noop", "text": "Shinto"}
+{"id": "qb_10267__filter", "text": "Shinto"}
+{"id": "qb_10267__rerank", "text": "Shinto"}
+{"id": "qw_10833__noop", "text": "UNKNOWN"}
+{"id": "qw_10833__filter", "text": "courage"}
+{"id": "qw_10833__rerank", "text": "UNKNOWN"}
+{"id": "qb_4281__noop", "text": "Tomorrow Never Dies"}
+{"id": "qb_4281__filter", "text": "Tomorrow Never Dies"}
+{"id": "qb_4281__rerank", "text": "Tomorrow Never Dies"}
+{"id": "qb_6535__noop", "text": "Twenty-One"}
+{"id": "qb_6535__filter", "text": "Twenty-One"}
+{"id": "qb_6535__rerank", "text": "Twenty-One"}
+{"id": "odql_14620__noop", "text": "UNKNOWN"}
+{"id": "odql_14620__filter", "text": "Patrick"}
+{"id": "odql_14620__rerank", "text": "UNKNOWN"}
+{"id": "qw_6834__noop", "text": "1960"}
+{"id": "qw_6834__filter", "text": "UNKNOWN"}
+{"id": "qw_6834__rerank", "text": "1960"}
+{"id": "bb_7353__noop", "text": "UNKNOWN"}
+{"id": "bb_7353__filter", "text": "UNKNOWN"}
+{"id": "bb_7353__rerank", "text": "UNKNOWN"}
+{"id": "qw_3129__noop", "text": "UNKNOWN"}
+{"id": "qw_3129__filter", "text": "UNKNOWN"}
+{"id": "qw_3129__rerank", "text": "UNKNOWN"}
+{"id": "sfq_6116__noop", "text": "UNKNOWN"}
+{"id": "sfq_6116__filter", "text": "UNKNOWN"}
+{"id": "sfq_6116__rerank", "text": "UNKNOWN"}
+{"id": "qb_5688__noop", "text": "Radiohead"}
+{"id": "qb_5688__filter", "text": "Radiohead"}
+{"id": "qb_5688__rerank", "text": "Radiohead"}
+{"id": "jp_2757__noop", "text": "Catherine of Aragon"}
+{"id": "jp_2757__filter", "text": "UNKNOWN"}
+{"id": "jp_2757__rerank", "text": "Catherine of Aragon"}
+{"id": "dpql_3797__noop", "text": "UNKNOWN"}
+{"id": "dpql_3797__filter", "text": "Cold Blood"}
+{"id": "dpql_3797__rerank", "text": "UNKNOWN"}
+{"id": "qw_12428__noop", "text": "Barley"}
+{"id": "qw_12428__filter", "text": "UNKNOWN"}
+{"id": "qw_12428__rerank", "text": "Barley"}
+{"id": "qw_16501__noop", "text": "UNKNOWN"}
+{"id": "qw_16501__filter", "text": "UNKNOWN"}
+{"id": "qw_16501__rerank", "text": "UNKNOWN"}
+{"id": "sfq_2885__noop", "text": "Vancouver"}
+{"id": "sfq_2885__filter", "text": "Vancouver"}
+{"id": "sfq_2885__rerank", "text": "Vancouver"}
+{"id": "qg_3993__noop", "text": "Meet the Press"}
+{"id": "qg_3993__filter", "text": "Meet the Press"}
+{"id": "qg_3993__rerank", "text": "Meet the Press"}
+{"id": "sfq_25562__noop", "text": "UNKNOWN"}
+{"id": "sfq_25562__filter", "text": "UNKNOWN"}
+{"id": "sfq_25562__rerank", "text": "UNKNOWN"}
+{"id": "qb_2071__noop", "text": "UNKNOWN"}
+{"id": "qb_2071__filter", "text": "UNKNOWN"}
+{"id": "qb_2071__rerank", "text": "UNKNOWN"}
+{"id": "odql_5477__noop", "text": "Derek Jacobi"}
+{"id": "odql_5477__filter", "text": "UNKNOWN"}
+{"id": "odql_5477__rerank", "text": "Derek Jacobi"}
+{"id": "wh_3975__noop", "text": "dry rot"}
+{"id": "wh_3975__filter", "text": "UNKNOWN"}
+{"id": "wh_3975__rerank", "text": "dry rot"}
+{"id": "sfq_24346__noop", "text": "New York"}
+{"id": "sfq_24346__filter", "text": "New York"}
+{"id": "sfq_24346__rerank", "text": "New York"}
+{"id": "qw_2206__noop", "text": "Terence Rattigan"}
+{"id": "qw_2206__filter", "text": "Terence Rattigan"}
+{"id": "qw_2206__rerank", "text": "Terence Rattigan"}
+{"id": "sfq_6892__noop", "text": "UNKNOWN"}
+{"id": "sfq_6892__filter", "text": "UNKNOWN"}
+{"id": "sfq_6892__rerank", "text": "UNKNOWN"}
+{"id": "sfq_26211__noop", "text": "UNKNOWN"}
+{"id": "sfq_26211__filter", "text": "UNKNOWN"}
+{"id": "sfq_26211__rerank", "text": "UNKNOWN"}
+{"id": "bt_793__noop", "text": "UNKNOWN"}
+{"id": "bt_793__filter", "text": "UNKNOWN"}
+{"id": "bt_793__rerank", "text": "UNKNOWN"}
+{"id": "qw_14417__noop", "text": "Heathcliff and Catherine"}
+{"id": "qw_14417__filter", "text": "Catherine and Heathcliff"}
+{"id": "qw_14417__rerank", "text": "Heathcliff and Catherine"}
+{"id": "qw_8171__noop", "text": "New Zealand"}
+{"id": "qw_8171__filter", "text": "New Zealand"}
+{"id": "qw_8171__rerank", "text": "New Zealand"}
+{"id": "qf_3451__noop", "text": "UNKNOWN"}
+{"id": "qf_3451__filter", "text": "UNKNOWN"}
+{"id": "qf_3451__rerank", "text": "UNKNOWN"}
+{"id": "odql_11810__noop", "text": "The Streets"}
+{"id": "odql_11810__filter", "text": "The Streets"}
+{"id": "odql_11810__rerank", "text": "The Streets"}
+{"id": "dpql_352__noop", "text": "Advocate"}
+{"id": "dpql_352__filter", "text": "Advocate"}
+{"id": "dpql_352__rerank", "text": "Advocate"}
+{"id": "qw_6656__noop", "text": "Triathlon"}
+{"id": "qw_6656__filter", "text": "Triathlon"}
+{"id": "qw_6656__rerank", "text": "Triathlon"}
+{"id": "qg_4434__noop", "text": "UNKNOWN"}
+{"id": "qg_4434__filter", "text": "Travelocity"}
+{"id": "qg_4434__rerank", "text": "UNKNOWN"}
+{"id": "jp_4544__noop", "text": "Straits of Mackinac"}
+{"id": "jp_4544__filter", "text": "Straits of Mackinac"}
+{"id": "jp_4544__rerank", "text": "Straits of Mackinac"}
+{"id": "qw_11737__noop", "text": "Dengue fever"}
+{"id": "qw_11737__filter", "text": "Dengue fever"}
+{"id": "qw_11737__rerank", "text": "Dengue fever"}
+{"id": "sfq_19040__noop", "text": "UNKNOWN"}
+{"id": "sfq_19040__filter", "text": "Red"}
+{"id": "sfq_19040__rerank", "text": "UNKNOWN"}
+{"id": "bt_3655__noop", "text": "UNKNOWN"}
+{"id": "bt_3655__filter", "text": "UNKNOWN"}
+{"id": "bt_3655__rerank", "text": "UNKNOWN"}
+{"id": "bb_67__noop", "text": "Devon"}
+{"id": "bb_67__filter", "text": "Devon"}
+{"id": "bb_67__rerank", "text": "Devon"}
+{"id": "qf_1483__noop", "text": "Speedwell"}
+{"id": "qf_1483__filter", "text": "Mayflower"}
+{"id": "qf_1483__rerank", "text": "Speedwell"}
+{"id": "odql_1078__noop", "text": "UNKNOWN"}
+{"id": "odql_1078__filter", "text": "UNKNOWN"}
+{"id": "odql_1078__rerank", "text": "UNKNOWN"}
+{"id": "qz_6687__noop", "text": "Baby, It's Cold Outside"}
+{"id": "qz_6687__filter", "text": "UNKNOWN"}
+{"id": "qz_6687__rerank", "text": "Baby, It's Cold Outside"}
+{"id": "bt_831__noop", "text": "Vinegar Joe"}
+{"id": "bt_831__filter", "text": "Vinegar Joe"}
+{"id": "bt_831__rerank", "text": "Vinegar Joe"}
+{"id": "dpql_5438__noop", "text": "Not in Education, Employment, or Training"}
+{"id": "dpql_5438__filter", "text": "Not in Education, Employment, or Training"}
+{"id": "dpql_5438__rerank", "text": "Not in Education, Employment, or Training"}
+{"id": "sfq_1068__noop", "text": "Passeridae"}
+{"id": "sfq_1068__filter", "text": "Passeridae"}
+{"id": "sfq_1068__rerank", "text": "Passeridae"}
+{"id": "wh_793__noop", "text": "UNKNOWN"}
+{"id": "wh_793__filter", "text": "UNKNOWN"}
+{"id": "wh_793__rerank", "text": "UNKNOWN"}
+{"id": "sfq_696__noop", "text": "Dublin"}
+{"id": "sfq_696__filter", "text": "Dublin"}
+{"id": "sfq_696__rerank", "text": "Dublin"}
+{"id": "qb_9081__noop", "text": "Australia"}
+{"id": "qb_9081__filter", "text": "Australia"}
+{"id": "qb_9081__rerank", "text": "Australia"}
+{"id": "sfq_720__noop", "text": "Yellowstone"}
+{"id": "sfq_720__filter", "text": "Yellowstone"}
+{"id": "sfq_720__rerank", "text": "Yellowstone"}
+{"id": "bt_2674__noop", "text": "Julius Caesar"}
+{"id": "bt_2674__filter", "text": "Augustus"}
+{"id": "bt_2674__rerank", "text": "Julius Caesar"}
+{"id": "bt_2106__noop", "text": "gum tissue"}
+{"id": "bt_2106__filter", "text": "Gingiva"}
+{"id": "bt_2106__rerank", "text": "gum tissue"}
+{"id": "qw_5947__noop", "text": "UNKNOWN"}
+{"id": "qw_5947__filter", "text": "UNKNOWN"}
+{"id": "qw_5947__rerank", "text": "UNKNOWN"}
+{"id": "odql_10255__noop", "text": "UNKNOWN"}
+{"id": "odql_10255__filter", "text": "UNKNOWN"}
+{"id": "odql_10255__rerank", "text": "UNKNOWN"}
+{"id": "dpql_3059__noop", "text": "Hannibal"}
+{"id": "dpql_3059__filter", "text": "Hannibal"}
+{"id": "dpql_3059__rerank", "text": "Hannibal"}
+{"id": "jp_4058__noop", "text": "Gremlins"}
+{"id": "jp_4058__filter", "text": "Gremlins"}
+{"id": "jp_4058__rerank", "text": "Gremlins"}
+{"id": "qg_1688__noop", "text": "Duncan"}
+{"id": "qg_1688__filter", "text": "UNKNOWN"}
+{"id": "qg_1688__rerank", "text": "Duncan"}
+{"id": "sfq_3105__noop", "text": "Balearic"}
+{"id": "sfq_3105__filter", "text": "Balearic"}
+{"id": "sfq_3105__rerank", "text": "Balearic"}
+{"id": "sfq_23258__noop", "text": "George IV"}
+{"id": "sfq_23258__filter", "text": "George"}
+{"id": "sfq_23258__rerank", "text": "George IV"}
+{"id": "jp_487__noop", "text": "UNKNOWN"}
+{"id": "jp_487__filter", "text": "UNKNOWN"}
+{"id": "jp_487__rerank", "text": "UNKNOWN"}
+{"id": "sfq_20162__noop", "text": "Severn Valley Railway"}
+{"id": "sfq_20162__filter", "text": "UNKNOWN"}
+{"id": "sfq_20162__rerank", "text": "Severn Valley Railway"}
+{"id": "bt_726__noop", "text": "Robert Maxwell"}
+{"id": "bt_726__filter", "text": "UNKNOWN"}
+{"id": "bt_726__rerank", "text": "Robert Maxwell"}
+{"id": "odql_10497__noop", "text": "UNKNOWN"}
+{"id": "odql_10497__filter", "text": "UNKNOWN"}
+{"id": "odql_10497__rerank", "text": "UNKNOWN"}
+{"id": "bb_291__noop", "text": "relatively high precipitation"}
+{"id": "bb_291__filter", "text": "relatively high precipitation or humidity"}
+{"id": "bb_291__rerank", "text": "relatively high precipitation"}
+{"id": "qw_699__noop", "text": "UNKNOWN"}
+{"id": "qw_699__filter", "text": "Steward"}
+{"id": "qw_699__rerank", "text": "UNKNOWN"}
+{"id": "qb_511__noop", "text": "Ted Ray"}
+{"id": "qb_511__filter", "text": "UNKNOWN"}
+{"id": "qb_511__rerank", "text": "Ted Ray"}
+{"id": "sfq_17995__noop", "text": "UNKNOWN"}
+{"id": "sfq_17995__filter", "text": "UNKNOWN"}
+{"id": "sfq_17995__rerank", "text": "UNKNOWN"}
+{"id": "bt_1378__noop", "text": "UNKNOWN"}
+{"id": "bt_1378__filter", "text": "UNKNOWN"}
+{"id": "bt_1378__rerank", "text": "UNKNOWN"}
+{"id": "qg_2525__noop", "text": "UNKNOWN"}
+{"id": "qg_2525__filter", "text": "UNKNOWN"}
+{"id": "qg_2525__rerank", "text": "UNKNOWN"}
+{"id": "sfq_8111__noop", "text": "Hundred Years' War"}
+{"id": "sfq_8111__filter", "text": "Hundred Years' War"}
+{"id": "sfq_8111__rerank", "text": "Hundred Years' War"}
+{"id": "sfq_18522__noop", "text": "Annette Crosbie"}
+{"id": "sfq_18522__filter", "text": "UNKNOWN"}
+{"id": "sfq_18522__rerank", "text": "Annette Crosbie"}
+{"id": "qg_271__noop", "text": "1984"}
+{"id": "qg_271__filter", "text": "1984"}
+{"id": "qg_271__rerank", "text": "1984"}
+{"id": "dpql_2806__noop", "text": "Unknown"}
+{"id": "dpql_2806__filter", "text": "Unknown"}
+{"id": "dpql_2806__rerank", "text": "Unknown"}
+{"id": "qg_1358__noop", "text": "UNKNOWN"}
+{"id": "qg_1358__filter", "text": "UNKNOWN"}
+{"id": "qg_1358__rerank", "text": "UNKNOWN"}
+{"id": "bt_1847__noop", "text": "UNKNOWN"}
+{"id": "bt_1847__filter", "text": "UNKNOWN"}
+{"id": "bt_1847__rerank", "text": "UNKNOWN"}
+{"id": "odql_594__noop", "text": "UNKNOWN"}
+{"id": "odql_594__filter", "text": "UNKNOWN"}
+{"id": "odql_594__rerank", "text": "UNKNOWN"}
+{"id": "qw_3850__noop", "text": "Cardiff"}
+{"id": "qw_3850__filter", "text": "Cardiff"}
+{"id": "qw_3850__rerank", "text": "Cardiff"}
+{"id": "qb_9445__noop", "text": "\"The Tide Is High\""}
+{"id": "qb_9445__filter", "text": "\"The Tide Is High\""}
+{"id": "qb_9445__rerank", "text": "\"The Tide Is High\""}
+{"id": "sfq_22446__noop", "text": "Unknown"}
+{"id": "sfq_22446__filter", "text": "Port Vale"}
+{"id": "sfq_22446__rerank", "text": "Unknown"}
+{"id": "jp_3055__noop", "text": "Netherlands"}
+{"id": "jp_3055__filter", "text": "Netherlands"}
+{"id": "jp_3055__rerank", "text": "Netherlands"}
+{"id": "sfq_4807__noop", "text": "Santiago"}
+{"id": "sfq_4807__filter", "text": "Santiago"}
+{"id": "sfq_4807__rerank", "text": "Santiago"}
+{"id": "jp_2261__noop", "text": "South Africa"}
+{"id": "jp_2261__filter", "text": "South Africa"}
+{"id": "jp_2261__rerank", "text": "South Africa"}
+{"id": "sfq_19848__noop", "text": "Blankety Blank#3"}
+{"id": "sfq_19848__filter", "text": "UNKNOWN"}
+{"id": "sfq_19848__rerank", "text": "Blankety Blank#3"}
+{"id": "qg_1070__noop", "text": "Silversmith"}
+{"id": "qg_1070__filter", "text": "silversmith"}
+{"id": "qg_1070__rerank", "text": "Silversmith"}
+{"id": "bb_1010__noop", "text": "UNKNOWN"}
+{"id": "bb_1010__filter", "text": "UNKNOWN"}
+{"id": "bb_1010__rerank", "text": "UNKNOWN"}
+{"id": "qb_1009__noop", "text": "UNKNOWN"}
+{"id": "qb_1009__filter", "text": "UNKNOWN"}
+{"id": "qb_1009__rerank", "text": "UNKNOWN"}
+{"id": "qf_1082__noop", "text": "UNKNOWN"}
+{"id": "qf_1082__filter", "text": "UNKNOWN"}
+{"id": "qf_1082__rerank", "text": "UNKNOWN"}
+{"id": "odql_12228__noop", "text": "Chelsea"}
+{"id": "odql_12228__filter", "text": "Chelsea"}
+{"id": "odql_12228__rerank", "text": "Chelsea"}
+{"id": "qb_2640__noop", "text": "Norman Mailer"}
+{"id": "qb_2640__filter", "text": "Norman Mailer"}
+{"id": "qb_2640__rerank", "text": "Norman Mailer"}
+{"id": "qz_3440__noop", "text": "Runway"}
+{"id": "qz_3440__filter", "text": "Runway"}
+{"id": "qz_3440__rerank", "text": "Runway"}
+{"id": "tc_2250__noop", "text": "UNKNOWN"}
+{"id": "tc_2250__filter", "text": "UNKNOWN"}
+{"id": "tc_2250__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14492__noop", "text": "Discworld"}
+{"id": "sfq_14492__filter", "text": "Discworld"}
+{"id": "sfq_14492__rerank", "text": "Discworld"}
+{"id": "qw_13399__noop", "text": "UNKNOWN"}
+{"id": "qw_13399__filter", "text": "UNKNOWN"}
+{"id": "qw_13399__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14561__noop", "text": "UNKNOWN"}
+{"id": "sfq_14561__filter", "text": "UNKNOWN"}
+{"id": "sfq_14561__rerank", "text": "UNKNOWN"}
+{"id": "qw_6986__noop", "text": "exceed the speed of sound"}
+{"id": "qw_6986__filter", "text": "exceed the speed of sound"}
+{"id": "qw_6986__rerank", "text": "exceed the speed of sound"}
+{"id": "qg_613__noop", "text": "Lady of the Lake"}
+{"id": "qg_613__filter", "text": "UNKNOWN"}
+{"id": "qg_613__rerank", "text": "Lady of the Lake"}
+{"id": "sfq_6582__noop", "text": "UNKNOWN"}
+{"id": "sfq_6582__filter", "text": "UNKNOWN"}
+{"id": "sfq_6582__rerank", "text": "UNKNOWN"}
+{"id": "qg_1057__noop", "text": "Arthur C. Clarke"}
+{"id": "qg_1057__filter", "text": "UNKNOWN"}
+{"id": "qg_1057__rerank", "text": "Arthur C. Clarke"}
+{"id": "qw_7457__noop", "text": "Four Weddings and a Funeral"}
+{"id": "qw_7457__filter", "text": "UNKNOWN"}
+{"id": "qw_7457__rerank", "text": "Four Weddings and a Funeral"}
+{"id": "odql_5509__noop", "text": "UNKNOWN"}
+{"id": "odql_5509__filter", "text": "UNKNOWN"}
+{"id": "odql_5509__rerank", "text": "UNKNOWN"}
+{"id": "odql_7811__noop", "text": "Black Jack"}
+{"id": "odql_7811__filter", "text": "Black Jack"}
+{"id": "odql_7811__rerank", "text": "Black Jack"}
+{"id": "qb_9805__noop", "text": "website"}
+{"id": "qb_9805__filter", "text": "website"}
+{"id": "qb_9805__rerank", "text": "website"}
+{"id": "sfq_24528__noop", "text": "Honorable"}
+{"id": "sfq_24528__filter", "text": "Baron"}
+{"id": "sfq_24528__rerank", "text": "Honorable"}
+{"id": "jp_3557__noop", "text": "albinism"}
+{"id": "jp_3557__filter", "text": "albinism"}
+{"id": "jp_3557__rerank", "text": "albinism"}
+{"id": "qb_8684__noop", "text": "Hydrogen"}
+{"id": "qb_8684__filter", "text": "Hydrogen"}
+{"id": "qb_8684__rerank", "text": "Hydrogen"}
+{"id": "qb_9503__noop", "text": "UNKNOWN"}
+{"id": "qb_9503__filter", "text": "UNKNOWN"}
+{"id": "qb_9503__rerank", "text": "UNKNOWN"}
+{"id": "sfq_6642__noop", "text": "armada"}
+{"id": "sfq_6642__filter", "text": "UNKNOWN"}
+{"id": "sfq_6642__rerank", "text": "armada"}
+{"id": "sfq_19039__noop", "text": "UNKNOWN"}
+{"id": "sfq_19039__filter", "text": "Villa Park"}
+{"id": "sfq_19039__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11991__noop", "text": "UNKNOWN"}
+{"id": "sfq_11991__filter", "text": "Gwangju"}
+{"id": "sfq_11991__rerank", "text": "UNKNOWN"}
+{"id": "sfq_17012__noop", "text": "UNKNOWN"}
+{"id": "sfq_17012__filter", "text": "UNKNOWN"}
+{"id": "sfq_17012__rerank", "text": "UNKNOWN"}
+{"id": "odql_2340__noop", "text": "UNKNOWN"}
+{"id": "odql_2340__filter", "text": "Cathleen N\u00ed Houlihan"}
+{"id": "odql_2340__rerank", "text": "UNKNOWN"}
+{"id": "bt_1836__noop", "text": "UNKNOWN"}
+{"id": "bt_1836__filter", "text": "UNKNOWN"}
+{"id": "bt_1836__rerank", "text": "UNKNOWN"}
+{"id": "qw_4478__noop", "text": "UNKNOWN"}
+{"id": "qw_4478__filter", "text": "UNKNOWN"}
+{"id": "qw_4478__rerank", "text": "UNKNOWN"}
+{"id": "tc_2930__noop", "text": "Follicle"}
+{"id": "tc_2930__filter", "text": "remnants"}
+{"id": "tc_2930__rerank", "text": "Follicle"}
+{"id": "jp_3645__noop", "text": "UNKNOWN"}
+{"id": "jp_3645__filter", "text": "UNKNOWN"}
+{"id": "jp_3645__rerank", "text": "UNKNOWN"}
+{"id": "qb_5669__noop", "text": "UNKNOWN"}
+{"id": "qb_5669__filter", "text": "UNKNOWN"}
+{"id": "qb_5669__rerank", "text": "UNKNOWN"}
+{"id": "qw_14082__noop", "text": "Pole-vaulting"}
+{"id": "qw_14082__filter", "text": "Pole vaulting"}
+{"id": "qw_14082__rerank", "text": "Pole-vaulting"}
+{"id": "sfq_9113__noop", "text": "Ren\u00e9 Higuita"}
+{"id": "sfq_9113__filter", "text": "UNKNOWN"}
+{"id": "sfq_9113__rerank", "text": "Ren\u00e9 Higuita"}
+{"id": "sfq_23397__noop", "text": "William Walton"}
+{"id": "sfq_23397__filter", "text": "William Walton"}
+{"id": "sfq_23397__rerank", "text": "William Walton"}
+{"id": "qz_6596__noop", "text": "pommel horse"}
+{"id": "qz_6596__filter", "text": "Pommel Horse"}
+{"id": "qz_6596__rerank", "text": "pommel horse"}
+{"id": "qg_2596__noop", "text": "Cosmo Kramer"}
+{"id": "qg_2596__filter", "text": "Cosmo Kramer"}
+{"id": "qg_2596__rerank", "text": "Cosmo Kramer"}
+{"id": "qz_5461__noop", "text": "Samuel Johnson"}
+{"id": "qz_5461__filter", "text": "UNKNOWN"}
+{"id": "qz_5461__rerank", "text": "Samuel Johnson"}
+{"id": "sfq_1244__noop", "text": "Collagen"}
+{"id": "sfq_1244__filter", "text": "Collagen"}
+{"id": "sfq_1244__rerank", "text": "Collagen"}
+{"id": "qg_51__noop", "text": "Snow White and the Seven Dwarfs"}
+{"id": "qg_51__filter", "text": "Snow White and the Seven Dwarfs"}
+{"id": "qg_51__rerank", "text": "Snow White and the Seven Dwarfs"}
+{"id": "wh_125__noop", "text": "UNKNOWN"}
+{"id": "wh_125__filter", "text": "UNKNOWN"}
+{"id": "wh_125__rerank", "text": "UNKNOWN"}
+{"id": "sfq_20297__noop", "text": "UNKNOWN"}
+{"id": "sfq_20297__filter", "text": "UNKNOWN"}
+{"id": "sfq_20297__rerank", "text": "UNKNOWN"}
+{"id": "qf_1633__noop", "text": "Antiques Roadshow"}
+{"id": "qf_1633__filter", "text": "UNKNOWN"}
+{"id": "qf_1633__rerank", "text": "Antiques Roadshow"}
+{"id": "wh_736__noop", "text": "Oxford"}
+{"id": "wh_736__filter", "text": "Oxford"}
+{"id": "wh_736__rerank", "text": "Oxford"}
+{"id": "sfq_12851__noop", "text": "UNKNOWN"}
+{"id": "sfq_12851__filter", "text": "UNKNOWN"}
+{"id": "sfq_12851__rerank", "text": "UNKNOWN"}
+{"id": "tc_1098__noop", "text": "Jonathan Demme"}
+{"id": "tc_1098__filter", "text": "Unknown"}
+{"id": "tc_1098__rerank", "text": "Jonathan Demme"}
+{"id": "qb_3329__noop", "text": "UNKNOWN"}
+{"id": "qb_3329__filter", "text": "UNKNOWN"}
+{"id": "qb_3329__rerank", "text": "UNKNOWN"}
+{"id": "qz_1684__noop", "text": "UNKNOWN"}
+{"id": "qz_1684__filter", "text": "UNKNOWN"}
+{"id": "qz_1684__rerank", "text": "UNKNOWN"}
+{"id": "qz_1825__noop", "text": "UNKNOWN"}
+{"id": "qz_1825__filter", "text": "UNKNOWN"}
+{"id": "qz_1825__rerank", "text": "UNKNOWN"}
+{"id": "odql_1001__noop", "text": "Andy Bell"}
+{"id": "odql_1001__filter", "text": "Alison Moyet"}
+{"id": "odql_1001__rerank", "text": "Andy Bell"}
+{"id": "odql_4953__noop", "text": "Percy Toplis"}
+{"id": "odql_4953__filter", "text": "Percy Toplis"}
+{"id": "odql_4953__rerank", "text": "Percy Toplis"}
+{"id": "sfq_23625__noop", "text": "Mumps virus"}
+{"id": "sfq_23625__filter", "text": "Mumps virus"}
+{"id": "sfq_23625__rerank", "text": "Mumps virus"}
+{"id": "bb_9448__noop", "text": "6"}
+{"id": "bb_9448__filter", "text": "8"}
+{"id": "bb_9448__rerank", "text": "6"}
+{"id": "jp_4375__noop", "text": "Yosemite National Park"}
+{"id": "jp_4375__filter", "text": "Yosemite"}
+{"id": "jp_4375__rerank", "text": "Yosemite National Park"}
+{"id": "bb_6913__noop", "text": "UNKNOWN"}
+{"id": "bb_6913__filter", "text": "UNKNOWN"}
+{"id": "bb_6913__rerank", "text": "UNKNOWN"}
+{"id": "qw_1111__noop", "text": "UNKNOWN"}
+{"id": "qw_1111__filter", "text": "UNKNOWN"}
+{"id": "qw_1111__rerank", "text": "UNKNOWN"}
+{"id": "odql_5663__noop", "text": "Family Guy"}
+{"id": "odql_5663__filter", "text": "Family Guy"}
+{"id": "odql_5663__rerank", "text": "Family Guy"}
+{"id": "qf_3452__noop", "text": "A"}
+{"id": "qf_3452__filter", "text": "A"}
+{"id": "qf_3452__rerank", "text": "A"}
+{"id": "sfq_13876__noop", "text": "Great Dane"}
+{"id": "sfq_13876__filter", "text": "Great Dane"}
+{"id": "sfq_13876__rerank", "text": "Great Dane"}
+{"id": "bt_1811__noop", "text": "Vincent"}
+{"id": "bt_1811__filter", "text": "Vincent"}
+{"id": "bt_1811__rerank", "text": "Vincent"}
+{"id": "sfq_1137__noop", "text": "Kabuki"}
+{"id": "sfq_1137__filter", "text": "Kabuki"}
+{"id": "sfq_1137__rerank", "text": "Kabuki"}
+{"id": "jp_1022__noop", "text": "Hitler"}
+{"id": "jp_1022__filter", "text": "Adolf Hitler"}
+{"id": "jp_1022__rerank", "text": "Hitler"}
+{"id": "odql_14222__noop", "text": "Cologne"}
+{"id": "odql_14222__filter", "text": "Basel"}
+{"id": "odql_14222__rerank", "text": "Cologne"}
+{"id": "bb_5126__noop", "text": "Catalyst"}
+{"id": "bb_5126__filter", "text": "catalyst"}
+{"id": "bb_5126__rerank", "text": "Catalyst"}
+{"id": "dpql_4267__noop", "text": "Fencing"}
+{"id": "dpql_4267__filter", "text": "Fencing"}
+{"id": "dpql_4267__rerank", "text": "Fencing"}
+{"id": "odql_5720__noop", "text": "UNKNOWN"}
+{"id": "odql_5720__filter", "text": "One Direction"}
+{"id": "odql_5720__rerank", "text": "UNKNOWN"}
+{"id": "sfq_15588__noop", "text": "Duncan"}
+{"id": "sfq_15588__filter", "text": "UNKNOWN"}
+{"id": "sfq_15588__rerank", "text": "Duncan"}
+{"id": "sfq_22096__noop", "text": "Pok\u00e9mon"}
+{"id": "sfq_22096__filter", "text": "Pok\u00e9mon"}
+{"id": "sfq_22096__rerank", "text": "Pok\u00e9mon"}
+{"id": "sfq_13256__noop", "text": "UNKNOWN"}
+{"id": "sfq_13256__filter", "text": "UNKNOWN"}
+{"id": "sfq_13256__rerank", "text": "UNKNOWN"}
+{"id": "odql_12514__noop", "text": "Nickel"}
+{"id": "odql_12514__filter", "text": "Chromium"}
+{"id": "odql_12514__rerank", "text": "Nickel"}
+{"id": "qg_293__noop", "text": "Bo and Luke"}
+{"id": "qg_293__filter", "text": "Bo and Luke"}
+{"id": "qg_293__rerank", "text": "Bo and Luke"}
+{"id": "qf_345__noop", "text": "Unforgiven"}
+{"id": "qf_345__filter", "text": "UNKNOWN"}
+{"id": "qf_345__rerank", "text": "Unforgiven"}
+{"id": "qb_4738__noop", "text": "UNKNOWN"}
+{"id": "qb_4738__filter", "text": "UNKNOWN"}
+{"id": "qb_4738__rerank", "text": "UNKNOWN"}
+{"id": "qz_3971__noop", "text": "UNKNOWN"}
+{"id": "qz_3971__filter", "text": "UNKNOWN"}
+{"id": "qz_3971__rerank", "text": "UNKNOWN"}
+{"id": "odql_11342__noop", "text": "Theo"}
+{"id": "odql_11342__filter", "text": "Carbentus"}
+{"id": "odql_11342__rerank", "text": "Theo"}
+{"id": "sfq_2902__noop", "text": "UNKNOWN"}
+{"id": "sfq_2902__filter", "text": "UNKNOWN"}
+{"id": "sfq_2902__rerank", "text": "UNKNOWN"}
+{"id": "qz_3708__noop", "text": "UNKNOWN"}
+{"id": "qz_3708__filter", "text": "Euphrates"}
+{"id": "qz_3708__rerank", "text": "UNKNOWN"}
+{"id": "qz_3777__noop", "text": "UNKNOWN"}
+{"id": "qz_3777__filter", "text": "UNKNOWN"}
+{"id": "qz_3777__rerank", "text": "UNKNOWN"}
+{"id": "qb_8834__noop", "text": "robber"}
+{"id": "qb_8834__filter", "text": "highwayman"}
+{"id": "qb_8834__rerank", "text": "robber"}
+{"id": "odql_12266__noop", "text": "UNKNOWN"}
+{"id": "odql_12266__filter", "text": "UNKNOWN"}
+{"id": "odql_12266__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14958__noop", "text": "UNKNOWN"}
+{"id": "sfq_14958__filter", "text": "UNKNOWN"}
+{"id": "sfq_14958__rerank", "text": "UNKNOWN"}
+{"id": "qz_5580__noop", "text": "Nero"}
+{"id": "qz_5580__filter", "text": "UNKNOWN"}
+{"id": "qz_5580__rerank", "text": "Nero"}
+{"id": "tc_719__noop", "text": "UNKNOWN"}
+{"id": "tc_719__filter", "text": "UNKNOWN"}
+{"id": "tc_719__rerank", "text": "UNKNOWN"}
+{"id": "sfq_16363__noop", "text": "UNKNOWN"}
+{"id": "sfq_16363__filter", "text": "UNKNOWN"}
+{"id": "sfq_16363__rerank", "text": "UNKNOWN"}
+{"id": "qw_15528__noop", "text": "Rudyard Kipling"}
+{"id": "qw_15528__filter", "text": "Rudyard Kipling"}
+{"id": "qw_15528__rerank", "text": "Rudyard Kipling"}
+{"id": "sfq_18832__noop", "text": "Judo"}
+{"id": "sfq_18832__filter", "text": "Judo"}
+{"id": "sfq_18832__rerank", "text": "Judo"}
+{"id": "sfq_20510__noop", "text": "Commander"}
+{"id": "sfq_20510__filter", "text": "Lieutenant Colonel"}
+{"id": "sfq_20510__rerank", "text": "Commander"}
+{"id": "qw_2252__noop", "text": "Unknown"}
+{"id": "qw_2252__filter", "text": "UNKNOWN"}
+{"id": "qw_2252__rerank", "text": "Unknown"}
+{"id": "wh_2210__noop", "text": "UNKNOWN"}
+{"id": "wh_2210__filter", "text": "UNKNOWN"}
+{"id": "wh_2210__rerank", "text": "UNKNOWN"}
+{"id": "odql_11832__noop", "text": "Alberich"}
+{"id": "odql_11832__filter", "text": "Alberich"}
+{"id": "odql_11832__rerank", "text": "Alberich"}
+{"id": "qw_15694__noop", "text": "Mrs. Middleton Murray"}
+{"id": "qw_15694__filter", "text": "Murray"}
+{"id": "qw_15694__rerank", "text": "Mrs. Middleton Murray"}
+{"id": "sfq_3322__noop", "text": "Party of Allah"}
+{"id": "sfq_3322__filter", "text": "Party of Allah"}
+{"id": "sfq_3322__rerank", "text": "Party of Allah"}
+{"id": "qb_8494__noop", "text": "baseball"}
+{"id": "qb_8494__filter", "text": "Baseball"}
+{"id": "qb_8494__rerank", "text": "baseball"}
+{"id": "qw_12968__noop", "text": "UNKNOWN"}
+{"id": "qw_12968__filter", "text": "UNKNOWN"}
+{"id": "qw_12968__rerank", "text": "UNKNOWN"}
+{"id": "sfq_7254__noop", "text": "Procol Harum"}
+{"id": "sfq_7254__filter", "text": "Procol Harum"}
+{"id": "sfq_7254__rerank", "text": "Procol Harum"}
+{"id": "qw_12046__noop", "text": "1825"}
+{"id": "qw_12046__filter", "text": "1825"}
+{"id": "qw_12046__rerank", "text": "1825"}
+{"id": "sfq_22835__noop", "text": "UNKNOWN"}
+{"id": "sfq_22835__filter", "text": "UNKNOWN"}
+{"id": "sfq_22835__rerank", "text": "UNKNOWN"}
+{"id": "sfq_25336__noop", "text": "Hundred Years' War"}
+{"id": "sfq_25336__filter", "text": "Hundred Years' War"}
+{"id": "sfq_25336__rerank", "text": "Hundred Years' War"}
+{"id": "sfq_22978__noop", "text": "UNKNOWN"}
+{"id": "sfq_22978__filter", "text": "UNKNOWN"}
+{"id": "sfq_22978__rerank", "text": "UNKNOWN"}
+{"id": "tb_1432__noop", "text": "UNKNOWN"}
+{"id": "tb_1432__filter", "text": "C\u00f3rdoba"}
+{"id": "tb_1432__rerank", "text": "UNKNOWN"}
+{"id": "sfq_24310__noop", "text": "Anne Boleyn"}
+{"id": "sfq_24310__filter", "text": "Catherine of"}
+{"id": "sfq_24310__rerank", "text": "Anne Boleyn"}
+{"id": "qb_1750__noop", "text": "UNKNOWN"}
+{"id": "qb_1750__filter", "text": "UNKNOWN"}
+{"id": "qb_1750__rerank", "text": "UNKNOWN"}
+{"id": "bb_2997__noop", "text": "marble"}
+{"id": "bb_2997__filter", "text": "UNKNOWN"}
+{"id": "bb_2997__rerank", "text": "marble"}
+{"id": "qw_11123__noop", "text": "USA"}
+{"id": "qw_11123__filter", "text": "USA"}
+{"id": "qw_11123__rerank", "text": "USA"}
+{"id": "dpql_2858__noop", "text": "UNKNOWN"}
+{"id": "dpql_2858__filter", "text": "UNKNOWN"}
+{"id": "dpql_2858__rerank", "text": "UNKNOWN"}
+{"id": "qb_711__noop", "text": "1979"}
+{"id": "qb_711__filter", "text": "1979"}
+{"id": "qb_711__rerank", "text": "1979"}
+{"id": "sfq_17926__noop", "text": "Benny Hill"}
+{"id": "sfq_17926__filter", "text": "Benny Hill"}
+{"id": "sfq_17926__rerank", "text": "Benny Hill"}
+{"id": "odql_8420__noop", "text": "San Diego"}
+{"id": "odql_8420__filter", "text": "San Diego"}
+{"id": "odql_8420__rerank", "text": "San Diego"}
+{"id": "dpql_1204__noop", "text": "law"}
+{"id": "dpql_1204__filter", "text": "law"}
+{"id": "dpql_1204__rerank", "text": "law"}
+{"id": "jp_3613__noop", "text": "Cyrillic"}
+{"id": "jp_3613__filter", "text": "Cyrillic"}
+{"id": "jp_3613__rerank", "text": "Cyrillic"}
+{"id": "bb_9001__noop", "text": "UNKNOWN"}
+{"id": "bb_9001__filter", "text": "UNKNOWN"}
+{"id": "bb_9001__rerank", "text": "UNKNOWN"}
+{"id": "odql_9283__noop", "text": "Cowslip"}
+{"id": "odql_9283__filter", "text": "Cowslip"}
+{"id": "odql_9283__rerank", "text": "Cowslip"}
+{"id": "sfq_3463__noop", "text": "Venice"}
+{"id": "sfq_3463__filter", "text": "Venice"}
+{"id": "sfq_3463__rerank", "text": "Venice"}
+{"id": "bb_216__noop", "text": "UNKNOWN"}
+{"id": "bb_216__filter", "text": "UNKNOWN"}
+{"id": "bb_216__rerank", "text": "UNKNOWN"}
+{"id": "bb_777__noop", "text": "Three to six"}
+{"id": "bb_777__filter", "text": "three to six"}
+{"id": "bb_777__rerank", "text": "Three to six"}
+{"id": "qw_1223__noop", "text": "Afghanistan"}
+{"id": "qw_1223__filter", "text": "Afghanistan"}
+{"id": "qw_1223__rerank", "text": "Afghanistan"}
+{"id": "qw_10171__noop", "text": "Wallabies"}
+{"id": "qw_10171__filter", "text": "Unknown"}
+{"id": "qw_10171__rerank", "text": "Wallabies"}
+{"id": "bb_2952__noop", "text": "Sebastian Coe"}
+{"id": "bb_2952__filter", "text": "Sebastian Coe"}
+{"id": "bb_2952__rerank", "text": "Sebastian Coe"}
+{"id": "sfq_6929__noop", "text": "River Esk"}
+{"id": "sfq_6929__filter", "text": "River Esk"}
+{"id": "sfq_6929__rerank", "text": "River Esk"}
+{"id": "sfq_26116__noop", "text": "Rome"}
+{"id": "sfq_26116__filter", "text": "Venice"}
+{"id": "sfq_26116__rerank", "text": "Rome"}
+{"id": "bb_5274__noop", "text": "Cyclone"}
+{"id": "bb_5274__filter", "text": "Cyclone"}
+{"id": "bb_5274__rerank", "text": "Cyclone"}
+{"id": "sfq_19313__noop", "text": "Angel"}
+{"id": "sfq_19313__filter", "text": "UNKNOWN"}
+{"id": "sfq_19313__rerank", "text": "Angel"}
+{"id": "wh_3039__noop", "text": "The Rocky Horror Show"}
+{"id": "wh_3039__filter", "text": "The Rocky Horror Show"}
+{"id": "wh_3039__rerank", "text": "The Rocky Horror Show"}
+{"id": "sfq_19180__noop", "text": "UNKNOWN"}
+{"id": "sfq_19180__filter", "text": "UNKNOWN"}
+{"id": "sfq_19180__rerank", "text": "UNKNOWN"}
+{"id": "qf_3360__noop", "text": "Morecambe and Wise"}
+{"id": "qf_3360__filter", "text": "Morecambe and Wise"}
+{"id": "qf_3360__rerank", "text": "Morecambe and Wise"}
+{"id": "odql_5443__noop", "text": "Cruella de Vil"}
+{"id": "odql_5443__filter", "text": "Cruella de Vil"}
+{"id": "odql_5443__rerank", "text": "Cruella de Vil"}
+{"id": "qb_5458__noop", "text": "Sikhism"}
+{"id": "qb_5458__filter", "text": "Sikhism"}
+{"id": "qb_5458__rerank", "text": "Sikhism"}
+{"id": "sfq_7864__noop", "text": "Iggy Pop"}
+{"id": "sfq_7864__filter", "text": "Iggy Pop"}
+{"id": "sfq_7864__rerank", "text": "Iggy Pop"}
+{"id": "odql_4058__noop", "text": "Measure for Measure"}
+{"id": "odql_4058__filter", "text": "Measure for Measure"}
+{"id": "odql_4058__rerank", "text": "Measure for Measure"}
+{"id": "qw_2048__noop", "text": "Rose window"}
+{"id": "qw_2048__filter", "text": "Rose window"}
+{"id": "qw_2048__rerank", "text": "Rose window"}
+{"id": "bb_6235__noop", "text": "Geneva"}
+{"id": "bb_6235__filter", "text": "Gin"}
+{"id": "bb_6235__rerank", "text": "Geneva"}
+{"id": "sfq_5909__noop", "text": "Le Havre"}
+{"id": "sfq_5909__filter", "text": "Le Havre"}
+{"id": "sfq_5909__rerank", "text": "Le Havre"}
+{"id": "qf_2219__noop", "text": "UNKNOWN"}
+{"id": "qf_2219__filter", "text": "orange-coloured"}
+{"id": "qf_2219__rerank", "text": "UNKNOWN"}
+{"id": "sfq_6660__noop", "text": "Matthew Boulton"}
+{"id": "sfq_6660__filter", "text": "UNKNOWN"}
+{"id": "sfq_6660__rerank", "text": "Matthew Boulton"}
+{"id": "qb_5398__noop", "text": "The Robbers"}
+{"id": "qb_5398__filter", "text": "The Rauber"}
+{"id": "qb_5398__rerank", "text": "The Robbers"}
+{"id": "wh_1674__noop", "text": "Red"}
+{"id": "wh_1674__filter", "text": "UNKNOWN"}
+{"id": "wh_1674__rerank", "text": "Red"}
+{"id": "dpql_3210__noop", "text": "Transgender"}
+{"id": "dpql_3210__filter", "text": "Transgender"}
+{"id": "dpql_3210__rerank", "text": "Transgender"}
+{"id": "qb_5431__noop", "text": "UNKNOWN"}
+{"id": "qb_5431__filter", "text": "2"}
+{"id": "qb_5431__rerank", "text": "UNKNOWN"}
+{"id": "sfq_23893__noop", "text": "UNKNOWN"}
+{"id": "sfq_23893__filter", "text": "UNKNOWN"}
+{"id": "sfq_23893__rerank", "text": "UNKNOWN"}
+{"id": "qw_1763__noop", "text": "UNKNOWN"}
+{"id": "qw_1763__filter", "text": "UNKNOWN"}
+{"id": "qw_1763__rerank", "text": "UNKNOWN"}
+{"id": "jp_3697__noop", "text": "UNKNOWN"}
+{"id": "jp_3697__filter", "text": "UNKNOWN"}
+{"id": "jp_3697__rerank", "text": "UNKNOWN"}
+{"id": "qf_2191__noop", "text": "Vitamin C"}
+{"id": "qf_2191__filter", "text": "Vitamin C"}
+{"id": "qf_2191__rerank", "text": "Vitamin C"}
+{"id": "qb_6552__noop", "text": "Mediterranean Sea"}
+{"id": "qb_6552__filter", "text": "Mediterranean Sea"}
+{"id": "qb_6552__rerank", "text": "Mediterranean Sea"}
+{"id": "odql_13821__noop", "text": "Queen Elizabeth II"}
+{"id": "odql_13821__filter", "text": "UNKNOWN"}
+{"id": "odql_13821__rerank", "text": "Queen Elizabeth II"}
+{"id": "sfq_19481__noop", "text": "Bill Haley"}
+{"id": "sfq_19481__filter", "text": "Bill Haley"}
+{"id": "sfq_19481__rerank", "text": "Bill Haley"}
+{"id": "qg_460__noop", "text": "UNKNOWN"}
+{"id": "qg_460__filter", "text": "Charles Darwin"}
+{"id": "qg_460__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5831__noop", "text": "belladonna"}
+{"id": "sfq_5831__filter", "text": "Nightshade"}
+{"id": "sfq_5831__rerank", "text": "belladonna"}
+{"id": "dpql_1263__noop", "text": "Phil Daniels"}
+{"id": "dpql_1263__filter", "text": "UNKNOWN"}
+{"id": "dpql_1263__rerank", "text": "Phil Daniels"}
+{"id": "qb_163__noop", "text": "UNKNOWN"}
+{"id": "qb_163__filter", "text": "UNKNOWN"}
+{"id": "qb_163__rerank", "text": "UNKNOWN"}
+{"id": "qb_8871__noop", "text": "UNKNOWN"}
+{"id": "qb_8871__filter", "text": "UNKNOWN"}
+{"id": "qb_8871__rerank", "text": "UNKNOWN"}
+{"id": "qw_1983__noop", "text": "UNKNOWN"}
+{"id": "qw_1983__filter", "text": "UNKNOWN"}
+{"id": "qw_1983__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11783__noop", "text": "Chess"}
+{"id": "sfq_11783__filter", "text": "Chess"}
+{"id": "sfq_11783__rerank", "text": "Chess"}
+{"id": "sfq_8523__noop", "text": "UNKNOWN"}
+{"id": "sfq_8523__filter", "text": "UNKNOWN"}
+{"id": "sfq_8523__rerank", "text": "UNKNOWN"}
+{"id": "bt_3153__noop", "text": "UNKNOWN"}
+{"id": "bt_3153__filter", "text": "UNKNOWN"}
+{"id": "bt_3153__rerank", "text": "UNKNOWN"}
+{"id": "qb_7286__noop", "text": "UNKNOWN"}
+{"id": "qb_7286__filter", "text": "UNKNOWN"}
+{"id": "qb_7286__rerank", "text": "UNKNOWN"}
+{"id": "dpql_3075__noop", "text": "UNKNOWN"}
+{"id": "dpql_3075__filter", "text": "UNKNOWN"}
+{"id": "dpql_3075__rerank", "text": "UNKNOWN"}
+{"id": "qg_1273__noop", "text": "Lancelot"}
+{"id": "qg_1273__filter", "text": "Lancelot"}
+{"id": "qg_1273__rerank", "text": "Lancelot"}
+{"id": "dpql_3030__noop", "text": "Solitary Man"}
+{"id": "dpql_3030__filter", "text": "Tin Pan Alley"}
+{"id": "dpql_3030__rerank", "text": "Solitary Man"}
+{"id": "qw_8611__noop", "text": "Mozambique"}
+{"id": "qw_8611__filter", "text": "Mozambique"}
+{"id": "qw_8611__rerank", "text": "Mozambique"}
+{"id": "dpql_1068__noop", "text": "UNKNOWN"}
+{"id": "dpql_1068__filter", "text": "Las Vegas"}
+{"id": "dpql_1068__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14641__noop", "text": "Watts"}
+{"id": "sfq_14641__filter", "text": "Watt"}
+{"id": "sfq_14641__rerank", "text": "Watts"}
+{"id": "dpql_1648__noop", "text": "Richard Wagner"}
+{"id": "dpql_1648__filter", "text": "Wagner"}
+{"id": "dpql_1648__rerank", "text": "Richard Wagner"}
+{"id": "wh_3417__noop", "text": "UNKNOWN"}
+{"id": "wh_3417__filter", "text": "UNKNOWN"}
+{"id": "wh_3417__rerank", "text": "UNKNOWN"}
+{"id": "odql_882__noop", "text": "UNKNOWN"}
+{"id": "odql_882__filter", "text": "UNKNOWN"}
+{"id": "odql_882__rerank", "text": "UNKNOWN"}
+{"id": "qw_7415__noop", "text": "UNKNOWN"}
+{"id": "qw_7415__filter", "text": "UNKNOWN"}
+{"id": "qw_7415__rerank", "text": "UNKNOWN"}
+{"id": "sfq_16069__noop", "text": "Folic acid"}
+{"id": "sfq_16069__filter", "text": "Folic acid"}
+{"id": "sfq_16069__rerank", "text": "Folic acid"}
+{"id": "bb_5566__noop", "text": "sea coast"}
+{"id": "bb_5566__filter", "text": "sea"}
+{"id": "bb_5566__rerank", "text": "sea coast"}
+{"id": "tc_3129__noop", "text": "Neptune"}
+{"id": "tc_3129__filter", "text": "Neptune"}
+{"id": "tc_3129__rerank", "text": "Neptune"}
+{"id": "qz_6713__noop", "text": "14"}
+{"id": "qz_6713__filter", "text": "14"}
+{"id": "qz_6713__rerank", "text": "14"}
+{"id": "sfq_5165__noop", "text": "UNKNOWN"}
+{"id": "sfq_5165__filter", "text": "UNKNOWN"}
+{"id": "sfq_5165__rerank", "text": "UNKNOWN"}
+{"id": "sfq_18243__noop", "text": "Martin Van Buren"}
+{"id": "sfq_18243__filter", "text": "UNKNOWN"}
+{"id": "sfq_18243__rerank", "text": "Martin Van Buren"}
+{"id": "dpql_3549__noop", "text": "UNKNOWN"}
+{"id": "dpql_3549__filter", "text": "UNKNOWN"}
+{"id": "dpql_3549__rerank", "text": "UNKNOWN"}
+{"id": "qf_2030__noop", "text": "UNKNOWN"}
+{"id": "qf_2030__filter", "text": "UNKNOWN"}
+{"id": "qf_2030__rerank", "text": "UNKNOWN"}
+{"id": "odql_8597__noop", "text": "UNKNOWN"}
+{"id": "odql_8597__filter", "text": "UNKNOWN"}
+{"id": "odql_8597__rerank", "text": "UNKNOWN"}
+{"id": "qw_2283__noop", "text": "Motocross"}
+{"id": "qw_2283__filter", "text": "Trials"}
+{"id": "qw_2283__rerank", "text": "Motocross"}
+{"id": "bb_84__noop", "text": "UNKNOWN"}
+{"id": "bb_84__filter", "text": "UNKNOWN"}
+{"id": "bb_84__rerank", "text": "UNKNOWN"}
+{"id": "qb_5285__noop", "text": "UNKNOWN"}
+{"id": "qb_5285__filter", "text": "UNKNOWN"}
+{"id": "qb_5285__rerank", "text": "UNKNOWN"}
+{"id": "qw_1212__noop", "text": "UNKNOWN"}
+{"id": "qw_1212__filter", "text": "UNKNOWN"}
+{"id": "qw_1212__rerank", "text": "UNKNOWN"}
+{"id": "bt_4096__noop", "text": "UNKNOWN"}
+{"id": "bt_4096__filter", "text": "UNKNOWN"}
+{"id": "bt_4096__rerank", "text": "UNKNOWN"}
+{"id": "sfq_5790__noop", "text": "Sarah Louise Palin"}
+{"id": "sfq_5790__filter", "text": "UNKNOWN"}
+{"id": "sfq_5790__rerank", "text": "Sarah Louise Palin"}
+{"id": "sfq_3934__noop", "text": "UNKNOWN"}
+{"id": "sfq_3934__filter", "text": "UNKNOWN"}
+{"id": "sfq_3934__rerank", "text": "UNKNOWN"}
+{"id": "odql_14968__noop", "text": "shoulder"}
+{"id": "odql_14968__filter", "text": "shoulder"}
+{"id": "odql_14968__rerank", "text": "shoulder"}
+{"id": "jp_1658__noop", "text": "UNKNOWN"}
+{"id": "jp_1658__filter", "text": "UNKNOWN"}
+{"id": "jp_1658__rerank", "text": "UNKNOWN"}
+{"id": "qg_2790__noop", "text": "Gold"}
+{"id": "qg_2790__filter", "text": "gold"}
+{"id": "qg_2790__rerank", "text": "Gold"}
+{"id": "sfq_1463__noop", "text": "Velma Kelly"}
+{"id": "sfq_1463__filter", "text": "Velma"}
+{"id": "sfq_1463__rerank", "text": "Velma Kelly"}
+{"id": "sfq_15153__noop", "text": "Ishmael"}
+{"id": "sfq_15153__filter", "text": "Ishmael"}
+{"id": "sfq_15153__rerank", "text": "Ishmael"}
+{"id": "qf_1391__noop", "text": "Dolly Parton"}
+{"id": "qf_1391__filter", "text": "Dolly Parton"}
+{"id": "qf_1391__rerank", "text": "Dolly Parton"}
+{"id": "bt_2497__noop", "text": "UNKNOWN"}
+{"id": "bt_2497__filter", "text": "UNKNOWN"}
+{"id": "bt_2497__rerank", "text": "UNKNOWN"}
+{"id": "sfq_6023__noop", "text": "UNKNOWN"}
+{"id": "sfq_6023__filter", "text": "UNKNOWN"}
+{"id": "sfq_6023__rerank", "text": "UNKNOWN"}
+{"id": "qw_4631__noop", "text": "Warner Bros. Studios"}
+{"id": "qw_4631__filter", "text": "UNKNOWN"}
+{"id": "qw_4631__rerank", "text": "Warner Bros. Studios"}
+{"id": "qg_2643__noop", "text": "Nagasaki"}
+{"id": "qg_2643__filter", "text": "Nagasaki"}
+{"id": "qg_2643__rerank", "text": "Nagasaki"}
+{"id": "qb_688__noop", "text": "UNKNOWN"}
+{"id": "qb_688__filter", "text": "UNKNOWN"}
+{"id": "qb_688__rerank", "text": "UNKNOWN"}
+{"id": "qb_6581__noop", "text": "UNKNOWN"}
+{"id": "qb_6581__filter", "text": "UNKNOWN"}
+{"id": "qb_6581__rerank", "text": "UNKNOWN"}
+{"id": "wh_4018__noop", "text": "Java"}
+{"id": "wh_4018__filter", "text": "Java"}
+{"id": "wh_4018__rerank", "text": "Java"}
+{"id": "dpql_1783__noop", "text": "UNKNOWN"}
+{"id": "dpql_1783__filter", "text": "UNKNOWN"}
+{"id": "dpql_1783__rerank", "text": "UNKNOWN"}
+{"id": "wh_1754__noop", "text": "Bulldog Drummond"}
+{"id": "wh_1754__filter", "text": "Bulldog Drummond"}
+{"id": "wh_1754__rerank", "text": "Bulldog Drummond"}
+{"id": "qb_9009__noop", "text": "UNKNOWN"}
+{"id": "qb_9009__filter", "text": "UNKNOWN"}
+{"id": "qb_9009__rerank", "text": "UNKNOWN"}
+{"id": "sfq_20306__noop", "text": "12"}
+{"id": "sfq_20306__filter", "text": "12"}
+{"id": "sfq_20306__rerank", "text": "12"}
+{"id": "jp_2237__noop", "text": "Greece"}
+{"id": "jp_2237__filter", "text": "Greece"}
+{"id": "jp_2237__rerank", "text": "Greece"}
+{"id": "bb_2552__noop", "text": "6"}
+{"id": "bb_2552__filter", "text": "6"}
+{"id": "bb_2552__rerank", "text": "6"}
+{"id": "qb_2350__noop", "text": "UNKNOWN"}
+{"id": "qb_2350__filter", "text": "Rio"}
+{"id": "qb_2350__rerank", "text": "UNKNOWN"}
+{"id": "sfq_8762__noop", "text": "UNKNOWN"}
+{"id": "sfq_8762__filter", "text": "UNKNOWN"}
+{"id": "sfq_8762__rerank", "text": "UNKNOWN"}
+{"id": "odql_7418__noop", "text": "UNKNOWN"}
+{"id": "odql_7418__filter", "text": "UNKNOWN"}
+{"id": "odql_7418__rerank", "text": "UNKNOWN"}
+{"id": "qf_1235__noop", "text": "XIV"}
+{"id": "qf_1235__filter", "text": "XIV"}
+{"id": "qf_1235__rerank", "text": "XIV"}
+{"id": "jp_1432__noop", "text": "Toy Story 3"}
+{"id": "jp_1432__filter", "text": "Toy Story 3"}
+{"id": "jp_1432__rerank", "text": "Toy Story 3"}
+{"id": "sfq_6008__noop", "text": "Alison Moyet"}
+{"id": "sfq_6008__filter", "text": "Andy Bell"}
+{"id": "sfq_6008__rerank", "text": "Alison Moyet"}
+{"id": "sfq_2093__noop", "text": "UNKNOWN"}
+{"id": "sfq_2093__filter", "text": "UNKNOWN"}
+{"id": "sfq_2093__rerank", "text": "UNKNOWN"}
+{"id": "wh_2660__noop", "text": "UNKNOWN"}
+{"id": "wh_2660__filter", "text": "UNKNOWN"}
+{"id": "wh_2660__rerank", "text": "UNKNOWN"}
+{"id": "sfq_12020__noop", "text": "Vinegar Joe"}
+{"id": "sfq_12020__filter", "text": "Vinegar Joe"}
+{"id": "sfq_12020__rerank", "text": "Vinegar Joe"}
+{"id": "qf_2784__noop", "text": "Igor Stravinsky"}
+{"id": "qf_2784__filter", "text": "Igor Stravinsky"}
+{"id": "qf_2784__rerank", "text": "Igor Stravinsky"}
+{"id": "bb_8179__noop", "text": "fruit"}
+{"id": "bb_8179__filter", "text": "fruit"}
+{"id": "bb_8179__rerank", "text": "fruit"}
+{"id": "odql_5016__noop", "text": "Catalyst"}
+{"id": "odql_5016__filter", "text": "Catalyst"}
+{"id": "odql_5016__rerank", "text": "Catalyst"}
+{"id": "tb_1524__noop", "text": "long names"}
+{"id": "tb_1524__filter", "text": "long names"}
+{"id": "tb_1524__rerank", "text": "long names"}
+{"id": "qf_1063__noop", "text": "1875"}
+{"id": "qf_1063__filter", "text": "1875"}
+{"id": "qf_1063__rerank", "text": "1875"}
+{"id": "qb_9602__noop", "text": "UNKNOWN"}
+{"id": "qb_9602__filter", "text": "UNKNOWN"}
+{"id": "qb_9602__rerank", "text": "UNKNOWN"}
+{"id": "qg_2775__noop", "text": "UNKNOWN"}
+{"id": "qg_2775__filter", "text": "UNKNOWN"}
+{"id": "qg_2775__rerank", "text": "UNKNOWN"}
+{"id": "qw_57__noop", "text": "Philosopher's stone"}
+{"id": "qw_57__filter", "text": "Philosopher's stone"}
+{"id": "qw_57__rerank", "text": "Philosopher's stone"}
+{"id": "qw_14861__noop", "text": "Variety meats"}
+{"id": "qw_14861__filter", "text": "Fowl offal"}
+{"id": "qw_14861__rerank", "text": "Variety meats"}
+{"id": "odql_671__noop", "text": "Titanic"}
+{"id": "odql_671__filter", "text": "Titanic"}
+{"id": "odql_671__rerank", "text": "Titanic"}
+{"id": "wh_4082__noop", "text": "Rafael Nadal"}
+{"id": "wh_4082__filter", "text": "Rafael Nadal"}
+{"id": "wh_4082__rerank", "text": "Rafael Nadal"}
+{"id": "odql_14342__noop", "text": "Prussian"}
+{"id": "odql_14342__filter", "text": "Prussian Second Army"}
+{"id": "odql_14342__rerank", "text": "Prussian"}
+{"id": "qf_1366__noop", "text": "Tina Turner"}
+{"id": "qf_1366__filter", "text": "Tina Turner"}
+{"id": "qf_1366__rerank", "text": "Tina Turner"}
+{"id": "sfq_21241__noop", "text": "Tennessee Ave"}
+{"id": "sfq_21241__filter", "text": "Reading Railroad"}
+{"id": "sfq_21241__rerank", "text": "Tennessee Ave"}
+{"id": "bb_1523__noop", "text": "Bullfighting"}
+{"id": "bb_1523__filter", "text": "Bullfighting"}
+{"id": "bb_1523__rerank", "text": "Bullfighting"}
+{"id": "qw_10270__noop", "text": "1982"}
+{"id": "qw_10270__filter", "text": "UNKNOWN"}
+{"id": "qw_10270__rerank", "text": "1982"}
+{"id": "qf_1447__noop", "text": "South Dakota"}
+{"id": "qf_1447__filter", "text": "South Dakota"}
+{"id": "qf_1447__rerank", "text": "South Dakota"}
+{"id": "qg_1360__noop", "text": "Prevent"}
+{"id": "qg_1360__filter", "text": "Prevent"}
+{"id": "qg_1360__rerank", "text": "Prevent"}
+{"id": "tb_409__noop", "text": "Merchant Ivory Productions"}
+{"id": "tb_409__filter", "text": "Merchant Ivory Productions"}
+{"id": "tb_409__rerank", "text": "Merchant Ivory Productions"}
+{"id": "sfq_189__noop", "text": "St. Bartholomew's Day"}
+{"id": "sfq_189__filter", "text": "St. Bartholomew's Day"}
+{"id": "sfq_189__rerank", "text": "St. Bartholomew's Day"}
+{"id": "sfq_18575__noop", "text": "snapdragons"}
+{"id": "sfq_18575__filter", "text": "Snapdragon"}
+{"id": "sfq_18575__rerank", "text": "snapdragons"}
+{"id": "qw_2555__noop", "text": "Pearl"}
+{"id": "qw_2555__filter", "text": "UNKNOWN"}
+{"id": "qw_2555__rerank", "text": "Pearl"}
+{"id": "bt_2564__noop", "text": "UNKNOWN"}
+{"id": "bt_2564__filter", "text": "Joseph Cahill"}
+{"id": "bt_2564__rerank", "text": "UNKNOWN"}
+{"id": "sfq_11478__noop", "text": "UNKNOWN"}
+{"id": "sfq_11478__filter", "text": "GCB"}
+{"id": "sfq_11478__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22693__noop", "text": "UNKNOWN"}
+{"id": "sfq_22693__filter", "text": "UNKNOWN"}
+{"id": "sfq_22693__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3826__noop", "text": "Dalziel"}
+{"id": "sfq_3826__filter", "text": "Dalziel"}
+{"id": "sfq_3826__rerank", "text": "Dalziel"}
+{"id": "dpql_5636__noop", "text": "India and Pakistan"}
+{"id": "dpql_5636__filter", "text": "India and Pakistan"}
+{"id": "dpql_5636__rerank", "text": "India and Pakistan"}
+{"id": "qw_8593__noop", "text": "UNKNOWN"}
+{"id": "qw_8593__filter", "text": "UNKNOWN"}
+{"id": "qw_8593__rerank", "text": "UNKNOWN"}
+{"id": "qb_1825__noop", "text": "UNKNOWN"}
+{"id": "qb_1825__filter", "text": "UNKNOWN"}
+{"id": "qb_1825__rerank", "text": "UNKNOWN"}
+{"id": "odql_714__noop", "text": "Parsifal"}
+{"id": "odql_714__filter", "text": "Parsifal"}
+{"id": "odql_714__rerank", "text": "Parsifal"}
+{"id": "qg_547__noop", "text": "Costco"}
+{"id": "qg_547__filter", "text": "Costco"}
+{"id": "qg_547__rerank", "text": "Costco"}
+{"id": "qg_3670__noop", "text": "A cappella"}
+{"id": "qg_3670__filter", "text": "A cappella"}
+{"id": "qg_3670__rerank", "text": "A cappella"}
+{"id": "qf_1988__noop", "text": "K"}
+{"id": "qf_1988__filter", "text": "Potassium"}
+{"id": "qf_1988__rerank", "text": "K"}
+{"id": "bb_9396__noop", "text": "Emerald"}
+{"id": "bb_9396__filter", "text": "Emerald"}
+{"id": "bb_9396__rerank", "text": "Emerald"}
+{"id": "qw_4371__noop", "text": "Unknown"}
+{"id": "qw_4371__filter", "text": "Unknown"}
+{"id": "qw_4371__rerank", "text": "Unknown"}
+{"id": "wh_162__noop", "text": "UNKNOWN"}
+{"id": "wh_162__filter", "text": "UNKNOWN"}
+{"id": "wh_162__rerank", "text": "UNKNOWN"}
+{"id": "odql_13269__noop", "text": "Ross Kemp"}
+{"id": "odql_13269__filter", "text": "Ross Kemp"}
+{"id": "odql_13269__rerank", "text": "Ross Kemp"}
+{"id": "sfq_19972__noop", "text": "UNKNOWN"}
+{"id": "sfq_19972__filter", "text": "UNKNOWN"}
+{"id": "sfq_19972__rerank", "text": "UNKNOWN"}
+{"id": "odql_14658__noop", "text": "UNKNOWN"}
+{"id": "odql_14658__filter", "text": "UNKNOWN"}
+{"id": "odql_14658__rerank", "text": "UNKNOWN"}
+{"id": "odql_1913__noop", "text": "UNKNOWN"}
+{"id": "odql_1913__filter", "text": "UNKNOWN"}
+{"id": "odql_1913__rerank", "text": "UNKNOWN"}
+{"id": "odql_5213__noop", "text": "UNKNOWN"}
+{"id": "odql_5213__filter", "text": "UNKNOWN"}
+{"id": "odql_5213__rerank", "text": "UNKNOWN"}
+{"id": "sfq_21666__noop", "text": "Unknown"}
+{"id": "sfq_21666__filter", "text": "UNKNOWN"}
+{"id": "sfq_21666__rerank", "text": "Unknown"}
+{"id": "sfq_24087__noop", "text": "UNKNOWN"}
+{"id": "sfq_24087__filter", "text": "Miguel de Cervantes Saavedra"}
+{"id": "sfq_24087__rerank", "text": "UNKNOWN"}
+{"id": "sfq_20621__noop", "text": "UNKNOWN"}
+{"id": "sfq_20621__filter", "text": "Sue Lawley"}
+{"id": "sfq_20621__rerank", "text": "UNKNOWN"}
+{"id": "qz_2135__noop", "text": "UNKNOWN"}
+{"id": "qz_2135__filter", "text": "UNKNOWN"}
+{"id": "qz_2135__rerank", "text": "UNKNOWN"}
+{"id": "qb_104__noop", "text": "UNKNOWN"}
+{"id": "qb_104__filter", "text": "UNKNOWN"}
+{"id": "qb_104__rerank", "text": "UNKNOWN"}
+{"id": "bb_2862__noop", "text": "full-bodied"}
+{"id": "bb_2862__filter", "text": "dark-skinned"}
+{"id": "bb_2862__rerank", "text": "full-bodied"}
+{"id": "qb_5701__noop", "text": "X"}
+{"id": "qb_5701__filter", "text": "X"}
+{"id": "qb_5701__rerank", "text": "X"}
+{"id": "sfq_1122__noop", "text": "Pac-Man"}
+{"id": "sfq_1122__filter", "text": "Pac-Man"}
+{"id": "sfq_1122__rerank", "text": "Pac-Man"}
+{"id": "sfq_23306__noop", "text": "Ottorino Respighi"}
+{"id": "sfq_23306__filter", "text": "Ottorino Respighi"}
+{"id": "sfq_23306__rerank", "text": "Ottorino Respighi"}
+{"id": "sfq_15048__noop", "text": "Aston Martin"}
+{"id": "sfq_15048__filter", "text": "Aston Martin"}
+{"id": "sfq_15048__rerank", "text": "Aston Martin"}
+{"id": "sfq_22779__noop", "text": "UNKNOWN"}
+{"id": "sfq_22779__filter", "text": "UNKNOWN"}
+{"id": "sfq_22779__rerank", "text": "UNKNOWN"}
+{"id": "tc_759__noop", "text": "Unknown"}
+{"id": "tc_759__filter", "text": "UNKNOWN"}
+{"id": "tc_759__rerank", "text": "Unknown"}
+{"id": "odql_11061__noop", "text": "Castlebar"}
+{"id": "odql_11061__filter", "text": "Mayo Abbey"}
+{"id": "odql_11061__rerank", "text": "Castlebar"}
+{"id": "sfq_10536__noop", "text": "UNKNOWN"}
+{"id": "sfq_10536__filter", "text": "UNKNOWN"}
+{"id": "sfq_10536__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14081__noop", "text": "1993"}
+{"id": "sfq_14081__filter", "text": "1993"}
+{"id": "sfq_14081__rerank", "text": "1993"}
+{"id": "qb_4284__noop", "text": "Circle"}
+{"id": "qb_4284__filter", "text": "Circle"}
+{"id": "qb_4284__rerank", "text": "Circle"}
+{"id": "sfq_24836__noop", "text": "UNKNOWN"}
+{"id": "sfq_24836__filter", "text": "Kaye"}
+{"id": "sfq_24836__rerank", "text": "UNKNOWN"}
+{"id": "tc_517__noop", "text": "Rudolf Hess"}
+{"id": "tc_517__filter", "text": "Rudolf Hess"}
+{"id": "tc_517__rerank", "text": "Rudolf Hess"}
+{"id": "dpql_5765__noop", "text": "Confucius"}
+{"id": "dpql_5765__filter", "text": "Confucius"}
+{"id": "dpql_5765__rerank", "text": "Confucius"}
+{"id": "sfq_8526__noop", "text": "UNKNOWN"}
+{"id": "sfq_8526__filter", "text": "UNKNOWN"}
+{"id": "sfq_8526__rerank", "text": "UNKNOWN"}
+{"id": "qw_8790__noop", "text": "ballet"}
+{"id": "qw_8790__filter", "text": "ballet"}
+{"id": "qw_8790__rerank", "text": "ballet"}
+{"id": "qg_3640__noop", "text": "UNKNOWN"}
+{"id": "qg_3640__filter", "text": "UNKNOWN"}
+{"id": "qg_3640__rerank", "text": "UNKNOWN"}
+{"id": "tc_2669__noop", "text": "first-past-the-post"}
+{"id": "tc_2669__filter", "text": "First-past-the-post"}
+{"id": "tc_2669__rerank", "text": "first-past-the-post"}
+{"id": "sfq_12682__noop", "text": "Anne Sullivan"}
+{"id": "sfq_12682__filter", "text": "Anne Sullivan"}
+{"id": "sfq_12682__rerank", "text": "Anne Sullivan"}
+{"id": "tc_812__noop", "text": "UNKNOWN"}
+{"id": "tc_812__filter", "text": "UNKNOWN"}
+{"id": "tc_812__rerank", "text": "UNKNOWN"}
+{"id": "sfq_3685__noop", "text": "UNKNOWN"}
+{"id": "sfq_3685__filter", "text": "UNKNOWN"}
+{"id": "sfq_3685__rerank", "text": "UNKNOWN"}
+{"id": "odql_8493__noop", "text": "Nigeria"}
+{"id": "odql_8493__filter", "text": "West Africa"}
+{"id": "odql_8493__rerank", "text": "Nigeria"}
+{"id": "sfq_10702__noop", "text": "UNKNOWN"}
+{"id": "sfq_10702__filter", "text": "UNKNOWN"}
+{"id": "sfq_10702__rerank", "text": "UNKNOWN"}
+{"id": "wh_585__noop", "text": "Lowestoft"}
+{"id": "wh_585__filter", "text": "Lowestoft"}
+{"id": "wh_585__rerank", "text": "Lowestoft"}
+{"id": "odql_6706__noop", "text": "Bristol Aeroplane Company"}
+{"id": "odql_6706__filter", "text": "Bristol"}
+{"id": "odql_6706__rerank", "text": "Bristol Aeroplane Company"}
+{"id": "bt_4318__noop", "text": "CD"}
+{"id": "bt_4318__filter", "text": "CD"}
+{"id": "bt_4318__rerank", "text": "CD"}
+{"id": "jp_3861__noop", "text": "UNKNOWN"}
+{"id": "jp_3861__filter", "text": "UNKNOWN"}
+{"id": "jp_3861__rerank", "text": "UNKNOWN"}
+{"id": "qw_62__noop", "text": "UNKNOWN"}
+{"id": "qw_62__filter", "text": "UNKNOWN"}
+{"id": "qw_62__rerank", "text": "UNKNOWN"}
+{"id": "odql_11384__noop", "text": "Cyclades"}
+{"id": "odql_11384__filter", "text": "Cyclades"}
+{"id": "odql_11384__rerank", "text": "Cyclades"}
+{"id": "sfq_25194__noop", "text": "Lake District"}
+{"id": "sfq_25194__filter", "text": "Lake District"}
+{"id": "sfq_25194__rerank", "text": "Lake District"}
+{"id": "sfq_12905__noop", "text": "Weimar Republic"}
+{"id": "sfq_12905__filter", "text": "Weimar Republic"}
+{"id": "sfq_12905__rerank", "text": "Weimar Republic"}
+{"id": "sfq_12855__noop", "text": "Humber"}
+{"id": "sfq_12855__filter", "text": "Humber"}
+{"id": "sfq_12855__rerank", "text": "Humber"}
+{"id": "sfq_15802__noop", "text": "The Dandy"}
+{"id": "sfq_15802__filter", "text": "The Dandy"}
+{"id": "sfq_15802__rerank", "text": "The Dandy"}
+{"id": "sfq_14598__noop", "text": "UNKNOWN"}
+{"id": "sfq_14598__filter", "text": "UNKNOWN"}
+{"id": "sfq_14598__rerank", "text": "UNKNOWN"}
+{"id": "bb_4382__noop", "text": "dishes"}
+{"id": "bb_4382__filter", "text": "cuisines"}
+{"id": "bb_4382__rerank", "text": "dishes"}
+{"id": "qb_9275__noop", "text": "knee"}
+{"id": "qb_9275__filter", "text": "knee"}
+{"id": "qb_9275__rerank", "text": "knee"}
+{"id": "qg_3451__noop", "text": "UNKNOWN"}
+{"id": "qg_3451__filter", "text": "Bruce Hornsby"}
+{"id": "qg_3451__rerank", "text": "UNKNOWN"}
+{"id": "odql_10080__noop", "text": "UNKNOWN"}
+{"id": "odql_10080__filter", "text": "UNKNOWN"}
+{"id": "odql_10080__rerank", "text": "UNKNOWN"}
+{"id": "odql_10332__noop", "text": "UNKNOWN"}
+{"id": "odql_10332__filter", "text": "UNKNOWN"}
+{"id": "odql_10332__rerank", "text": "UNKNOWN"}
+{"id": "odql_8017__noop", "text": "Coleraine"}
+{"id": "odql_8017__filter", "text": "Coleraine"}
+{"id": "odql_8017__rerank", "text": "Coleraine"}
+{"id": "bb_1341__noop", "text": "UNKNOWN"}
+{"id": "bb_1341__filter", "text": "UNKNOWN"}
+{"id": "bb_1341__rerank", "text": "UNKNOWN"}
+{"id": "qg_577__noop", "text": "Taco Bell"}
+{"id": "qg_577__filter", "text": "Taco Bell"}
+{"id": "qg_577__rerank", "text": "Taco Bell"}
+{"id": "qf_2036__noop", "text": "Goldie Hawn"}
+{"id": "qf_2036__filter", "text": "UNKNOWN"}
+{"id": "qf_2036__rerank", "text": "Goldie Hawn"}
+{"id": "qw_1733__noop", "text": "Volga-Don Canal"}
+{"id": "qw_1733__filter", "text": "Volga-Don canal"}
+{"id": "qw_1733__rerank", "text": "Volga-Don Canal"}
+{"id": "bb_8713__noop", "text": "torera"}
+{"id": "bb_8713__filter", "text": "torera"}
+{"id": "bb_8713__rerank", "text": "torera"}
+{"id": "qw_15789__noop", "text": "Goan Vindaloo"}
+{"id": "qw_15789__filter", "text": "Goan Vindaloo"}
+{"id": "qw_15789__rerank", "text": "Goan Vindaloo"}
+{"id": "qw_3353__noop", "text": "UNKNOWN"}
+{"id": "qw_3353__filter", "text": "UNKNOWN"}
+{"id": "qw_3353__rerank", "text": "UNKNOWN"}
+{"id": "wh_2215__noop", "text": "UNKNOWN"}
+{"id": "wh_2215__filter", "text": "UNKNOWN"}
+{"id": "wh_2215__rerank", "text": "UNKNOWN"}
+{"id": "dpql_1096__noop", "text": "UNKNOWN"}
+{"id": "dpql_1096__filter", "text": "UNKNOWN"}
+{"id": "dpql_1096__rerank", "text": "UNKNOWN"}
+{"id": "qw_605__noop", "text": "Nicaragua"}
+{"id": "qw_605__filter", "text": "Nicaragua"}
+{"id": "qw_605__rerank", "text": "Nicaragua"}
+{"id": "qw_9143__noop", "text": "Douglas Bader"}
+{"id": "qw_9143__filter", "text": "Douglas Bader"}
+{"id": "qw_9143__rerank", "text": "Douglas Bader"}
+{"id": "sfq_2213__noop", "text": "Alps"}
+{"id": "sfq_2213__filter", "text": "Alps"}
+{"id": "sfq_2213__rerank", "text": "Alps"}
+{"id": "odql_1512__noop", "text": "Mutable"}
+{"id": "odql_1512__filter", "text": "Air"}
+{"id": "odql_1512__rerank", "text": "Mutable"}
+{"id": "qw_14371__noop", "text": "UNKNOWN"}
+{"id": "qw_14371__filter", "text": "UNKNOWN"}
+{"id": "qw_14371__rerank", "text": "UNKNOWN"}
+{"id": "dpql_1365__noop", "text": "Flower"}
+{"id": "dpql_1365__filter", "text": "Flower"}
+{"id": "dpql_1365__rerank", "text": "Flower"}
+{"id": "sfq_24717__noop", "text": "Cologne"}
+{"id": "sfq_24717__filter", "text": "Cologne"}
+{"id": "sfq_24717__rerank", "text": "Cologne"}
+{"id": "sfq_1930__noop", "text": "UNKNOWN"}
+{"id": "sfq_1930__filter", "text": "Bleak House"}
+{"id": "sfq_1930__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13642__noop", "text": "Unknown"}
+{"id": "sfq_13642__filter", "text": "Unknown"}
+{"id": "sfq_13642__rerank", "text": "Unknown"}
+{"id": "qw_7115__noop", "text": "1960s"}
+{"id": "qw_7115__filter", "text": "1960s"}
+{"id": "qw_7115__rerank", "text": "1960s"}
+{"id": "qg_3766__noop", "text": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions \u2013 on a sesame seed bun."}
+{"id": "qg_3766__filter", "text": "UNKNOWN"}
+{"id": "qg_3766__rerank", "text": "Two all-beef patties, special sauce, lettuce, cheese, pickles, onions \u2013 on a sesame seed bun."}
+{"id": "qz_6389__noop", "text": "UNKNOWN"}
+{"id": "qz_6389__filter", "text": "UNKNOWN"}
+{"id": "qz_6389__rerank", "text": "UNKNOWN"}
+{"id": "qw_13333__noop", "text": "1618 or 1619"}
+{"id": "qw_13333__filter", "text": "middle of the 15th century, perhaps as early as 1388"}
+{"id": "qw_13333__rerank", "text": "1618 or 1619"}
+{"id": "qb_3581__noop", "text": "UNKNOWN"}
+{"id": "qb_3581__filter", "text": "UNKNOWN"}
+{"id": "qb_3581__rerank", "text": "UNKNOWN"}
+{"id": "odql_5188__noop", "text": "UNKNOWN"}
+{"id": "odql_5188__filter", "text": "UNKNOWN"}
+{"id": "odql_5188__rerank", "text": "UNKNOWN"}
+{"id": "tc_316__noop", "text": "Fiddler on the Roof"}
+{"id": "tc_316__filter", "text": "Fiddler on the Roof"}
+{"id": "tc_316__rerank", "text": "Fiddler on the Roof"}
+{"id": "jp_412__noop", "text": "Liver"}
+{"id": "jp_412__filter", "text": "Liver"}
+{"id": "jp_412__rerank", "text": "Liver"}
+{"id": "sfq_17938__noop", "text": "UNKNOWN"}
+{"id": "sfq_17938__filter", "text": "UNKNOWN"}
+{"id": "sfq_17938__rerank", "text": "UNKNOWN"}
+{"id": "bb_7920__noop", "text": "Sugarloaf Mountain"}
+{"id": "bb_7920__filter", "text": "UNKNOWN"}
+{"id": "bb_7920__rerank", "text": "Sugarloaf Mountain"}
+{"id": "dpql_3032__noop", "text": "UNKNOWN"}
+{"id": "dpql_3032__filter", "text": "UNKNOWN"}
+{"id": "dpql_3032__rerank", "text": "UNKNOWN"}
+{"id": "bb_3847__noop", "text": "UNKNOWN"}
+{"id": "bb_3847__filter", "text": "UNKNOWN"}
+{"id": "bb_3847__rerank", "text": "UNKNOWN"}
+{"id": "odql_6295__noop", "text": "Terra Australis"}
+{"id": "odql_6295__filter", "text": "UNKNOWN"}
+{"id": "odql_6295__rerank", "text": "Terra Australis"}
+{"id": "wh_1554__noop", "text": "UNKNOWN"}
+{"id": "wh_1554__filter", "text": "UNKNOWN"}
+{"id": "wh_1554__rerank", "text": "UNKNOWN"}
+{"id": "qb_722__noop", "text": "Unknown"}
+{"id": "qb_722__filter", "text": "compound"}
+{"id": "qb_722__rerank", "text": "Unknown"}
+{"id": "tc_2687__noop", "text": "James Watt"}
+{"id": "tc_2687__filter", "text": "James Watt"}
+{"id": "tc_2687__rerank", "text": "James Watt"}
+{"id": "odql_10771__noop", "text": "Kevin Spacey"}
+{"id": "odql_10771__filter", "text": "Kevin Spacey"}
+{"id": "odql_10771__rerank", "text": "Kevin Spacey"}
+{"id": "sfq_14368__noop", "text": "UNKNOWN"}
+{"id": "sfq_14368__filter", "text": "Eton College and Balliol"}
+{"id": "sfq_14368__rerank", "text": "UNKNOWN"}
+{"id": "tc_397__noop", "text": "UNKNOWN"}
+{"id": "tc_397__filter", "text": "UNKNOWN"}
+{"id": "tc_397__rerank", "text": "UNKNOWN"}
+{"id": "qb_4532__noop", "text": "Vermont"}
+{"id": "qb_4532__filter", "text": "Vermont"}
+{"id": "qb_4532__rerank", "text": "Vermont"}
+{"id": "qw_12623__noop", "text": "UNKNOWN"}
+{"id": "qw_12623__filter", "text": "UNKNOWN"}
+{"id": "qw_12623__rerank", "text": "UNKNOWN"}
+{"id": "qw_1756__noop", "text": "ambidextrous"}
+{"id": "qw_1756__filter", "text": "Ambidextrous"}
+{"id": "qw_1756__rerank", "text": "ambidextrous"}
+{"id": "qb_3516__noop", "text": "France"}
+{"id": "qb_3516__filter", "text": "UNKNOWN"}
+{"id": "qb_3516__rerank", "text": "France"}
+{"id": "sfq_3398__noop", "text": "Lady Godiva"}
+{"id": "sfq_3398__filter", "text": "Godiva"}
+{"id": "sfq_3398__rerank", "text": "Lady Godiva"}
+{"id": "tb_1476__noop", "text": "UNKNOWN"}
+{"id": "tb_1476__filter", "text": "UNKNOWN"}
+{"id": "tb_1476__rerank", "text": "UNKNOWN"}
+{"id": "odql_12145__noop", "text": "UNKNOWN"}
+{"id": "odql_12145__filter", "text": "UNKNOWN"}
+{"id": "odql_12145__rerank", "text": "UNKNOWN"}
+{"id": "sfq_13317__noop", "text": "Northern line"}
+{"id": "sfq_13317__filter", "text": "Northern"}
+{"id": "sfq_13317__rerank", "text": "Northern line"}
+{"id": "odql_1520__noop", "text": "UNKNOWN"}
+{"id": "odql_1520__filter", "text": "UNKNOWN"}
+{"id": "odql_1520__rerank", "text": "UNKNOWN"}
+{"id": "wh_157__noop", "text": "UNKNOWN"}
+{"id": "wh_157__filter", "text": "UNKNOWN"}
+{"id": "wh_157__rerank", "text": "UNKNOWN"}
+{"id": "qw_8385__noop", "text": "Unknown"}
+{"id": "qw_8385__filter", "text": "Unknown"}
+{"id": "qw_8385__rerank", "text": "Unknown"}
+{"id": "bt_3960__noop", "text": "UNKNOWN"}
+{"id": "bt_3960__filter", "text": "UNKNOWN"}
+{"id": "bt_3960__rerank", "text": "UNKNOWN"}
+{"id": "qz_690__noop", "text": "animal"}
+{"id": "qz_690__filter", "text": "animals"}
+{"id": "qz_690__rerank", "text": "animal"}
+{"id": "qw_12302__noop", "text": "UNKNOWN"}
+{"id": "qw_12302__filter", "text": "UNKNOWN"}
+{"id": "qw_12302__rerank", "text": "UNKNOWN"}
+{"id": "sfq_7140__noop", "text": "UNKNOWN"}
+{"id": "sfq_7140__filter", "text": "UNKNOWN"}
+{"id": "sfq_7140__rerank", "text": "UNKNOWN"}
+{"id": "odql_4794__noop", "text": "1957"}
+{"id": "odql_4794__filter", "text": "UNKNOWN"}
+{"id": "odql_4794__rerank", "text": "1957"}
+{"id": "qb_7836__noop", "text": "Jackson"}
+{"id": "qb_7836__filter", "text": "Jackson"}
+{"id": "qb_7836__rerank", "text": "Jackson"}
+{"id": "jp_1630__noop", "text": "unknown"}
+{"id": "jp_1630__filter", "text": "Fischer"}
+{"id": "jp_1630__rerank", "text": "unknown"}
+{"id": "sfq_12250__noop", "text": "UNKNOWN"}
+{"id": "sfq_12250__filter", "text": "UNKNOWN"}
+{"id": "sfq_12250__rerank", "text": "UNKNOWN"}
+{"id": "odql_9955__noop", "text": "UNKNOWN"}
+{"id": "odql_9955__filter", "text": "UNKNOWN"}
+{"id": "odql_9955__rerank", "text": "UNKNOWN"}
+{"id": "sfq_2820__noop", "text": "UNKNOWN"}
+{"id": "sfq_2820__filter", "text": "Ali MacGraw"}
+{"id": "sfq_2820__rerank", "text": "UNKNOWN"}
+{"id": "bb_752__noop", "text": "UNKNOWN"}
+{"id": "bb_752__filter", "text": "UNKNOWN"}
+{"id": "bb_752__rerank", "text": "UNKNOWN"}
+{"id": "bb_8929__noop", "text": "William Bligh"}
+{"id": "bb_8929__filter", "text": "UNKNOWN"}
+{"id": "bb_8929__rerank", "text": "William Bligh"}
+{"id": "sfq_6361__noop", "text": "Patrick Troughton"}
+{"id": "sfq_6361__filter", "text": "Patrick Troughton"}
+{"id": "sfq_6361__rerank", "text": "Patrick Troughton"}
+{"id": "qb_5520__noop", "text": "Victor Frankenstein"}
+{"id": "qb_5520__filter", "text": "UNKNOWN"}
+{"id": "qb_5520__rerank", "text": "Victor Frankenstein"}
+{"id": "qb_712__noop", "text": "UNKNOWN"}
+{"id": "qb_712__filter", "text": "UNKNOWN"}
+{"id": "qb_712__rerank", "text": "UNKNOWN"}
+{"id": "jp_4098__noop", "text": "UNKNOWN"}
+{"id": "jp_4098__filter", "text": "UNKNOWN"}
+{"id": "jp_4098__rerank", "text": "UNKNOWN"}
+{"id": "qz_4565__noop", "text": "Isle of Skye"}
+{"id": "qz_4565__filter", "text": "Skye"}
+{"id": "qz_4565__rerank", "text": "Isle of Skye"}
+{"id": "sfq_18647__noop", "text": "A. C. Benson"}
+{"id": "sfq_18647__filter", "text": "UNKNOWN"}
+{"id": "sfq_18647__rerank", "text": "A. C. Benson"}
+{"id": "wh_1305__noop", "text": "UNKNOWN"}
+{"id": "wh_1305__filter", "text": "UNKNOWN"}
+{"id": "wh_1305__rerank", "text": "UNKNOWN"}
+{"id": "sfq_4851__noop", "text": "Wells"}
+{"id": "sfq_4851__filter", "text": "Wells"}
+{"id": "sfq_4851__rerank", "text": "Wells"}
+{"id": "odql_2333__noop", "text": "UNKNOWN"}
+{"id": "odql_2333__filter", "text": "UNKNOWN"}
+{"id": "odql_2333__rerank", "text": "UNKNOWN"}
+{"id": "qb_9351__noop", "text": "UNKNOWN"}
+{"id": "qb_9351__filter", "text": "UNKNOWN"}
+{"id": "qb_9351__rerank", "text": "UNKNOWN"}
+{"id": "odql_11715__noop", "text": "Unknown"}
+{"id": "odql_11715__filter", "text": "Baku"}
+{"id": "odql_11715__rerank", "text": "Unknown"}
+{"id": "sfq_11482__noop", "text": "UNKNOWN"}
+{"id": "sfq_11482__filter", "text": "All Things Must Pass"}
+{"id": "sfq_11482__rerank", "text": "UNKNOWN"}
+{"id": "dpql_3969__noop", "text": "Walford"}
+{"id": "dpql_3969__filter", "text": "Walford"}
+{"id": "dpql_3969__rerank", "text": "Walford"}
+{"id": "sfq_15836__noop", "text": "UNKNOWN"}
+{"id": "sfq_15836__filter", "text": "Unknown"}
+{"id": "sfq_15836__rerank", "text": "UNKNOWN"}
+{"id": "sfq_14273__noop", "text": "alligator pear"}
+{"id": "sfq_14273__filter", "text": "alligator pear"}
+{"id": "sfq_14273__rerank", "text": "alligator pear"}
+{"id": "qb_7880__noop", "text": "Sid Vicious"}
+{"id": "qb_7880__filter", "text": "Sid Vicious"}
+{"id": "qb_7880__rerank", "text": "Sid Vicious"}
+{"id": "sfq_9993__noop", "text": "backrub"}
+{"id": "sfq_9993__filter", "text": "UNKNOWN"}
+{"id": "sfq_9993__rerank", "text": "backrub"}
+{"id": "qb_727__noop", "text": "Billy"}
+{"id": "qb_727__filter", "text": "Lincoya"}
+{"id": "qb_727__rerank", "text": "Billy"}
+{"id": "odql_8520__noop", "text": "Serena"}
+{"id": "odql_8520__filter", "text": "UNKNOWN"}
+{"id": "odql_8520__rerank", "text": "Serena"}
+{"id": "qg_3812__noop", "text": "Boulder Dam"}
+{"id": "qg_3812__filter", "text": "Boulder Dam"}
+{"id": "qg_3812__rerank", "text": "Boulder Dam"}
+{"id": "qb_9283__noop", "text": "UNKNOWN"}
+{"id": "qb_9283__filter", "text": "UNKNOWN"}
+{"id": "qb_9283__rerank", "text": "UNKNOWN"}
+{"id": "qw_10944__noop", "text": "UNKNOWN"}
+{"id": "qw_10944__filter", "text": "UNKNOWN"}
+{"id": "qw_10944__rerank", "text": "UNKNOWN"}
+{"id": "qw_1297__noop", "text": "UNKNOWN"}
+{"id": "qw_1297__filter", "text": "UNKNOWN"}
+{"id": "qw_1297__rerank", "text": "UNKNOWN"}
+{"id": "odql_979__noop", "text": "UNKNOWN"}
+{"id": "odql_979__filter", "text": "UNKNOWN"}
+{"id": "odql_979__rerank", "text": "UNKNOWN"}
+{"id": "odql_9546__noop", "text": "Sarah Vaughan"}
+{"id": "odql_9546__filter", "text": "UNKNOWN"}
+{"id": "odql_9546__rerank", "text": "Sarah Vaughan"}
+{"id": "bb_6707__noop", "text": "Brazil"}
+{"id": "bb_6707__filter", "text": "Brazil"}
+{"id": "bb_6707__rerank", "text": "Brazil"}
+{"id": "sfq_6138__noop", "text": "UNKNOWN"}
+{"id": "sfq_6138__filter", "text": "UNKNOWN"}
+{"id": "sfq_6138__rerank", "text": "UNKNOWN"}
+{"id": "qw_8251__noop", "text": "UNKNOWN"}
+{"id": "qw_8251__filter", "text": "UNKNOWN"}
+{"id": "qw_8251__rerank", "text": "UNKNOWN"}
+{"id": "odql_7403__noop", "text": "Rio de Janeiro"}
+{"id": "odql_7403__filter", "text": "Rio de Janeiro"}
+{"id": "odql_7403__rerank", "text": "Rio de Janeiro"}
+{"id": "odql_12477__noop", "text": "UNKNOWN"}
+{"id": "odql_12477__filter", "text": "UNKNOWN"}
+{"id": "odql_12477__rerank", "text": "UNKNOWN"}
+{"id": "dpql_2943__noop", "text": "cactus"}
+{"id": "dpql_2943__filter", "text": "cactus"}
+{"id": "dpql_2943__rerank", "text": "cactus"}
+{"id": "qw_581__noop", "text": "UNKNOWN"}
+{"id": "qw_581__filter", "text": "UNKNOWN"}
+{"id": "qw_581__rerank", "text": "UNKNOWN"}
+{"id": "bt_2281__noop", "text": "UNKNOWN"}
+{"id": "bt_2281__filter", "text": "UNKNOWN"}
+{"id": "bt_2281__rerank", "text": "UNKNOWN"}
+{"id": "sfq_9045__noop", "text": "Water"}
+{"id": "sfq_9045__filter", "text": "Water"}
+{"id": "sfq_9045__rerank", "text": "Water"}
+{"id": "odql_10060__noop", "text": "UNKNOWN"}
+{"id": "odql_10060__filter", "text": "UNKNOWN"}
+{"id": "odql_10060__rerank", "text": "UNKNOWN"}
+{"id": "qw_2858__noop", "text": "Unknown"}
+{"id": "qw_2858__filter", "text": "Tzadik Ha-Dor"}
+{"id": "qw_2858__rerank", "text": "Unknown"}
+{"id": "odql_2385__noop", "text": "UNKNOWN"}
+{"id": "odql_2385__filter", "text": "UNKNOWN"}
+{"id": "odql_2385__rerank", "text": "UNKNOWN"}
+{"id": "sfq_22083__noop", "text": "UNKNOWN"}
+{"id": "sfq_22083__filter", "text": "UNKNOWN"}
+{"id": "sfq_22083__rerank", "text": "UNKNOWN"}
+{"id": "bb_77__noop", "text": "UNKNOWN"}
+{"id": "bb_77__filter", "text": "tree"}
+{"id": "bb_77__rerank", "text": "UNKNOWN"}

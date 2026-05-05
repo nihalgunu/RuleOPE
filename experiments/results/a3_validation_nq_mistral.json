@@ -1,0 +1,30 @@
+{
+  "benchmark": "nq",
+  "outputs": "eval/nq/outputs_mistral_1500.jsonl",
+  "n_queries": 1500,
+  "n_atoms": 48,
+  "reward_means": {
+    "noop": 0.48086894612935943,
+    "filter": 0.11722781574426167,
+    "rerank": 0.48286918378529375
+  },
+  "M0_query_FE_only": {
+    "r2_total": 0.5659532751840931,
+    "r2_within": 0.0
+  },
+  "M1_A3_atom_action_additive": {
+    "r2_total": 0.7656157591127668,
+    "r2_within": 0.4600022820431532
+  },
+  "M2_saturated": {
+    "r2_total": 1.0
+  },
+  "M1_vs_M0": {
+    "F_stat": 16.895216943462998,
+    "df1": 144,
+    "df2": 2856,
+    "p_value": 0.0
+  },
+  "saturation_gap": 0.2343842408872332,
+  "atom_residual_flags_after_bonferroni": []
+}

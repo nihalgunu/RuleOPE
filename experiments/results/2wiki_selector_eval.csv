@@ -1,0 +1,15 @@
+llm,sigma_R2,truth,pred_rule,pred_proc,rule_ok,proc_ok
+granite8b,0.019880245404666395,RuleOPE,RuleOPE,RuleOPE,True,True
+internlm7b,0.04393568771963592,RuleOPE,RuleOPE,RuleOPE,True,True
+mistral,0.01657892114107243,MRDR,RuleOPE,RuleOPE,False,False
+olmo7b,0.00382616435025211,MRDR,RuleOPE,RuleOPE,False,False
+phi35,0.028698760493582692,MRDR,RuleOPE,RuleOPE,False,False
+phi3mini,0.03292150638224993,RuleOPE,RuleOPE,RuleOPE,True,True
+qwen,0.04066475452801339,RuleOPE,RuleOPE,RuleOPE,True,True
+qwen14b,0.05097266578690545,MRDR,RuleOPE,RuleOPE,False,False
+qwen32b,0.05407872859473574,MRDR,RuleOPE,RuleOPE,False,False
+qwen3b,0.033338831636374126,RuleOPE,RuleOPE,RuleOPE,True,True
+qwencoder7b,0.005293168724279835,RuleOPE,RuleOPE,RuleOPE,True,True
+smollm17b,0.03446911792471366,RuleOPE,RuleOPE,RuleOPE,True,True
+yi15,0.033926681394650944,MRDR,RuleOPE,RuleOPE,False,False
+zephyr7b,0.003010459671162876,MRDR,RuleOPE,RuleOPE,False,False

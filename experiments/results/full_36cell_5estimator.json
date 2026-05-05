@@ -1,0 +1,3066 @@
+{
+  "grid": "full_36",
+  "n_trials": 100,
+  "cells": {
+    "hotpot__smollm17b": {
+      "benchmark": "hotpot",
+      "generator": "smollm17b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.014481434700640996,
+            "MSE_std": 0.0052589517850870045,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.00716566444255292,
+            "MSE_std": 0.004756496296882871,
+            "n_trials": 100,
+            "pct_mean_logratio": 145.72559506790506,
+            "pct_CI90_bootstrap": [
+              121.42040458700714,
+              173.35563003438628
+            ],
+            "paired_t_pvalue": 3.150260783312658e-30,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.00716566444255292,
+            "MSE_std": 0.004756496296882871,
+            "n_trials": 100,
+            "pct_mean_logratio": 145.72559506790506,
+            "pct_CI90_bootstrap": [
+              121.42040458700714,
+              173.35563003438628
+            ],
+            "paired_t_pvalue": 3.150260783312658e-30,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.01789431948312693,
+            "MSE_std": 0.010028974207469989,
+            "n_trials": 100,
+            "pct_mean_logratio": -12.980725839966434,
+            "pct_CI90_bootstrap": [
+              -20.562165534035117,
+              -4.43289858782231
+            ],
+            "paired_t_pvalue": 0.0016048920451979098,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.00716566444255292,
+            "MSE_std": 0.004756496296882871,
+            "n_trials": 100,
+            "pct_mean_logratio": 145.72559506790506,
+            "pct_CI90_bootstrap": [
+              121.42040458700714,
+              173.35563003438628
+            ],
+            "paired_t_pvalue": 3.150260783312658e-30,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -64.58680906399424,
+            "pct_CI90_bootstrap": [
+              -69.52667547445424,
+              -58.969409593422796
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -64.58680906399424,
+            "pct_CI90_bootstrap": [
+              -69.52667547445424,
+              -58.969409593422796
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__smollm17b": {
+      "benchmark": "trivia",
+      "generator": "smollm17b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.017541075601789736,
+            "MSE_std": 0.007500549586663668,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.006804157111424778,
+            "MSE_std": 0.0068043226919582535,
+            "n_trials": 100,
+            "pct_mean_logratio": 266.3301697777886,
+            "pct_CI90_bootstrap": [
+              215.70693628343355,
+              327.450975278248
+            ],
+            "paired_t_pvalue": 8.932100583948796e-24,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.006804157111424778,
+            "MSE_std": 0.0068043226919582535,
+            "n_trials": 100,
+            "pct_mean_logratio": 266.3301697777886,
+            "pct_CI90_bootstrap": [
+              215.70693628343355,
+              327.450975278248
+            ],
+            "paired_t_pvalue": 8.932100583948796e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.032663598759013646,
+            "MSE_std": 0.018353071554500867,
+            "n_trials": 100,
+            "pct_mean_logratio": -43.79782896682472,
+            "pct_CI90_bootstrap": [
+              -48.81378596397813,
+              -37.810453885134955
+            ],
+            "paired_t_pvalue": 1.3209849438087005e-12,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.006804157111424778,
+            "MSE_std": 0.0068043226919582535,
+            "n_trials": 100,
+            "pct_mean_logratio": 266.3301697777886,
+            "pct_CI90_bootstrap": [
+              215.70693628343355,
+              327.450975278248
+            ],
+            "paired_t_pvalue": 8.932100583948796e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -84.65805558213594,
+            "pct_CI90_bootstrap": [
+              -87.054144763562,
+              -81.84372329743469
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -84.65805558213594,
+            "pct_CI90_bootstrap": [
+              -87.054144763562,
+              -81.84372329743469
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__smollm17b": {
+      "benchmark": "nq",
+      "generator": "smollm17b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.019907252474981943,
+            "MSE_std": 0.008743095873743273,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.009327608964329982,
+            "MSE_std": 0.004338339940073526,
+            "n_trials": 100,
+            "pct_mean_logratio": 116.78175930665229,
+            "pct_CI90_bootstrap": [
+              98.20160205054233,
+              136.9882480728432
+            ],
+            "paired_t_pvalue": 1.0488974476544714e-21,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.009327608964329982,
+            "MSE_std": 0.004338339940073526,
+            "n_trials": 100,
+            "pct_mean_logratio": 116.78175930665229,
+            "pct_CI90_bootstrap": [
+              98.20160205054233,
+              136.9882480728432
+            ],
+            "paired_t_pvalue": 1.0488974476544714e-21,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.014405091476921816,
+            "MSE_std": 0.007306448477677204,
+            "n_trials": 100,
+            "pct_mean_logratio": 41.65613388399569,
+            "pct_CI90_bootstrap": [
+              28.13871720636063,
+              56.24321643440986
+            ],
+            "paired_t_pvalue": 2.2961004275402838e-07,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.009327608964329982,
+            "MSE_std": 0.004338339940073526,
+            "n_trials": 100,
+            "pct_mean_logratio": 116.78175930665229,
+            "pct_CI90_bootstrap": [
+              98.20160205054233,
+              136.9882480728432
+            ],
+            "paired_t_pvalue": 1.0488974476544714e-21,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -34.6549569774394,
+            "pct_CI90_bootstrap": [
+              -40.84377080791373,
+              -27.487108325645305
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -34.6549569774394,
+            "pct_CI90_bootstrap": [
+              -40.84377080791373,
+              -27.487108325645305
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "hotpot__qwen3b": {
+      "benchmark": "hotpot",
+      "generator": "qwen3b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.01675833505570001,
+            "MSE_std": 0.005998706701456668,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.00746432396895082,
+            "MSE_std": 0.005300697675550717,
+            "n_trials": 100,
+            "pct_mean_logratio": 170.15204786281578,
+            "pct_CI90_bootstrap": [
+              143.601914921101,
+              200.80315955781302
+            ],
+            "paired_t_pvalue": 1.5119443288257174e-31,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.00746432396895082,
+            "MSE_std": 0.005300697675550717,
+            "n_trials": 100,
+            "pct_mean_logratio": 170.15204786281578,
+            "pct_CI90_bootstrap": [
+              143.601914921101,
+              200.80315955781302
+            ],
+            "paired_t_pvalue": 1.5119443288257174e-31,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.018602830830675633,
+            "MSE_std": 0.011691216509971143,
+            "n_trials": 100,
+            "pct_mean_logratio": -0.6619114604630494,
+            "pct_CI90_bootstrap": [
+              -10.42899187054368,
+              9.951344904735393
+            ],
+            "paired_t_pvalue": 0.14400550004770685,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.00746432396895082,
+            "MSE_std": 0.005300697675550717,
+            "n_trials": 100,
+            "pct_mean_logratio": 170.15204786281578,
+            "pct_CI90_bootstrap": [
+              143.601914921101,
+              200.80315955781302
+            ],
+            "paired_t_pvalue": 1.5119443288257174e-31,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -63.22882268507504,
+            "pct_CI90_bootstrap": [
+              -67.98117889051937,
+              -57.943677950825915
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -63.22882268507504,
+            "pct_CI90_bootstrap": [
+              -67.98117889051937,
+              -57.943677950825915
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__qwen3b": {
+      "benchmark": "trivia",
+      "generator": "qwen3b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.022175858500693847,
+            "MSE_std": 0.010565232475701626,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.009654113520632331,
+            "MSE_std": 0.00996261117231205,
+            "n_trials": 100,
+            "pct_mean_logratio": 228.33927715295258,
+            "pct_CI90_bootstrap": [
+              184.4895031483635,
+              280.19854403859654
+            ],
+            "paired_t_pvalue": 1.6957972710658365e-22,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.009654113520632331,
+            "MSE_std": 0.00996261117231205,
+            "n_trials": 100,
+            "pct_mean_logratio": 228.33927715295258,
+            "pct_CI90_bootstrap": [
+              184.4895031483635,
+              280.19854403859654
+            ],
+            "paired_t_pvalue": 1.6957972710658365e-22,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.03905196986553233,
+            "MSE_std": 0.021030161993651333,
+            "n_trials": 100,
+            "pct_mean_logratio": -41.14964604266942,
+            "pct_CI90_bootstrap": [
+              -46.81352759038573,
+              -34.59989251531256
+            ],
+            "paired_t_pvalue": 1.9255920170303394e-12,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.009654113520632331,
+            "MSE_std": 0.00996261117231205,
+            "n_trials": 100,
+            "pct_mean_logratio": 228.33927715295258,
+            "pct_CI90_bootstrap": [
+              184.4895031483635,
+              280.19854403859654
+            ],
+            "paired_t_pvalue": 1.6957972710658365e-22,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -82.07635879946343,
+            "pct_CI90_bootstrap": [
+              -84.76998416345984,
+              -78.89662005793048
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -82.07635879946343,
+            "pct_CI90_bootstrap": [
+              -84.76998416345984,
+              -78.89662005793048
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__qwen3b": {
+      "benchmark": "nq",
+      "generator": "qwen3b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02491964314954457,
+            "MSE_std": 0.009977497474417904,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.016255171801363617,
+            "MSE_std": 0.007220946940653849,
+            "n_trials": 100,
+            "pct_mean_logratio": 57.445964659244744,
+            "pct_CI90_bootstrap": [
+              44.85878431799557,
+              71.25759603571598
+            ],
+            "paired_t_pvalue": 8.069500933191535e-15,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.016255171801363617,
+            "MSE_std": 0.007220946940653849,
+            "n_trials": 100,
+            "pct_mean_logratio": 57.445964659244744,
+            "pct_CI90_bootstrap": [
+              44.85878431799557,
+              71.25759603571598
+            ],
+            "paired_t_pvalue": 8.069500933191535e-15,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.01692194746762949,
+            "MSE_std": 0.009660975855515645,
+            "n_trials": 100,
+            "pct_mean_logratio": 54.75164480440091,
+            "pct_CI90_bootstrap": [
+              38.79684515085362,
+              71.68292849148467
+            ],
+            "paired_t_pvalue": 6.217115803871214e-08,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.016255171801363617,
+            "MSE_std": 0.007220946940653849,
+            "n_trials": 100,
+            "pct_mean_logratio": 57.445964659244744,
+            "pct_CI90_bootstrap": [
+              44.85878431799557,
+              71.25759603571598
+            ],
+            "paired_t_pvalue": 8.069500933191535e-15,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -1.7112663768011127,
+            "pct_CI90_bootstrap": [
+              -11.476743059390959,
+              8.987425566473007
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -1.7112663768011127,
+            "pct_CI90_bootstrap": [
+              -11.476743059390959,
+              8.987425566473007
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "hotpot__phi3mini": {
+      "benchmark": "hotpot",
+      "generator": "phi3mini",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.015264851191602102,
+            "MSE_std": 0.005019785208933269,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.004819746496534696,
+            "MSE_std": 0.003282836728834007,
+            "n_trials": 100,
+            "pct_mean_logratio": 275.5640704054525,
+            "pct_CI90_bootstrap": [
+              241.44844189589887,
+              312.84531643837533
+            ],
+            "paired_t_pvalue": 9.195566853097048e-45,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.004819746496534696,
+            "MSE_std": 0.003282836728834007,
+            "n_trials": 100,
+            "pct_mean_logratio": 275.5640704054525,
+            "pct_CI90_bootstrap": [
+              241.44844189589887,
+              312.84531643837533
+            ],
+            "paired_t_pvalue": 9.195566853097048e-45,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.018889851088239693,
+            "MSE_std": 0.012853548264116292,
+            "n_trials": 100,
+            "pct_mean_logratio": -9.64915774670445,
+            "pct_CI90_bootstrap": [
+              -18.22760244995717,
+              -0.34928510078704456
+            ],
+            "paired_t_pvalue": 0.009538646617840369,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.004819746496534696,
+            "MSE_std": 0.003282836728834007,
+            "n_trials": 100,
+            "pct_mean_logratio": 275.5640704054525,
+            "pct_CI90_bootstrap": [
+              241.44844189589887,
+              312.84531643837533
+            ],
+            "paired_t_pvalue": 9.195566853097048e-45,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -75.94262886868962,
+            "pct_CI90_bootstrap": [
+              -79.14317642423929,
+              -72.36847094320859
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -75.94262886868962,
+            "pct_CI90_bootstrap": [
+              -79.14317642423929,
+              -72.36847094320859
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__phi3mini": {
+      "benchmark": "trivia",
+      "generator": "phi3mini",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02248564769073918,
+            "MSE_std": 0.010780473301524665,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.009622937086603299,
+            "MSE_std": 0.009672213012740075,
+            "n_trials": 100,
+            "pct_mean_logratio": 233.58977986781605,
+            "pct_CI90_bootstrap": [
+              191.95343646575088,
+              280.8556646243352
+            ],
+            "paired_t_pvalue": 9.466636978527806e-24,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.009622937086603299,
+            "MSE_std": 0.009672213012740075,
+            "n_trials": 100,
+            "pct_mean_logratio": 233.58977986781605,
+            "pct_CI90_bootstrap": [
+              191.95343646575088,
+              280.8556646243352
+            ],
+            "paired_t_pvalue": 9.466636978527806e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.035918176550639586,
+            "MSE_std": 0.019296462745553092,
+            "n_trials": 100,
+            "pct_mean_logratio": -36.639102877062854,
+            "pct_CI90_bootstrap": [
+              -42.66645729344328,
+              -30.16265432903965
+            ],
+            "paired_t_pvalue": 1.3879520389749929e-09,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.009622937086603299,
+            "MSE_std": 0.009672213012740075,
+            "n_trials": 100,
+            "pct_mean_logratio": 233.58977986781605,
+            "pct_CI90_bootstrap": [
+              191.95343646575088,
+              280.8556646243352
+            ],
+            "paired_t_pvalue": 9.466636978527806e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -81.00634343532835,
+            "pct_CI90_bootstrap": [
+              -83.88134449447065,
+              -77.61310199050762
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -81.00634343532835,
+            "pct_CI90_bootstrap": [
+              -83.88134449447065,
+              -77.61310199050762
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__phi3mini": {
+      "benchmark": "nq",
+      "generator": "phi3mini",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.023744091692227545,
+            "MSE_std": 0.009132007982013688,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.01889465281317374,
+            "MSE_std": 0.0077006540962609345,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.96728134437081,
+            "pct_CI90_bootstrap": [
+              18.777073805628476,
+              37.77056833429533
+            ],
+            "paired_t_pvalue": 1.5431616154252658e-07,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.01889465281317374,
+            "MSE_std": 0.0077006540962609345,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.96728134437081,
+            "pct_CI90_bootstrap": [
+              18.777073805628476,
+              37.77056833429533
+            ],
+            "paired_t_pvalue": 1.5431616154252658e-07,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.01650879234716097,
+            "MSE_std": 0.01020330678822504,
+            "n_trials": 100,
+            "pct_mean_logratio": 56.099730233137215,
+            "pct_CI90_bootstrap": [
+              39.62829385079476,
+              73.58504947926374
+            ],
+            "paired_t_pvalue": 3.536338526824135e-07,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.01889465281317374,
+            "MSE_std": 0.0077006540962609345,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.96728134437081,
+            "pct_CI90_bootstrap": [
+              18.777073805628476,
+              37.77056833429533
+            ],
+            "paired_t_pvalue": 1.5431616154252658e-07,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 21.984095147774198,
+            "pct_CI90_bootstrap": [
+              8.756473905300254,
+              35.91018385063429
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 21.984095147774198,
+            "pct_CI90_bootstrap": [
+              8.756473905300254,
+              35.91018385063429
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    },
+    "hotpot__phi35": {
+      "benchmark": "hotpot",
+      "generator": "phi35",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.014414007946946217,
+            "MSE_std": 0.004650558617840516,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.0037633777640953157,
+            "MSE_std": 0.002406294284062377,
+            "n_trials": 100,
+            "pct_mean_logratio": 349.59931123294285,
+            "pct_CI90_bootstrap": [
+              302.93509261508706,
+              401.06344932666616
+            ],
+            "paired_t_pvalue": 8.512052743766287e-42,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.0037633777640953157,
+            "MSE_std": 0.002406294284062377,
+            "n_trials": 100,
+            "pct_mean_logratio": 349.59931123294285,
+            "pct_CI90_bootstrap": [
+              302.93509261508706,
+              401.06344932666616
+            ],
+            "paired_t_pvalue": 8.512052743766287e-42,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.018082823667970385,
+            "MSE_std": 0.010650369811853966,
+            "n_trials": 100,
+            "pct_mean_logratio": -13.223463529395696,
+            "pct_CI90_bootstrap": [
+              -21.714151354680876,
+              -4.1765118567244075
+            ],
+            "paired_t_pvalue": 0.0019861689609599774,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.0037633777640953157,
+            "MSE_std": 0.002406294284062377,
+            "n_trials": 100,
+            "pct_mean_logratio": 349.59931123294285,
+            "pct_CI90_bootstrap": [
+              302.93509261508706,
+              401.06344932666616
+            ],
+            "paired_t_pvalue": 8.512052743766287e-42,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -80.69913936642035,
+            "pct_CI90_bootstrap": [
+              -83.20186855948602,
+              -77.8411433162141
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -80.69913936642035,
+            "pct_CI90_bootstrap": [
+              -83.20186855948602,
+              -77.8411433162141
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__phi35": {
+      "benchmark": "trivia",
+      "generator": "phi35",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02341291560842681,
+            "MSE_std": 0.009989357418132056,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.013685398064503968,
+            "MSE_std": 0.011229101153645026,
+            "n_trials": 100,
+            "pct_mean_logratio": 127.80349139753442,
+            "pct_CI90_bootstrap": [
+              104.13827612271551,
+              155.8847218731176
+            ],
+            "paired_t_pvalue": 2.7763338726727833e-21,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.013685398064503968,
+            "MSE_std": 0.011229101153645026,
+            "n_trials": 100,
+            "pct_mean_logratio": 127.80349139753442,
+            "pct_CI90_bootstrap": [
+              104.13827612271551,
+              155.8847218731176
+            ],
+            "paired_t_pvalue": 2.7763338726727833e-21,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.03595772128663602,
+            "MSE_std": 0.023838365000668264,
+            "n_trials": 100,
+            "pct_mean_logratio": -29.326812208141952,
+            "pct_CI90_bootstrap": [
+              -36.3004770385672,
+              -21.934424802299667
+            ],
+            "paired_t_pvalue": 4.0031817603986256e-07,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.013685398064503968,
+            "MSE_std": 0.011229101153645026,
+            "n_trials": 100,
+            "pct_mean_logratio": 127.80349139753442,
+            "pct_CI90_bootstrap": [
+              104.13827612271551,
+              155.8847218731176
+            ],
+            "paired_t_pvalue": 2.7763338726727833e-21,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -68.9762490652402,
+            "pct_CI90_bootstrap": [
+              -73.97595278921449,
+              -63.33984159957331
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -68.9762490652402,
+            "pct_CI90_bootstrap": [
+              -73.97595278921449,
+              -63.33984159957331
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__phi35": {
+      "benchmark": "nq",
+      "generator": "phi35",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.021923580207628503,
+            "MSE_std": 0.009098113391822208,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.01721606371117295,
+            "MSE_std": 0.006831540470674876,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.71150168064136,
+            "pct_CI90_bootstrap": [
+              19.234600398697822,
+              37.106122938855776
+            ],
+            "paired_t_pvalue": 2.679774287447414e-08,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.01721606371117295,
+            "MSE_std": 0.006831540470674876,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.71150168064136,
+            "pct_CI90_bootstrap": [
+              19.234600398697822,
+              37.106122938855776
+            ],
+            "paired_t_pvalue": 2.679774287447414e-08,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.014183183492181874,
+            "MSE_std": 0.006643685555864581,
+            "n_trials": 100,
+            "pct_mean_logratio": 57.1942531561336,
+            "pct_CI90_bootstrap": [
+              42.59987104332345,
+              73.00503521219295
+            ],
+            "paired_t_pvalue": 2.0671774763006356e-10,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.01721606371117295,
+            "MSE_std": 0.006831540470674876,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.71150168064136,
+            "pct_CI90_bootstrap": [
+              19.234600398697822,
+              37.106122938855776
+            ],
+            "paired_t_pvalue": 2.679774287447414e-08,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 23.08543168587709,
+            "pct_CI90_bootstrap": [
+              11.457308077944294,
+              36.00296713269777
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 23.08543168587709,
+            "pct_CI90_bootstrap": [
+              11.457308077944294,
+              36.00296713269777
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    },
+    "hotpot__zephyr7b": {
+      "benchmark": "hotpot",
+      "generator": "zephyr7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.010477243417164777,
+            "MSE_std": 0.0027221903806674288,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.008976791196681226,
+            "MSE_std": 0.0026781530512892094,
+            "n_trials": 100,
+            "pct_mean_logratio": 18.37829275188716,
+            "pct_CI90_bootstrap": [
+              14.053981362603762,
+              23.000065058009266
+            ],
+            "paired_t_pvalue": 6.041712452844914e-10,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.008976791196681226,
+            "MSE_std": 0.0026781530512892094,
+            "n_trials": 100,
+            "pct_mean_logratio": 18.37829275188716,
+            "pct_CI90_bootstrap": [
+              14.053981362603762,
+              23.000065058009266
+            ],
+            "paired_t_pvalue": 6.041712452844914e-10,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.010678176622033046,
+            "MSE_std": 0.005267325411194581,
+            "n_trials": 100,
+            "pct_mean_logratio": 7.67220547184897,
+            "pct_CI90_bootstrap": [
+              -0.21918768909789943,
+              16.43589723873211
+            ],
+            "paired_t_pvalue": 0.6737465695556253,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.008976791196681226,
+            "MSE_std": 0.0026781530512892094,
+            "n_trials": 100,
+            "pct_mean_logratio": 18.37829275188716,
+            "pct_CI90_bootstrap": [
+              14.053981362603762,
+              23.000065058009266
+            ],
+            "paired_t_pvalue": 6.041712452844914e-10,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -9.04396155000935,
+            "pct_CI90_bootstrap": [
+              -15.807185808273516,
+              -1.6209069431012635
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -9.04396155000935,
+            "pct_CI90_bootstrap": [
+              -15.807185808273516,
+              -1.6209069431012635
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__zephyr7b": {
+      "benchmark": "trivia",
+      "generator": "zephyr7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.012460735652484145,
+            "MSE_std": 0.004249064400784492,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.009042001950388722,
+            "MSE_std": 0.0042830516081977694,
+            "n_trials": 100,
+            "pct_mean_logratio": 49.936946721093875,
+            "pct_CI90_bootstrap": [
+              39.596207328065994,
+              61.57969318007706
+            ],
+            "paired_t_pvalue": 5.799576380315466e-17,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.009042001950388722,
+            "MSE_std": 0.0042830516081977694,
+            "n_trials": 100,
+            "pct_mean_logratio": 49.936946721093875,
+            "pct_CI90_bootstrap": [
+              39.596207328065994,
+              61.57969318007706
+            ],
+            "paired_t_pvalue": 5.799576380315466e-17,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.01621424860941578,
+            "MSE_std": 0.010871325211015507,
+            "n_trials": 100,
+            "pct_mean_logratio": -16.95466468629643,
+            "pct_CI90_bootstrap": [
+              -24.410912447289878,
+              -9.333709041826488
+            ],
+            "paired_t_pvalue": 0.0013498630505517422,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.009042001950388722,
+            "MSE_std": 0.0042830516081977694,
+            "n_trials": 100,
+            "pct_mean_logratio": 49.936946721093875,
+            "pct_CI90_bootstrap": [
+              39.596207328065994,
+              61.57969318007706
+            ],
+            "paired_t_pvalue": 5.799576380315466e-17,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -44.6131609788074,
+            "pct_CI90_bootstrap": [
+              -50.5929965063892,
+              -38.16371617869325
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -44.6131609788074,
+            "pct_CI90_bootstrap": [
+              -50.5929965063892,
+              -38.16371617869325
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__zephyr7b": {
+      "benchmark": "nq",
+      "generator": "zephyr7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.012895238287678537,
+            "MSE_std": 0.004166315304442325,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.010046271163855591,
+            "MSE_std": 0.0029342531230143513,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.898948766127617,
+            "pct_CI90_bootstrap": [
+              22.987003256747784,
+              33.17274954152418
+            ],
+            "paired_t_pvalue": 3.925406078035829e-14,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.010046271163855591,
+            "MSE_std": 0.0029342531230143513,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.898948766127617,
+            "pct_CI90_bootstrap": [
+              22.987003256747784,
+              33.17274954152418
+            ],
+            "paired_t_pvalue": 3.925406078035829e-14,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.010496253136796958,
+            "MSE_std": 0.005081578637352543,
+            "n_trials": 100,
+            "pct_mean_logratio": 29.99143111305227,
+            "pct_CI90_bootstrap": [
+              21.006873242511915,
+              40.04158989797302
+            ],
+            "paired_t_pvalue": 3.829644408117498e-06,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.010046271163855591,
+            "MSE_std": 0.0029342531230143513,
+            "n_trials": 100,
+            "pct_mean_logratio": 27.898948766127617,
+            "pct_CI90_bootstrap": [
+              22.987003256747784,
+              33.17274954152418
+            ],
+            "paired_t_pvalue": 3.925406078035829e-14,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 1.636043428903311,
+            "pct_CI90_bootstrap": [
+              -5.129936544649061,
+              9.019225323824397
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 1.636043428903311,
+            "pct_CI90_bootstrap": [
+              -5.129936544649061,
+              9.019225323824397
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "hotpot__mistral": {
+      "benchmark": "hotpot",
+      "generator": "mistral",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.012359727277605304,
+            "MSE_std": 0.003201951756776082,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.009994966906315416,
+            "MSE_std": 0.0034473391500081437,
+            "n_trials": 100,
+            "pct_mean_logratio": 26.960662361142983,
+            "pct_CI90_bootstrap": [
+              22.637353000638782,
+              31.530587860001667
+            ],
+            "paired_t_pvalue": 1.763083222059029e-18,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.009994966906315416,
+            "MSE_std": 0.0034473391500081437,
+            "n_trials": 100,
+            "pct_mean_logratio": 26.960662361142983,
+            "pct_CI90_bootstrap": [
+              22.637353000638782,
+              31.530587860001667
+            ],
+            "paired_t_pvalue": 1.763083222059029e-18,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.011571035275016638,
+            "MSE_std": 0.005803943933980525,
+            "n_trials": 100,
+            "pct_mean_logratio": 16.22308350153552,
+            "pct_CI90_bootstrap": [
+              8.259361392335451,
+              24.565899045571783
+            ],
+            "paired_t_pvalue": 0.1554329395962798,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.009994966906315416,
+            "MSE_std": 0.0034473391500081437,
+            "n_trials": 100,
+            "pct_mean_logratio": 26.960662361142983,
+            "pct_CI90_bootstrap": [
+              22.637353000638782,
+              31.530587860001667
+            ],
+            "paired_t_pvalue": 1.763083222059029e-18,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -8.457406144482881,
+            "pct_CI90_bootstrap": [
+              -14.627508621012897,
+              -1.6683173809940444
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -8.457406144482881,
+            "pct_CI90_bootstrap": [
+              -14.627508621012897,
+              -1.6683173809940444
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__mistral": {
+      "benchmark": "trivia",
+      "generator": "mistral",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.010579807106983953,
+            "MSE_std": 0.004892491713862461,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.00545396337267629,
+            "MSE_std": 0.004130008731021299,
+            "n_trials": 100,
+            "pct_mean_logratio": 148.92035278303663,
+            "pct_CI90_bootstrap": [
+              120.3334014135769,
+              182.30973876515625
+            ],
+            "paired_t_pvalue": 6.601015100823109e-24,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.00545396337267629,
+            "MSE_std": 0.004130008731021299,
+            "n_trials": 100,
+            "pct_mean_logratio": 148.92035278303663,
+            "pct_CI90_bootstrap": [
+              120.3334014135769,
+              182.30973876515625
+            ],
+            "paired_t_pvalue": 6.601015100823109e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.016389787177608525,
+            "MSE_std": 0.008723193544010029,
+            "n_trials": 100,
+            "pct_mean_logratio": -32.21815526222406,
+            "pct_CI90_bootstrap": [
+              -38.94050544870181,
+              -24.527102549713575
+            ],
+            "paired_t_pvalue": 1.64729010697554e-08,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.00545396337267629,
+            "MSE_std": 0.004130008731021299,
+            "n_trials": 100,
+            "pct_mean_logratio": 148.92035278303663,
+            "pct_CI90_bootstrap": [
+              120.3334014135769,
+              182.30973876515625
+            ],
+            "paired_t_pvalue": 6.601015100823109e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -72.76966548538688,
+            "pct_CI90_bootstrap": [
+              -76.9476022732975,
+              -67.86440647033697
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -72.76966548538688,
+            "pct_CI90_bootstrap": [
+              -76.9476022732975,
+              -67.86440647033697
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__mistral": {
+      "benchmark": "nq",
+      "generator": "mistral",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.020875295615771495,
+            "MSE_std": 0.008060057850672776,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.012154370574481179,
+            "MSE_std": 0.0054034456233757275,
+            "n_trials": 100,
+            "pct_mean_logratio": 78.34900659062667,
+            "pct_CI90_bootstrap": [
+              63.98841576706178,
+              94.31444245341845
+            ],
+            "paired_t_pvalue": 6.069025946573891e-19,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.012154370574481179,
+            "MSE_std": 0.0054034456233757275,
+            "n_trials": 100,
+            "pct_mean_logratio": 78.34900659062667,
+            "pct_CI90_bootstrap": [
+              63.98841576706178,
+              94.31444245341845
+            ],
+            "paired_t_pvalue": 6.069025946573891e-19,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.014936507312443567,
+            "MSE_std": 0.009596627857422532,
+            "n_trials": 100,
+            "pct_mean_logratio": 51.1462605835179,
+            "pct_CI90_bootstrap": [
+              35.262980014638615,
+              67.8982737829101
+            ],
+            "paired_t_pvalue": 1.272184829667694e-05,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.012154370574481179,
+            "MSE_std": 0.0054034456233757275,
+            "n_trials": 100,
+            "pct_mean_logratio": 78.34900659062667,
+            "pct_CI90_bootstrap": [
+              63.98841576706178,
+              94.31444245341845
+            ],
+            "paired_t_pvalue": 6.069025946573891e-19,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -15.252535759589957,
+            "pct_CI90_bootstrap": [
+              -24.73826224323602,
+              -4.679927102637393
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -15.252535759589957,
+            "pct_CI90_bootstrap": [
+              -24.73826224323602,
+              -4.679927102637393
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "hotpot__qwen": {
+      "benchmark": "hotpot",
+      "generator": "qwen",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.015340268773771114,
+            "MSE_std": 0.004981987756695363,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.005362580459031995,
+            "MSE_std": 0.0035729353860061517,
+            "n_trials": 100,
+            "pct_mean_logratio": 239.53551390762223,
+            "pct_CI90_bootstrap": [
+              204.4834935881941,
+              277.8750352699907
+            ],
+            "paired_t_pvalue": 1.65253809027095e-37,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.005362580459031995,
+            "MSE_std": 0.0035729353860061517,
+            "n_trials": 100,
+            "pct_mean_logratio": 239.53551390762223,
+            "pct_CI90_bootstrap": [
+              204.4834935881941,
+              277.8750352699907
+            ],
+            "paired_t_pvalue": 1.65253809027095e-37,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.021535862443695347,
+            "MSE_std": 0.01431893403790367,
+            "n_trials": 100,
+            "pct_mean_logratio": -20.319628551279866,
+            "pct_CI90_bootstrap": [
+              -27.45494946782059,
+              -12.430810948551175
+            ],
+            "paired_t_pvalue": 2.4595273099284477e-05,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.005362580459031995,
+            "MSE_std": 0.0035729353860061517,
+            "n_trials": 100,
+            "pct_mean_logratio": 239.53551390762223,
+            "pct_CI90_bootstrap": [
+              204.4834935881941,
+              277.8750352699907
+            ],
+            "paired_t_pvalue": 1.65253809027095e-37,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -76.53253689674452,
+            "pct_CI90_bootstrap": [
+              -79.77620740340012,
+              -72.78560321121631
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -76.53253689674452,
+            "pct_CI90_bootstrap": [
+              -79.77620740340012,
+              -72.78560321121631
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__qwen": {
+      "benchmark": "trivia",
+      "generator": "qwen",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.025385051336924667,
+            "MSE_std": 0.014087045143408672,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.015047314184775593,
+            "MSE_std": 0.01380987024147018,
+            "n_trials": 100,
+            "pct_mean_logratio": 123.51964977960522,
+            "pct_CI90_bootstrap": [
+              98.71435452188922,
+              152.525559071996
+            ],
+            "paired_t_pvalue": 1.626300833713543e-15,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.015047314184775593,
+            "MSE_std": 0.01380987024147018,
+            "n_trials": 100,
+            "pct_mean_logratio": 123.51964977960522,
+            "pct_CI90_bootstrap": [
+              98.71435452188922,
+              152.525559071996
+            ],
+            "paired_t_pvalue": 1.626300833713543e-15,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.03934690729174592,
+            "MSE_std": 0.022650845482141378,
+            "n_trials": 100,
+            "pct_mean_logratio": -35.923448255435574,
+            "pct_CI90_bootstrap": [
+              -42.29415127802781,
+              -28.63401731705686
+            ],
+            "paired_t_pvalue": 5.4055486621754807e-08,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.015047314184775593,
+            "MSE_std": 0.01380987024147018,
+            "n_trials": 100,
+            "pct_mean_logratio": 123.51964977960522,
+            "pct_CI90_bootstrap": [
+              98.71435452188922,
+              152.525559071996
+            ],
+            "paired_t_pvalue": 1.626300833713543e-15,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -71.33292226981153,
+            "pct_CI90_bootstrap": [
+              -75.51453091057158,
+              -66.45931653370177
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -71.33292226981153,
+            "pct_CI90_bootstrap": [
+              -75.51453091057158,
+              -66.45931653370177
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__qwen": {
+      "benchmark": "nq",
+      "generator": "qwen",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.025406706305375157,
+            "MSE_std": 0.011274179753455443,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.019260578477092238,
+            "MSE_std": 0.007620556910991784,
+            "n_trials": 100,
+            "pct_mean_logratio": 30.998434776209226,
+            "pct_CI90_bootstrap": [
+              21.35898262080902,
+              41.320582626610516
+            ],
+            "paired_t_pvalue": 1.9000201616331728e-07,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.019260578477092238,
+            "MSE_std": 0.007620556910991784,
+            "n_trials": 100,
+            "pct_mean_logratio": 30.998434776209226,
+            "pct_CI90_bootstrap": [
+              21.35898262080902,
+              41.320582626610516
+            ],
+            "paired_t_pvalue": 1.9000201616331728e-07,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.016265327771308083,
+            "MSE_std": 0.010295448626778734,
+            "n_trials": 100,
+            "pct_mean_logratio": 63.59873499092743,
+            "pct_CI90_bootstrap": [
+              46.65267472489394,
+              82.03791387221797
+            ],
+            "paired_t_pvalue": 5.7206287977940074e-08,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.019260578477092238,
+            "MSE_std": 0.007620556910991784,
+            "n_trials": 100,
+            "pct_mean_logratio": 30.998434776209226,
+            "pct_CI90_bootstrap": [
+              21.35898262080902,
+              41.320582626610516
+            ],
+            "paired_t_pvalue": 1.9000201616331728e-07,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 24.88602269974507,
+            "pct_CI90_bootstrap": [
+              11.845323945199526,
+              39.27623715076298
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 24.88602269974507,
+            "pct_CI90_bootstrap": [
+              11.845323945199526,
+              39.27623715076298
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    },
+    "hotpot__qwencoder7b": {
+      "benchmark": "hotpot",
+      "generator": "qwencoder7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.01714230181927375,
+            "MSE_std": 0.003856979445401319,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.015323018562627274,
+            "MSE_std": 0.003961376654215395,
+            "n_trials": 100,
+            "pct_mean_logratio": 12.954589969726072,
+            "pct_CI90_bootstrap": [
+              9.655987031685132,
+              16.480724362117538
+            ],
+            "paired_t_pvalue": 4.05154808115346e-09,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.015323018562627274,
+            "MSE_std": 0.003961376654215395,
+            "n_trials": 100,
+            "pct_mean_logratio": 12.954589969726072,
+            "pct_CI90_bootstrap": [
+              9.655987031685132,
+              16.480724362117538
+            ],
+            "paired_t_pvalue": 4.05154808115346e-09,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.016859257462934124,
+            "MSE_std": 0.006601566323962265,
+            "n_trials": 100,
+            "pct_mean_logratio": 6.492427780976073,
+            "pct_CI90_bootstrap": [
+              0.5588998560258185,
+              12.901276709371068
+            ],
+            "paired_t_pvalue": 0.652791771254153,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.015323018562627274,
+            "MSE_std": 0.003961376654215395,
+            "n_trials": 100,
+            "pct_mean_logratio": 12.954589969726072,
+            "pct_CI90_bootstrap": [
+              9.655987031685132,
+              16.480724362117538
+            ],
+            "paired_t_pvalue": 4.05154808115346e-09,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -5.721026644850802,
+            "pct_CI90_bootstrap": [
+              -11.086337357912335,
+              0.12817486336322848
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -5.721026644850802,
+            "pct_CI90_bootstrap": [
+              -11.086337357912335,
+              0.12817486336322848
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__qwencoder7b": {
+      "benchmark": "trivia",
+      "generator": "qwencoder7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.017455796333598506,
+            "MSE_std": 0.00735686531628932,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.010209120065900525,
+            "MSE_std": 0.007538969916024605,
+            "n_trials": 100,
+            "pct_mean_logratio": 129.28086878326332,
+            "pct_CI90_bootstrap": [
+              100.85072634519672,
+              163.8028143133591
+            ],
+            "paired_t_pvalue": 1.7260157744323616e-21,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.010209120065900525,
+            "MSE_std": 0.007538969916024605,
+            "n_trials": 100,
+            "pct_mean_logratio": 129.28086878326332,
+            "pct_CI90_bootstrap": [
+              100.85072634519672,
+              163.8028143133591
+            ],
+            "paired_t_pvalue": 1.7260157744323616e-21,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.03044352823200662,
+            "MSE_std": 0.015547997515858867,
+            "n_trials": 100,
+            "pct_mean_logratio": -40.90066039856297,
+            "pct_CI90_bootstrap": [
+              -47.12984605674837,
+              -34.101497844416386
+            ],
+            "paired_t_pvalue": 1.0556802182498219e-10,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.010209120065900525,
+            "MSE_std": 0.007538969916024605,
+            "n_trials": 100,
+            "pct_mean_logratio": 129.28086878326332,
+            "pct_CI90_bootstrap": [
+              100.85072634519672,
+              163.8028143133591
+            ],
+            "paired_t_pvalue": 1.7260157744323616e-21,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -74.22404236556561,
+            "pct_CI90_bootstrap": [
+              -78.71303247344554,
+              -69.22613160706202
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -74.22404236556561,
+            "pct_CI90_bootstrap": [
+              -78.71303247344554,
+              -69.22613160706202
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__qwencoder7b": {
+      "benchmark": "nq",
+      "generator": "qwencoder7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02086757785294166,
+            "MSE_std": 0.007350097208983038,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.014166268945203977,
+            "MSE_std": 0.005340144492254747,
+            "n_trials": 100,
+            "pct_mean_logratio": 50.350426713102834,
+            "pct_CI90_bootstrap": [
+              41.851907333062584,
+              59.40732413337408
+            ],
+            "paired_t_pvalue": 5.632383827088012e-17,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.014166268945203977,
+            "MSE_std": 0.005340144492254747,
+            "n_trials": 100,
+            "pct_mean_logratio": 50.350426713102834,
+            "pct_CI90_bootstrap": [
+              41.851907333062584,
+              59.40732413337408
+            ],
+            "paired_t_pvalue": 5.632383827088012e-17,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.01536923819388809,
+            "MSE_std": 0.006327883347113518,
+            "n_trials": 100,
+            "pct_mean_logratio": 37.8774589781258,
+            "pct_CI90_bootstrap": [
+              28.66966495947152,
+              47.782983551534585
+            ],
+            "paired_t_pvalue": 1.9861342279840604e-09,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.014166268945203977,
+            "MSE_std": 0.005340144492254747,
+            "n_trials": 100,
+            "pct_mean_logratio": 50.350426713102834,
+            "pct_CI90_bootstrap": [
+              41.851907333062584,
+              59.40732413337408
+            ],
+            "paired_t_pvalue": 5.632383827088012e-17,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -8.295931050982542,
+            "pct_CI90_bootstrap": [
+              -14.112868923389465,
+              -2.2371655408521485
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -8.295931050982542,
+            "pct_CI90_bootstrap": [
+              -14.112868923389465,
+              -2.2371655408521485
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "hotpot__internlm7b": {
+      "benchmark": "hotpot",
+      "generator": "internlm7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.014839677440844343,
+            "MSE_std": 0.004773520826398337,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.003641694757467544,
+            "MSE_std": 0.0021131572840496567,
+            "n_trials": 100,
+            "pct_mean_logratio": 358.6087448870392,
+            "pct_CI90_bootstrap": [
+              312.6785473898986,
+              410.7041880220204
+            ],
+            "paired_t_pvalue": 3.9324946331843137e-41,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.003641694757467544,
+            "MSE_std": 0.0021131572840496567,
+            "n_trials": 100,
+            "pct_mean_logratio": 358.6087448870392,
+            "pct_CI90_bootstrap": [
+              312.6785473898986,
+              410.7041880220204
+            ],
+            "paired_t_pvalue": 3.9324946331843137e-41,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.022446905695183247,
+            "MSE_std": 0.01700041548458036,
+            "n_trials": 100,
+            "pct_mean_logratio": -24.32300979790416,
+            "pct_CI90_bootstrap": [
+              -31.923155811480253,
+              -16.33972436662503
+            ],
+            "paired_t_pvalue": 2.7732563688968774e-05,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.003641694757467544,
+            "MSE_std": 0.0021131572840496567,
+            "n_trials": 100,
+            "pct_mean_logratio": 358.6087448870392,
+            "pct_CI90_bootstrap": [
+              312.6785473898986,
+              410.7041880220204
+            ],
+            "paired_t_pvalue": 3.9324946331843137e-41,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -83.49857235698026,
+            "pct_CI90_bootstrap": [
+              -85.69542851538573,
+              -81.04805640135457
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -83.49857235698026,
+            "pct_CI90_bootstrap": [
+              -85.69542851538573,
+              -81.04805640135457
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__internlm7b": {
+      "benchmark": "trivia",
+      "generator": "internlm7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.028133021557233195,
+            "MSE_std": 0.012419628139924213,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.020477937993828858,
+            "MSE_std": 0.014473288411421908,
+            "n_trials": 100,
+            "pct_mean_logratio": 70.47013268694529,
+            "pct_CI90_bootstrap": [
+              54.50110188119248,
+              88.75662815612522
+            ],
+            "paired_t_pvalue": 1.07807507056058e-12,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.020477937993828858,
+            "MSE_std": 0.014473288411421908,
+            "n_trials": 100,
+            "pct_mean_logratio": 70.47013268694529,
+            "pct_CI90_bootstrap": [
+              54.50110188119248,
+              88.75662815612522
+            ],
+            "paired_t_pvalue": 1.07807507056058e-12,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.0406435489227266,
+            "MSE_std": 0.024562814263813848,
+            "n_trials": 100,
+            "pct_mean_logratio": -28.21770625543415,
+            "pct_CI90_bootstrap": [
+              -34.74691618770787,
+              -20.870196941571116
+            ],
+            "paired_t_pvalue": 1.4841228543339247e-06,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.020477937993828858,
+            "MSE_std": 0.014473288411421908,
+            "n_trials": 100,
+            "pct_mean_logratio": 70.47013268694529,
+            "pct_CI90_bootstrap": [
+              54.50110188119248,
+              88.75662815612522
+            ],
+            "paired_t_pvalue": 1.07807507056058e-12,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -57.89157161249574,
+            "pct_CI90_bootstrap": [
+              -63.24793018119288,
+              -51.729306781099794
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -57.89157161249574,
+            "pct_CI90_bootstrap": [
+              -63.24793018119288,
+              -51.729306781099794
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__internlm7b": {
+      "benchmark": "nq",
+      "generator": "internlm7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.022650704817342406,
+            "MSE_std": 0.010005068814794437,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.018627184120485966,
+            "MSE_std": 0.0077169160203120965,
+            "n_trials": 100,
+            "pct_mean_logratio": 21.27630901369311,
+            "pct_CI90_bootstrap": [
+              11.654607666723127,
+              31.473893658198058
+            ],
+            "paired_t_pvalue": 0.0001088440400320447,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.018627184120485966,
+            "MSE_std": 0.0077169160203120965,
+            "n_trials": 100,
+            "pct_mean_logratio": 21.27630901369311,
+            "pct_CI90_bootstrap": [
+              11.654607666723127,
+              31.473893658198058
+            ],
+            "paired_t_pvalue": 0.0001088440400320447,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.015913964689421682,
+            "MSE_std": 0.01045428648380061,
+            "n_trials": 100,
+            "pct_mean_logratio": 54.31318533370985,
+            "pct_CI90_bootstrap": [
+              38.124707328340634,
+              71.53814816435136
+            ],
+            "paired_t_pvalue": 4.769661424199263e-06,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.018627184120485966,
+            "MSE_std": 0.0077169160203120965,
+            "n_trials": 100,
+            "pct_mean_logratio": 21.27630901369311,
+            "pct_CI90_bootstrap": [
+              11.654607666723127,
+              31.473893658198058
+            ],
+            "paired_t_pvalue": 0.0001088440400320447,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 27.240997511135177,
+            "pct_CI90_bootstrap": [
+              12.217661572957294,
+              44.349800517264825
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 27.240997511135177,
+            "pct_CI90_bootstrap": [
+              12.217661572957294,
+              44.349800517264825
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    },
+    "hotpot__olmo7b": {
+      "benchmark": "hotpot",
+      "generator": "olmo7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.011799743778995746,
+            "MSE_std": 0.0029163518668448387,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.010921859997781804,
+            "MSE_std": 0.002624271844147263,
+            "n_trials": 100,
+            "pct_mean_logratio": 7.9751351402692405,
+            "pct_CI90_bootstrap": [
+              5.468485385929078,
+              10.847628976969915
+            ],
+            "paired_t_pvalue": 1.249366399768225e-05,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.010921859997781804,
+            "MSE_std": 0.002624271844147263,
+            "n_trials": 100,
+            "pct_mean_logratio": 7.9751351402692405,
+            "pct_CI90_bootstrap": [
+              5.468485385929078,
+              10.847628976969915
+            ],
+            "paired_t_pvalue": 1.249366399768225e-05,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.011427891046746961,
+            "MSE_std": 0.004225986617635455,
+            "n_trials": 100,
+            "pct_mean_logratio": 7.181230042044495,
+            "pct_CI90_bootstrap": [
+              1.4776589241889182,
+              13.161708949882067
+            ],
+            "paired_t_pvalue": 0.36477262078765543,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.010921859997781804,
+            "MSE_std": 0.002624271844147263,
+            "n_trials": 100,
+            "pct_mean_logratio": 7.9751351402692405,
+            "pct_CI90_bootstrap": [
+              5.468485385929078,
+              10.847628976969915
+            ],
+            "paired_t_pvalue": 1.249366399768225e-05,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -0.7352665937332747,
+            "pct_CI90_bootstrap": [
+              -6.189756535651425,
+              4.863217364270422
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -0.7352665937332747,
+            "pct_CI90_bootstrap": [
+              -6.189756535651425,
+              4.863217364270422
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__olmo7b": {
+      "benchmark": "trivia",
+      "generator": "olmo7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.010484199928733824,
+            "MSE_std": 0.004068992074222576,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.00683332879333052,
+            "MSE_std": 0.00454898882469052,
+            "n_trials": 100,
+            "pct_mean_logratio": 87.58921773099846,
+            "pct_CI90_bootstrap": [
+              69.826801589452,
+              109.17269191966832
+            ],
+            "paired_t_pvalue": 1.577177626691297e-24,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.00683332879333052,
+            "MSE_std": 0.00454898882469052,
+            "n_trials": 100,
+            "pct_mean_logratio": 87.58921773099846,
+            "pct_CI90_bootstrap": [
+              69.826801589452,
+              109.17269191966832
+            ],
+            "paired_t_pvalue": 1.577177626691297e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.014072183459092502,
+            "MSE_std": 0.00842113273330461,
+            "n_trials": 100,
+            "pct_mean_logratio": -17.78978836881252,
+            "pct_CI90_bootstrap": [
+              -25.76335735286396,
+              -9.125371536123383
+            ],
+            "paired_t_pvalue": 6.720739356153714e-05,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.00683332879333052,
+            "MSE_std": 0.00454898882469052,
+            "n_trials": 100,
+            "pct_mean_logratio": 87.58921773099846,
+            "pct_CI90_bootstrap": [
+              69.826801589452,
+              109.17269191966832
+            ],
+            "paired_t_pvalue": 1.577177626691297e-24,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -56.17540676081059,
+            "pct_CI90_bootstrap": [
+              -62.27078437550445,
+              -49.436687823277424
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -56.17540676081059,
+            "pct_CI90_bootstrap": [
+              -62.27078437550445,
+              -49.436687823277424
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__olmo7b": {
+      "benchmark": "nq",
+      "generator": "olmo7b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.011790015894574702,
+            "MSE_std": 0.0026057748103910008,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.010471589275718587,
+            "MSE_std": 0.0023087412688157297,
+            "n_trials": 100,
+            "pct_mean_logratio": 12.580103691947953,
+            "pct_CI90_bootstrap": [
+              9.295093216826821,
+              15.958753863574104
+            ],
+            "paired_t_pvalue": 5.540141379550773e-09,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.010471589275718587,
+            "MSE_std": 0.0023087412688157297,
+            "n_trials": 100,
+            "pct_mean_logratio": 12.580103691947953,
+            "pct_CI90_bootstrap": [
+              9.295093216826821,
+              15.958753863574104
+            ],
+            "paired_t_pvalue": 5.540141379550773e-09,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.008768146022140731,
+            "MSE_std": 0.0033538614651165174,
+            "n_trials": 100,
+            "pct_mean_logratio": 41.73815213305498,
+            "pct_CI90_bootstrap": [
+              32.83010139174858,
+              51.24815528035973
+            ],
+            "paired_t_pvalue": 8.297225367382894e-13,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.010471589275718587,
+            "MSE_std": 0.0023087412688157297,
+            "n_trials": 100,
+            "pct_mean_logratio": 12.580103691947953,
+            "pct_CI90_bootstrap": [
+              9.295093216826821,
+              15.958753863574104
+            ],
+            "paired_t_pvalue": 5.540141379550773e-09,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 25.899823756506677,
+            "pct_CI90_bootstrap": [
+              19.37634575059748,
+              32.86837244881924
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 25.899823756506677,
+            "pct_CI90_bootstrap": [
+              19.37634575059748,
+              32.86837244881924
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    },
+    "hotpot__granite8b": {
+      "benchmark": "hotpot",
+      "generator": "granite8b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.015494952247786355,
+            "MSE_std": 0.0055553739684400605,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.00477306776351961,
+            "MSE_std": 0.00349873796824859,
+            "n_trials": 100,
+            "pct_mean_logratio": 291.5844969151802,
+            "pct_CI90_bootstrap": [
+              248.24357674628808,
+              341.8746569373367
+            ],
+            "paired_t_pvalue": 2.8618339909847403e-35,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.00477306776351961,
+            "MSE_std": 0.00349873796824859,
+            "n_trials": 100,
+            "pct_mean_logratio": 291.5844969151802,
+            "pct_CI90_bootstrap": [
+              248.24357674628808,
+              341.8746569373367
+            ],
+            "paired_t_pvalue": 2.8618339909847403e-35,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.020643686179966904,
+            "MSE_std": 0.011214287912504261,
+            "n_trials": 100,
+            "pct_mean_logratio": -19.814783420203664,
+            "pct_CI90_bootstrap": [
+              -27.47051338683898,
+              -10.96950329392098
+            ],
+            "paired_t_pvalue": 7.787411793590583e-05,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.00477306776351961,
+            "MSE_std": 0.00349873796824859,
+            "n_trials": 100,
+            "pct_mean_logratio": 291.5844969151802,
+            "pct_CI90_bootstrap": [
+              248.24357674628808,
+              341.8746569373367
+            ],
+            "paired_t_pvalue": 2.8618339909847403e-35,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -79.52288274651357,
+            "pct_CI90_bootstrap": [
+              -82.38522481822099,
+              -76.1393783187475
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -79.52288274651357,
+            "pct_CI90_bootstrap": [
+              -82.38522481822099,
+              -76.1393783187475
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__granite8b": {
+      "benchmark": "trivia",
+      "generator": "granite8b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.021494603711133892,
+            "MSE_std": 0.010540454942571015,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.01092767396585945,
+            "MSE_std": 0.010026716208180088,
+            "n_trials": 100,
+            "pct_mean_logratio": 183.54514928723594,
+            "pct_CI90_bootstrap": [
+              146.30971837719687,
+              225.61163591816165
+            ],
+            "paired_t_pvalue": 5.896826247266849e-22,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.01092767396585945,
+            "MSE_std": 0.010026716208180088,
+            "n_trials": 100,
+            "pct_mean_logratio": 183.54514928723594,
+            "pct_CI90_bootstrap": [
+              146.30971837719687,
+              225.61163591816165
+            ],
+            "paired_t_pvalue": 5.896826247266849e-22,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.0353134872801603,
+            "MSE_std": 0.018185365488838916,
+            "n_trials": 100,
+            "pct_mean_logratio": -37.65300682668754,
+            "pct_CI90_bootstrap": [
+              -43.52777233502655,
+              -31.010718841789632
+            ],
+            "paired_t_pvalue": 1.0792190637377423e-11,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.01092767396585945,
+            "MSE_std": 0.010026716208180088,
+            "n_trials": 100,
+            "pct_mean_logratio": 183.54514928723594,
+            "pct_CI90_bootstrap": [
+              146.30971837719687,
+              225.61163591816165
+            ],
+            "paired_t_pvalue": 5.896826247266849e-22,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -78.01161708107588,
+            "pct_CI90_bootstrap": [
+              -81.12188223582737,
+              -74.23425803215137
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -78.01161708107588,
+            "pct_CI90_bootstrap": [
+              -81.12188223582737,
+              -74.23425803215137
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__granite8b": {
+      "benchmark": "nq",
+      "generator": "granite8b",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02355163340010784,
+            "MSE_std": 0.00824088667524911,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.0181198885108297,
+            "MSE_std": 0.006825806994611388,
+            "n_trials": 100,
+            "pct_mean_logratio": 32.64289932518456,
+            "pct_CI90_bootstrap": [
+              23.046833600791228,
+              43.20203169380734
+            ],
+            "paired_t_pvalue": 2.1307644840115306e-08,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.0181198885108297,
+            "MSE_std": 0.006825806994611388,
+            "n_trials": 100,
+            "pct_mean_logratio": 32.64289932518456,
+            "pct_CI90_bootstrap": [
+              23.046833600791228,
+              43.20203169380734
+            ],
+            "paired_t_pvalue": 2.1307644840115306e-08,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.015987993041175805,
+            "MSE_std": 0.010055083573285332,
+            "n_trials": 100,
+            "pct_mean_logratio": 61.91727990251956,
+            "pct_CI90_bootstrap": [
+              46.127127548615654,
+              78.7075858858175
+            ],
+            "paired_t_pvalue": 3.5215914466376944e-08,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.0181198885108297,
+            "MSE_std": 0.006825806994611388,
+            "n_trials": 100,
+            "pct_mean_logratio": 32.64289932518456,
+            "pct_CI90_bootstrap": [
+              23.046833600791228,
+              43.20203169380734
+            ],
+            "paired_t_pvalue": 2.1307644840115306e-08,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 22.070069884077647,
+            "pct_CI90_bootstrap": [
+              9.325229113047385,
+              35.99303364153399
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 22.070069884077647,
+            "pct_CI90_bootstrap": [
+              9.325229113047385,
+              35.99303364153399
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    },
+    "hotpot__yi15": {
+      "benchmark": "hotpot",
+      "generator": "yi15",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.015240972262963741,
+            "MSE_std": 0.004693396898255153,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.004869116309428475,
+            "MSE_std": 0.0036281823445963304,
+            "n_trials": 100,
+            "pct_mean_logratio": 281.977243539133,
+            "pct_CI90_bootstrap": [
+              242.45287697663093,
+              324.68919697796065
+            ],
+            "paired_t_pvalue": 3.732947713281099e-39,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.004869116309428475,
+            "MSE_std": 0.0036281823445963304,
+            "n_trials": 100,
+            "pct_mean_logratio": 281.977243539133,
+            "pct_CI90_bootstrap": [
+              242.45287697663093,
+              324.68919697796065
+            ],
+            "paired_t_pvalue": 3.732947713281099e-39,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.021635504590216802,
+            "MSE_std": 0.013572671639733637,
+            "n_trials": 100,
+            "pct_mean_logratio": -20.59293528429884,
+            "pct_CI90_bootstrap": [
+              -28.620656744474683,
+              -11.937399475061328
+            ],
+            "paired_t_pvalue": 2.2196872236607508e-05,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.004869116309428475,
+            "MSE_std": 0.0036281823445963304,
+            "n_trials": 100,
+            "pct_mean_logratio": 281.977243539133,
+            "pct_CI90_bootstrap": [
+              242.45287697663093,
+              324.68919697796065
+            ],
+            "paired_t_pvalue": 3.732947713281099e-39,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -79.21157187795505,
+            "pct_CI90_bootstrap": [
+              -82.06582371108297,
+              -75.9061461308276
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -79.21157187795505,
+            "pct_CI90_bootstrap": [
+              -82.06582371108297,
+              -75.9061461308276
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "trivia__yi15": {
+      "benchmark": "trivia",
+      "generator": "yi15",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02127933017837967,
+            "MSE_std": 0.010405271639766478,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.007994351441300389,
+            "MSE_std": 0.007490820615797928,
+            "n_trials": 100,
+            "pct_mean_logratio": 251.3679171653269,
+            "pct_CI90_bootstrap": [
+              209.50069959017102,
+              298.7849472422231
+            ],
+            "paired_t_pvalue": 6.96680121141853e-25,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.007994351441300389,
+            "MSE_std": 0.007490820615797928,
+            "n_trials": 100,
+            "pct_mean_logratio": 251.3679171653269,
+            "pct_CI90_bootstrap": [
+              209.50069959017102,
+              298.7849472422231
+            ],
+            "paired_t_pvalue": 6.96680121141853e-25,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.03704123892413197,
+            "MSE_std": 0.02130305510744131,
+            "n_trials": 100,
+            "pct_mean_logratio": -41.009153419326886,
+            "pct_CI90_bootstrap": [
+              -46.982443166615354,
+              -34.44284898082321
+            ],
+            "paired_t_pvalue": 8.679783136525185e-10,
+            "significance_bootstrap": false
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.007994351441300389,
+            "MSE_std": 0.007490820615797928,
+            "n_trials": 100,
+            "pct_mean_logratio": 251.3679171653269,
+            "pct_CI90_bootstrap": [
+              209.50069959017102,
+              298.7849472422231
+            ],
+            "paired_t_pvalue": 6.96680121141853e-25,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": -83.21108908958341,
+            "pct_CI90_bootstrap": [
+              -85.66372725005115,
+              -80.2895786640728
+            ],
+            "significance_bootstrap": false
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": -83.21108908958341,
+            "pct_CI90_bootstrap": [
+              -85.66372725005115,
+              -80.2895786640728
+            ],
+            "significance_bootstrap": false
+          }
+        }
+      }
+    },
+    "nq__yi15": {
+      "benchmark": "nq",
+      "generator": "yi15",
+      "scaling": {
+        "150": {
+          "NonCompDR": {
+            "MSE_mean": 0.02441801771175684,
+            "MSE_std": 0.009568040944237993,
+            "n_trials": 100
+          },
+          "DR": {
+            "MSE_mean": 0.018589944322785233,
+            "MSE_std": 0.006660551454757857,
+            "n_trials": 100,
+            "pct_mean_logratio": 30.977633853249298,
+            "pct_CI90_bootstrap": [
+              21.382804806511203,
+              41.68301262960987
+            ],
+            "paired_t_pvalue": 1.9820926238740884e-08,
+            "significance_bootstrap": true
+          },
+          "SwitchDR": {
+            "MSE_mean": 0.018589944322785233,
+            "MSE_std": 0.006660551454757857,
+            "n_trials": 100,
+            "pct_mean_logratio": 30.977633853249298,
+            "pct_CI90_bootstrap": [
+              21.382804806511203,
+              41.68301262960987
+            ],
+            "paired_t_pvalue": 1.9820926238740884e-08,
+            "significance_bootstrap": true
+          },
+          "MRDR": {
+            "MSE_mean": 0.016024464202796282,
+            "MSE_std": 0.00932901485408025,
+            "n_trials": 100,
+            "pct_mean_logratio": 59.785511189372606,
+            "pct_CI90_bootstrap": [
+              43.47359625046976,
+              76.76419827631291
+            ],
+            "paired_t_pvalue": 4.502950966449119e-08,
+            "significance_bootstrap": true
+          },
+          "RuleOPE": {
+            "MSE_mean": 0.018589944322785233,
+            "MSE_std": 0.006660551454757857,
+            "n_trials": 100,
+            "pct_mean_logratio": 30.977633853249298,
+            "pct_CI90_bootstrap": [
+              21.382804806511203,
+              41.68301262960987
+            ],
+            "paired_t_pvalue": 1.9820926238740884e-08,
+            "significance_bootstrap": true
+          },
+          "MRDR_vs_DR": {
+            "pct_mean_logratio": 21.99450126607141,
+            "pct_CI90_bootstrap": [
+              9.292810761072733,
+              35.4297951188484
+            ],
+            "significance_bootstrap": true
+          },
+          "RuleOPE_vs_DR": {
+            "pct_mean_logratio": 0.0,
+            "pct_CI90_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "significance_bootstrap": false
+          },
+          "MRDR_vs_RuleOPE": {
+            "pct_mean_logratio": 21.99450126607141,
+            "pct_CI90_bootstrap": [
+              9.292810761072733,
+              35.4297951188484
+            ],
+            "significance_bootstrap": true
+          }
+        }
+      }
+    }
+  }
+}

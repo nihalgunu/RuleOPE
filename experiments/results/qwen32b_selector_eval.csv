@@ -1,0 +1,5 @@
+bench,sigma_R2,truth,pred_rule,pred_proc
+hotpot,0.05840737709139726,RuleOPE,RuleOPE,RuleOPE
+trivia,0.028760761529171047,RuleOPE,RuleOPE,RuleOPE
+nq,0.08227675977648824,MRDR,RuleOPE,RuleOPE
+2wiki,0.05407872859473574,MRDR,RuleOPE,RuleOPE

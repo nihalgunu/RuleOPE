@@ -1,0 +1,112 @@
+"""Build Mistral generator prompts for TriviaQA.
+
+Mirrors experiments/build_noreplay_prompts.py for HotpotQA. Output
+JSONL is fed through scripts/lambda_generate.py to produce answers,
+which are graded against the alias list via F1 — replacing the
+"alias-substring-in-passages" retrieval-quality proxy currently used.
+"""
+from __future__ import annotations
+
+import json
+import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+import numpy as np
+
+from src.rag_substrate_trivia import (
+    _load_trivia,
+    _score_passages,
+    _secondary_scores,
+)
+
+
+SYSTEM = (
+    "You are a precise question-answering system.  Answer the user's "
+    "question using ONLY information from the provided passages.  Give the "
+    "shortest correct answer (one or two words).  If the passages do not "
+    "contain the answer, output exactly the string UNKNOWN."
+)
+
+
+def build_prompt(question: str, passages: list[tuple[str, str]], template: str = "mistral") -> str:
+    context = "\n\n".join(
+        f"[Passage {i+1}: {title}]\n{body[:400]}" for i, (title, body) in enumerate(passages)
+    )
+    user = f"Question: {question}\n\nPassages:\n{context}\n\nAnswer (short):"
+    if template == "mistral":
+        return f"<s>[INST] {SYSTEM}\n\n{user} [/INST]"
+    if template == "qwen":
+        return (
+            "<|im_start|>system\n" + SYSTEM + "<|im_end|>\n"
+            + "<|im_start|>user\n" + user + "<|im_end|>\n"
+            + "<|im_start|>assistant\n"
+        )
+    if template == "phi35":
+        return f"<|system|>\n{SYSTEM}<|end|>\n<|user|>\n{user}<|end|>\n<|assistant|>\n"
+    if template == "llama3":
+        return (
+            "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n"
+            f"{SYSTEM}<|eot_id|>"
+            "<|start_header_id|>user<|end_header_id|>\n\n"
+            f"{user}<|eot_id|>"
+            "<|start_header_id|>assistant<|end_header_id|>\n\n"
+        )
+    if template == "olmo":
+        return f"<|endoftext|><|user|>\n{SYSTEM}\n\n{user}\n<|assistant|>\n"
+    if template == "granite":
+        return (
+            f"<|start_of_role|>system<|end_of_role|>{SYSTEM}<|end_of_text|>\n"
+            f"<|start_of_role|>user<|end_of_role|>{user}<|end_of_text|>\n"
+            f"<|start_of_role|>assistant<|end_of_role|>"
+        )
+    raise ValueError(f"unknown template: {template}")
+
+
+def passages_for_action(sample, scores, action: str) -> list[tuple[str, str]]:
+    order = np.argsort(scores)[::-1]
+    if action == "abstain":
+        return []
+    if action == "filter":
+        order = order[1:]
+    elif action == "rerank":
+        sec = _secondary_scores(sample, scores)
+        order = np.argsort(sec)[::-1]
+    return [sample.passages[int(i)] for i in order[:3]]
+
+
+def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--trivia", default="eval/trivia/dev.parquet")
+    ap.add_argument("--n_queries", type=int, default=1500)
+    ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--template", default="mistral",
+                    choices=["mistral", "qwen", "phi35", "llama3", "olmo", "granite"])
+    ap.add_argument("--output", default=None)
+    args = ap.parse_args()
+    if args.output is None:
+        if args.template == "mistral":
+            args.output = "eval/trivia/prompts_1500.jsonl"   # legacy default
+        else:
+            args.output = f"eval/trivia/prompts_{args.template}_1500.jsonl"
+
+    samples = _load_trivia(args.trivia, args.n_queries, args.seed)
+    Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+    n_prompts = 0
+    with open(args.output, "w") as f:
+        for s in samples:
+            scores = _score_passages(s)
+            for action in ("noop", "filter", "rerank"):
+                psgs = passages_for_action(s, scores, action)
+                prompt = build_prompt(s.question, psgs, template=args.template)
+                pid = f"{s.qid}__{action}"
+                f.write(json.dumps({"id": pid, "prompt": prompt}) + "\n")
+                n_prompts += 1
+    print(f"wrote {n_prompts} prompts to {args.output}")
+
+
+if __name__ == "__main__":
+    main()

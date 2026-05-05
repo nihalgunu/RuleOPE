@@ -1,0 +1,140 @@
+{
+  "cells": {
+    "150": {
+      "N": 150,
+      "n_trials": 3,
+      "n_rules_avg": 130,
+      "gen_calls_replay_mean": 7938.666666666667,
+      "gen_calls_replay_std": 64.19414995845719,
+      "gen_calls_noreplay_mean": 150.0,
+      "estimators": {
+        "NonCompDR": {
+          "wallclock_mean_s": 3.7271460692087808,
+          "wallclock_std_s": 0.44774841844753993
+        },
+        "DR": {
+          "wallclock_mean_s": 0.26053333282470703,
+          "wallclock_std_s": 0.03474656847696929
+        },
+        "MRDR": {
+          "wallclock_mean_s": 5.29507311185201,
+          "wallclock_std_s": 0.2361671408995336
+        },
+        "RuleOPE": {
+          "wallclock_mean_s": 0.25528987248738605,
+          "wallclock_std_s": 0.013404615418369544
+        },
+        "JointRuleOPE": {
+          "wallclock_mean_s": 0.25127069155375165,
+          "wallclock_std_s": 0.01205048895852391
+        },
+        "SLOPE_DR": {
+          "wallclock_mean_s": 1.501038392384847,
+          "wallclock_std_s": 0.11689102446125324
+        }
+      }
+    },
+    "300": {
+      "N": 300,
+      "n_trials": 3,
+      "n_rules_avg": 140,
+      "gen_calls_replay_mean": 15910.0,
+      "gen_calls_replay_std": 343.5607660953154,
+      "gen_calls_noreplay_mean": 300.0,
+      "estimators": {
+        "NonCompDR": {
+          "wallclock_mean_s": 4.227819760640462,
+          "wallclock_std_s": 0.3273428236174781
+        },
+        "DR": {
+          "wallclock_mean_s": 10.497507095336914,
+          "wallclock_std_s": 1.0309488780641949
+        },
+        "MRDR": {
+          "wallclock_mean_s": 4.849460283915202,
+          "wallclock_std_s": 0.8377158977850622
+        },
+        "RuleOPE": {
+          "wallclock_mean_s": 11.869635979334513,
+          "wallclock_std_s": 2.487473946324443
+        },
+        "JointRuleOPE": {
+          "wallclock_mean_s": 9.2319122950236,
+          "wallclock_std_s": 5.66943015752234
+        },
+        "SLOPE_DR": {
+          "wallclock_mean_s": 55.91804734865824,
+          "wallclock_std_s": 26.99423680116566
+        }
+      }
+    },
+    "600": {
+      "N": 600,
+      "n_trials": 3,
+      "n_rules_avg": 140,
+      "gen_calls_replay_mean": 31496.666666666668,
+      "gen_calls_replay_std": 685.7508455862247,
+      "gen_calls_noreplay_mean": 600.0,
+      "estimators": {
+        "NonCompDR": {
+          "wallclock_mean_s": 3.997244675954183,
+          "wallclock_std_s": 0.6775353059981967
+        },
+        "DR": {
+          "wallclock_mean_s": 8.188258409500122,
+          "wallclock_std_s": 0.9570392209875035
+        },
+        "MRDR": {
+          "wallclock_mean_s": 4.641482988993327,
+          "wallclock_std_s": 0.5554349305621983
+        },
+        "RuleOPE": {
+          "wallclock_mean_s": 11.852327426274618,
+          "wallclock_std_s": 0.7976752780392732
+        },
+        "JointRuleOPE": {
+          "wallclock_mean_s": 10.188275019327799,
+          "wallclock_std_s": 2.3800177286913287
+        },
+        "SLOPE_DR": {
+          "wallclock_mean_s": 44.65940364201864,
+          "wallclock_std_s": 3.103929788384368
+        }
+      }
+    },
+    "1200": {
+      "N": 1200,
+      "n_trials": 3,
+      "n_rules_avg": 138,
+      "gen_calls_replay_mean": 64060.333333333336,
+      "gen_calls_replay_std": 1428.755246903946,
+      "gen_calls_noreplay_mean": 1200.0,
+      "estimators": {
+        "NonCompDR": {
+          "wallclock_mean_s": 4.353912989298503,
+          "wallclock_std_s": 1.6352146238226906
+        },
+        "DR": {
+          "wallclock_mean_s": 7.187594970067342,
+          "wallclock_std_s": 2.336389756836399
+        },
+        "MRDR": {
+          "wallclock_mean_s": 5.558032830556233,
+          "wallclock_std_s": 0.40297598144272057
+        },
+        "RuleOPE": {
+          "wallclock_mean_s": 9.98909099896749,
+          "wallclock_std_s": 0.6670321287414747
+        },
+        "JointRuleOPE": {
+          "wallclock_mean_s": 8.847279946009317,
+          "wallclock_std_s": 1.3514320733817307
+        },
+        "SLOPE_DR": {
+          "wallclock_mean_s": 44.76098863283793,
+          "wallclock_std_s": 6.024814646556955
+        }
+      }
+    }
+  }
+}

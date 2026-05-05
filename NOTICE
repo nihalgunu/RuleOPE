@@ -1,0 +1,10 @@
+Conditional Ranking of Off-Policy Evaluators in Retrieval-Augmented Generation
+Copyright 2026 Nihal Gunukula and Phyvant
+
+This product is licensed under the Apache License, Version 2.0
+(see the LICENSE file). It includes research code, cached generator
+outputs, and pre-computed estimator results supporting the NeurIPS 2026
+paper of the same name.
+
+Author:        Nihal Gunukula  <nihalgunukula@gmail.com>
+Organization:  Phyvant

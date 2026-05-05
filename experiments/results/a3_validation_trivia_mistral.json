@@ -1,0 +1,30 @@
+{
+  "benchmark": "trivia",
+  "outputs": "eval/trivia/outputs_1500.jsonl",
+  "n_queries": 1347,
+  "n_atoms": 48,
+  "reward_means": {
+    "noop": 0.21854755124727696,
+    "filter": 0.18738394994196048,
+    "rerank": 0.21675102008900624
+  },
+  "M0_query_FE_only": {
+    "r2_total": 0.7153237186695514,
+    "r2_within": 0.0
+  },
+  "M1_A3_atom_action_additive": {
+    "r2_total": 0.7267857388061991,
+    "r2_within": 0.040263347838743635
+  },
+  "M2_saturated": {
+    "r2_total": 1.0
+  },
+  "M1_vs_M0": {
+    "F_stat": 0.7429087792352236,
+    "df1": 144,
+    "df2": 2550,
+    "p_value": 0.9895955043848192
+  },
+  "saturation_gap": 0.2732142611938009,
+  "atom_residual_flags_after_bonferroni": []
+}
