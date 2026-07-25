@@ -40,27 +40,35 @@ SELECTORS = {"paper_fixed": (0.05, 0.10), "fit_in_grid": (0.00, 0.06)}
 
 
 def build_rules_v2(path):
+    """rules_v1 already uses 135/144 possible depth-1 rules, so a v1-disjoint
+    pool cannot match v1's depth mix: we take EVERY novel depth-1 rule and
+    redistribute the deficit to depths 2 and 3 (combinatorially plentiful).
+    """
     if path.exists():
         return load_rules(str(path))
     v1_names = {json.loads(l)["name"] for l in open(ROOT / "eval/rules_v1.jsonl")}
     pool = [r for r in enumerate_rules(max_depth=3, cap_per_depth=4000, rng_seed=1)
             if r.name not in v1_names]
     rng = np.random.default_rng(2)
-    chosen = []
-    for depth, quota in DEPTH_QUOTA.items():
-        cands = [r for r in pool if r.depth() == depth]
-        # balance actions within each depth
+    by_depth = {d: [r for r in pool if r.depth() == d] for d in (1, 2, 3)}
+    total = sum(DEPTH_QUOTA.values())
+    chosen = list(by_depth[1])                      # all novel depth-1 rules
+    deficit = total - len(chosen)
+    for depth in (2, 3):
+        quota = deficit // 2 if depth == 2 else deficit - deficit // 2
+        cands = by_depth[depth]
+        picked = set()
         per_action = quota // 3
         for action in ("filter", "rerank", "abstain"):
-            ac = [r for r in cands if r.action == action]
+            ac = [i for i, r in enumerate(cands) if r.action == action]
             idx = rng.choice(len(ac), size=min(per_action, len(ac)), replace=False)
-            chosen.extend(ac[int(i)] for i in idx)
-        # top up to quota with random leftovers of this depth
-        rest = [r for r in cands if r not in chosen]
-        need = quota - sum(1 for r in chosen if r.depth() == depth)
+            picked.update(ac[int(i)] for i in idx)
+        rest = [i for i in range(len(cands)) if i not in picked]
+        need = quota - len(picked)
         if need > 0:
-            idx = rng.choice(len(rest), size=need, replace=False)
-            chosen.extend(rest[int(i)] for i in idx)
+            idx = rng.choice(len(rest), size=min(need, len(rest)), replace=False)
+            picked.update(rest[int(i)] for i in idx)
+        chosen.extend(cands[i] for i in sorted(picked))
     save_rules(chosen, str(path))
     print(f"rules_v2: {len(chosen)} rules  "
           f"actions={Counter(r.action for r in chosen)}  "

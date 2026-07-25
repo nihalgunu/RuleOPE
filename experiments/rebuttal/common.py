@@ -128,6 +128,7 @@ _RESULT_FILES = {
     "2wiki":    RESULTS / "2wiki_12LLM_4N_5estimator.json",
     "qwen14b":  RESULTS / "qwen14b_anchor_4N_5estimator.json",
     "qwen32b":  RESULTS / "qwen32b_anchor_4N_5estimator.json",
+    "musique_anchor": RESULTS / "rebuttal/e6b_musique_anchors.json",
 }
 
 ESTIMATORS = ["NonCompDR", "DR", "SwitchDR", "MRDR", "RuleOPE"]

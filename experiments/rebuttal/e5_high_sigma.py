@@ -35,7 +35,7 @@ from joblib import Parallel, delayed
 
 from experiments.multi_estimator_n_sweep import load_cell, run_one_trial
 
-K_LEVELS = [1.0, 2.0, 3.0, 4.0]
+K_LEVELS = [float(k) for k in sys.argv[1:]] or [1.0, 2.0, 3.0, 4.0]
 NS = [150, 1200]
 N_TRIALS = 30
 LLMS = ["smollm17b", "qwen3b", "phi3mini", "phi35", "zephyr7b", "mistral",
@@ -62,7 +62,8 @@ def sigma_from_oracle(oracle):
 
 def main():
     root = Path(__file__).resolve().parents[2]
-    out_csv = root / "experiments/results/rebuttal/e5_high_sigma.csv"
+    suffix = ("_k" + "_".join(f"{k:g}" for k in K_LEVELS)) if len(sys.argv) > 1 else ""
+    out_csv = root / f"experiments/results/rebuttal/e5_high_sigma{suffix}.csv"
     rows = []
     t0 = time.time()
     for ci, llm in enumerate(LLMS, 1):
