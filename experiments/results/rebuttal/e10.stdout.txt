@@ -1,0 +1,24 @@
+=== E10: canonical cell accounting (audit-protocol sigma_R^2) ===
+                 n  middle  low  high
+group                                
+2wiki           12       0   12     0
+2wiki_anchor     2       2    0     0
+in_grid         36      13   23     0
+musique         12       0   12     0
+musique_anchor   2       0    2     0
+qwen14b_anchor   3       2    1     0
+qwen32b_anchor   3       2    1     0
+
+paper set: 54 cells; middle band 17; max sigma_R2 0.0941
+extended set: 70 cells; middle band 19; max sigma_R2 0.0941
+
+middle-band members (paper set), by benchmark:
+  hotpot: 7 -> ['granite8b', 'internlm7b', 'phi3mini', 'qwen', 'qwen14b', 'qwen32b', 'yi15']
+  nq: 10 -> ['granite8b', 'internlm7b', 'mistral', 'phi35', 'phi3mini', 'qwen', 'qwen14b', 'qwen32b', 'qwen3b', 'yi15']
+
+N3HW check — in-grid NQ cells with sigma_R2 >= 0.05: 8/12 (range [0.0079, 0.0941])
+
+sigma_R^2 protocols on the 36 in-grid cells: Spearman = 0.991 (p = 2.8e-31); cells > 0.1: alias-max 6, audit 0
+M3 adj-R^2: alias-max 0.898  audit 0.897  (phenomenon is protocol-robust)
+
+wrote /home/user/RuleOPE/experiments/results/rebuttal/e10_cell_accounting.csv, e10_summary.json

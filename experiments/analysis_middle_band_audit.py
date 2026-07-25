@@ -1,4 +1,6 @@
-"""Audit middle-band cells (σ_R² ∈ [0.05, 0.10]) across the full 51-cell calibration set:
+"""Audit middle-band cells (σ_R² ∈ [0.05, 0.10]) across the extended calibration set
+(67 rows here: the 54-cell paper audit set + 13 usable 2Wiki cells; see
+experiments/rebuttal/e10_audit_reconciliation.py for the canonical accounting):
   - 36 in-grid cells (12 LLMs × 3 benchmarks, calibrated on)
   - 12 MuSiQue cross-substrate cells (held-out)
   - 3 Qwen2.5-14B anchor cells (held-out frontier)

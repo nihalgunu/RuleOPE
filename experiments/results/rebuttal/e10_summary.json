@@ -1,0 +1,13 @@
+{
+ "paper_set_cells": 54,
+ "paper_set_middle_band": 17,
+ "paper_set_max_sigma": 0.094136947807063,
+ "extended_set_cells": 70,
+ "extended_set_middle_band": 19,
+ "nq_ingrid_at_or_above_LO": 8,
+ "sigma_protocol_spearman": 0.9909909909909911,
+ "cells_above_HI_aliasmax": 6,
+ "cells_above_HI_audit": 0,
+ "M3_adjR2_aliasmax": 0.8977619408278963,
+ "M3_adjR2_audit": 0.8972108349117006
+}

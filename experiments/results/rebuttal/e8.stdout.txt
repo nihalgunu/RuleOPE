@@ -1,0 +1,23 @@
+=== E8: gap(N) = a + b/N per cell (NonCompDR - RuleOPE MSE) ===
+cells: 36   median fit R^2: 0.886   b > 0 (variance term, Thm 3 leading order): 36/36
+
+hotpot: a<0 in 1/12 cells; gap<0 at N=2400 in 1/12
+  sign(a) predicts sign(gap@2400): 12/12
+  olmo7b       a=-0.00011 b=+0.133 R2=0.734 N*=1,226 gap@2400=-0.00021
+
+nq: a<0 in 8/12 cells; gap<0 at N=2400 in 8/12
+  sign(a) predicts sign(gap@2400): 12/12
+  qwen3b       a=-0.00020 b=+1.183 R2=0.822 N*=5,907 gap@2400=-0.00093
+  phi3mini     a=-0.00374 b=+1.117 R2=0.783 N*=299 gap@2400=-0.00533
+  phi35        a=-0.00275 b=+1.146 R2=0.898 N*=416 gap@2400=-0.00313
+  qwen         a=-0.00310 b=+1.300 R2=0.808 N*=419 gap@2400=-0.00392
+  internlm7b   a=-0.00345 b=+0.850 R2=0.744 N*=247 gap@2400=-0.00429
+  olmo7b       a=-0.00014 b=+0.285 R2=0.953 N*=2,060 gap@2400=-0.00009
+  granite8b    a=-0.00330 b=+1.082 R2=0.681 N*=327 gap@2400=-0.00475
+  yi15         a=-0.00478 b=+1.398 R2=0.791 N*=292 gap@2400=-0.00626
+
+trivia: a<0 in 0/12 cells; gap<0 at N=2400 in 0/12
+  sign(a) predicts sign(gap@2400): 12/12
+
+wrote /home/user/RuleOPE/experiments/results/rebuttal/e8_gap_crossover.csv
+EXIT:0

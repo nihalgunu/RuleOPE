@@ -1,0 +1,46 @@
+hotpot/smollm17b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0006 delta2=0.0009 c_hat=1.609 audit=0.0298
+hotpot/qwen3b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0018 delta2=0.0017 c_hat=0.920 audit=0.0459
+hotpot/phi3mini: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0017 delta2=0.0010 c_hat=0.570 audit=0.0510
+hotpot/phi35: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0019 delta2=0.0006 c_hat=0.325 audit=0.0464
+hotpot/zephyr7b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0002 delta2=0.0001 c_hat=0.432 audit=0.0103
+hotpot/mistral: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0002 delta2=0.0002 c_hat=0.889 audit=0.0139
+hotpot/qwen: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0021 delta2=0.0002 c_hat=0.104 audit=0.0524
+hotpot/qwencoder7b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0003 delta2=0.0001 c_hat=0.189 audit=0.0138
+hotpot/internlm7b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0020 delta2=0.0009 c_hat=0.456 audit=0.0503
+hotpot/olmo7b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0002 delta2=0.0000 c_hat=0.092 audit=0.0053
+hotpot/granite8b: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0020 delta2=0.0002 c_hat=0.101 audit=0.0516
+hotpot/yi15: rank(V)=2 lam_min(Sigma)=-1.29e-15 sigma2=0.0023 delta2=0.0004 c_hat=0.162 audit=0.0508
+trivia/smollm17b: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0006 delta2=0.0648 c_hat=108.416 audit=0.0293
+trivia/qwen3b: rank(V)=1 lam_min(Sigma)=-1.08e-15 sigma2=0.0010 delta2=0.0706 c_hat=68.585 audit=0.0354
+trivia/phi3mini: rank(V)=1 lam_min(Sigma)=-1.08e-15 sigma2=0.0013 delta2=0.0832 c_hat=62.776 audit=0.0357
+trivia/phi35: rank(V)=1 lam_min(Sigma)=-1.08e-15 sigma2=0.0010 delta2=0.0477 c_hat=50.143 audit=0.0344
+trivia/zephyr7b: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0003 delta2=0.0000 c_hat=0.031 audit=0.0106
+trivia/mistral: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0003 delta2=0.0005 c_hat=1.525 audit=0.0172
+trivia/qwen: rank(V)=1 lam_min(Sigma)=-1.08e-15 sigma2=0.0014 delta2=0.0412 c_hat=29.210 audit=0.0312
+trivia/qwencoder7b: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0007 delta2=0.0428 c_hat=62.589 audit=0.0234
+trivia/internlm7b: rank(V)=1 lam_min(Sigma)=-1.08e-15 sigma2=0.0011 delta2=0.0544 c_hat=51.614 audit=0.0288
+trivia/olmo7b: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0003 delta2=0.0006 c_hat=1.819 audit=0.0101
+trivia/granite8b: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0008 delta2=0.0595 c_hat=73.839 audit=0.0315
+trivia/yi15: rank(V)=2 lam_min(Sigma)=-1.08e-15 sigma2=0.0012 delta2=0.0576 c_hat=48.032 audit=0.0365
+nq/smollm17b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0034 delta2=0.0014 c_hat=0.409 audit=0.0546
+nq/qwen3b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0067 delta2=0.0008 c_hat=0.121 audit=0.0984
+nq/phi3mini: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0074 delta2=0.0054 c_hat=0.731 audit=0.1059
+nq/phi35: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0110 delta2=0.0074 c_hat=0.672 audit=0.1041
+nq/zephyr7b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0006 delta2=0.0000 c_hat=0.070 audit=0.0136
+nq/mistral: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0051 delta2=0.0074 c_hat=1.461 audit=0.0772
+nq/qwen: rank(V)=1 lam_min(Sigma)=-1.50e-15 sigma2=0.0080 delta2=0.0011 c_hat=0.139 audit=0.1068
+nq/qwencoder7b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0008 delta2=0.0038 c_hat=4.480 audit=0.0280
+nq/internlm7b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0092 delta2=0.0052 c_hat=0.569 audit=0.1039
+nq/olmo7b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0002 delta2=0.0012 c_hat=5.141 audit=0.0097
+nq/granite8b: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0078 delta2=0.0004 c_hat=0.049 audit=0.1009
+nq/yi15: rank(V)=2 lam_min(Sigma)=-1.50e-15 sigma2=0.0116 delta2=0.0009 c_hat=0.076 audit=0.1128
+
+=== E9 summary (36 in-grid cells) ===
+rank(V_beta) <= 2 in 36/36 cells (max observed rank 2; d = 48)
+Sigma singular in ambient d=48 (constant atoms: 13-23 per bench) but PD ON ITS RANGE in 36/36 cells: rank 20-22, min nonzero eigenvalue 5.787e-03. Ridge estimates lie in range(Sigma), so the corrected vanishing direction (sigma2=0 => V_beta=0 => Delta2=0) holds on-range.
+c_hat = delta2/sigma2: min 0.031, median 0.702, max 108.4
+Spearman(audit sigma-hat^2_R, tr(V_beta Sigma)) = 0.971 (p = 8.07e-23)
+noise floor share of audit stat: median 96.25% (Spearman with audit stat 0.999, p = 2.22e-52)
+
+wrote /home/user/RuleOPE/experiments/results/rebuttal/e9_kernel_check.csv
+EXIT:0
