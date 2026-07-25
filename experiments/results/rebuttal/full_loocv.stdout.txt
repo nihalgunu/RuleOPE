@@ -1,0 +1,78 @@
+Dataset: 36 cells, 12 LLMs × 3 benchmarks
+
+==============================================================================================================
+response               predictor      in-sample       LOOCV        LOLO        LOBO   rmse@LOO
+--------------------------------------------------------------------------------------------------------------
+RuleOPE_pct            noop_F1            0.803       0.760       0.760         nan       52.0
+RuleOPE_pct            sigma_R2           0.803       0.775       0.775         nan       50.3
+RuleOPE_pct            bridge_rate        0.800       0.755       0.755         nan       52.5
+DR_pct                 noop_F1            0.803       0.760       0.760         nan       52.0
+DR_pct                 sigma_R2           0.803       0.775       0.775         nan       50.3
+DR_pct                 bridge_rate        0.800       0.755       0.755         nan       52.5
+MRDR_pct               noop_F1            0.965       0.955       0.955         nan        7.8
+MRDR_pct               sigma_R2           0.974       0.968       0.968         nan        6.6
+MRDR_pct               bridge_rate        0.962       0.951       0.951         nan        8.2
+MRDR_vs_RuleOPE_pct    noop_F1            0.880       0.850       0.850         nan       16.1
+MRDR_vs_RuleOPE_pct    sigma_R2           0.898       0.870       0.870         nan       14.9
+MRDR_vs_RuleOPE_pct    bridge_rate        0.884       0.856       0.856         nan       15.7
+
+==============================================================================================================
+Baselines (LOOCV):
+--------------------------------------------------------------------------------------------------------------
+response               baseline                           LOOCV R²   LOOCV RMSE
+--------------------------------------------------------------------------------------------------------------
+RuleOPE_pct            intercept-only                       -0.058        109.1
+RuleOPE_pct            benchmark-mean                        0.199         95.0
+RuleOPE_pct            LLM-mean                             -0.641        136.0
+DR_pct                 intercept-only                       -0.058        109.1
+DR_pct                 benchmark-mean                        0.199         95.0
+DR_pct                 LLM-mean                             -0.641        136.0
+MRDR_pct               intercept-only                       -0.058         37.9
+MRDR_pct               benchmark-mean                        0.898         11.8
+MRDR_pct               LLM-mean                             -1.217         54.8
+MRDR_vs_RuleOPE_pct    intercept-only                       -0.058         42.6
+MRDR_vs_RuleOPE_pct    benchmark-mean                        0.624         25.4
+MRDR_vs_RuleOPE_pct    LLM-mean                             -1.013         58.8
+
+==============================================================================================================
+Baselines (LOBO — predict held-out benchmark by training-overall mean):
+--------------------------------------------------------------------------------------------------------------
+response               baseline                            LOBO R²    LOBO RMSE
+--------------------------------------------------------------------------------------------------------------
+RuleOPE_pct            training-overall mean                -0.408        125.9
+RuleOPE_pct            training-LLM mean (×bench)           -0.641        136.0
+DR_pct                 training-overall mean                -0.408        125.9
+DR_pct                 training-LLM mean (×bench)           -0.641        136.0
+MRDR_pct               training-overall mean                -1.143         53.9
+MRDR_pct               training-LLM mean (×bench)           -1.217         54.8
+MRDR_vs_RuleOPE_pct    training-overall mean                -0.855         56.4
+MRDR_vs_RuleOPE_pct    training-LLM mean (×bench)           -1.013         58.8
+
+==============================================================================================================
+LOOCV: how much does the (predictor × benchmark) interaction add over benchmark-mean baseline?
+--------------------------------------------------------------------------------------------------------------
+
+RuleOPE_pct:
+  benchmark-mean baseline (LOOCV):                       +0.199
+  noop_F1      × benchmark interaction (LOOCV): +0.760  (Δ over baseline: +0.562)
+  sigma_R2     × benchmark interaction (LOOCV): +0.775  (Δ over baseline: +0.577)
+  bridge_rate  × benchmark interaction (LOOCV): +0.755  (Δ over baseline: +0.557)
+
+DR_pct:
+  benchmark-mean baseline (LOOCV):                       +0.199
+  noop_F1      × benchmark interaction (LOOCV): +0.760  (Δ over baseline: +0.562)
+  sigma_R2     × benchmark interaction (LOOCV): +0.775  (Δ over baseline: +0.577)
+  bridge_rate  × benchmark interaction (LOOCV): +0.755  (Δ over baseline: +0.557)
+
+MRDR_pct:
+  benchmark-mean baseline (LOOCV):                       +0.898
+  noop_F1      × benchmark interaction (LOOCV): +0.955  (Δ over baseline: +0.057)
+  sigma_R2     × benchmark interaction (LOOCV): +0.968  (Δ over baseline: +0.070)
+  bridge_rate  × benchmark interaction (LOOCV): +0.951  (Δ over baseline: +0.053)
+
+MRDR_vs_RuleOPE_pct:
+  benchmark-mean baseline (LOOCV):                       +0.624
+  noop_F1      × benchmark interaction (LOOCV): +0.850  (Δ over baseline: +0.226)
+  sigma_R2     × benchmark interaction (LOOCV): +0.870  (Δ over baseline: +0.246)
+  bridge_rate  × benchmark interaction (LOOCV): +0.856  (Δ over baseline: +0.232)
+EXIT:0
