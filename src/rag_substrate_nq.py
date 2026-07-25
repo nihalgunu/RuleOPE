@@ -12,12 +12,7 @@ from dataclasses import dataclass
 
 import numpy as np
 import pandas as pd
-
-import sys as _sys
-for _p in ("/opt/homebrew/lib/python3.11/site-packages",):
-    if _p not in _sys.path:
-        _sys.path.insert(0, _p)
-from rank_bm25 import BM25Okapi  # noqa: E402
+from rank_bm25 import BM25Okapi
 
 
 _WS = re.compile(r"\W+")
